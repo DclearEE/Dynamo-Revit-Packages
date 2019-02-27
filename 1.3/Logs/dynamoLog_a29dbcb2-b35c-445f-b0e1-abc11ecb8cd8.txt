@@ -1,0 +1,1312 @@
+Dynamo log started 2018-10-30 13:45:26Z
+2018-10-30 13:45:27Z : Dynamo -- Build 1.3.2.2480
+2018-10-30 13:45:27Z : Duplicate migration type registered for SunPathDirection
+2018-10-30 13:45:28Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-10-30 13:45:29Z : System.InvalidOperationException:
+2018-10-30 13:45:29Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-10-30 13:45:29Z : 
+2018-10-30 13:45:33Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-10-30 13:45:33Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-10-30 13:45:33Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-10-30 13:45:33Z : RENDER : Rendering Tier: 2
+2018-10-30 13:45:33Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-30 13:45:33Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-30 13:45:33Z : RENDER : Software Effect Rendering Supported: True
+2018-10-30 13:45:33Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-30 13:45:33Z : RENDER : Rendering Tier: 2
+2018-10-30 13:45:33Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-30 13:45:33Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-30 13:45:33Z : RENDER : Software Effect Rendering Supported: True
+2018-10-30 13:45:33Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-30 13:45:33Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-10-30 13:45:33Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-10-30 13:45:33Z : Welcome to Dynamo!
+2018-10-30 13:45:33Z : 00:00:00.2620045 elapsed for loading Dynamo main window.
+2018-10-30 13:45:33Z : WPF Render Mode: SoftwareOnly
+2018-10-30 13:45:34Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 13:45:40Z : Active view is now FIRST FLOOR - WORK
+2018-10-30 13:46:15Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2018-10-30 13:46:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-30 13:46:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-30 13:48:06Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\Elements change Level.dyf
+2018-10-30 13:48:06Z : Original file 'Elements change Level.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\backup\Elements change Level.dyf.4.backup'
+2018-10-30 13:48:06Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2018-10-30 13:48:39Z : Active view is now FIRST FLOOR POWER PLAN - AREA A
+2018-10-30 13:48:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-30 13:48:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-30 13:48:44Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2018-10-30 13:49:21Z : Active view is now FIRST FLOOR POWER PLAN - AREA A
+2018-10-30 13:49:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-30 13:49:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-30 13:49:50Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2018-10-30 13:50:00Z : Active view is now FIRST FLOOR - WORK
+2018-10-30 13:50:01Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 13:50:09Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2018-10-30 13:50:14Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 13:50:18Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2018-10-30 13:50:21Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 13:50:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-30 13:50:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-30 13:50:54Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2018-10-30 13:50:59Z : Active view is now FIRST FLOOR - WORK
+2018-10-30 13:51:10Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2018-10-30 13:51:12Z : Active view is now FIRST FLOOR - WORK
+2018-10-30 13:51:20Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 13:51:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-30 13:51:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-30 13:51:41Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\FindAndReplaceParameters\FindAndReplaceParameters.dyn ...
+2018-10-30 13:51:41Z : Clearing workspace...
+2018-10-30 13:51:52Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 13:52:13Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2018-10-30 13:52:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 13:52:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 13:53:32Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 13:53:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 13:53:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 13:54:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 13:54:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 13:55:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 13:55:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 13:56:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 13:56:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 13:57:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 13:57:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 13:58:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 13:58:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 13:59:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 13:59:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:01:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:01:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:01:15Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2018-10-30 14:01:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:01:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:02:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:02:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:03:25Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:03:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:03:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:04:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:04:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:05:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:05:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:06:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:06:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:07:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:07:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:08:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:08:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:08:38Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2018-10-30 14:09:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:09:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:10:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:10:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:11:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:11:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:12:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:12:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:13:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:13:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:14:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:14:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:15:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:15:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:16:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:16:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:17:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:17:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:17:35Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:18:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:18:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:19:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:19:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:20:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:20:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:21:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:21:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:22:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:22:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:23:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:23:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:24:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:24:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:25:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:25:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:26:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:26:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:27:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:27:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:28:46Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:28:46Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:29:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 14:29:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 14:29:46Z : Clearing workspace...
+2018-10-30 14:29:56Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\Element.ElectricalCircuit.dyf
+2018-10-30 14:29:56Z : Original file 'Element.ElectricalCircuit.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\backup\Element.ElectricalCircuit.dyf.5.backup'
+2018-10-30 14:29:56Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:30:26Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Name Circuits Loads\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:30:26Z : Clearing workspace...
+2018-10-30 14:30:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-30 14:30:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-30 14:30:39Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:30:52Z : Clearing workspace...
+2018-10-30 14:30:54Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:31:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:31:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:32:31Z : Active view is now L242-SWA-MECH-A2
+2018-10-30 14:32:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:32:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:32:50Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2018-10-30 14:33:29Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Name Circuits Loads\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:33:31Z : Clearing workspace...
+2018-10-30 14:33:34Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2018-10-30 14:33:38Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:34:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-30 14:34:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-30 14:35:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-30 14:35:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-30 14:35:39Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2018-10-30 14:35:53Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\FindAndReplaceParameters\FindAndReplaceParameters.dyn ...
+2018-10-30 14:35:54Z : Clearing workspace...
+2018-10-30 14:35:56Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2018-10-30 14:36:07Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:36:12Z : Active view is now L242-SWA-MECH-A2
+2018-10-30 14:36:20Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:36:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:36:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:37:04Z : Active view is now FIRST FLOOR - WORK
+2018-10-30 14:37:14Z : Active view is now L242-SWA-MECH-A2
+2018-10-30 14:37:31Z : Active view is now FIRST FLOOR - WORK
+2018-10-30 14:37:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:37:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:37:38Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2018-10-30 14:38:07Z : Active view is now SUITE 242 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-30 14:38:21Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:38:33Z : Active view is now FIRST FLOOR - WORK
+2018-10-30 14:38:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:38:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:38:43Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:38:50Z : Active view is now FIRST FLOOR - WORK
+2018-10-30 14:39:03Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:39:13Z : Active view is now FIRST FLOOR - WORK
+2018-10-30 14:39:17Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:39:19Z : Active view is now FIRST FLOOR - WORK
+2018-10-30 14:39:24Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:39:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:39:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:40:33Z : Active view is now L242-SWC-GPNL-2
+2018-10-30 14:40:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:40:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:41:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:41:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:42:10Z : Active view is now FIRST FLOOR - WORK
+2018-10-30 14:42:16Z : Active view is now L242-SWC-GPNL-2
+2018-10-30 14:42:18Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:42:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:42:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:42:42Z : Active view is now L242-SWC-GPNL-2
+2018-10-30 14:43:20Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:43:24Z : Active view is now FIRST FLOOR - WORK
+2018-10-30 14:43:28Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:43:31Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2018-10-30 14:43:31Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:43:32Z : Active view is now SUITE 242 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-30 14:43:32Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:43:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:43:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:43:42Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 14:43:50Z : Active view is now L242-SWA-GPNL-2
+2018-10-30 14:44:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:44:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:44:56Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:45:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:45:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:45:39Z : Active view is now L242-SWA-GPNL-2
+2018-10-30 14:45:55Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:45:57Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 14:46:28Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 14:46:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:46:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:46:48Z : Active view is now L242-SWB-GPNL-2
+2018-10-30 14:47:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:47:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:47:55Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 14:48:00Z : Active view is now L142-SWB-GPNL-2
+2018-10-30 14:48:08Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 14:48:11Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:48:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:48:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:48:35Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 14:48:37Z : Active view is now L142-SWB-GPNL-2
+2018-10-30 14:48:40Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 14:48:42Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:48:44Z : Active view is now L242-SWB-GPNL-2
+2018-10-30 14:48:48Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:49:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:49:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:49:43Z : Active view is now L242-SWB-GPNL-2
+2018-10-30 14:49:52Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:49:57Z : Active view is now L242-SWB-GPNL-2
+2018-10-30 14:50:22Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:50:26Z : Active view is now L242-SWB-GPNL-2
+2018-10-30 14:50:26Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 14:50:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:50:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:50:59Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 14:51:00Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 14:51:27Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 14:51:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:51:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:51:59Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 14:52:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:52:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:53:07Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 14:53:13Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 14:53:23Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 14:53:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:53:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:54:16Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 14:54:18Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 14:54:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:54:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:54:39Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 14:54:54Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 14:55:08Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 14:55:12Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 14:55:13Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 14:55:15Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 14:55:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:55:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:56:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:56:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:56:45Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 14:56:51Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 14:56:51Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 14:56:55Z : Active view is now L242-UPA-UPNL
+2018-10-30 14:56:56Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 14:56:58Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 14:57:00Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 14:57:05Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 14:57:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:57:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:58:00Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 14:58:08Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 14:58:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:58:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 14:59:08Z : Active view is now L242-UPA-UPNL
+2018-10-30 14:59:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 14:59:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:00:17Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:00:18Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 15:00:28Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:00:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:00:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:01:04Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Name Circuits Loads\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:01:05Z : Clearing workspace...
+2018-10-30 15:01:07Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Element.CopyByVector.dyf
+2018-10-30 15:01:07Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\TurnIntoList.dyf
+2018-10-30 15:01:07Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:01:12Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:01:22Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:01:29Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:01:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-30 15:01:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-30 15:01:37Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-30 15:01:41Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:01:45Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:01:50Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-30 15:01:52Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:01:57Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:02:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-30 15:02:07Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-30 15:02:07Z : Clearing workspace...
+2018-10-30 15:02:11Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 15:02:18Z : Active view is now L242-SWA-GPNL
+2018-10-30 15:02:22Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:02:28Z : Active view is now L242-SWA-GPNL
+2018-10-30 15:03:40Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:03:41Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 15:03:53Z : Active view is now L242-SWA-MECH-A2
+2018-10-30 15:05:57Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 15:06:19Z : Active view is now L242-SWA-MECH-A2
+2018-10-30 15:06:58Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 15:07:04Z : Active view is now L242-SWA-MECH-A1
+2018-10-30 15:07:32Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 15:07:39Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:07:55Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:08:13Z : Active view is now L242-SWB-MECH-B2
+2018-10-30 15:08:29Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:08:32Z : Active view is now L242-SWB-MECH-B1
+2018-10-30 15:08:37Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:08:40Z : Active view is now L242-SWB-MECH-B1
+2018-10-30 15:09:40Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:09:41Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:09:44Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:10:07Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:10:23Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:10:35Z : !! Warning: The Power System "1,3,5" is empty and will be deleted.
+2018-10-30 15:10:35Z : !! Warning: The Power System "13,15,17" is empty and will be deleted.
+2018-10-30 15:10:35Z : !! Warning: The Power System "14,16,18" is empty and will be deleted.
+2018-10-30 15:10:35Z : !! Warning: The Power System "19,21,23" is empty and will be deleted.
+2018-10-30 15:10:35Z : !! Warning: The Power System "2,4,6" is empty and will be deleted.
+2018-10-30 15:10:35Z : !! Warning: The Power System "7,9,11" is empty and will be deleted.
+2018-10-30 15:10:35Z : !! Warning: The Power System "8,10,12" is empty and will be deleted.
+2018-10-30 15:10:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-10-30 15:10:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-10-30 15:10:41Z : !! Warning: The Power System "1,3,5" is empty and will be deleted.
+2018-10-30 15:10:41Z : !! Warning: The Power System "13,15,17" is empty and will be deleted.
+2018-10-30 15:10:41Z : !! Warning: The Power System "2,4,6" is empty and will be deleted.
+2018-10-30 15:10:41Z : !! Warning: The Power System "7,9,11" is empty and will be deleted.
+2018-10-30 15:10:41Z : !! Warning: The Power System "8,10,12" is empty and will be deleted.
+2018-10-30 15:10:47Z : !! Warning: The Power System "1,3,5" is empty and will be deleted.
+2018-10-30 15:10:47Z : !! Warning: The Power System "13,15,17" is empty and will be deleted.
+2018-10-30 15:10:47Z : !! Warning: The Power System "2,4,6" is empty and will be deleted.
+2018-10-30 15:10:47Z : !! Warning: The Power System "7,9,11" is empty and will be deleted.
+2018-10-30 15:10:47Z : !! Warning: The Power System "8,10,12" is empty and will be deleted.
+2018-10-30 15:11:00Z : Clearing workspace...
+2018-10-30 15:11:31Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:11:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-10-30 15:11:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-10-30 15:12:02Z : Clearing workspace...
+2018-10-30 15:14:29Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:14:45Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:14:53Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:15:47Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:15:52Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:16:02Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:16:15Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:16:40Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:16:44Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:17:09Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:17:11Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:17:17Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:17:19Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:17:26Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:17:32Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:19:35Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:19:40Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:20:27Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:20:37Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 15:21:52Z : Active view is now L242-SWA-MECH-A2
+2018-10-30 15:22:07Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:23:09Z : Active view is now L242-SWA-MECH-A2
+2018-10-30 15:23:10Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:23:26Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:23:30Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:24:17Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:24:22Z : Active view is now L242-SWA-MECH-A2
+2018-10-30 15:24:26Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:24:27Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 15:24:32Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:24:33Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:25:38Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:25:41Z : Active view is now L242-SWB-MECH-B2
+2018-10-30 15:25:48Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:25:56Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:25:59Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:26:13Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:26:14Z : Active view is now L242-SWB-MECH-B2
+2018-10-30 15:26:33Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:26:51Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:26:59Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:27:07Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:30:08Z : Active view is now L242-SWB-MECH-B2
+2018-10-30 15:30:26Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:30:28Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:31:01Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:31:09Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:31:56Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:31:57Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:32:08Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:32:20Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:32:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:32:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:32:35Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:32:37Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 15:32:41Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:32:46Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:32:49Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:32:51Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:32:53Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:32:59Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:33:01Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:33:03Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:33:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:33:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:33:53Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:34:01Z : Active view is now L242-SWB-GPNL
+2018-10-30 15:34:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:34:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:34:44Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:34:45Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:35:27Z : Active view is now L242-SWB-GPNL
+2018-10-30 15:35:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:35:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:36:26Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:36:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:36:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:37:24Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-30 15:37:28Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:37:40Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-30 15:37:40Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:37:40Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:37:41Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:37:45Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-30 15:37:45Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:37:48Z : Active view is now L242-SWB-GPNL
+2018-10-30 15:37:55Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:37:57Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:37:59Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:38:02Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:38:04Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:38:08Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:38:16Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:38:21Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:38:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:38:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:39:23Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:39:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:39:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:40:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:40:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:41:09Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA B
+2018-10-30 15:41:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:41:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:41:35Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:41:52Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA B
+2018-10-30 15:42:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:42:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:43:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:43:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:44:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:44:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:45:20Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-30 15:45:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:45:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:46:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:46:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:47:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:47:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:48:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:48:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:49:23Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA B
+2018-10-30 15:49:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:49:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:49:43Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:49:51Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:49:53Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:49:58Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:50:02Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:50:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:50:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:50:37Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:50:37Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:51:10Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:51:16Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:51:22Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:51:29Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:51:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:51:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:51:51Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:52:23Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-10-30 15:52:31Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:52:32Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-10-30 15:52:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:52:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:53:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:53:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:53:54Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:54:25Z : Active view is now L242-UPB-UPNL
+2018-10-30 15:54:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:54:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:54:37Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:54:46Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:54:49Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:54:52Z : Active view is now L242-UPB-UPNL
+2018-10-30 15:55:18Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:55:21Z : Active view is now L242-UPB-UPNL
+2018-10-30 15:55:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:55:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:55:40Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:55:43Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:55:54Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:55:59Z : Active view is now L242-UPB-UPNL
+2018-10-30 15:56:02Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:56:04Z : Active view is now L242-UPB-UPNL
+2018-10-30 15:56:20Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:56:22Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:56:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:56:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:56:35Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:56:36Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:56:45Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:56:53Z : Active view is now L242-UPB-UPNL
+2018-10-30 15:57:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:57:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:57:51Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:57:54Z : Active view is now L242-UPB-UPNL
+2018-10-30 15:57:56Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:57:58Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:58:04Z : Active view is now L242-UPB-UPNL
+2018-10-30 15:58:09Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:58:13Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:58:15Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:58:19Z : Active view is now L242-UPB-UPNL
+2018-10-30 15:58:32Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 15:58:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:58:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 15:58:35Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 15:58:58Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 15:58:59Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:59:00Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 15:59:11Z : Active view is now L242-SWC-GPNL
+2018-10-30 15:59:21Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 15:59:28Z : Active view is now L242-SWC-GPNL
+2018-10-30 15:59:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 15:59:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:00:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:00:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:01:01Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 16:01:04Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 16:01:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:01:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:02:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:02:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:03:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:03:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:04:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:04:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:04:53Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 16:05:20Z : Active view is now L242-UPC-UPNL
+2018-10-30 16:05:22Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 16:05:30Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 16:05:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:05:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:05:37Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 16:05:43Z : Active view is now L242-UPC-UPNL
+2018-10-30 16:05:56Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 16:05:57Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 16:06:10Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 16:06:19Z : Active view is now L242-UPC-UPNL
+2018-10-30 16:06:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:06:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:07:20Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 16:07:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:07:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:07:44Z : Active view is now L242-UPC-UPNL
+2018-10-30 16:07:51Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 16:07:59Z : Active view is now L242-UPC-UPNL
+2018-10-30 16:07:59Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 16:08:02Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-30 16:08:02Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 16:08:03Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 16:08:10Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:08:10Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 16:08:17Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 16:08:17Z : Active view is now 242 - SECOND FLOOR POWER PLAN - HOST
+2018-10-30 16:08:17Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 16:08:24Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:08:27Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 16:08:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:08:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:08:42Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 16:08:53Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:09:02Z : Active view is now L242-SWA-MECH-A1
+2018-10-30 16:09:09Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:09:26Z : Active view is now L242-SWA-MECH-A1
+2018-10-30 16:09:28Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 16:09:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:09:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:09:40Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 16:09:46Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:10:40Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:10:40Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:10:40Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:11:00Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:11:10Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA B
+2018-10-30 16:11:27Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-10-30 16:11:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:11:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:12:14Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA B
+2018-10-30 16:12:24Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-10-30 16:12:25Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:12:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:12:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:12:55Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 16:12:55Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 16:12:55Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:13:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:13:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:14:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:14:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:15:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:15:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:16:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:16:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:17:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:17:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:18:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:18:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:18:59Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 16:19:00Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:19:20Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 16:19:36Z : Active view is now ROOF - WORK
+2018-10-30 16:19:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:19:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:20:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:20:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:21:06Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 16:21:25Z : Active view is now SUITE 242 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-30 16:21:33Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 16:21:34Z : Active view is now ROOF - WORK
+2018-10-30 16:21:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:21:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:22:05Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 16:22:07Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:22:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:22:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:22:38Z : Active view is now ROOF - WORK
+2018-10-30 16:23:15Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 16:23:21Z : Active view is now L242-SWC-MECH-C2
+2018-10-30 16:23:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:23:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:24:16Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 16:24:20Z : Active view is now L242-SWC-MECH-C1
+2018-10-30 16:24:34Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 16:24:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:24:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:24:42Z : Active view is now ROOF - WORK
+2018-10-30 16:24:43Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 16:24:46Z : Active view is now L242-SWB-MECH-B1
+2018-10-30 16:25:00Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 16:25:04Z : Active view is now L242-SWB-MECH-B2
+2018-10-30 16:25:07Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 16:25:10Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:25:15Z : Active view is now L242-SWA-MECH-A1
+2018-10-30 16:25:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:25:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:25:50Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:25:57Z : Active view is now L242-SWA-MECH-A2
+2018-10-30 16:26:32Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:26:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:26:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:26:40Z : Active view is now ROOF - WORK
+2018-10-30 16:26:59Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:27:01Z : Active view is now ROOF - WORK
+2018-10-30 16:27:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:27:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:29:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:29:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:29:23Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:29:23Z : Active view is now SECOND FLOOR - WORK
+2018-10-30 16:29:23Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:29:26Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 16:29:35Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 16:29:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:29:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:30:14Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:30:19Z : Active view is now L242-SWA-GPNL
+2018-10-30 16:30:23Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:30:34Z : Active view is now SUITE 242 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-30 16:30:35Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 16:30:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:30:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:30:37Z : Active view is now SUITE 242 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-30 16:31:16Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 16:31:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:31:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:32:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:32:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:33:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:33:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:34:14Z : Active view is now L242-SWB-GPNL-2
+2018-10-30 16:34:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:34:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:34:54Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 16:34:57Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 16:35:01Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:35:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:35:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:35:48Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:36:33Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:36:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:36:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:36:40Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:36:40Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:36:46Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 16:36:57Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:36:58Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 16:37:01Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:37:02Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 16:37:02Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:37:03Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:37:04Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:37:09Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:37:26Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:37:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:37:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:38:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:38:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:39:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:39:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:40:14Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:40:21Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:40:33Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:40:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:40:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:40:46Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:40:49Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:40:56Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:40:57Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:41:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:41:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:42:33Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:42:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:42:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:43:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:43:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:44:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:44:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:45:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:45:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:46:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:46:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:47:07Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:47:07Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:47:08Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:47:08Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:47:10Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-30 16:47:10Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:47:17Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:47:25Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:47:34Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:47:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:47:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:47:38Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:47:40Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:47:40Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:47:41Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:47:45Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:47:47Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:47:49Z : Active view is now L224-SWA-GPNL
+2018-10-30 16:47:53Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:48:17Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:48:18Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:48:23Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:48:24Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:48:24Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:48:25Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:48:26Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:48:26Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:48:35Z : Active view is now L230-SWA-GPNL
+2018-10-30 16:48:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:48:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:48:47Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:48:52Z : Active view is now L230-SWB-GPNL
+2018-10-30 16:48:55Z : Active view is now L230-SWA-GPNL
+2018-10-30 16:48:59Z : Active view is now L230-SWB-GPNL
+2018-10-30 16:49:01Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:49:04Z : Active view is now L230-SWB-GPNL
+2018-10-30 16:49:10Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:49:13Z : Active view is now L230-SWA-GPNL
+2018-10-30 16:49:16Z : Active view is now L230-SWB-GPNL
+2018-10-30 16:49:24Z : Active view is now L230-SWA-GPNL
+2018-10-30 16:49:34Z : Active view is now L230-SWB-GPNL
+2018-10-30 16:49:35Z : Active view is now L230-SWC-GPNL
+2018-10-30 16:49:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:49:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:49:41Z : Active view is now L230-SWD-GPNL
+2018-10-30 16:49:47Z : Active view is now L230-SWA-GPNL
+2018-10-30 16:49:50Z : Active view is now L230-SWD-GPNL
+2018-10-30 16:49:56Z : Active view is now L230-SWA-GPNL
+2018-10-30 16:49:58Z : Active view is now L230-SWC-GPNL
+2018-10-30 16:50:07Z : Active view is now L230-SWA-GPNL
+2018-10-30 16:50:11Z : Active view is now L230-SWB-GPNL
+2018-10-30 16:50:11Z : Active view is now L230-SWA-GPNL
+2018-10-30 16:50:14Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:50:23Z : Active view is now L230-SWA-GPNL-2
+2018-10-30 16:50:25Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:50:34Z : Active view is now L230-SWB-GPNL-2
+2018-10-30 16:50:35Z : Active view is now L230-SWC-GPNL-2
+2018-10-30 16:50:36Z : Active view is now L230-SWD-GPNL-2
+2018-10-30 16:50:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:50:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:50:37Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:50:39Z : Active view is now L230-SWD-GPNL-2
+2018-10-30 16:50:49Z : Active view is now L230-SWC-GPNL-2
+2018-10-30 16:50:54Z : Active view is now L230-SWB-GPNL-2
+2018-10-30 16:50:59Z : Active view is now L230-SWD-GPNL-2
+2018-10-30 16:51:01Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:51:04Z : Active view is now L230-SWA-GPNL-2
+2018-10-30 16:51:08Z : Active view is now L230-SWB-GPNL-2
+2018-10-30 16:51:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:51:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:51:40Z : Active view is now L230-SWC-GPNL-2
+2018-10-30 16:51:47Z : Active view is now L230-SWA-GPNL-2
+2018-10-30 16:51:53Z : Active view is now L230-SWD-GPNL-2
+2018-10-30 16:51:59Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:52:08Z : Active view is now L230-SWD-GPNL-2
+2018-10-30 16:52:08Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:52:09Z : Active view is now L230-SWA-GPNL-2
+2018-10-30 16:52:09Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:52:10Z : Active view is now L230-SWC-GPNL-2
+2018-10-30 16:52:10Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:52:11Z : Active view is now L230-SWB-GPNL-2
+2018-10-30 16:52:11Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:52:16Z : Active view is now L230-UPA-UPNL
+2018-10-30 16:52:18Z : Active view is now L230-UPB-UPNL
+2018-10-30 16:52:19Z : Active view is now L230-UPC-UPNL
+2018-10-30 16:52:20Z : Active view is now L230-UPD-UPNL
+2018-10-30 16:52:20Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:52:26Z : Active view is now L230-UPD-UPNL
+2018-10-30 16:52:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:52:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:52:40Z : Active view is now L230-UPC-UPNL
+2018-10-30 16:52:44Z : Active view is now L230-UPB-UPNL
+2018-10-30 16:52:48Z : Active view is now L230-UPA-UPNL
+2018-10-30 16:52:58Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:53:01Z : Active view is now L230-UPA-UPNL
+2018-10-30 16:53:24Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:53:25Z : Active view is now L230-UPB-UPNL
+2018-10-30 16:53:32Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:53:33Z : Active view is now L230-UPC-UPNL
+2018-10-30 16:53:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:53:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:53:41Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:53:42Z : Active view is now L230-UPD-UPNL
+2018-10-30 16:53:53Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:54:03Z : Active view is now L230-SWA-MECH-A1
+2018-10-30 16:54:05Z : Active view is now L230-SWB-MECH-B1
+2018-10-30 16:54:06Z : Active view is now L230-SWC-MECH-C1
+2018-10-30 16:54:08Z : Active view is now L230-SWD-MECH-D1
+2018-10-30 16:54:08Z : Active view is now L230-SWC-MECH-C1
+2018-10-30 16:54:10Z : Active view is now L230-SWD-MECH-D1
+2018-10-30 16:54:11Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:54:19Z : Active view is now L230-SWD-MECH-D1
+2018-10-30 16:54:33Z : Active view is now L230-SWB-MECH-B1
+2018-10-30 16:54:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:54:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:54:36Z : Active view is now L230-SWD-MECH-D1
+2018-10-30 16:54:38Z : Active view is now L230-SWA-MECH-A1
+2018-10-30 16:54:41Z : Active view is now L230-SWC-MECH-C1
+2018-10-30 16:54:45Z : Active view is now L230-SWA-MECH-A1
+2018-10-30 16:54:58Z : Active view is now L230-SWC-MECH-C1
+2018-10-30 16:55:01Z : Active view is now L230-SWD-MECH-D1
+2018-10-30 16:55:04Z : Active view is now L230-SWB-MECH-B1
+2018-10-30 16:55:11Z : Active view is now L230-SWD-MECH-D1
+2018-10-30 16:55:16Z : Active view is now L230-SWC-MECH-C1
+2018-10-30 16:55:21Z : Active view is now L230-SWA-MECH-A1
+2018-10-30 16:55:24Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:55:27Z : Active view is now L230-SWA-MECH-A2
+2018-10-30 16:55:28Z : Active view is now L230-SWB-MECH-B2
+2018-10-30 16:55:29Z : Active view is now L230-SWC-MECH-C2
+2018-10-30 16:55:30Z : Active view is now L230-SWD-MECH-D2
+2018-10-30 16:55:34Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:55:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:55:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:55:39Z : Active view is now L230-SWD-MECH-D2
+2018-10-30 16:55:43Z : Active view is now L230-SWC-MECH-C2
+2018-10-30 16:55:48Z : Active view is now L230-SWB-MECH-B2
+2018-10-30 16:55:52Z : Active view is now L230-SWA-MECH-A2
+2018-10-30 16:56:00Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:56:01Z : Active view is now L230-SWA-MECH-A2
+2018-10-30 16:56:13Z : Active view is now L230-SWB-MECH-B2
+2018-10-30 16:56:17Z : Active view is now L230-SWC-MECH-C2
+2018-10-30 16:56:20Z : Active view is now L230-SWD-MECH-D2
+2018-10-30 16:56:25Z : Active view is now L230-SWC-MECH-C2
+2018-10-30 16:56:26Z : Active view is now L230-SWB-MECH-B2
+2018-10-30 16:56:28Z : Active view is now L230-SWA-MECH-A2
+2018-10-30 16:56:30Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:56:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:56:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:56:56Z : Active view is now L236-SWA-GPNL
+2018-10-30 16:56:59Z : Active view is now L236-SWB-GPNL
+2018-10-30 16:57:00Z : Active view is now L236-SWC-GPNL
+2018-10-30 16:57:02Z : Active view is now L236-SWD-GPNL
+2018-10-30 16:57:05Z : Active view is now L236-SWA-GPNL-2
+2018-10-30 16:57:10Z : Active view is now L236-SWB-GPNL-2
+2018-10-30 16:57:17Z : Active view is now L236-SWC-GPNL-2
+2018-10-30 16:57:23Z : Active view is now L236-SWD-GPNL-2
+2018-10-30 16:57:31Z : Active view is now L236-UPA-UPNL
+2018-10-30 16:57:32Z : Active view is now L236-UPB-UPNL
+2018-10-30 16:57:34Z : Active view is now L236-UPC-UPNL
+2018-10-30 16:57:35Z : Active view is now L236-UPD-UPNL
+2018-10-30 16:57:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:57:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:57:42Z : Active view is now L236-SWB-GPNL
+2018-10-30 16:57:46Z : Active view is now L236-SWA-GPNL
+2018-10-30 16:58:01Z : Active view is now L236-SWB-GPNL-2
+2018-10-30 16:58:03Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:58:11Z : Active view is now L236-SWB-GPNL-2
+2018-10-30 16:58:28Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 16:58:31Z : Active view is now L236-SWB-GPNL-2
+2018-10-30 16:58:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:58:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:58:54Z : Active view is now L236-SWA-GPNL
+2018-10-30 16:59:01Z : Active view is now L236-SWA-GPNL-2
+2018-10-30 16:59:07Z : Active view is now L236-SWB-GPNL
+2018-10-30 16:59:12Z : Active view is now L236-SWB-GPNL-2
+2018-10-30 16:59:15Z : Active view is now L236-SWC-GPNL
+2018-10-30 16:59:20Z : Active view is now L236-SWC-GPNL-2
+2018-10-30 16:59:25Z : Active view is now L236-SWD-GPNL
+2018-10-30 16:59:29Z : Active view is now L236-SWD-GPNL-2
+2018-10-30 16:59:35Z : Active view is now L236-UPA-UPNL
+2018-10-30 16:59:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 16:59:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 16:59:39Z : Active view is now L236-UPB-UPNL
+2018-10-30 16:59:42Z : Active view is now L236-UPC-UPNL
+2018-10-30 16:59:47Z : Active view is now L236-UPD-UPNL
+2018-10-30 17:00:01Z : Active view is now L236-SWA-GPNL-2
+2018-10-30 17:00:06Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:00:14Z : Active view is now L236-SWA-GPNL-2
+2018-10-30 17:00:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:00:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:01:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:01:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:01:57Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:02:00Z : Active view is now L236-SWA-GPNL-2
+2018-10-30 17:02:23Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:02:27Z : Active view is now L236-SWB-GPNL-2
+2018-10-30 17:02:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:02:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:02:36Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:02:38Z : Active view is now L236-SWC-GPNL-2
+2018-10-30 17:02:47Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:02:51Z : Active view is now L236-SWD-GPNL-2
+2018-10-30 17:02:57Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:03:04Z : Active view is now L236-UPA-UPNL
+2018-10-30 17:03:07Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:03:10Z : Active view is now L236-UPA-UPNL
+2018-10-30 17:03:24Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:03:25Z : Active view is now L236-UPB-UPNL
+2018-10-30 17:03:30Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:03:32Z : Active view is now L236-UPC-UPNL
+2018-10-30 17:03:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:03:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:03:38Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:03:39Z : Active view is now L236-UPD-UPNL
+2018-10-30 17:03:44Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:03:47Z : Active view is now L236-SWD-GPNL
+2018-10-30 17:03:50Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:03:54Z : Active view is now L236-SWD-GPNL
+2018-10-30 17:04:06Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:04:07Z : Active view is now L236-SWC-GPNL
+2018-10-30 17:04:08Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:04:08Z : Active view is now L236-SWC-GPNL
+2018-10-30 17:04:13Z : Active view is now L236-SWB-GPNL
+2018-10-30 17:04:17Z : Active view is now L236-SWA-GPNL
+2018-10-30 17:04:31Z : Active view is now L236-SWA-GPNL-2
+2018-10-30 17:04:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:04:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:04:37Z : Active view is now L236-SWD-GPNL
+2018-10-30 17:04:42Z : Active view is now L236-SWA-GPNL-2
+2018-10-30 17:04:45Z : Active view is now L236-SWA-GPNL
+2018-10-30 17:04:49Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:05:40Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:05:40Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:06:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:06:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:07:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:07:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:08:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:08:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:09:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:09:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:10:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:10:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:10:48Z : Active view is now L242-SWA-GPNL
+2018-10-30 17:11:12Z : Active view is now L242-SWB-GPNL
+2018-10-30 17:11:17Z : Active view is now L242-SWC-GPNL
+2018-10-30 17:11:19Z : Active view is now L242-SWB-GPNL
+2018-10-30 17:11:24Z : Active view is now L242-SWC-GPNL
+2018-10-30 17:11:34Z : Active view is now L242-SWA-GPNL-2
+2018-10-30 17:11:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:11:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:11:41Z : Active view is now L242-SWB-GPNL-2
+2018-10-30 17:11:46Z : Active view is now L242-SWC-GPNL-2
+2018-10-30 17:11:53Z : Active view is now L242-UPA-UPNL
+2018-10-30 17:11:58Z : Active view is now L242-SWC-GPNL-2
+2018-10-30 17:12:01Z : Active view is now L242-UPB-UPNL
+2018-10-30 17:12:06Z : Active view is now L242-UPC-UPNL
+2018-10-30 17:12:14Z : Active view is now L242-SWB-GPNL
+2018-10-30 17:12:16Z : Active view is now L242-SWA-GPNL
+2018-10-30 17:12:28Z : Active view is now L236-SWC-GPNL
+2018-10-30 17:12:35Z : Active view is now L242-SWA-GPNL
+2018-10-30 17:12:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:12:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:12:50Z : Active view is now L242-SWB-GPNL
+2018-10-30 17:12:57Z : Active view is now L242-UPC-UPNL
+2018-10-30 17:13:03Z : Active view is now L242-SWB-GPNL
+2018-10-30 17:13:05Z : Active view is now L242-SWC-GPNL
+2018-10-30 17:13:10Z : Active view is now L242-SWB-GPNL
+2018-10-30 17:13:11Z : Active view is now L242-UPC-UPNL
+2018-10-30 17:13:15Z : Active view is now L242-SWA-GPNL-2
+2018-10-30 17:13:16Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:13:19Z : Active view is now L242-SWA-GPNL-2
+2018-10-30 17:13:20Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:13:32Z : Active view is now L242-SWA-GPNL-2
+2018-10-30 17:13:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:13:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:14:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:14:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:15:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:15:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:15:49Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:15:50Z : Active view is now L242-UPC-UPNL
+2018-10-30 17:15:51Z : Active view is now L242-SWB-GPNL-2
+2018-10-30 17:15:56Z : Active view is now L242-UPC-UPNL
+2018-10-30 17:15:57Z : Active view is now L242-SWC-GPNL-2
+2018-10-30 17:16:03Z : Active view is now L242-UPC-UPNL
+2018-10-30 17:16:04Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:16:08Z : Active view is now L242-UPC-UPNL
+2018-10-30 17:16:19Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:16:20Z : Active view is now L242-UPB-UPNL
+2018-10-30 17:16:26Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:16:26Z : Active view is now L242-UPA-UPNL
+2018-10-30 17:16:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:16:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:16:43Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:17:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:17:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:17:59Z : Active view is now L224-SWA-MECH-A1
+2018-10-30 17:18:11Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:18:14Z : Active view is now L230-SWA-MECH-A1
+2018-10-30 17:18:18Z : Active view is now L230-SWB-MECH-B1
+2018-10-30 17:18:21Z : Active view is now L230-SWB-MECH-B2
+2018-10-30 17:18:22Z : Active view is now L230-SWB-MECH-B1
+2018-10-30 17:18:27Z : Active view is now L230-SWA-MECH-A1
+2018-10-30 17:18:29Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:18:33Z : Active view is now L236-SWA-MECH-A1
+2018-10-30 17:18:35Z : Active view is now L236-SWB-MECH-B1
+2018-10-30 17:18:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:18:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:18:38Z : Active view is now L236-SWC-MECH-C1
+2018-10-30 17:18:39Z : Active view is now L236-SWD-MECH-D1
+2018-10-30 17:18:41Z : Active view is now L236-SWA-MECH-A1
+2018-10-30 17:18:50Z : Active view is now L236-SWB-MECH-B1
+2018-10-30 17:19:01Z : Active view is now L236-SWC-MECH-C1
+2018-10-30 17:19:05Z : Active view is now L236-SWD-MECH-D1
+2018-10-30 17:19:10Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:19:21Z : Active view is now L236-SWA-MECH-A2
+2018-10-30 17:19:31Z : Active view is now L236-SWB-MECH-B2
+2018-10-30 17:19:35Z : Active view is now L236-SWC-MECH-C2
+2018-10-30 17:19:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:19:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:19:39Z : Active view is now L236-SWD-MECH-D2
+2018-10-30 17:19:42Z : Active view is now L236-SWD-MECH-D1
+2018-10-30 17:19:46Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:19:47Z : Active view is now L236-SWD-MECH-D1
+2018-10-30 17:19:54Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:19:56Z : Active view is now L236-SWD-MECH-D1
+2018-10-30 17:20:11Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:20:12Z : Active view is now L236-SWD-MECH-D2
+2018-10-30 17:20:18Z : Active view is now L236-SWC-MECH-C2
+2018-10-30 17:20:23Z : Active view is now L236-SWB-MECH-B2
+2018-10-30 17:20:30Z : Active view is now L236-SWD-MECH-D1
+2018-10-30 17:20:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:20:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:20:38Z : Active view is now L236-SWB-MECH-B2
+2018-10-30 17:20:47Z : Active view is now L236-SWC-MECH-C2
+2018-10-30 17:20:50Z : Active view is now L236-SWB-MECH-B2
+2018-10-30 17:20:54Z : Active view is now L236-SWA-MECH-A2
+2018-10-30 17:20:58Z : Active view is now L236-SWC-MECH-C1
+2018-10-30 17:21:02Z : Active view is now L236-SWB-MECH-B1
+2018-10-30 17:21:07Z : Active view is now L236-SWA-MECH-A1
+2018-10-30 17:21:12Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:21:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:21:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:21:39Z : Active view is now L242-SWA-MECH-A1
+2018-10-30 17:21:48Z : Active view is now L242-SWA-MECH-A2
+2018-10-30 17:21:54Z : Active view is now L242-SWB-MECH-B1
+2018-10-30 17:21:59Z : Active view is now L242-SWB-MECH-B2
+2018-10-30 17:22:04Z : Active view is now L242-SWC-MECH-C1
+2018-10-30 17:22:08Z : Active view is now L242-SWC-MECH-C2
+2018-10-30 17:22:15Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:22:20Z : Active view is now L242-SWC-MECH-C2
+2018-10-30 17:22:35Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:22:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:22:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:22:36Z : Active view is now L242-SWC-MECH-C2
+2018-10-30 17:22:46Z : Active view is now L242-SWB-MECH-B2
+2018-10-30 17:22:49Z : Active view is now L242-SWA-MECH-A2
+2018-10-30 17:22:53Z : Active view is now L242-SWA-MECH-A1
+2018-10-30 17:23:01Z : Active view is now L242-SWB-MECH-B1
+2018-10-30 17:23:06Z : Active view is now L242-SWC-MECH-C1
+2018-10-30 17:23:54Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:23:54Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:24:06Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:24:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:24:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:25:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:25:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:26:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:26:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:27:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:27:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:28:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:28:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:30:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:30:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:30:39Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 17:30:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:30:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:31:19Z : Active view is now L242-SWC-MECH-C1
+2018-10-30 17:31:20Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 17:31:21Z : Active view is now L242-SWB-MECH-B1
+2018-10-30 17:31:21Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 17:31:22Z : Active view is now L242-SWA-MECH-A2
+2018-10-30 17:31:22Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 17:31:23Z : Active view is now L242-SWB-MECH-B2
+2018-10-30 17:31:23Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 17:31:24Z : Active view is now L242-SWC-MECH-C2
+2018-10-30 17:31:24Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 17:31:25Z : Active view is now L242-SWA-MECH-A1
+2018-10-30 17:31:25Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 17:31:26Z : Active view is now L242-SWC-MECH-C1
+2018-10-30 17:31:27Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 17:31:28Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:31:35Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 17:31:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:31:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:31:42Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:31:45Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 17:31:57Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 17:31:58Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 17:31:59Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 17:32:10Z : Active view is now PANEL SCHEDULES - "D" SYSTEM
+2018-10-30 17:32:20Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 17:32:21Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 17:32:22Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:32:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:32:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:32:42Z : Active view is now L224-SWA-GPNL
+2018-10-30 17:32:50Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:32:54Z : Active view is now L224-SWA-GPNL-2
+2018-10-30 17:32:58Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:32:59Z : Active view is now L224-SWA-GPNL-2
+2018-10-30 17:33:01Z : Active view is now L224-SWA-GPNL
+2018-10-30 17:33:18Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:33:24Z : Active view is now L224-UPA-UPNL
+2018-10-30 17:33:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:33:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:33:40Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:33:41Z : Active view is now L224-SWA-GPNL
+2018-10-30 17:33:41Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:33:44Z : Active view is now L224-SWA-GPNL-2
+2018-10-30 17:33:48Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:33:57Z : Active view is now L224-SWB-GPNL
+2018-10-30 17:33:59Z : Active view is now L224-SWB-GPNL-2
+2018-10-30 17:34:01Z : Active view is now L224-SWB-GPNL
+2018-10-30 17:34:06Z : Active view is now L224-SWB-GPNL-2
+2018-10-30 17:34:13Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:34:20Z : Active view is now L224-SWB-GPNL
+2018-10-30 17:34:27Z : Active view is now L224-SWB-GPNL-2
+2018-10-30 17:34:28Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:34:31Z : Active view is now L224-SWB-GPNL-2
+2018-10-30 17:34:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:34:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:34:43Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:34:53Z : Active view is now L224-SWC-GPNL
+2018-10-30 17:35:10Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:35:12Z : Active view is now L224-SWC-GPNL-2
+2018-10-30 17:35:28Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:35:32Z : Active view is now L224-SWD-GPNL
+2018-10-30 17:35:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:35:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:35:48Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:35:50Z : Active view is now L224-SWD-GPNL-2
+2018-10-30 17:35:52Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:36:32Z : Active view is now L224-SWB-GPNL
+2018-10-30 17:36:34Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:36:36Z : Active view is now L224-SWB-GPNL-2
+2018-10-30 17:36:36Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:36:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:36:38Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:36:38Z : Active view is now L224-SWB-GPNL
+2018-10-30 17:36:38Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:36:55Z : Active view is now L224-UPA-UPNL
+2018-10-30 17:37:02Z : Active view is now L224-UPB-UPNL
+2018-10-30 17:37:05Z : Active view is now L224-UPA-UPNL
+2018-10-30 17:37:10Z : Active view is now L224-UPB-UPNL
+2018-10-30 17:37:15Z : Active view is now L224-UPC-UPNL
+2018-10-30 17:37:22Z : Active view is now L224-UPD-UPNL
+2018-10-30 17:37:29Z : Active view is now L224-UPB-UPNL
+2018-10-30 17:37:30Z : Active view is now L224-UPD-UPNL
+2018-10-30 17:37:32Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:37:35Z : Active view is now L224-UPA-UPNL
+2018-10-30 17:37:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:37:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:37:39Z : Active view is now L224-UPD-UPNL
+2018-10-30 17:37:44Z : Active view is now L224-UPB-UPNL
+2018-10-30 17:37:50Z : Active view is now L224-UPC-UPNL
+2018-10-30 17:37:59Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:38:51Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:38:51Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:39:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:39:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:40:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:40:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:41:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:41:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:42:42Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:42:42Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:43:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:43:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:44:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:44:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:45:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:45:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:46:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:46:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:46:44Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 17:46:44Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:46:48Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 17:46:48Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:46:52Z : Active view is now PANEL SCHEDULES - "D" SYSTEM
+2018-10-30 17:46:52Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:46:56Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:46:57Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:47:01Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 17:47:01Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:47:05Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 17:47:05Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:47:09Z : Active view is now PANEL SCHEDULES - "D" SYSTEM
+2018-10-30 17:47:10Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:47:14Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:47:14Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:47:18Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 17:47:18Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:47:22Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 17:47:22Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:47:26Z : Active view is now PANEL SCHEDULES - "D" SYSTEM
+2018-10-30 17:47:27Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:47:31Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:47:31Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:47:35Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-30 17:47:35Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:47:40Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-30 17:47:40Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-30 17:47:40Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:47:40Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:48:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:48:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:49:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:49:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:50:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:50:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:51:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:51:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:52:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:52:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:53:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:53:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:54:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:54:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:55:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:55:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:56:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:56:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:57:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:57:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mechanical Connection Circuit Naming.dyn
+2018-10-30 17:57:58Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Name Circuits Loads\Mechanical Connection Circuit Naming.dyn ...
+2018-10-30 17:57:58Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-10-30 17:57:58Z : Goodbye

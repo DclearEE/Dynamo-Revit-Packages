@@ -1,0 +1,75 @@
+Dynamo log started 2018-12-21 18:56:32Z
+2018-12-21 18:56:33Z : 
+2018-12-21 18:56:34Z : RequestUpdateVersionInfo
+2018-12-21 18:56:34Z : Requesting version update info...
+2018-12-21 18:56:34Z : Dynamo -- Build 2.0.1.5055
+2018-12-21 18:56:35Z : Duplicate migration type registered for SunPathDirection
+2018-12-21 18:56:37Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-12-21 18:56:37Z : System.InvalidOperationException:
+2018-12-21 18:56:37Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-12-21 18:56:37Z : 
+2018-12-21 18:56:40Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-12-21 18:56:40Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-12-21 18:56:40Z : SYSTEM:Environment Path:C:\Users\dcleary\AppData\Roaming\pyRevit-Master\bin\lib\win32\x64;C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\\bin;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\2\
+2018-12-21 18:56:40Z : RENDER : Rendering Tier: 2
+2018-12-21 18:56:40Z : RENDER : Pixel Shader 3 Supported: True
+2018-12-21 18:56:40Z : RENDER : Pixel Shader 4 Supported: False
+2018-12-21 18:56:40Z : RENDER : Software Effect Rendering Supported: True
+2018-12-21 18:56:40Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-12-21 18:56:41Z : RENDER : Rendering Tier: 2
+2018-12-21 18:56:41Z : RENDER : Pixel Shader 3 Supported: True
+2018-12-21 18:56:41Z : RENDER : Pixel Shader 4 Supported: False
+2018-12-21 18:56:41Z : RENDER : Software Effect Rendering Supported: True
+2018-12-21 18:56:41Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-12-21 18:56:41Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-12-21 18:56:41Z : LibraryUI (id: 85941358-5525-4FF4-8D61-6CA831F122AB) view extension is added
+2018-12-21 18:56:41Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-12-21 18:56:41Z : PackageManagerViewExtension (id: 100f5ec3-fde7-4205-80a7-c968b3a5a27b) view extension is added
+2018-12-21 18:56:42Z : Welcome to Dynamo!
+2018-12-21 18:56:42Z : 00:00:00.8490289 elapsed for loading Dynamo main window.
+2018-12-21 18:56:43Z : WPF Render Mode: SoftwareOnly
+2018-12-21 18:56:43Z : Update available: 2.0.2.0
+2018-12-21 18:56:43Z : Update download started...
+2018-12-21 18:56:43Z : Update download progress: 0%
+2018-12-21 18:56:43Z : ERR_ABORTED
+2018-12-21 18:56:46Z : Update download progress: 10%
+2018-12-21 18:56:49Z : Update download progress: 20%
+2018-12-21 18:56:52Z : Update download progress: 30%
+2018-12-21 18:56:54Z : Update download progress: 40%
+2018-12-21 18:56:58Z : Update download progress: 50%
+2018-12-21 18:57:01Z : Update download progress: 60%
+2018-12-21 18:57:04Z : Update download progress: 70%
+2018-12-21 18:57:07Z : Update download progress: 80%
+2018-12-21 18:57:08Z : Could not create an instance of null
+2018-12-21 18:57:08Z : Value cannot be null.
+Parameter name: assemblyFile
+2018-12-21 18:57:08Z :    at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at Dynamo.Extensions.ExtensionLoader.Load(ExtensionDefinition extension)
+2018-12-21 18:57:08Z : Could not create an instance of null
+2018-12-21 18:57:08Z : Value cannot be null.
+Parameter name: assemblyFile
+2018-12-21 18:57:08Z :    at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at Dynamo.Extensions.ExtensionLoader.Load(ExtensionDefinition extension)
+2018-12-21 18:57:08Z : DynaHub View Extension (id: 7E85F38F-0A19-4F24-9E18-96845764780Q) view extension is added
+2018-12-21 18:57:08Z : Could not create an instance of DynamoHub.ViewExtension
+2018-12-21 18:57:10Z : Update download progress: 90%
+2018-12-21 18:57:12Z : Update download progress: 100%
+2018-12-21 18:57:12Z : Update download complete.
+2018-12-21 18:57:12Z : Successful
+2018-12-21 18:57:12Z : Update download complete.
+2018-12-21 18:57:40Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-12-21 18:57:40Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-12-21 18:58:11Z : Clearing workspace...
+2018-12-21 19:08:40Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-12-21 19:08:40Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-12-21 19:09:03Z : ViewExtensionCommandExecutive ( UniqueId: 7959ed3f-cb1e-443f-bcb6-87b4cab887b6, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-12-21 19:09:03Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\RIE\dyf\RIE.SelectLinkedElement.dyf
+2018-12-21 19:09:03Z : Original file 'RIE.SelectLinkedElement.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\RIE\dyf\backup\RIE.SelectLinkedElement.dyf.0.backup'
+2018-12-21 19:09:03Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\RIE\dyf\RIE.LinkedElementCategory.dyf
+2018-12-21 19:09:03Z : Original file 'RIE.LinkedElementCategory.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\RIE\dyf\backup\RIE.LinkedElementCategory.dyf.0.backup'
+2018-12-21 19:09:16Z : ViewExtensionCommandExecutive ( UniqueId: 3043f1ca-4eb9-4e7a-b1a2-1df307ceade2, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-12-21 19:09:25Z : ViewExtensionCommandExecutive ( UniqueId: 8a4e0859-129b-4c92-8e95-df77e1512f7b, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-12-21 19:09:40Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-12-21 19:09:40Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN

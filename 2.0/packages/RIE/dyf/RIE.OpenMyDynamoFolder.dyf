@@ -1,0 +1,44 @@
+<Workspace Version="1.3.3.4651" X="0" Y="0" zoom="1" ScaleFactor="1" Name="RIE.OpenMyDynamoFolder" Description="Opens your local dynamo folder in windows explorer" ID="93a2bdeb-2a7f-43ad-b70d-976ee6c7f6ff" Category="RIE.Commands">
+  <NamespaceResolutionMap />
+  <Elements>
+    <PythonNodeModels.PythonNode guid="395e9a3b-1cd1-4c14-9ac0-9607a02c1813" type="PythonNodeModels.PythonNode" nickname="My Dynamo Folder [Python]" x="250" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="1">
+      <PortInfo index="0" default="False" />
+      <Script>import clr
+import sys
+
+pyt_path = r"C:\Program Files (x86)\IronPython 2.7\Lib"
+sys.path.append(pyt_path)
+
+import getpass
+
+start = "C:\Users"+"\\"
+Username = getpass.getuser()
+end = "\\"+"AppData\Roaming\Dynamo\Dynamo Revit"+"\\"
+
+dynpath = start+Username+end
+
+if IN[0] == True:
+	import os
+	os.startfile(dynpath)
+
+OUT = dynpath</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.CustomNodes.Output guid="d1555903-86d6-4ba4-b161-40cc7d230fc8" type="Dynamo.Graph.Nodes.CustomNodes.Output" nickname="Output" x="438" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <Symbol value="Path" />
+    </Dynamo.Graph.Nodes.CustomNodes.Output>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="7479e253-aa8b-458d-912a-ef6c001fdd4c" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="7" y="-1" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="OpenFolder : bool = true" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="395e9a3b-1cd1-4c14-9ac0-9607a02c1813" start_index="0" end="d1555903-86d6-4ba4-b161-40cc7d230fc8" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="7479e253-aa8b-458d-912a-ef6c001fdd4c" start_index="0" end="395e9a3b-1cd1-4c14-9ac0-9607a02c1813" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>

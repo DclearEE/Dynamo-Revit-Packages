@@ -1,0 +1,119 @@
+<Workspace Version="1.3.3.4651" X="0" Y="0" zoom="1" ScaleFactor="1" Name="RIE.ModelComparison.GeometryChanges" Description="Node for comparing models. Copied from the brilliant Data-Shapes package to have available for the modified RIE.ModelComparison.ByView node." ID="ec06af05-e4e7-4c3c-bdbc-ea1a23211135" Category="RIE.ModelComparison">
+  <NamespaceResolutionMap />
+  <Elements>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="101fee4c-e47a-4cd0-9e4f-75aa0d3d222e" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="1045.20450877435" y="278.209757148832" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="//same geometry&#xA;x[0];&#xA;//different geometry&#xA;x[1];&#xA;//report&#xA;x[2];" ShouldFocus="false">
+      <PortInfo index="0" default="False" />
+    </Dynamo.Graph.Nodes.CodeBlockNodeModel>
+    <PythonNodeModels.PythonNode guid="82b3a425-4607-481d-843f-7f911fc5a2ec" type="PythonNodeModels.PythonNode" nickname="Python Script" x="821" y="275" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="true" inputcount="1">
+      <PortInfo index="0" default="False" />
+      <Script>#Copyright (c) mostafa el ayoubi ,  2016
+#Data-Shapes www.data-shapes.net , elayoubi.mostafa@gmail.com
+#This node was inspired by Jeremy Tammik @Jeremytammik
+
+import clr
+clr.AddReference('RevitAPI')
+from Autodesk.Revit.DB import*
+import sys
+pyt_path = r'C:\Program Files (x86)\IronPython 2.7\Lib'
+sys.path.append(pyt_path)
+import collections
+
+if isinstance(IN[0][0],list):
+	elementsA = UnwrapElement(IN[0][0])
+	elementsB = UnwrapElement(IN[0][1])
+else :
+	elementsA = [UnwrapElement(IN[0][0])]
+	elementsB = [UnwrapElement(IN[0][1])]
+
+def flatten(l):
+    for el in l:
+        if isinstance(el, collections.Iterable) and not isinstance(el, basestring):
+            for sub in flatten(el):
+                yield sub
+        else:
+            yield el
+
+def tostring(x):
+	return x.ToString()
+def getgeomlist(x):
+	return list(x.get_Geometry(Options()))
+
+
+def getvertices(x):
+	#getting geometryelements as list
+	geomelems = getgeomlist(x)
+	#getting nested instance geometry for all geometry instances
+	while any('GeometryInstance' in g for g in map(tostring,geomelems)):
+		for index,i in enumerate(geomelems):
+			if 'GeometryInstance' in i.ToString():
+				geomelems[index] = i.GetInstanceGeometry()
+			else:
+				continue
+	geomelems = list(flatten(geomelems))
+	#getting all faces, keeping meshes
+	faces = []
+	for i in geomelems:
+		if 'Solid' in i.ToString():
+			faces.append(list(i.Faces))
+		elif 'Mesh' in i.ToString():
+			faces.append(i)
+		else:
+			continue
+	faces = list(flatten(faces))
+	#getting all meshes
+	meshes = []
+	for f in faces:
+		if 'Mesh' in f.ToString():
+			meshes.append(f)
+		else:
+			meshes.append(f.Triangulate())
+	#getting all vertices
+	vertexlist = []
+	for m in meshes:
+		vertexlist.append(list(m.Vertices))
+	vertexlist = list(flatten(vertexlist))
+	#creating sorted vertex string representation of object for comparison with other indice of element
+	vertexstr = ', '.join(sorted(set(map(tostring,vertexlist))))
+	return vertexstr
+
+
+
+geomtest = []
+
+for eA,eB in zip(elementsA,elementsB):
+	geomtest.append(getvertices(eA) == getvertices(eB))
+
+samegeometry = [i for (i,gt) in zip(elementsA,geomtest) if gt]
+differentgeometry = [i for (i,gt) in zip(elementsA,geomtest) if not gt]
+
+report = '%d element(s) tested, \n%d element(s) with same geometry, \n%d element(s) with geometry modifications' %(len(elementsA),len(samegeometry),len(differentgeometry))
+
+OUT = samegeometry , differentgeometry , report</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="57fdc616-2fa2-40d7-955a-cc833c3b9bbb" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="571" y="275" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="ExistingElements Data" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+    <Dynamo.Graph.Nodes.CustomNodes.Output guid="7358a85c-66ae-40ce-a16d-1acda7224439" type="Dynamo.Graph.Nodes.CustomNodes.Output" nickname="Output" x="1381.5" y="267" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <Symbol value="Report" />
+    </Dynamo.Graph.Nodes.CustomNodes.Output>
+    <Dynamo.Graph.Nodes.CustomNodes.Output guid="abb7105c-bc3a-4f1b-b1da-a78ef64bc0ce" type="Dynamo.Graph.Nodes.CustomNodes.Output" nickname="Output" x="1379.5" y="346" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <Symbol value="Elements with same geometry" />
+    </Dynamo.Graph.Nodes.CustomNodes.Output>
+    <Dynamo.Graph.Nodes.CustomNodes.Output guid="fd85dc35-a540-47ee-90b0-5d1e0c1fcbd9" type="Dynamo.Graph.Nodes.CustomNodes.Output" nickname="Output" x="1379.5" y="420" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <Symbol value="Elements with changed geometry" />
+    </Dynamo.Graph.Nodes.CustomNodes.Output>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="101fee4c-e47a-4cd0-9e4f-75aa0d3d222e" start_index="0" end="abb7105c-bc3a-4f1b-b1da-a78ef64bc0ce" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="101fee4c-e47a-4cd0-9e4f-75aa0d3d222e" start_index="1" end="fd85dc35-a540-47ee-90b0-5d1e0c1fcbd9" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="101fee4c-e47a-4cd0-9e4f-75aa0d3d222e" start_index="2" end="7358a85c-66ae-40ce-a16d-1acda7224439" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="82b3a425-4607-481d-843f-7f911fc5a2ec" start_index="0" end="101fee4c-e47a-4cd0-9e4f-75aa0d3d222e" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="57fdc616-2fa2-40d7-955a-cc833c3b9bbb" start_index="0" end="82b3a425-4607-481d-843f-7f911fc5a2ec" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+  <Presets />
+</Workspace>

@@ -1,0 +1,113 @@
+Dynamo log started 2018-09-11 13:52:21Z
+2018-09-11 13:52:23Z : Dynamo -- Build 1.3.2.2480
+2018-09-11 13:52:24Z : Duplicate migration type registered for SunPathDirection
+2018-09-11 13:52:25Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-09-11 13:52:25Z : System.InvalidOperationException:
+2018-09-11 13:52:25Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-09-11 13:52:25Z : 
+2018-09-11 13:52:30Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-09-11 13:52:30Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-09-11 13:52:30Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-09-11 13:52:30Z : RENDER : Rendering Tier: 2
+2018-09-11 13:52:30Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-11 13:52:30Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-11 13:52:30Z : RENDER : Software Effect Rendering Supported: True
+2018-09-11 13:52:30Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-11 13:52:30Z : RENDER : Rendering Tier: 2
+2018-09-11 13:52:30Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-11 13:52:30Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-11 13:52:30Z : RENDER : Software Effect Rendering Supported: True
+2018-09-11 13:52:30Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-11 13:52:30Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-09-11 13:52:30Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-09-11 13:52:31Z : Welcome to Dynamo!
+2018-09-11 13:52:31Z : 00:00:00.7719948 elapsed for loading Dynamo main window.
+2018-09-11 13:52:32Z : WPF Render Mode: SoftwareOnly
+2018-09-11 13:53:04Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\ElectricalSystem.RemoveFromCircuit.dyf
+2018-09-11 13:53:04Z : Original file 'ElectricalSystem.RemoveFromCircuit.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\backup\ElectricalSystem.RemoveFromCircuit.dyf.2.backup'
+2018-09-11 13:53:04Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\Element.ElectricalCircuit.dyf
+2018-09-11 13:53:04Z : Original file 'Element.ElectricalCircuit.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\backup\Element.ElectricalCircuit.dyf.3.backup'
+2018-09-11 13:53:05Z : Active view is now 224 - SECOND FLOOR LIGHTING PLAN - AREA A
+2018-09-11 13:53:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Circuits (Light Fixture Filter).dyn ...
+2018-09-11 13:53:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Circuits (Light Fixture Filter).dyn
+2018-09-11 13:53:53Z : !! Warning: The Power System "1" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "1" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "1" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "1" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "10" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "10" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "10" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "10" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "11" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "11" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "11" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "11" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "12" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "12" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "12" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "12" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "2" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "2" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "2" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "2" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "3" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "3" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "3" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "3" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "4" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "4" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "4" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "4" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "5" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "5" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "5" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "5" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "6" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "6" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "6" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "6" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "7" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "7" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "7" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "7" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "8" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "8" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "8" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "8" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "9" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "9" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "9" is empty and will be deleted.
+2018-09-11 13:53:53Z : !! Warning: The Power System "9" is empty and will be deleted.
+2018-09-11 13:54:19Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Remove Elements and or Circuits\(1.3.2) Remove Circuits (Light Fixture Filter).dyn ...
+2018-09-11 13:54:20Z : Clearing workspace...
+2018-09-11 13:54:24Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.SetRevitSelection.dyf
+2018-09-11 13:54:24Z : Active view is now 224 - SECOND FLOOR LIGHTING PLAN - AREA A
+2018-09-11 13:54:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-09-11 13:54:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-09-11 13:55:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-09-11 13:55:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-09-11 13:56:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-09-11 13:56:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-09-11 13:57:33Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-09-11 13:57:33Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-09-11 13:58:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-09-11 13:58:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-09-11 13:59:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-09-11 13:59:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-09-11 14:00:34Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-09-11 14:00:34Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-09-11 14:01:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-09-11 14:01:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-09-11 14:02:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-09-11 14:02:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-09-11 14:03:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-09-11 14:03:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-09-11 14:04:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-09-11 14:04:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-09-11 14:05:04Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Lighting Pattern\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-09-11 14:06:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-09-11 14:06:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-09-11 14:07:22Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Lighting Pattern\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-09-11 14:07:55Z : Clearing workspace...
+2018-09-11 14:07:56Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-09-11 14:07:56Z : Goodbye

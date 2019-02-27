@@ -1,0 +1,488 @@
+Dynamo log started 2018-10-09 17:08:11Z
+2018-10-09 17:08:13Z : Dynamo -- Build 1.3.2.2480
+2018-10-09 17:08:14Z : Duplicate migration type registered for SunPathDirection
+2018-10-09 17:08:15Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-10-09 17:08:15Z : System.InvalidOperationException:
+2018-10-09 17:08:15Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-10-09 17:08:15Z : 
+2018-10-09 17:08:20Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-10-09 17:08:20Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-10-09 17:08:20Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-10-09 17:08:20Z : RENDER : Rendering Tier: 2
+2018-10-09 17:08:20Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-09 17:08:20Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-09 17:08:20Z : RENDER : Software Effect Rendering Supported: True
+2018-10-09 17:08:20Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-09 17:08:20Z : RENDER : Rendering Tier: 2
+2018-10-09 17:08:20Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-09 17:08:20Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-09 17:08:20Z : RENDER : Software Effect Rendering Supported: True
+2018-10-09 17:08:20Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-09 17:08:21Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-10-09 17:08:21Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-10-09 17:08:21Z : Welcome to Dynamo!
+2018-10-09 17:08:21Z : 00:00:00.7367327 elapsed for loading Dynamo main window.
+2018-10-09 17:08:22Z : WPF Render Mode: SoftwareOnly
+2018-10-09 17:09:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-09 17:09:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-09 17:11:15Z : Active view is now Project View
+2018-10-09 17:11:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:11:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:12:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:12:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:13:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:13:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:14:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:14:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:16:45Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:16:45Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:16:45Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:16:45Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:17:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:17:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:18:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:18:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:19:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:19:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:20:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:20:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:21:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:21:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:21:55Z : Active view is now 124 - FIRST FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 17:22:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:22:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:23:53Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:23:53Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:24:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:24:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:25:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:25:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:26:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:26:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:27:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:27:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:29:46Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:29:46Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:29:46Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:29:46Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:30:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:30:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:31:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:31:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:32:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:32:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:32:50Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Sheet Duplicate\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:37:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:37:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:38:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:38:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:39:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:39:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:40:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:40:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:41:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:41:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:42:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:42:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 17:42:25Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Sheet Duplicate\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 17:42:26Z : Clearing workspace...
+2018-10-09 17:42:35Z : Active view is now Project View
+2018-10-09 17:43:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 17:43:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 17:44:10Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\FindAndReplaceParameters\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 17:44:56Z : Active view is now 136  - FIRST FLOOR WIRE BASKET PLAN - MIDDLE TIER
+2018-10-09 17:45:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 17:45:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 17:45:41Z : Active view is now 142 - FIRST FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 17:46:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 17:46:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 17:47:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 17:47:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 17:48:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 17:48:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 17:49:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 17:49:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 17:50:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 17:50:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 17:51:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 17:51:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 17:52:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 17:52:21Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 17:53:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 17:53:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 17:54:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 17:54:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 17:55:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 17:55:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 17:56:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 17:56:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 17:57:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 17:57:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 17:58:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 17:58:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 17:59:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 17:59:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 18:00:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 18:00:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 18:01:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 18:01:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 18:02:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 18:02:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 18:03:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 18:03:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 18:04:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 18:04:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 18:05:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 18:05:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 18:06:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 18:06:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 18:07:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 18:07:21Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 18:08:21Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 18:08:21Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 18:09:21Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 18:09:21Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 18:10:21Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 18:10:21Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 18:11:21Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 18:11:21Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplace (Sheet Names).dyn
+2018-10-09 18:11:23Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\FindAndReplaceParameters\FindAndReplace (Sheet Names).dyn ...
+2018-10-09 18:11:25Z : Clearing workspace...
+2018-10-09 18:18:27Z : Active view is now FIRST FLOOR WIRE BASKET PLAN - Overall
+2018-10-09 18:18:43Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:19:17Z : Active view is now FIRST FLOOR WIRE BASKET PLAN - Overall
+2018-10-09 18:19:32Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:22:39Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:22:48Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:22:50Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:22:52Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:22:55Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:23:11Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:23:14Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:23:24Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:23:26Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:23:29Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:23:35Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:23:43Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:23:52Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:24:13Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:24:35Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:24:41Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:24:52Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:27:56Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:28:48Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:28:50Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:28:51Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:28:53Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:28:54Z : Active view is now FIRST FLOOR WIRE BASKET PLAN - Overall
+2018-10-09 18:29:13Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:29:23Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:29:32Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:31:17Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:31:17Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:31:21Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:31:22Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:31:24Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:31:27Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:31:35Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:31:43Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:31:45Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:31:47Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:31:50Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:31:52Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:32:16Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:32:26Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:35:50Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:36:08Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:36:52Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:36:57Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:37:15Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:37:16Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:37:16Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:37:17Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:37:19Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:37:19Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:37:20Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:37:31Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:37:38Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:38:06Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:38:10Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:38:12Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:38:17Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:48:14Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:48:15Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:48:16Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:48:20Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:48:21Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:48:24Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:48:26Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:48:39Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:48:44Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:52:03Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:52:09Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:52:13Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:52:16Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:52:29Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:55:57Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:55:58Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 18:56:08Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 18:56:28Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 18:57:00Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 19:03:37Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:06:58Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 19:07:01Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:07:05Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:07:12Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 19:07:13Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:07:13Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 19:07:14Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:07:24Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:07:24Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 19:07:42Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:07:47Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:07:59Z : Active view is now FIRST FLOOR WIRE BASKET PLAN - Overall
+2018-10-09 19:13:17Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:13:18Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 19:13:21Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:13:24Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:13:26Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:13:27Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 19:13:29Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:13:29Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:14:10Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:14:28Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:14:34Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:14:37Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:15:21Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:16:48Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:16:54Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:16:59Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:17:27Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:18:09Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:18:12Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:18:45Z : Active view is now 136 - FIRST FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 19:19:31Z : Active view is now 142 - FIRST FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 19:23:48Z : Active view is now 136 - FIRST FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 19:23:49Z : Active view is now 142 - FIRST FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 19:25:31Z : Active view is now 136 - FIRST FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 19:25:33Z : Active view is now 142 - FIRST FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 19:29:16Z : Active view is now 142 - FIRST FLOOR WIRE BASKET PLAN - MIDDLE TIER
+2018-10-09 19:29:21Z : Active view is now 142 - FIRST FLOOR WIRE BASKET PLAN - UPPER TIER
+2018-10-09 19:29:29Z : Active view is now 142 - FIRST FLOOR WIRE BASKET PLAN - MIDDLE TIER
+2018-10-09 19:29:37Z : Active view is now 142 - FIRST FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 19:29:38Z : Active view is now 142 - FIRST FLOOR WIRE BASKET PLAN - MIDDLE TIER
+2018-10-09 19:29:41Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:29:43Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:29:45Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:30:03Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:30:40Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:30:41Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:33:02Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:33:27Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:34:26Z : Active view is now 130 - FIRST FLOOR WIRE BASKET PLAN - MIDDLE TIER
+2018-10-09 19:34:32Z : Active view is now 130 - FIRST FLOOR WIRE BASKET PLAN - UPPER TIER
+2018-10-09 19:34:32Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:34:45Z : Active view is now 130 - FIRST FLOOR WIRE BASKET PLAN - UPPER TIER
+2018-10-09 19:35:09Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:36:02Z : Active view is now 130 - FIRST FLOOR WIRE BASKET PLAN - UPPER TIER
+2018-10-09 19:36:05Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:36:15Z : Active view is now 130 - FIRST FLOOR WIRE BASKET PLAN - UPPER TIER
+2018-10-09 19:36:18Z : Active view is now 130 - FIRST FLOOR WIRE BASKET PLAN - MIDDLE TIER
+2018-10-09 19:36:31Z : Active view is now 130 - FIRST FLOOR WIRE BASKET PLAN - UPPER TIER
+2018-10-09 19:36:31Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:36:32Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:36:33Z : Active view is now 142 - FIRST FLOOR WIRE BASKET PLAN - MIDDLE TIER
+2018-10-09 19:36:38Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:36:39Z : Active view is now 136 - FIRST FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 19:47:45Z : Active view is now 136 - FIRST FLOOR WIRE BASKET PLAN - MIDDLE TIER
+2018-10-09 19:48:02Z : Active view is now 136 - FIRST FLOOR WIRE BASKET PLAN - UPPER TIER
+2018-10-09 19:48:10Z : Active view is now 136 - FIRST FLOOR WIRE BASKET PLAN - MIDDLE TIER
+2018-10-09 19:48:11Z : Active view is now 136 - FIRST FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 19:48:12Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:48:29Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:48:29Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 19:48:29Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:51:51Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:51:57Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:52:12Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:52:16Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:52:18Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:52:21Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:52:22Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:52:39Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:52:42Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:52:45Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:52:54Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:52:55Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:53:09Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:56:16Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:56:18Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:56:21Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 19:56:23Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:03:43Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:03:48Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:03:50Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:04:34Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:05:08Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA A
+2018-10-09 20:11:06Z : Active view is now FIRE ALARM LEGEND, ABBREVIATIONS AND GENERAL NOTES
+2018-10-09 20:12:14Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:12:18Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:12:21Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA A
+2018-10-09 20:13:07Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:13:10Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA A
+2018-10-09 20:14:16Z : Active view is now FIRE ALARM LEGEND, ABBREVIATIONS AND GENERAL NOTES
+2018-10-09 20:14:27Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:14:29Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:14:30Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:14:30Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:14:32Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:17:39Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA A
+2018-10-09 20:27:57Z : Active view is now FIRE ALARM LEGEND, ABBREVIATIONS AND GENERAL NOTES
+2018-10-09 20:27:57Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA A
+2018-10-09 20:27:59Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:28:02Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:28:04Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:28:05Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:28:36Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:29:48Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:29:58Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:30:01Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:30:03Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:30:05Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:30:09Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:30:19Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:30:22Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:30:25Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:30:32Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:30:36Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:30:50Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:31:43Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:33:00Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:33:02Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:33:11Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:33:33Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:33:34Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:34:08Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:34:21Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:34:33Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:36:33Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:36:52Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:36:55Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:37:29Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:37:51Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:37:52Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:39:33Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:39:42Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:39:52Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:39:55Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:39:57Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:39:58Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:39:59Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:40:01Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:40:04Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:44:13Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:44:18Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:44:18Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:44:35Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:44:39Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:44:40Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:45:29Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:45:49Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:46:05Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:46:09Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:46:11Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:46:21Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:46:24Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:47:06Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:47:07Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:47:08Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:47:44Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:47:46Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 20:47:47Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:47:49Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:47:50Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:48:05Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:48:13Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:50:45Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:50:51Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 20:58:58Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 20:59:14Z : Active view is now Project View
+2018-10-09 20:59:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 20:59:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 20:59:33Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 21:01:43Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 21:01:43Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 21:01:43Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 21:01:43Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 21:02:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 21:02:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 21:03:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 21:03:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 21:04:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 21:04:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 21:04:38Z : Active view is now SECOND FLOOR RECESSED
+2018-10-09 21:05:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 21:05:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 21:06:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 21:06:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 21:07:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 21:07:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 21:08:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 21:08:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 21:09:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 21:09:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 21:10:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 21:10:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 21:11:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 21:11:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 21:12:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 21:12:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 21:13:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 21:13:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-10-09 21:13:31Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Sheet Duplicate\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-10-09 21:13:31Z : Clearing workspace...
+2018-10-09 21:13:57Z : Active view is now ROOF POWER PLAN - AREA A
+2018-10-09 21:14:21Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2018-10-09 21:15:54Z : Active view is now ROOF POWER PLAN - AREA A
+2018-10-09 21:18:57Z : Active view is now 224 - ROOF POWER PLAN HOST
+2018-10-09 21:19:44Z : Active view is now 124 - ROOF POWER PLAN HOST
+2018-10-09 21:19:52Z : Active view is now ROOF POWER PLAN - AREA A
+2018-10-09 21:19:52Z : Active view is now 124 - ROOF POWER PLAN HOST
+2018-10-09 21:20:12Z : Active view is now 224 - ROOF POWER PLAN HOST
+2018-10-09 21:21:35Z : Active view is now 124 - ROOF POWER PLAN HOST
+2018-10-09 21:22:23Z : Active view is now 224 - ROOF POWER PLAN HOST
+2018-10-09 21:23:23Z : Active view is now 124 - ROOF POWER PLAN HOST
+2018-10-09 21:25:45Z : Active view is now 224 - ROOF POWER PLAN HOST
+2018-10-09 21:26:05Z : Active view is now 124 - ROOF POWER PLAN HOST
+2018-10-09 21:26:11Z : Active view is now 224 - ROOF POWER PLAN HOST
+2018-10-09 21:26:13Z : Active view is now 124 - ROOF POWER PLAN HOST
+2018-10-09 21:26:48Z : Active view is now 224 - ROOF POWER PLAN HOST
+2018-10-09 21:28:59Z : Active view is now 224 - SECOND FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 21:29:00Z : Active view is now 124 - ROOF POWER PLAN HOST
+2018-10-09 21:29:01Z : Active view is now 224 - SECOND FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 21:29:02Z : Active view is now 224 - ROOF POWER PLAN HOST
+2018-10-09 21:29:02Z : Active view is now 224 - SECOND FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 21:29:13Z : Active view is now 124 - FIRST FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 21:29:16Z : Active view is now 224 - SECOND FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 21:29:28Z : Active view is now 124 - FIRST FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 21:29:44Z : Active view is now 224 - SECOND FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 21:30:11Z : Active view is now 124 - FIRST FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 21:30:39Z : Active view is now 224 - SECOND FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 21:33:37Z : Active view is now 224 - SECOND FLOOR WIRE BASKET PLAN - LOWER TIER Copy 1
+2018-10-09 21:33:47Z : Active view is now 224 - SECOND FLOOR WIRE BASKET PLAN - LOWER TIER Copy 1 Copy 1
+2018-10-09 21:33:51Z : Active view is now 224 - SECOND FLOOR WIRE BASKET PLAN - LOWER TIER Copy 1
+2018-10-09 21:36:21Z : Active view is now 224 - SECOND FLOOR WIRE BASKET PLAN - UPPER TIER
+2018-10-09 21:36:29Z : Active view is now 224 - SECOND FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 21:36:31Z : Active view is now 124 - FIRST FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 21:37:15Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 21:37:30Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 21:37:44Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 21:37:45Z : Active view is now 124 - FIRST FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 21:38:02Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 21:38:32Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 21:38:58Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - UPPER TIER
+2018-10-09 21:40:51Z : Active view is now UNDER RASIED FLOOR WIRE BASKET TRAY - MIDDLE TIER
+2018-10-09 21:40:51Z : Active view is now UNDER RAISED FLOOR WIRE BASKET TRAY - LOWER TIER
+2018-10-09 21:40:54Z : Active view is now 124 - FIRST FLOOR WIRE BASKET PLAN - LOWER TIER
+2018-10-09 21:41:41Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-10-09 21:41:41Z : Goodbye

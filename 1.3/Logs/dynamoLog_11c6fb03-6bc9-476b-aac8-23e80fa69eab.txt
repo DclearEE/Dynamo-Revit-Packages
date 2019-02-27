@@ -1,0 +1,112 @@
+Dynamo log started 2018-10-19 20:15:09Z
+2018-10-19 20:15:10Z : Dynamo -- Build 1.3.2.2480
+2018-10-19 20:15:10Z : Duplicate migration type registered for SunPathDirection
+2018-10-19 20:15:12Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-10-19 20:15:13Z : System.InvalidOperationException:
+2018-10-19 20:15:13Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-10-19 20:15:13Z : 
+2018-10-19 20:15:16Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-10-19 20:15:16Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-10-19 20:15:16Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-10-19 20:15:16Z : RENDER : Rendering Tier: 2
+2018-10-19 20:15:16Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-19 20:15:16Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-19 20:15:16Z : RENDER : Software Effect Rendering Supported: True
+2018-10-19 20:15:16Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-19 20:15:17Z : RENDER : Rendering Tier: 2
+2018-10-19 20:15:17Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-19 20:15:17Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-19 20:15:17Z : RENDER : Software Effect Rendering Supported: True
+2018-10-19 20:15:17Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-19 20:15:17Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-10-19 20:15:17Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-10-19 20:15:17Z : Welcome to Dynamo!
+2018-10-19 20:15:17Z : 00:00:00.3149617 elapsed for loading Dynamo main window.
+2018-10-19 20:15:18Z : WPF Render Mode: SoftwareOnly
+2018-10-19 20:16:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-19 20:16:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-19 20:28:37Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.GetPanelScheduleViews.dyf
+2018-10-19 20:28:37Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.GetPanelFromPanelScheduleView.dyf
+2018-10-19 20:28:38Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\PanelScheduleView.ElectricalCircuits.dyf
+2018-10-19 20:28:38Z : Active view is now Project View
+2018-10-19 20:29:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SPARE AND SPACE.dyn ...
+2018-10-19 20:29:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SPARE AND SPACE.dyn
+2018-10-19 20:29:42Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\CREATE SPARE OR SPACE\SPARE AND SPACE.dyn ...
+2018-10-19 20:29:45Z : Clearing workspace...
+2018-10-19 20:29:49Z : Active view is now PANEL SHCEUDLES - "D" SYSTEM
+2018-10-19 20:30:09Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\CREATE SPARE OR SPACE\SPARE AND SPACE.dyn ...
+2018-10-19 20:30:11Z : Clearing workspace...
+2018-10-19 20:30:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-19 20:30:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-19 20:30:27Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2018-10-19 20:31:13Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2018-10-19 20:39:21Z : Active view is now ROOF POWER PLAN - AREA A
+2018-10-19 20:39:43Z : Active view is now ROOF POWER PLAN - AREA A
+2018-10-19 20:40:14Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 TAG COPIED ELEMENTS.dyn ...
+2018-10-19 20:40:14Z : Clearing workspace...
+2018-10-19 20:40:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-19 20:40:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-19 20:40:27Z : Active view is now Electrical Equipment Schedule
+2018-10-19 20:42:09Z : Active view is now Electrical Equipment Schedule 2
+2018-10-19 20:42:30Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:42:35Z : Active view is now Electrical Equipment Schedule 2
+2018-10-19 20:42:47Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:42:49Z : Active view is now PANEL SHCEUDLES - "D" SYSTEM
+2018-10-19 20:42:49Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:42:49Z : Active view is now L224-SWC-GPNL-2
+2018-10-19 20:42:49Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:42:57Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-10-19 20:42:57Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:42:57Z : Active view is now 230 - SECOND FLOOR POWER PLAN - HOST
+2018-10-19 20:43:08Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:43:08Z : Active view is now L224-SWB-GPNL-2
+2018-10-19 20:43:08Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:43:16Z : Active view is now 230 - ROOF POWER PLAN HOST
+2018-10-19 20:43:16Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:43:23Z : Active view is now ROOF - WORK
+2018-10-19 20:43:23Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:43:23Z : Active view is now Electrical Equipment Schedule
+2018-10-19 20:43:23Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:43:23Z : Active view is now ROOF POWER PLAN - AREA A
+2018-10-19 20:43:23Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:43:24Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2018-10-19 20:43:24Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:43:24Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2018-10-19 20:43:24Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:43:43Z : Active view is now 224 - SECOND FLOOR LIGHTING PLAN - HOST Copy 1
+2018-10-19 20:43:43Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:43:44Z : Active view is now ID Start/Save View
+2018-10-19 20:43:44Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:43:45Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-10-19 20:43:45Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:43:46Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-19 20:43:46Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:43:47Z : Active view is now Electrical Equipment Schedule 2
+2018-10-19 20:44:13Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:44:18Z : Active view is now Electrical Equipment Schedule 2
+2018-10-19 20:44:28Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:44:28Z : Active view is now Electrical Equipment Schedule 2
+2018-10-19 20:44:33Z : Active view is now Electrical Equipment Schedule
+2018-10-19 20:44:50Z : Active view is now Electrical Equipment Schedule 2
+2018-10-19 20:45:06Z : Active view is now Electrical Equipment Schedule Copy 1
+2018-10-19 20:45:09Z : Active view is now 224 Electrical Equipment Schedule
+2018-10-19 20:45:11Z : Active view is now Electrical Equipment Schedule
+2018-10-19 20:47:37Z : Active view is now 224 Electrical Equipment Schedule Copy 1
+2018-10-19 20:47:52Z : Active view is now Electrical Equipment Schedule
+2018-10-19 20:47:52Z : Active view is now 224 Electrical Equipment Schedule Copy 1
+2018-10-19 20:48:13Z : Active view is now 224 Electrical Equipment Schedule
+2018-10-19 20:48:31Z : Active view is now 230 Electrical Equipment Schedule
+2018-10-19 20:48:32Z : Active view is now 224 Electrical Equipment Schedule
+2018-10-19 20:48:40Z : Active view is now 230 Electrical Equipment Schedule
+2018-10-19 20:48:43Z : Active view is now 224 Electrical Equipment Schedule
+2018-10-19 20:49:17Z : Active view is now 230 Electrical Equipment Schedule
+2018-10-19 20:49:20Z : Active view is now 224 Electrical Equipment Schedule
+2018-10-19 20:49:21Z : Active view is now 230 Electrical Equipment Schedule
+2018-10-19 20:49:22Z : Active view is now 224 Electrical Equipment Schedule
+2018-10-19 20:49:24Z : Active view is now 230 Electrical Equipment Schedule
+2018-10-19 20:49:34Z : Active view is now 224 Electrical Equipment Schedule
+2018-10-19 20:49:41Z : Active view is now 230 Electrical Equipment Schedule
+2018-10-19 20:49:53Z : Active view is now 224 Electrical Equipment Schedule
+2018-10-19 20:50:36Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-19 20:55:32Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-10-19 20:55:32Z : Goodbye

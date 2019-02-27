@@ -1,0 +1,37 @@
+Dynamo log started 2018-08-30 21:04:01Z
+2018-08-30 21:04:01Z : 
+2018-08-30 21:04:03Z : RequestUpdateVersionInfo
+2018-08-30 21:04:03Z : Requesting version update info...
+2018-08-30 21:04:03Z : Dynamo -- Build 2.0.1.5055
+2018-08-30 21:04:04Z : Duplicate migration type registered for SunPathDirection
+2018-08-30 21:04:05Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-08-30 21:04:06Z : System.InvalidOperationException:
+2018-08-30 21:04:06Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-08-30 21:04:06Z : 
+2018-08-30 21:04:08Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-08-30 21:04:08Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-08-30 21:04:08Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\2\
+2018-08-30 21:04:09Z : RENDER : Rendering Tier: 2
+2018-08-30 21:04:09Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-30 21:04:09Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-30 21:04:09Z : RENDER : Software Effect Rendering Supported: True
+2018-08-30 21:04:09Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-30 21:04:09Z : RENDER : Rendering Tier: 2
+2018-08-30 21:04:09Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-30 21:04:09Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-30 21:04:09Z : RENDER : Software Effect Rendering Supported: True
+2018-08-30 21:04:09Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-30 21:04:09Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-08-30 21:04:09Z : LibraryUI (id: 85941358-5525-4FF4-8D61-6CA831F122AB) view extension is added
+2018-08-30 21:04:09Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-08-30 21:04:09Z : PackageManagerViewExtension (id: 100f5ec3-fde7-4205-80a7-c968b3a5a27b) view extension is added
+2018-08-30 21:04:10Z : Welcome to Dynamo!
+2018-08-30 21:04:10Z : 00:00:00.8740051 elapsed for loading Dynamo main window.
+2018-08-30 21:04:11Z : WPF Render Mode: SoftwareOnly
+2018-08-30 21:04:12Z : Dynamo is up to date.
+2018-08-30 21:04:12Z : ERR_ABORTED
+2018-08-30 21:04:36Z : Clearing workspace...
+2018-08-30 21:05:08Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-30 21:05:08Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-30 21:06:56Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-08-30 21:06:56Z : Goodbye

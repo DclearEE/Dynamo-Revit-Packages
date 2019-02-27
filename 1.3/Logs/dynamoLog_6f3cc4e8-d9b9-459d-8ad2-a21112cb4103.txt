@@ -1,0 +1,36 @@
+Dynamo log started 2019-01-25 14:59:21Z
+2019-01-25 14:59:21Z : Dynamo -- Build 1.3.2.2480
+2019-01-25 14:59:21Z : Duplicate migration type registered for SunPathDirection
+2019-01-25 14:59:23Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2019-01-25 14:59:23Z : System.InvalidOperationException:
+2019-01-25 14:59:23Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2019-01-25 14:59:23Z : 
+2019-01-25 14:59:27Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2019-01-25 14:59:27Z : Backup files timer is started with an interval of 60000 milliseconds
+2019-01-25 14:59:27Z : SYSTEM:Environment Path:C:\Users\dcleary\AppData\Roaming\pyRevit-Master\bin\lib\win32\x64;C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\\bin;C:\Users\dcleary\AppData\Local\GitHubDesktop\bin;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2019-01-25 14:59:27Z : RENDER : Rendering Tier: 2
+2019-01-25 14:59:27Z : RENDER : Pixel Shader 3 Supported: True
+2019-01-25 14:59:27Z : RENDER : Pixel Shader 4 Supported: False
+2019-01-25 14:59:27Z : RENDER : Software Effect Rendering Supported: True
+2019-01-25 14:59:27Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-01-25 14:59:27Z : RENDER : Rendering Tier: 2
+2019-01-25 14:59:27Z : RENDER : Pixel Shader 3 Supported: True
+2019-01-25 14:59:27Z : RENDER : Pixel Shader 4 Supported: False
+2019-01-25 14:59:27Z : RENDER : Software Effect Rendering Supported: True
+2019-01-25 14:59:27Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-01-25 14:59:28Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2019-01-25 14:59:28Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2019-01-25 14:59:28Z : Welcome to Dynamo!
+2019-01-25 14:59:28Z : 00:00:00.2616055 elapsed for loading Dynamo main window.
+2019-01-25 14:59:28Z : WPF Render Mode: SoftwareOnly
+2019-01-25 14:59:58Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\View.DuplicateWithDetailing.dyf
+2019-01-25 14:59:58Z : Original file 'View.DuplicateWithDetailing.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\View.DuplicateWithDetailing.dyf.3.backup'
+2019-01-25 14:59:58Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\definitions\3DView.BoundryBox.dyf
+2019-01-25 14:59:58Z : Active view is now ISOMETRIC VIEWS
+2019-01-25 15:00:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate3DViewatLevel.dyn ...
+2019-01-25 15:00:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate3DViewatLevel.dyn
+2019-01-25 15:01:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate3DViewatLevel.dyn ...
+2019-01-25 15:01:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate3DViewatLevel.dyn
+2019-01-25 15:02:15Z : Saving C:\Users\dcleary\Desktop\Dyn\Duplicate3DViewatLevel.dyn ...
+2019-01-25 15:02:15Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2019-01-25 15:02:15Z : Goodbye

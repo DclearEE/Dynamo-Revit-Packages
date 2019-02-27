@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<PreferenceSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsFirstRun>false</IsFirstRun>
+  <IsUsageReportingApproved>false</IsUsageReportingApproved>
+  <IsAnalyticsReportingApproved>false</IsAnalyticsReportingApproved>
+  <LibraryWidth>204</LibraryWidth>
+  <ConsoleHeight>0</ConsoleHeight>
+  <ShowPreviewBubbles>true</ShowPreviewBubbles>
+  <ShowConnector>true</ShowConnector>
+  <ConnectorType>BEZIER</ConnectorType>
+  <BackgroundPreviews>
+    <BackgroundPreviewActiveState>
+      <Name>IsBackgroundPreviewActive</Name>
+      <IsActive>true</IsActive>
+    </BackgroundPreviewActiveState>
+    <BackgroundPreviewActiveState>
+      <Name>IsRevitBackgroundPreviewActive</Name>
+      <IsActive>true</IsActive>
+    </BackgroundPreviewActiveState>
+  </BackgroundPreviews>
+  <IsBackgroundGridVisible>false</IsBackgroundGridVisible>
+  <NumberFormat>f4</NumberFormat>
+  <MaxNumRecentFiles>10</MaxNumRecentFiles>
+  <RecentFiles>
+    <string>N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\PlaceViewsOnSheets\PlaceDetailsOnSheet.dyn</string>
+    <string>N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\PlaceViewsOnSheets\PlaceViewsOnSheets.dyn</string>
+    <string>N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\PlaceViewsOnSheets\GetIntersectionPoints.dyn</string>
+    <string>N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\FindAndReplaceParameters\FindPanelByName v1.3.2.dyn</string>
+    <string>N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\PlaceViewsOnSheets\get location.dyn</string>
+    <string>N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS.dyn</string>
+    <string>N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\LINKED CEILING DYNAMO\CEILING LOCATIONS.dyn</string>
+    <string>C:\Users\dcleary\Desktop\Dyn\Ruski Dyn\Place View On Sheet.dyn</string>
+    <string>C:\Users\dcleary\Desktop\Dyn\PlaceViewsOnSheetByLocation.dyn</string>
+    <string>N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Equipment Check\1.3.1 GET EQUIPMENT.dyn</string>
+  </RecentFiles>
+  <BackupFiles>
+    <string>C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PlaceDetailsOnSheet.dyn</string>
+  </BackupFiles>
+  <CustomPackageFolders>
+    <string>C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3</string>
+  </CustomPackageFolders>
+  <PackageDirectoriesToUninstall />
+  <WindowX>2294</WindowX>
+  <WindowY>270</WindowY>
+  <WindowW>1024</WindowW>
+  <WindowH>768</WindowH>
+  <UseHardwareAcceleration>true</UseHardwareAcceleration>
+  <BackupInterval>60000</BackupInterval>
+  <BackupFilesCount>1</BackupFilesCount>
+  <PackageDownloadTouAccepted>true</PackageDownloadTouAccepted>
+  <ShowEdges>false</ShowEdges>
+  <ShowDetailedLayout>true</ShowDetailedLayout>
+  <OpenFileInManualExecutionMode>false</OpenFileInManualExecutionMode>
+  <NamespacesToExcludeFromLibrary>
+    <string>ProtoGeometry.dll:Autodesk.DesignScript.Geometry.TSpline</string>
+  </NamespacesToExcludeFromLibrary>
+</PreferenceSettings>

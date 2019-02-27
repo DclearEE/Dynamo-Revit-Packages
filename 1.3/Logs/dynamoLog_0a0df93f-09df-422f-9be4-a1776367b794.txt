@@ -1,0 +1,72 @@
+Dynamo log started 2018-08-20 13:12:52Z
+2018-08-20 13:12:54Z : Dynamo -- Build 1.3.2.2480
+2018-08-20 13:12:54Z : Duplicate migration type registered for SunPathDirection
+2018-08-20 13:12:56Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-08-20 13:12:56Z : System.InvalidOperationException:
+2018-08-20 13:12:56Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-08-20 13:12:56Z : 
+2018-08-20 13:13:00Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-08-20 13:13:00Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-08-20 13:13:00Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-08-20 13:13:00Z : RENDER : Rendering Tier: 2
+2018-08-20 13:13:00Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-20 13:13:00Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-20 13:13:00Z : RENDER : Software Effect Rendering Supported: True
+2018-08-20 13:13:00Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-20 13:13:01Z : RENDER : Rendering Tier: 2
+2018-08-20 13:13:01Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-20 13:13:01Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-20 13:13:01Z : RENDER : Software Effect Rendering Supported: True
+2018-08-20 13:13:01Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-20 13:13:01Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-08-20 13:13:01Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-08-20 13:13:02Z : Welcome to Dynamo!
+2018-08-20 13:13:02Z : 00:00:00.9163293 elapsed for loading Dynamo main window.
+2018-08-20 13:13:03Z : WPF Render Mode: SoftwareOnly
+2018-08-20 13:13:44Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.PowerElements.dyf
+2018-08-20 13:13:44Z : Active view is now 142 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-20 13:14:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn ...
+2018-08-20 13:14:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn
+2018-08-20 13:15:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn ...
+2018-08-20 13:15:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn
+2018-08-20 13:16:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn ...
+2018-08-20 13:16:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn
+2018-08-20 13:16:50Z : IronPython.Runtime.UnboundNameException: name 'OUT' is not defined
+   at IronPython.Runtime.Operations.PythonOps.GetVariable(CodeContext context, String name, Boolean isGlobal, Boolean lightThrow)
+   at IronPython.Compiler.LookupGlobalInstruction.Run(InterpretedFrame frame)
+   at Microsoft.Scripting.Interpreter.Interpreter.Run(InterpretedFrame frame)
+   at Microsoft.Scripting.Interpreter.LightLambda.Run2[T0,T1,TRet](T0 arg0, T1 arg1)
+   at IronPython.Compiler.PythonScriptCode.RunWorker(CodeContext ctx)
+   at IronPython.Compiler.PythonScriptCode.EvalWrapper(CodeContext ctx)
+   at Microsoft.Scripting.Hosting.ScriptSource.Execute(ScriptScope scope)
+   at Dynamo.Python.IronPythonCompletionProvider.TryGetType(String name)
+2018-08-20 13:16:50Z : Failed to look up type
+2018-08-20 13:17:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn ...
+2018-08-20 13:17:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn
+2018-08-20 13:18:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn ...
+2018-08-20 13:18:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn
+2018-08-20 13:19:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn ...
+2018-08-20 13:19:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn
+2018-08-20 13:20:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn ...
+2018-08-20 13:20:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn
+2018-08-20 13:21:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn ...
+2018-08-20 13:21:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn
+2018-08-20 13:22:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn ...
+2018-08-20 13:22:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn
+2018-08-20 13:23:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn ...
+2018-08-20 13:23:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn
+2018-08-20 13:24:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn ...
+2018-08-20 13:24:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn
+2018-08-20 13:25:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn ...
+2018-08-20 13:25:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn
+2018-08-20 13:26:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn ...
+2018-08-20 13:26:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn
+2018-08-20 13:27:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn ...
+2018-08-20 13:27:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn
+2018-08-20 13:28:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn ...
+2018-08-20 13:28:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn
+2018-08-20 13:29:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn ...
+2018-08-20 13:29:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Circuit Lights.dyn
+2018-08-20 13:29:32Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Circuit Lights\Circuit Lights.dyn ...
+2018-08-20 13:29:34Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-08-20 13:29:34Z : Goodbye

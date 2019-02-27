@@ -1,0 +1,29 @@
+Dynamo log started 2018-08-21 13:33:18Z
+2018-08-21 13:33:20Z : Dynamo -- Build 1.3.2.2480
+2018-08-21 13:33:20Z : Duplicate migration type registered for SunPathDirection
+2018-08-21 13:33:22Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-08-21 13:33:22Z : System.InvalidOperationException:
+2018-08-21 13:33:22Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-08-21 13:33:22Z : 
+2018-08-21 13:33:26Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-08-21 13:33:26Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-08-21 13:33:26Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-08-21 13:33:26Z : RENDER : Rendering Tier: 2
+2018-08-21 13:33:26Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-21 13:33:26Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-21 13:33:26Z : RENDER : Software Effect Rendering Supported: True
+2018-08-21 13:33:26Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-21 13:33:26Z : RENDER : Rendering Tier: 2
+2018-08-21 13:33:26Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-21 13:33:26Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-21 13:33:26Z : RENDER : Software Effect Rendering Supported: True
+2018-08-21 13:33:26Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-21 13:33:26Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-08-21 13:33:26Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-08-21 13:33:27Z : Welcome to Dynamo!
+2018-08-21 13:33:27Z : 00:00:00.6912575 elapsed for loading Dynamo main window.
+2018-08-21 13:33:28Z : WPF Render Mode: SoftwareOnly
+2018-08-21 13:33:31Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.SetRevitSelection.dyf
+2018-08-21 13:33:31Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-21 13:33:46Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-08-21 13:33:46Z : Goodbye

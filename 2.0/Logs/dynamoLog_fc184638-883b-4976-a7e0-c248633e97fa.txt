@@ -1,0 +1,89 @@
+Dynamo log started 2018-09-04 15:15:31Z
+2018-09-04 15:15:31Z : 
+2018-09-04 15:15:34Z : RequestUpdateVersionInfo
+2018-09-04 15:15:34Z : Requesting version update info...
+2018-09-04 15:15:34Z : Dynamo -- Build 2.0.1.5055
+2018-09-04 15:15:34Z : Duplicate migration type registered for SunPathDirection
+2018-09-04 15:15:36Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-09-04 15:15:37Z : System.InvalidOperationException:
+2018-09-04 15:15:37Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-09-04 15:15:37Z : 
+2018-09-04 15:15:39Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-09-04 15:15:39Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-09-04 15:15:39Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\2\
+2018-09-04 15:15:39Z : RENDER : Rendering Tier: 2
+2018-09-04 15:15:39Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-04 15:15:39Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-04 15:15:39Z : RENDER : Software Effect Rendering Supported: True
+2018-09-04 15:15:39Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-04 15:15:40Z : RENDER : Rendering Tier: 2
+2018-09-04 15:15:40Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-04 15:15:40Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-04 15:15:40Z : RENDER : Software Effect Rendering Supported: True
+2018-09-04 15:15:40Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-04 15:15:40Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-09-04 15:15:40Z : LibraryUI (id: 85941358-5525-4FF4-8D61-6CA831F122AB) view extension is added
+2018-09-04 15:15:40Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-09-04 15:15:40Z : PackageManagerViewExtension (id: 100f5ec3-fde7-4205-80a7-c968b3a5a27b) view extension is added
+2018-09-04 15:15:40Z : Welcome to Dynamo!
+2018-09-04 15:15:40Z : 00:00:00.7559968 elapsed for loading Dynamo main window.
+2018-09-04 15:15:42Z : WPF Render Mode: SoftwareOnly
+2018-09-04 15:15:42Z : Dynamo is up to date.
+2018-09-04 15:15:42Z : ERR_ABORTED
+2018-09-04 15:16:24Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\spring nodes\dyf\Element.GetParameterUnitValue.dyf
+2018-09-04 15:16:24Z : Original file 'Element.GetParameterUnitValue.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\spring nodes\dyf\backup\Element.GetParameterUnitValue.dyf.2.backup'
+2018-09-04 15:16:24Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\RIE\dyf\RIE.SelectElementById.dyf
+2018-09-04 15:16:24Z : Original file 'RIE.SelectElementById.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\RIE\dyf\backup\RIE.SelectElementById.dyf.1.backup'
+2018-09-04 15:16:24Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-09-04 15:16:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:16:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:17:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:17:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:18:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:18:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:19:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:19:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:20:47Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:20:47Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:22:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:22:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:22:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:22:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:23:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:23:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:25:50Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:25:50Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:25:50Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:25:50Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:26:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:26:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:27:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:27:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:28:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:28:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:29:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:29:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:30:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:30:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:31:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:31:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:32:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:32:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:33:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:33:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:34:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:34:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:35:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:35:40Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:36:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:36:40Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:37:40Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:37:40Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:38:40Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:38:40Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:39:40Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:39:40Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:40:40Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:40:40Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 15:41:40Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 15:41:40Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn

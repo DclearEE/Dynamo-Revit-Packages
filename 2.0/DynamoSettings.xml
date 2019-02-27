@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<PreferenceSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsFirstRun>false</IsFirstRun>
+  <IsUsageReportingApproved>false</IsUsageReportingApproved>
+  <IsAnalyticsReportingApproved>true</IsAnalyticsReportingApproved>
+  <LibraryWidth>291</LibraryWidth>
+  <ConsoleHeight>0</ConsoleHeight>
+  <ShowPreviewBubbles>true</ShowPreviewBubbles>
+  <ShowConnector>true</ShowConnector>
+  <ConnectorType>BEZIER</ConnectorType>
+  <BackgroundPreviews>
+    <BackgroundPreviewActiveState>
+      <Name>IsBackgroundPreviewActive</Name>
+      <IsActive>true</IsActive>
+    </BackgroundPreviewActiveState>
+    <BackgroundPreviewActiveState>
+      <Name>IsRevitBackgroundPreviewActive</Name>
+      <IsActive>true</IsActive>
+    </BackgroundPreviewActiveState>
+  </BackgroundPreviews>
+  <IsBackgroundGridVisible>true</IsBackgroundGridVisible>
+  <ShowEdges>false</ShowEdges>
+  <ShowDetailedLayout>true</ShowDetailedLayout>
+  <WindowX>2511</WindowX>
+  <WindowY>89</WindowY>
+  <WindowW>849</WindowW>
+  <WindowH>961</WindowH>
+  <UseHardwareAcceleration>true</UseHardwareAcceleration>
+  <NumberFormat>f4</NumberFormat>
+  <MaxNumRecentFiles>10</MaxNumRecentFiles>
+  <RecentFiles>
+    <string>N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Remove Elements and or Circuits\Remove Circuits from Panel v2.0.dyn</string>
+    <string>N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Remove Elements and or Circuits\(1.3.2) Remove Elements and circuits from Panel.dyn</string>
+    <string>N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS.dyn</string>
+    <string>N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Remove Elements and or Circuits\(1.3.2) Remove Circuits (Light Fixture Filter).dyn</string>
+    <string>N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\FindAndReplaceParameters\FindPanelByName v2.0.dyn</string>
+    <string>N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\FindAndReplaceParameters\FindPanelByNmae.dyn</string>
+    <string>N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Architectural\ViewExporter TEST.dyn</string>
+    <string>N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Architectural\ViewExporter.dyn</string>
+    <string>C:\Users\dcleary\Desktop\Parametric-dome (2).dyn.dyn</string>
+    <string>N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\2.0 Shapes\Polyhedron.dyn</string>
+  </RecentFiles>
+  <BackupFiles>
+    <string>C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Remove Circuits from Panel v2.0.dyn</string>
+  </BackupFiles>
+  <CustomPackageFolders>
+    <string>C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0</string>
+  </CustomPackageFolders>
+  <PackageDirectoriesToUninstall />
+  <PythonTemplateFilePath />
+  <BackupInterval>60000</BackupInterval>
+  <BackupFilesCount>1</BackupFilesCount>
+  <PackageDownloadTouAccepted>true</PackageDownloadTouAccepted>
+  <OpenFileInManualExecutionMode>false</OpenFileInManualExecutionMode>
+  <NamespacesToExcludeFromLibrary>
+    <string>ProtoGeometry.dll:Autodesk.DesignScript.Geometry.TSpline</string>
+  </NamespacesToExcludeFromLibrary>
+</PreferenceSettings>

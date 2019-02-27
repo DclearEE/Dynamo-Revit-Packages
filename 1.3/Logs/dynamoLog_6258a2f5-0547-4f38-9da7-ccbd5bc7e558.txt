@@ -1,0 +1,114 @@
+Dynamo log started 2018-08-14 16:44:17Z
+2018-08-14 16:44:19Z : Dynamo -- Build 1.3.2.2480
+2018-08-14 16:44:19Z : Duplicate migration type registered for SunPathDirection
+2018-08-14 16:44:21Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-08-14 16:44:21Z : System.InvalidOperationException:
+2018-08-14 16:44:21Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-08-14 16:44:21Z : 
+2018-08-14 16:44:26Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-08-14 16:44:26Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-08-14 16:44:26Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-08-14 16:44:26Z : RENDER : Rendering Tier: 2
+2018-08-14 16:44:26Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-14 16:44:26Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-14 16:44:26Z : RENDER : Software Effect Rendering Supported: True
+2018-08-14 16:44:26Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-14 16:44:26Z : RENDER : Rendering Tier: 2
+2018-08-14 16:44:26Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-14 16:44:26Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-14 16:44:26Z : RENDER : Software Effect Rendering Supported: True
+2018-08-14 16:44:26Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-14 16:44:27Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-08-14 16:44:27Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-08-14 16:44:27Z : Welcome to Dynamo!
+2018-08-14 16:44:27Z : 00:00:00.8490885 elapsed for loading Dynamo main window.
+2018-08-14 16:44:28Z : WPF Render Mode: SoftwareOnly
+2018-08-14 16:44:34Z : Clearing workspace...
+2018-08-14 16:44:43Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.SelectPanel.dyf
+2018-08-14 16:44:59Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-08-14 16:45:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-14 16:45:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-14 16:46:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-14 16:46:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-14 16:47:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-14 16:47:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-14 16:48:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-14 16:48:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-14 16:48:51Z : Active view is now L124-SWA-GPNL-2
+2018-08-14 16:49:19Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-08-14 16:49:25Z : Active view is now L124-SWA-GPNL-2
+2018-08-14 16:49:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-14 16:49:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-14 16:49:30Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-08-14 16:49:39Z : Active view is now L124-SWA-GPNL-2
+2018-08-14 16:49:44Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-08-14 16:50:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-14 16:50:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-14 16:51:04Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.MoveCircuit.dyf
+2018-08-14 16:51:11Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.MoveCircuitToFirstOpen.dyf
+2018-08-14 16:51:13Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN - AREA A
+2018-08-14 16:51:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-14 16:51:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-14 16:52:26Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.GetCircuitFromPanelScheduleView.dyf
+2018-08-14 16:52:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-14 16:52:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-14 16:52:49Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.GetPanelScheduleViews.dyf
+2018-08-14 16:53:14Z : Active view is now L124-SWB-GPNL-2
+2018-08-14 16:53:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-14 16:53:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-14 16:53:47Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.GetPanelAndEquipmentFromCircuit.dyf
+2018-08-14 16:54:14Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\PanelScheduleView.ElectricalCircuits.dyf
+2018-08-14 16:54:22Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\ElectricalCircuit Get Panels and Elements.dyf
+2018-08-14 16:54:22Z : Original file 'ElectricalCircuit Get Panels and Elements.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\backup\ElectricalCircuit Get Panels and Elements.dyf.1.backup'
+2018-08-14 16:54:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-14 16:54:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-14 16:55:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\LunchBox for Dynamo\dyf\LunchBox Curtain Panel Collector.dyf
+2018-08-14 16:55:20Z : Original file 'LunchBox Curtain Panel Collector.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\LunchBox for Dynamo\dyf\backup\LunchBox Curtain Panel Collector.dyf.0.backup'
+2018-08-14 16:55:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-14 16:55:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-14 16:55:31Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.GetPanelFromPanelScheduleView.dyf
+2018-08-14 16:55:38Z : Active view is now L124-SWB-GPNL-2
+2018-08-14 16:56:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-14 16:56:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-14 16:57:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-14 16:57:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-14 16:57:37Z : Active view is now L124-SWA-GPNL-2
+2018-08-14 16:58:06Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-08-14 16:58:07Z : Active view is now L124-SWA-GPNL-2
+2018-08-14 16:58:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-14 16:58:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-14 16:59:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-14 16:59:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-14 17:00:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-14 17:00:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-14 17:01:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-14 17:01:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-14 17:02:01Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Organize Panel Schedule\OrganizePanelSchedule (Work in Progress).dyn ...
+2018-08-14 17:02:17Z : Active view is now L124-SWA-GPNL-2
+2018-08-14 17:02:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn ...
+2018-08-14 17:02:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn
+2018-08-14 17:02:28Z : Active view is now L124-SWA-GPNL-2
+2018-08-14 17:03:13Z : Active view is now L124-SWA-GPNL-2
+2018-08-14 17:03:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn ...
+2018-08-14 17:03:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn
+2018-08-14 17:04:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn ...
+2018-08-14 17:04:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn
+2018-08-14 17:05:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn ...
+2018-08-14 17:05:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn
+2018-08-14 17:06:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn ...
+2018-08-14 17:06:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn
+2018-08-14 17:07:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn ...
+2018-08-14 17:07:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn
+2018-08-14 17:08:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn ...
+2018-08-14 17:08:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn
+2018-08-14 17:09:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn ...
+2018-08-14 17:09:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn
+2018-08-14 17:09:34Z : Active view is now L124-SWA-GPNL-2
+2018-08-14 17:10:09Z : Active view is now L124-SWA-GPNL-2
+2018-08-14 17:10:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn ...
+2018-08-14 17:10:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn
+2018-08-14 17:11:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn ...
+2018-08-14 17:11:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\OrganizePanelSchedule (Work in Progress).dyn
+2018-08-14 17:11:41Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Organize Panel Schedule\OrganizePanelSchedule (Work in Progress).dyn ...
+2018-08-14 17:11:41Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-08-14 17:11:41Z : Goodbye

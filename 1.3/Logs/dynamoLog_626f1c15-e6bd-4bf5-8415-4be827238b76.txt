@@ -1,0 +1,74 @@
+Dynamo log started 2018-10-16 14:07:48Z
+2018-10-16 14:07:50Z : Dynamo -- Build 1.3.2.2480
+2018-10-16 14:07:51Z : Duplicate migration type registered for SunPathDirection
+2018-10-16 14:07:52Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-10-16 14:07:52Z : System.InvalidOperationException:
+2018-10-16 14:07:52Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-10-16 14:07:52Z : 
+2018-10-16 14:07:57Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-10-16 14:07:57Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-10-16 14:07:57Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-10-16 14:07:57Z : RENDER : Rendering Tier: 2
+2018-10-16 14:07:57Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-16 14:07:57Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-16 14:07:57Z : RENDER : Software Effect Rendering Supported: True
+2018-10-16 14:07:57Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-16 14:07:57Z : RENDER : Rendering Tier: 2
+2018-10-16 14:07:57Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-16 14:07:57Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-16 14:07:57Z : RENDER : Software Effect Rendering Supported: True
+2018-10-16 14:07:57Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-16 14:07:58Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-10-16 14:07:58Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-10-16 14:07:58Z : Welcome to Dynamo!
+2018-10-16 14:07:58Z : 00:00:00.8931239 elapsed for loading Dynamo main window.
+2018-10-16 14:07:59Z : WPF Render Mode: SoftwareOnly
+2018-10-16 14:08:09Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Element.CopyByVector.dyf
+2018-10-16 14:08:09Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\TurnIntoList.dyf
+2018-10-16 14:08:09Z : Original file 'TurnIntoList.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\TurnIntoList.dyf.140.backup'
+2018-10-16 14:08:10Z : Active view is now ID Start/Save View
+2018-10-16 14:08:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:08:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:09:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:09:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:10:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:10:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:11:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:11:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:12:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:12:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:13:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:13:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:14:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:14:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:15:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:15:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:16:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:16:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:17:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:17:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:18:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:18:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:19:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:19:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:20:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:20:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:21:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:21:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:22:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:22:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:23:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:23:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:24:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:24:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:25:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:25:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:26:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:26:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:27:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:27:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:28:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:28:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn
+2018-10-16 14:29:47Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS (CIRCUIT TYPE FILTER).dyn ...
+2018-10-16 14:29:47Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-10-16 14:29:47Z : Goodbye

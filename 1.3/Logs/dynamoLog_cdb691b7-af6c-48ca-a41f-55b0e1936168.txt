@@ -1,0 +1,113 @@
+Dynamo log started 2018-12-31 20:23:37Z
+2018-12-31 20:23:39Z : Dynamo -- Build 1.3.2.2480
+2018-12-31 20:23:39Z : Duplicate migration type registered for SunPathDirection
+2018-12-31 20:23:41Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-12-31 20:23:42Z : System.InvalidOperationException:
+2018-12-31 20:23:42Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-12-31 20:23:42Z : 
+2018-12-31 20:23:46Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-12-31 20:23:46Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-12-31 20:23:46Z : SYSTEM:Environment Path:C:\Users\dcleary\AppData\Roaming\pyRevit-Master\bin\lib\win32\x64;C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\\bin;C:\Users\dcleary\AppData\Local\GitHubDesktop\bin;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-12-31 20:23:46Z : RENDER : Rendering Tier: 2
+2018-12-31 20:23:46Z : RENDER : Pixel Shader 3 Supported: True
+2018-12-31 20:23:46Z : RENDER : Pixel Shader 4 Supported: False
+2018-12-31 20:23:46Z : RENDER : Software Effect Rendering Supported: True
+2018-12-31 20:23:46Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-12-31 20:23:47Z : RENDER : Rendering Tier: 2
+2018-12-31 20:23:47Z : RENDER : Pixel Shader 3 Supported: True
+2018-12-31 20:23:47Z : RENDER : Pixel Shader 4 Supported: False
+2018-12-31 20:23:47Z : RENDER : Software Effect Rendering Supported: True
+2018-12-31 20:23:47Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-12-31 20:23:47Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-12-31 20:23:47Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-12-31 20:23:48Z : Welcome to Dynamo!
+2018-12-31 20:23:48Z : 00:00:00.9361682 elapsed for loading Dynamo main window.
+2018-12-31 20:23:49Z : WPF Render Mode: SoftwareOnly
+2018-12-31 20:23:54Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\Sheet.Views+.dyf
+2018-12-31 20:23:54Z : Original file 'Sheet.Views+.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\backup\Sheet.Views+.dyf.4.backup'
+2018-12-31 20:23:54Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.ElementsOfCategoryByView.dyf
+2018-12-31 20:23:54Z : Active view is now OFFICE BUILD OUT - FIRST FLOOR POWER PLAN - TENANT OFFICES
+2018-12-31 20:24:46Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:24:46Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:25:46Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:25:46Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:26:46Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:26:46Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:27:46Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:27:46Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:28:46Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:28:46Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:29:46Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:29:46Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:30:36Z : Active view is now LIGHTING FIXTURE SCHEDULE - 2ND FLOOR Copy 1
+2018-12-31 20:30:46Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:30:46Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:31:25Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-12-31 20:31:47Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:31:47Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:32:46Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:32:46Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:33:46Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:33:46Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:34:49Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:34:49Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:35:46Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:35:46Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:36:23Z : Active view is now ELECTRICAL LEGEND ABBREVIATIONS AND GENERAL NOTES
+2018-12-31 20:36:30Z : Active view is now DESIGN SCHEDULES
+2018-12-31 20:36:30Z : Active view is now ELECTRICAL LEGEND ABBREVIATIONS AND GENERAL NOTES
+2018-12-31 20:36:39Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES
+2018-12-31 20:36:39Z : Active view is now ELECTRICAL LEGEND ABBREVIATIONS AND GENERAL NOTES
+2018-12-31 20:36:39Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-12-31 20:37:00Z : Active view is now OVERALL POWER PLAN
+2018-12-31 20:38:16Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-12-31 20:38:38Z : Active view is now FIRST FLOOR POWER PLAN - STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2018-12-31 20:38:43Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-12-31 20:38:43Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES
+2018-12-31 20:38:50Z : Active view is now ONELINE
+2018-12-31 20:38:51Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES
+2018-12-31 20:39:13Z : Active view is now ELECTRICAL DEMOLITION PLAN - STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2018-12-31 20:39:17Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES
+2018-12-31 20:39:26Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES
+2018-12-31 20:39:28Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES
+2018-12-31 20:39:32Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2018-12-31 20:39:32Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES
+2018-12-31 20:39:36Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - TENANT OFFICES
+2018-12-31 20:39:37Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES
+2018-12-31 20:39:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:39:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:39:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:39:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:39:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:39:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:39:46Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:39:46Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:40:46Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:40:47Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:41:47Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:41:47Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:42:47Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:42:47Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:43:16Z : Active view is now FIRST FLOOR POWER PLAN - STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2018-12-31 20:43:47Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:43:47Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:44:14Z : Active view is now ONELINE
+2018-12-31 20:44:47Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:44:47Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:45:47Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:45:47Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:46:47Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:46:47Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:47:47Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:47:47Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:48:47Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:48:47Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:49:47Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:49:47Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:50:47Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:50:47Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:51:47Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:51:47Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-12-31 20:52:09Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Sheet Duplicate\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-12-31 20:52:10Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-12-31 20:52:10Z : Goodbye

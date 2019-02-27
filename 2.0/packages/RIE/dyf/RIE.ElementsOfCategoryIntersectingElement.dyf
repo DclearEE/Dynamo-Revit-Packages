@@ -1,0 +1,112 @@
+<Workspace Version="1.3.3.4651" X="-592.103068364762" Y="70.8722166025806" zoom="1.40972876398001" ScaleFactor="1" Name="RIE.ElementsOfCategoryIntersectingElement" Description="Retrieves all elements of input category that intersects with input element. Can also be linked elements. If Category is not input, all categories will be checked." ID="3c87d921-5347-4635-9048-127a60ab7a7a" Category="RIE.Elements">
+  <NamespaceResolutionMap />
+  <Elements>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="16d12262-ba72-4bf8-b8a7-f4ee0812b96d" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="RIE.BuildinCategoryFromCategory" x="724.169743982015" y="109.635759978772" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" useLevels="True" level="1" shouldKeepListStructure="False" />
+      <ID value="0b952e27-801a-4eab-8b1e-c47c4444253b" />
+      <Name value="RIE.BuildinCategoryFromCategory" />
+      <Description value="Returns the OST builtincategory from input category." />
+      <Inputs>
+        <Input value="Cat" />
+      </Inputs>
+      <Outputs>
+        <Output value="Bic" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <PythonNodeModels.PythonNode guid="0972ce52-6c02-4f45-a511-cc702506cf96" type="PythonNodeModels.PythonNode" nickname="Python Script" x="961.968126934025" y="81.8712641130866" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="3">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <PortInfo index="2" default="False" />
+      <Script># RETRIEVED FROM EINAR RAKNES ON THE DYNAMOBIM.ORG FORUMS.
+
+import clr
+clr.AddReference('RevitAPI')
+clr.AddReference('RevitNodes')
+clr.AddReference('RevitServices')
+import Revit
+import RevitServices
+from Autodesk.Revit.DB import *
+from RevitServices.Persistence import DocumentManager
+clr.ImportExtensions(Revit.Elements)
+clr.ImportExtensions(Revit.GeometryConversion)
+
+doc = DocumentManager.Instance.CurrentDBDocument
+
+if IN[2] != None:
+	doc = UnwrapElement(IN[2])
+
+def tolist(obj):
+	if isinstance(obj,list):
+		return UnwrapElement(obj)
+	else:
+		return [UnwrapElement(obj)]
+
+#Preparing input from dynamo to revit
+els = tolist(IN[0])
+OUT = []
+
+for el in els:
+	if IN[1][0] != None:
+		for builtinc in tolist(IN[1]):
+			elems = []
+		
+			filter = ElementIntersectsElementFilter(el)
+			
+			collector = FilteredElementCollector(doc).WherePasses(filter).OfCategory(builtinc)
+			
+			elems = [e.ToDSType(True) for e in collector]
+			OUT.append(elems)
+	else:
+		elems = []
+		
+		filter = ElementIntersectsElementFilter(el)
+			
+		collector = FilteredElementCollector(doc).WherePasses(filter)
+			
+		elems = [e.ToDSType(True) for e in collector]
+		OUT.append(elems)
+		
+if len(OUT) == 1:
+	OUT = OUT[0]</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="c53379eb-867f-4fba-b147-ea5ad713d1d8" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="845.944575691904" y="54.7799143020149" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="Elements" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="28c2f3b0-d6c7-4b87-8b43-f7c6e58dc1f2" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="511.280884938497" y="111.200293528077" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="Cat : var = null" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+    <Dynamo.Graph.Nodes.CustomNodes.Output guid="50a6f729-c4c6-4b0a-8945-711561cdb9bc" type="Dynamo.Graph.Nodes.CustomNodes.Output" nickname="Output" x="1088.01679731519" y="82.8026802466304" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <Symbol value="Elements" />
+    </Dynamo.Graph.Nodes.CustomNodes.Output>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="67d7552b-afdb-4854-946f-32821709c338" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="RIE.LinkDocFromLink" x="702.59461097455" y="191.599922326075" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <ID value="d04f09ff-a04d-42d6-980e-f9fc98e163df" />
+      <Name value="RIE.LinkDocFromLink" />
+      <Description value="Retrieves link Document element from link element." />
+      <Inputs>
+        <Input value="LinkInstance" />
+      </Inputs>
+      <Outputs>
+        <Output value="LinkDoc" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="7b6a6557-057f-44e6-9bf5-f4f9498472ea" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="444.622866227656" y="190.690837518324" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="LinkOptional : var = null" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="16d12262-ba72-4bf8-b8a7-f4ee0812b96d" start_index="0" end="0972ce52-6c02-4f45-a511-cc702506cf96" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="0972ce52-6c02-4f45-a511-cc702506cf96" start_index="0" end="50a6f729-c4c6-4b0a-8945-711561cdb9bc" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="c53379eb-867f-4fba-b147-ea5ad713d1d8" start_index="0" end="0972ce52-6c02-4f45-a511-cc702506cf96" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="28c2f3b0-d6c7-4b87-8b43-f7c6e58dc1f2" start_index="0" end="16d12262-ba72-4bf8-b8a7-f4ee0812b96d" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="67d7552b-afdb-4854-946f-32821709c338" start_index="0" end="0972ce52-6c02-4f45-a511-cc702506cf96" end_index="2" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="7b6a6557-057f-44e6-9bf5-f4f9498472ea" start_index="0" end="67d7552b-afdb-4854-946f-32821709c338" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>

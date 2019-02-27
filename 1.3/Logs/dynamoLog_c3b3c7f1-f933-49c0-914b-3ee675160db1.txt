@@ -1,0 +1,92 @@
+Dynamo log started 2018-10-31 19:06:13Z
+2018-10-31 19:06:15Z : Dynamo -- Build 1.3.2.2480
+2018-10-31 19:06:15Z : Duplicate migration type registered for SunPathDirection
+2018-10-31 19:06:17Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-10-31 19:06:17Z : System.InvalidOperationException:
+2018-10-31 19:06:17Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-10-31 19:06:17Z : 
+2018-10-31 19:06:22Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-10-31 19:06:22Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-10-31 19:06:22Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-10-31 19:06:22Z : RENDER : Rendering Tier: 2
+2018-10-31 19:06:22Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-31 19:06:22Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-31 19:06:22Z : RENDER : Software Effect Rendering Supported: True
+2018-10-31 19:06:22Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-31 19:06:22Z : RENDER : Rendering Tier: 2
+2018-10-31 19:06:22Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-31 19:06:22Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-31 19:06:22Z : RENDER : Software Effect Rendering Supported: True
+2018-10-31 19:06:22Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-31 19:06:23Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-10-31 19:06:23Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-10-31 19:06:23Z : Welcome to Dynamo!
+2018-10-31 19:06:23Z : 00:00:01.0051826 elapsed for loading Dynamo main window.
+2018-10-31 19:06:24Z : WPF Render Mode: SoftwareOnly
+2018-10-31 19:07:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-31 19:07:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-31 19:08:07Z : Active view is now 230 - SECOND FLOOR LIGHTING PLAN - HOST
+2018-10-31 19:08:09Z : Active view is now 236 - SECOND FLOOR LIGHTING PLAN - HOST
+2018-10-31 19:08:24Z : Active view is now 224 - SECOND FLOOR LIGHTING PLAN - HOST
+2018-10-31 19:08:39Z : Active view is now 236 - SECOND FLOOR LIGHTING PLAN - HOST
+2018-10-31 19:08:44Z : Active view is now 230 - SECOND FLOOR LIGHTING PLAN - HOST
+2018-10-31 19:09:03Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:09:15Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:10:42Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.SetRevitSelection.dyf
+2018-10-31 19:10:42Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:11:16Z : Active view is now 236 - SECOND FLOOR LIGHTING PLAN - HOST
+2018-10-31 19:11:16Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:11:17Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:11:18Z : Active view is now 224 - SECOND FLOOR LIGHTING PLAN - HOST
+2018-10-31 19:11:18Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:11:19Z : Active view is now 230 - SECOND FLOOR LIGHTING PLAN - HOST
+2018-10-31 19:11:20Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:11:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-10-31 19:11:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-10-31 19:12:04Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:12:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-10-31 19:12:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-10-31 19:12:34Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:12:37Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:12:41Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:12:44Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:13:02Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:13:27Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA B
+2018-10-31 19:13:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-10-31 19:13:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-10-31 19:13:29Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:13:41Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:13:42Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:13:43Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:13:43Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:14:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-10-31 19:14:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-10-31 19:15:10Z : Clearing workspace...
+2018-10-31 19:15:13Z : Active view is now 236 - SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:15:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Select lights for switching.dyn ...
+2018-10-31 19:15:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Select lights for switching.dyn
+2018-10-31 19:16:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Select lights for switching.dyn ...
+2018-10-31 19:16:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Select lights for switching.dyn
+2018-10-31 19:16:45Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:16:57Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:17:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Select lights for switching.dyn ...
+2018-10-31 19:17:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Select lights for switching.dyn
+2018-10-31 19:18:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Select lights for switching.dyn ...
+2018-10-31 19:18:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Select lights for switching.dyn
+2018-10-31 19:18:35Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:18:41Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:18:50Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:18:55Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA B
+2018-10-31 19:18:57Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:19:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Select lights for switching.dyn ...
+2018-10-31 19:19:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Select lights for switching.dyn
+2018-10-31 19:19:45Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:19:49Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-31 19:20:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Select lights for switching.dyn ...
+2018-10-31 19:20:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Select lights for switching.dyn
+2018-10-31 19:21:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Select lights for switching.dyn ...
+2018-10-31 19:21:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Select lights for switching.dyn
+2018-10-31 19:23:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Select lights for switching.dyn ...
+2018-10-31 19:23:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Select lights for switching.dyn
+2018-10-31 19:23:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Select lights for switching.dyn ...
+2018-10-31 19:23:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Select lights for switching.dyn

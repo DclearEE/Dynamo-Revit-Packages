@@ -1,0 +1,65 @@
+Dynamo log started 2019-02-08 19:18:26Z
+2019-02-08 19:18:28Z : Dynamo -- Build 1.3.2.2480
+2019-02-08 19:18:28Z : Duplicate migration type registered for SunPathDirection
+2019-02-08 19:18:30Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2019-02-08 19:18:31Z : System.InvalidOperationException:
+2019-02-08 19:18:31Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2019-02-08 19:18:31Z : 
+2019-02-08 19:18:35Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2019-02-08 19:18:35Z : Backup files timer is started with an interval of 60000 milliseconds
+2019-02-08 19:18:35Z : SYSTEM:Environment Path:C:\Users\dcleary\AppData\Roaming\pyRevit-Master\bin\lib\win32\x64;C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\\bin;C:\Users\dcleary\AppData\Local\GitHubDesktop\bin;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2019-02-08 19:18:35Z : RENDER : Rendering Tier: 2
+2019-02-08 19:18:35Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-08 19:18:35Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-08 19:18:35Z : RENDER : Software Effect Rendering Supported: True
+2019-02-08 19:18:35Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-08 19:18:36Z : RENDER : Rendering Tier: 2
+2019-02-08 19:18:36Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-08 19:18:36Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-08 19:18:36Z : RENDER : Software Effect Rendering Supported: True
+2019-02-08 19:18:36Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-08 19:18:36Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2019-02-08 19:18:36Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2019-02-08 19:18:37Z : Welcome to Dynamo!
+2019-02-08 19:18:37Z : 00:00:00.9755147 elapsed for loading Dynamo main window.
+2019-02-08 19:18:38Z : WPF Render Mode: SoftwareOnly
+2019-02-08 19:18:39Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\View.DuplicateWithDetailing.dyf
+2019-02-08 19:18:39Z : Original file 'View.DuplicateWithDetailing.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\View.DuplicateWithDetailing.dyf.9.backup'
+2019-02-08 19:18:40Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\definitions\3DView.BoundryBox.dyf
+2019-02-08 19:18:41Z : Active view is now TEST
+2019-02-08 19:19:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn ...
+2019-02-08 19:19:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn
+2019-02-08 19:25:21Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn ...
+2019-02-08 19:25:21Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn
+2019-02-08 19:25:21Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn ...
+2019-02-08 19:25:21Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn
+2019-02-08 19:25:21Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn ...
+2019-02-08 19:25:21Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn
+2019-02-08 19:25:21Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn ...
+2019-02-08 19:25:21Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn
+2019-02-08 19:25:21Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn ...
+2019-02-08 19:25:21Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn
+2019-02-08 19:25:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn ...
+2019-02-08 19:25:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn
+2019-02-08 19:26:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn ...
+2019-02-08 19:26:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn
+2019-02-08 19:27:38Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn ...
+2019-02-08 19:27:38Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn
+2019-02-08 19:28:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn ...
+2019-02-08 19:28:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn
+2019-02-08 19:29:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn ...
+2019-02-08 19:29:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn
+2019-02-08 19:30:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn ...
+2019-02-08 19:30:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn
+2019-02-08 19:31:38Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn ...
+2019-02-08 19:31:38Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn
+2019-02-08 19:32:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn ...
+2019-02-08 19:32:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn
+2019-02-08 19:33:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn ...
+2019-02-08 19:33:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\3DElevationViews & PlaceOnSheet.dyn
+2019-02-08 19:34:17Z : Saving C:\Users\dcleary\Desktop\3DElevationViews & PlaceOnSheet.dyn ...
+2019-02-08 19:39:02Z : Saving C:\Users\dcleary\Desktop\3DElevationViews & PlaceOnSheet.dyn ...
+2019-02-08 19:39:15Z : Active view is now TEST
+2019-02-08 19:41:12Z : Saving C:\Users\dcleary\Desktop\3DElevationViews & PlaceOnSheet.dyn ...
+2019-02-08 19:41:12Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2019-02-08 19:41:12Z : Goodbye

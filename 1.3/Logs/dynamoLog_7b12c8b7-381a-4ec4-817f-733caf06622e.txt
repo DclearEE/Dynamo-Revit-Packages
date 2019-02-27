@@ -1,0 +1,240 @@
+Dynamo log started 2018-10-19 15:00:50Z
+2018-10-19 15:00:52Z : Dynamo -- Build 1.3.2.2480
+2018-10-19 15:00:52Z : Duplicate migration type registered for SunPathDirection
+2018-10-19 15:00:54Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-10-19 15:00:54Z : System.InvalidOperationException:
+2018-10-19 15:00:54Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-10-19 15:00:54Z : 
+2018-10-19 15:00:57Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-10-19 15:00:57Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-10-19 15:00:57Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-10-19 15:00:58Z : RENDER : Rendering Tier: 2
+2018-10-19 15:00:58Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-19 15:00:58Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-19 15:00:58Z : RENDER : Software Effect Rendering Supported: True
+2018-10-19 15:00:58Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-19 15:00:58Z : RENDER : Rendering Tier: 2
+2018-10-19 15:00:58Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-19 15:00:58Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-19 15:00:58Z : RENDER : Software Effect Rendering Supported: True
+2018-10-19 15:00:58Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-19 15:00:58Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-10-19 15:00:58Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-10-19 15:00:59Z : Welcome to Dynamo!
+2018-10-19 15:00:59Z : 00:00:00.6821128 elapsed for loading Dynamo main window.
+2018-10-19 15:00:59Z : WPF Render Mode: SoftwareOnly
+2018-10-19 15:01:04Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Element.CopyByVector.dyf
+2018-10-19 15:01:04Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\TurnIntoList.dyf
+2018-10-19 15:01:05Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Create Annotation Tag.dyf
+2018-10-19 15:01:05Z : Original file 'Create Annotation Tag.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Create Annotation Tag.dyf.24.backup'
+2018-10-19 15:01:05Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\Tag Get Location.dyf
+2018-10-19 15:01:05Z : Original file 'Tag Get Location.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\backup\Tag Get Location.dyf.7.backup'
+2018-10-19 15:01:05Z : Active view is now Level 1 Orignal
+2018-10-19 15:01:15Z : Clearing workspace...
+2018-10-19 15:01:21Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\Doc.ActiveView.dyf
+2018-10-19 15:01:21Z : Original file 'Doc.ActiveView.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\backup\Doc.ActiveView.dyf.25.backup'
+2018-10-19 15:01:21Z : Active view is now Level 1 Orignal
+2018-10-19 15:01:37Z : Clearing workspace...
+2018-10-19 15:01:39Z : Active view is now Level 1 Orignal
+2018-10-19 15:01:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:01:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:02:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:02:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:03:17Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:03:20Z : Active view is now Level 1 Orignal
+2018-10-19 15:03:29Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:03:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:03:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:04:24Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:04:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:04:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:05:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:05:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:06:38Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.CopyElementsFromViewToView.dyf
+2018-10-19 15:06:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:06:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:07:15Z : Active view is now Level 1 Orignal
+2018-10-19 15:07:53Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:07:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:07:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:08:12Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:08:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:08:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:09:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:09:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:10:11Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:10:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:10:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:11:18Z : Active view is now Level 1 Orignal
+2018-10-19 15:11:20Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:11:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:11:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:12:32Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:12:32Z : Clearing workspace...
+2018-10-19 15:12:34Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:13:16Z : Active view is now Level 1 Orignal
+2018-10-19 15:13:30Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:13:46Z : Active view is now Level 1 Orignal
+2018-10-19 15:13:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate annotations.dyn ...
+2018-10-19 15:13:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate annotations.dyn
+2018-10-19 15:14:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate annotations.dyn ...
+2018-10-19 15:14:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate annotations.dyn
+2018-10-19 15:14:59Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:15:10Z : Active view is now Level 1 Orignal
+2018-10-19 15:15:23Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\Duplicate annotations.dyn ...
+2018-10-19 15:15:23Z : Clearing workspace...
+2018-10-19 15:15:24Z : Active view is now Level 1 Orignal
+2018-10-19 15:15:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:15:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:16:04Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:16:04Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:16:04Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:16:04Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:16:04Z : !! Warning: Elements were deleted.
+2018-10-19 15:16:45Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:16:45Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:16:45Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:16:45Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:16:45Z : !! Warning: Elements were deleted.
+2018-10-19 15:16:49Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:16:49Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:16:49Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:16:49Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:16:49Z : !! Warning: Elements were deleted.
+2018-10-19 15:16:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:16:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:17:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:17:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:18:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:18:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:19:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:19:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:20:43Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:20:43Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:20:43Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:20:43Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:20:43Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:20:43Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:20:43Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:20:43Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:20:43Z : !! Warning: Elements were deleted.
+2018-10-19 15:20:43Z : !! Warning: Elements were deleted.
+2018-10-19 15:20:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:20:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:21:12Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:21:12Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:21:12Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:21:12Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:21:12Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:21:12Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:21:12Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:21:12Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:21:12Z : !! Warning: Elements were deleted.
+2018-10-19 15:21:12Z : !! Warning: Elements were deleted.
+2018-10-19 15:21:53Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:21:53Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:21:53Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:21:53Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:21:53Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:21:53Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:21:53Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:21:53Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:21:53Z : !! Warning: Elements were deleted.
+2018-10-19 15:21:53Z : !! Warning: Elements were deleted.
+2018-10-19 15:21:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:21:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:22:06Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:22:19Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:22:19Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:22:19Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:22:19Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:22:19Z : !! Warning: Elements were deleted.
+2018-10-19 15:22:20Z : Active view is now Level 1 Orignal
+2018-10-19 15:22:56Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:28:49Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:29:01Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:29:01Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:29:01Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:29:01Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:29:01Z : !! Warning: Elements were deleted.
+2018-10-19 15:29:02Z : Active view is now Level 1 Orignal
+2018-10-19 15:29:06Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:29:11Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:29:37Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:29:37Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:30:34Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:30:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:30:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-19 15:31:30Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\Duplicate Elements and Tags.dyn ...
+2018-10-19 15:31:35Z : Clearing workspace...
+2018-10-19 15:38:13Z : Active view is now Level 1 Orignal
+2018-10-19 15:38:13Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:39:48Z : Active view is now Level 1 Orignal
+2018-10-19 15:40:05Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:40:19Z : Active view is now Level 1 Orignal
+2018-10-19 15:40:36Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:40:38Z : Active view is now Level 1 Orignal
+2018-10-19 15:40:48Z : Active view is now Level 1 Orignal
+2018-10-19 15:40:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (Single Circuit Filter).dyn ...
+2018-10-19 15:40:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS (Single Circuit Filter).dyn
+2018-10-19 15:40:58Z : Clearing workspace...
+2018-10-19 15:41:07Z : Active view is now Level 1 Orignal
+2018-10-19 15:41:18Z : Clearing workspace...
+2018-10-19 15:41:23Z : Active view is now Level 1 Orignal
+2018-10-19 15:41:31Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:41:55Z : Active view is now Level 1 Orignal
+2018-10-19 15:41:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn ...
+2018-10-19 15:41:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn
+2018-10-19 15:42:25Z : Active view is now PP1
+2018-10-19 15:42:26Z : Active view is now Level 1 Orignal
+2018-10-19 15:42:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn ...
+2018-10-19 15:42:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn
+2018-10-19 15:43:11Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:43:20Z : Active view is now Level 1 Orignal
+2018-10-19 15:43:29Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:43:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn ...
+2018-10-19 15:43:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn
+2018-10-19 15:44:26Z : Active view is now Level 1 Orignal
+2018-10-19 15:44:28Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn ...
+2018-10-19 15:44:30Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn ...
+2018-10-19 15:44:32Z : !! Warning: The Power System "<unnamed>" is empty and will be deleted.
+2018-10-19 15:44:32Z : !! Warning: The Power System "<unnamed>" is empty and will be deleted.
+2018-10-19 15:44:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn ...
+2018-10-19 15:44:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn
+2018-10-19 15:45:37Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn ...
+2018-10-19 15:45:50Z : !! Warning: The Power System "1" is empty and will be deleted.
+2018-10-19 15:45:50Z : !! Warning: The Power System "2" is empty and will be deleted.
+2018-10-19 15:45:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn ...
+2018-10-19 15:45:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn
+2018-10-19 15:46:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn ...
+2018-10-19 15:46:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn
+2018-10-19 15:47:30Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:47:30Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:47:30Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:47:30Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:47:30Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:47:30Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:47:30Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:47:30Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:47:30Z : !! Warning: Elements were deleted.
+2018-10-19 15:47:53Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:47:53Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:47:53Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:47:53Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:47:53Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:47:53Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:47:53Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:47:53Z : !! Warning: Some tags were not copied because they could not find a host.
+2018-10-19 15:47:53Z : !! Warning: Elements were deleted.
+2018-10-19 15:47:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn ...
+2018-10-19 15:47:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn
+2018-10-19 15:48:43Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn ...
+2018-10-19 15:48:53Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:49:54Z : Active view is now Level 1 Orignal
+2018-10-19 15:49:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn ...
+2018-10-19 15:49:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn
+2018-10-19 15:50:00Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS - (WITH TAGS).dyn ...
+2018-10-19 15:50:01Z : Active view is now Level 1 Duplicate Elements and tags
+2018-10-19 15:50:08Z : Active view is now Level 1 Orignal
+2018-10-19 15:50:08Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-10-19 15:50:08Z : Goodbye

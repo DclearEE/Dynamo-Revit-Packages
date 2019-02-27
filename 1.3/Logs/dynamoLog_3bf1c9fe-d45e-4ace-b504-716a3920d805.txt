@@ -1,0 +1,120 @@
+Dynamo log started 2018-09-14 20:24:00Z
+2018-09-14 20:24:02Z : Dynamo -- Build 1.3.2.2480
+2018-09-14 20:24:02Z : Duplicate migration type registered for SunPathDirection
+2018-09-14 20:24:03Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-09-14 20:24:04Z : System.InvalidOperationException:
+2018-09-14 20:24:04Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-09-14 20:24:04Z : 
+2018-09-14 20:24:07Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-09-14 20:24:07Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-09-14 20:24:07Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-09-14 20:24:07Z : RENDER : Rendering Tier: 2
+2018-09-14 20:24:07Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-14 20:24:07Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-14 20:24:07Z : RENDER : Software Effect Rendering Supported: True
+2018-09-14 20:24:07Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-14 20:24:08Z : RENDER : Rendering Tier: 2
+2018-09-14 20:24:08Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-14 20:24:08Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-14 20:24:08Z : RENDER : Software Effect Rendering Supported: True
+2018-09-14 20:24:08Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-14 20:24:08Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-09-14 20:24:08Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-09-14 20:24:09Z : Welcome to Dynamo!
+2018-09-14 20:24:09Z : 00:00:00.8280596 elapsed for loading Dynamo main window.
+2018-09-14 20:24:10Z : WPF Render Mode: SoftwareOnly
+2018-09-14 20:25:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-09-14 20:25:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-09-14 20:25:42Z : Active view is now Project View
+2018-09-14 20:26:05Z : Clearing workspace...
+2018-09-14 20:26:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-09-14 20:26:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-09-14 20:28:25Z : Active view is now ID Start/Save View
+2018-09-14 20:29:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-09-14 20:29:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-09-14 20:30:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-09-14 20:30:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-09-14 20:31:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-09-14 20:31:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-09-14 20:31:13Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Sheet Duplicate\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-09-14 20:31:13Z : Clearing workspace...
+2018-09-14 20:36:56Z : Active view is now ELECTRICAL LEGEND ABBREVIATIONS AND GENERAL NOTES
+2018-09-14 20:36:57Z : Active view is now ID Start/Save View
+2018-09-14 20:37:01Z : Active view is now DESIGN SCHEDULES
+2018-09-14 20:37:01Z : Active view is now ID Start/Save View
+2018-09-14 20:37:04Z : Active view is now SWITCHBOARD SWA, SWB, SWC AND SWD PROTECTIVE RELAY SYSTEM SETTINGS
+2018-09-14 20:37:04Z : Active view is now ID Start/Save View
+2018-09-14 20:37:07Z : Active view is now SWITCHBOARD SWA, SWB, SWC AND SWD SYSTEM SETTINGS
+2018-09-14 20:37:07Z : Active view is now ID Start/Save View
+2018-09-14 20:37:10Z : Active view is now UPS AND LIGHTING CONTROL SYSTEM SETTINGS
+2018-09-14 20:37:10Z : Active view is now ID Start/Save View
+2018-09-14 20:37:12Z : Active view is now LOAD MONITORING GROUPS
+2018-09-14 20:37:12Z : Active view is now ID Start/Save View
+2018-09-14 20:37:23Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-09-14 20:37:29Z : Active view is now ID Start/Save View
+2018-09-14 20:37:35Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-09-14 20:37:36Z : Active view is now ID Start/Save View
+2018-09-14 20:37:41Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-09-14 20:37:42Z : Active view is now ID Start/Save View
+2018-09-14 20:37:50Z : Active view is now FIRST FLOOR POWER PLAN - AREA A
+2018-09-14 20:37:57Z : Active view is now ID Start/Save View
+2018-09-14 20:38:05Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-14 20:38:08Z : Active view is now ID Start/Save View
+2018-09-14 20:38:15Z : Active view is now ROOF POWER PLAN - AREA A
+2018-09-14 20:38:18Z : Active view is now ID Start/Save View
+2018-09-14 20:38:24Z : Active view is now ROOF POWER PLAN - AREA B
+2018-09-14 20:38:25Z : Active view is now ID Start/Save View
+2018-09-14 20:38:29Z : Active view is now POWER DETAILS
+2018-09-14 20:38:31Z : Active view is now ID Start/Save View
+2018-09-14 20:38:34Z : Active view is now SIGNAGE DETAILS
+2018-09-14 20:38:34Z : Active view is now ID Start/Save View
+2018-09-14 20:38:37Z : Active view is now SITE DETAILS
+2018-09-14 20:38:38Z : Active view is now ID Start/Save View
+2018-09-14 20:38:42Z : Active view is now GROUNDING DETAILS
+2018-09-14 20:38:43Z : Active view is now ID Start/Save View
+2018-09-14 20:38:46Z : Active view is now CABLEBUS DETAILS
+2018-09-14 20:38:47Z : Active view is now ID Start/Save View
+2018-09-14 20:38:51Z : Active view is now DR 2000 SWITCHBOARD ELEVATION AND NAMEPLATE SCHEDULES
+2018-09-14 20:38:51Z : Active view is now ID Start/Save View
+2018-09-14 20:38:56Z : Active view is now NAMEPLATE SCHEDULES
+2018-09-14 20:38:56Z : Active view is now ID Start/Save View
+2018-09-14 20:39:00Z : Active view is now MEDIUM VOLTAGE ONE-LINE DIAGRAM
+2018-09-14 20:39:00Z : Active view is now ID Start/Save View
+2018-09-14 20:39:05Z : Active view is now DR6000 CAPACITY BLOCK SYSTEMS "A" AND "B" ONE LINE DIAGRAM
+2018-09-14 20:39:06Z : Active view is now ID Start/Save View
+2018-09-14 20:39:11Z : Active view is now DR6000 CAPACITY BLOCK SYSTEMS "C" AND "D" ONE LINE DIAGRAM
+2018-09-14 20:39:12Z : Active view is now ID Start/Save View
+2018-09-14 20:39:15Z : Active view is now CONTROL WIRING DIAGRAMS
+2018-09-14 20:39:16Z : Active view is now ID Start/Save View
+2018-09-14 20:39:22Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2018-09-14 20:39:22Z : Active view is now ID Start/Save View
+2018-09-14 20:39:25Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-09-14 20:39:26Z : Active view is now ID Start/Save View
+2018-09-14 20:39:29Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-09-14 20:39:29Z : Active view is now ID Start/Save View
+2018-09-14 20:39:32Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-09-14 20:39:33Z : Active view is now ID Start/Save View
+2018-09-14 20:39:36Z : Active view is now PANEL SCHEDULES - "D" SYSTEM
+2018-09-14 20:39:36Z : Active view is now ID Start/Save View
+2018-09-14 20:39:39Z : Active view is now PANEL SCHEDULES - PBB
+2018-09-14 20:39:39Z : Active view is now ID Start/Save View
+2018-09-14 20:39:42Z : Active view is now FIRE ALARM LEGEND, ABBREVIATIONS AND GENERAL NOTES
+2018-09-14 20:39:43Z : Active view is now ID Start/Save View
+2018-09-14 20:39:50Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA A
+2018-09-14 20:39:59Z : Active view is now ID Start/Save View
+2018-09-14 20:40:05Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA B
+2018-09-14 20:40:07Z : Active view is now ID Start/Save View
+2018-09-14 20:40:13Z : Active view is now FIRST FLOOR UNDER RAISED FLOOR FIRE ALARM PLAN - AREA A
+2018-09-14 20:40:21Z : Active view is now ID Start/Save View
+2018-09-14 20:40:24Z : Active view is now FIRE ALARM DETAILS
+2018-09-14 20:40:24Z : Active view is now ID Start/Save View
+2018-09-14 20:40:36Z : Active view is now FIRE ALARM GRAPHIC ANNUNCIATOR LAYOUT
+2018-09-14 20:40:53Z : Active view is now ID Start/Save View
+2018-09-14 20:40:56Z : Active view is now FIRE ALARM MATRIX AND RISER
+2018-09-14 20:40:57Z : Active view is now ID Start/Save View
+2018-09-14 20:41:00Z : Active view is now LEGEND ABBREVIATIONS AND GENERAL NOTES
+2018-09-14 20:41:00Z : Active view is now ID Start/Save View
+2018-09-14 20:41:07Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-09-14 20:41:17Z : Active view is now ID Start/Save View
+2018-09-14 20:52:43Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-09-14 20:52:43Z : Goodbye

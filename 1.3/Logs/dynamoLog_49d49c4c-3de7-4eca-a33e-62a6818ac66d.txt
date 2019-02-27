@@ -1,0 +1,48 @@
+Dynamo log started 2018-08-24 17:09:51Z
+2018-08-24 17:09:53Z : Dynamo -- Build 1.3.2.2480
+2018-08-24 17:09:53Z : Duplicate migration type registered for SunPathDirection
+2018-08-24 17:09:55Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-08-24 17:09:56Z : System.InvalidOperationException:
+2018-08-24 17:09:56Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-08-24 17:09:56Z : 
+2018-08-24 17:10:00Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-08-24 17:10:00Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-08-24 17:10:00Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-08-24 17:10:00Z : RENDER : Rendering Tier: 2
+2018-08-24 17:10:00Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-24 17:10:00Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-24 17:10:00Z : RENDER : Software Effect Rendering Supported: True
+2018-08-24 17:10:00Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-24 17:10:00Z : RENDER : Rendering Tier: 2
+2018-08-24 17:10:00Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-24 17:10:00Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-24 17:10:00Z : RENDER : Software Effect Rendering Supported: True
+2018-08-24 17:10:00Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-24 17:10:01Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-08-24 17:10:01Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-08-24 17:10:01Z : Welcome to Dynamo!
+2018-08-24 17:10:01Z : 00:00:00.7528316 elapsed for loading Dynamo main window.
+2018-08-24 17:10:02Z : WPF Render Mode: SoftwareOnly
+2018-08-24 17:10:36Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Element.CopyByVector.dyf
+2018-08-24 17:10:36Z : Original file 'Element.CopyByVector.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\Element.CopyByVector.dyf.25.backup'
+2018-08-24 17:10:36Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\TurnIntoList.dyf
+2018-08-24 17:10:36Z : Original file 'TurnIntoList.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\TurnIntoList.dyf.77.backup'
+2018-08-24 17:10:36Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-24 17:11:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-24 17:11:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-24 17:12:18Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-24 17:12:18Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-24 17:12:18Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-24 17:12:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-24 17:12:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-24 17:12:33Z : Active view is now 120/208, 120 V/208 V, Three Phase, 4 Wires, Wye
+2018-08-24 17:12:51Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-24 17:12:55Z : Active view is now L124-SWB-GPNL-2
+2018-08-24 17:12:58Z : Active view is now L124-SWA-GPNL-2
+2018-08-24 17:13:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-24 17:13:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-24 17:13:01Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-24 17:13:03Z : Active view is now 120/208, 120 V/208 V, Three Phase, 4 Wires, Wye
+2018-08-24 17:13:21Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-24 17:13:28Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-08-24 17:13:28Z : Goodbye

@@ -1,0 +1,514 @@
+<Workspace Version="1.3.2.2480" X="-3813.26060287672" Y="41.5418668547609" zoom="0.641992963240604" ScaleFactor="1" Name="Home" Description="" RunType="Manual" RunPeriod="1000" HasRunWithoutCrash="True">
+  <NamespaceResolutionMap />
+  <Elements>
+    <DSRevitNodesUI.Categories guid="6a57d2b9-a0f8-4a7c-bfc5-0c8cadb891f8" type="DSRevitNodesUI.Categories" nickname="Categories" x="5425.18653460064" y="1570.48599090584" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false" index="171:ElectricalCircuit" />
+    <DSRevitNodesUI.ElementsOfCategory guid="f9cd8296-94fc-4f34-b304-62a3616a972b" type="DSRevitNodesUI.ElementsOfCategory" nickname="All Elements of Category" x="5633.63474167405" y="1573.36113858961" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+    </DSRevitNodesUI.ElementsOfCategory>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="d91dcf3e-6e39-4bac-bc2d-9a1a9c6143e3" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="5838.54110216082" y="1580.1599890791" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="a[1];" ShouldFocus="false">
+      <PortInfo index="0" default="False" />
+    </Dynamo.Graph.Nodes.CodeBlockNodeModel>
+    <PythonNodeModels.PythonNode guid="6adfae48-3793-4236-86be-e7b6ceeca671" type="PythonNodeModels.PythonNode" nickname="Python Script" x="6157.51246630232" y="1461.18477101209" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="true" isPinned="true" inputcount="2">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <Script>import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+
+clr.AddReference('RevitServices')
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+from System.Collections.Generic import *
+
+clr.AddReference('RevitNodes')
+import Revit
+clr.ImportExtensions(Revit.Elements)
+
+clr.AddReference('RevitAPI')
+import Autodesk
+from Autodesk.Revit.DB import *
+
+clr.AddReference('DSCoreNodes')
+import DSCore
+from DSCore.List import *
+
+import sys
+pyt_path = r'C:\Program Files (x86)\IronPython 2.7\Lib'
+sys.path.append(pyt_path)
+
+#The inputs to this node will be stored as a list in the IN variables.
+input = UnwrapElement(IN[0])
+addto = UnwrapElement(IN[1])
+
+doc = DocumentManager.Instance.CurrentDBDocument
+uiapp = DocumentManager.Instance.CurrentUIApplication
+app = uiapp.Application
+uidoc = DocumentManager.Instance.CurrentUIApplication.ActiveUIDocument
+OUT = []
+
+elemSet = ElementSet()
+
+for _ in input:
+	elemSet.Insert(_)
+
+OUT = input, addto
+
+TransactionManager.Instance.EnsureInTransaction(doc)
+
+addto.AddToCircuit(elemSet)
+	
+TransactionManager.Instance.TransactionTaskDone()
+</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Nodes.DSModelElementsSelection guid="625b3bff-0aa4-4dcd-87a2-3f786776ed3f" type="Dynamo.Nodes.DSModelElementsSelection" nickname="Select Model Elements" x="4117.91759320991" y="230.34139099845" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false" />
+    <PythonNodeModels.PythonNode guid="005a045a-71fc-46bf-b8a0-bbc2c60873de" type="PythonNodeModels.PythonNode" nickname="Python Script" x="4959.43576989492" y="372.679487005944" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="1">
+      <PortInfo index="0" default="False" />
+      <Script>import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+
+clr.AddReference('RevitServices')
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+from System.Collections.Generic import *
+
+clr.AddReference('RevitNodes')
+import Revit
+clr.ImportExtensions(Revit.Elements)
+
+clr.AddReference('RevitAPI')
+import Autodesk
+from Autodesk.Revit.DB import *
+from Autodesk.Revit.DB.Electrical import *
+from Autodesk.Revit.DB import MEPSystem
+
+clr.AddReference('DSCoreNodes')
+import DSCore
+from DSCore.List import *
+
+import sys
+pyt_path = r'C:\Program Files (x86)\IronPython 2.7\Lib'
+sys.path.append(pyt_path)
+
+# Import List ( ICollection(ElementId) = List[ElementId]() )
+clr.AddReference("System")
+from System.Collections.Generic import List 
+
+#The inputs to this node will be stored as a list in the IN variables.
+input = UnwrapElement(IN[0])
+
+ElectComponents = []
+NewCircuits = []
+
+for sublist in input:
+	sub = List[ElementId]()
+	ElectComponents.append(sub)
+	for item in sublist:
+		sub.Add(item.Id)
+
+doc = DocumentManager.Instance.CurrentDBDocument
+uiapp = DocumentManager.Instance.CurrentUIApplication
+app = uiapp.Application
+uidoc = DocumentManager.Instance.CurrentUIApplication.ActiveUIDocument
+
+ListNewCircuit = []
+
+TransactionManager.Instance.EnsureInTransaction(doc)
+
+
+for e in ElectComponents:
+	NewCircuit =  doc.Create.NewElectricalSystem(e,ElectricalSystemType.PowerCircuit)
+	ListNewCircuit.append(NewCircuit)
+
+
+TransactionManager.Instance.TransactionTaskDone()
+
+OUT = ListNewCircuit
+
+
+
+</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Nodes.DSModelElementsSelection guid="5178f1fa-da62-4b08-9183-359a3007f00d" type="Dynamo.Nodes.DSModelElementsSelection" nickname="Select Model Elements" x="5136.18644061885" y="1486.22333401996" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false" />
+    <PythonNodeModels.PythonNode guid="90fdff12-32cc-4be4-80a9-0494d377ce36" type="PythonNodeModels.PythonNode" nickname="Python Script" x="6304.5859135134" y="305.210404027241" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="2">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <Script>import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+
+clr.AddReference('RevitServices')
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+from System.Collections.Generic import *
+
+clr.AddReference('RevitNodes')
+import Revit
+clr.ImportExtensions(Revit.Elements)
+
+clr.AddReference('RevitAPI')
+import Autodesk
+from Autodesk.Revit.DB import *
+from Autodesk.Revit.DB.Electrical import *
+from Autodesk.Revit.DB import MEPSystem
+
+clr.AddReference('DSCoreNodes')
+import DSCore
+from DSCore.List import *
+
+import sys
+pyt_path = r'C:\Program Files (x86)\IronPython 2.7\Lib'
+sys.path.append(pyt_path)
+
+# Import List ( ICollection(ElementId) = List[ElementId]() )
+clr.AddReference("System")
+from System.Collections.Generic import List 
+
+
+circuit = UnwrapElement(IN[0])
+panel = UnwrapElement(IN[1])
+
+doc = DocumentManager.Instance.CurrentDBDocument
+uiapp = DocumentManager.Instance.CurrentUIApplication
+app = uiapp.Application
+uidoc = DocumentManager.Instance.CurrentUIApplication.ActiveUIDocument
+
+TransactionManager.Instance.EnsureInTransaction(doc)
+
+for _ in circuit:
+	_.SelectPanel(panel)
+
+TransactionManager.Instance.TransactionTaskDone()
+
+#Assign your output to the OUT variable.
+OUT = []
+OUT = circuit, panel</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="442e7793-9287-4df3-bb43-9f9919c705d0" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="Springs.Doc.ActiveView" x="7167.93619779506" y="481.304555618528" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="True" />
+      <ID value="58849545-7510-4baf-99da-98c0b1e184fd" />
+      <Name value="Springs.Doc.ActiveView" />
+      <Description value="Selects the current document's active view. Supports more view types than the built-in option.&#xD;&#xA;Will be depreciated once the bult in node works with all plan types." />
+      <Inputs>
+        <Input value="refresh" />
+      </Inputs>
+      <Outputs>
+        <Output value="view" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <PythonNodeModels.PythonNode guid="40f56400-e2a4-4ce4-9632-9693dd9ef299" type="PythonNodeModels.PythonNode" nickname="Python Script" x="7569.81229609145" y="297.054508349453" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="2">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <Script>import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+
+clr.AddReference('RevitServices')
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+from System.Collections.Generic import *
+
+clr.AddReference('RevitNodes')
+import Revit
+clr.ImportExtensions(Revit.Elements)
+
+clr.AddReference('RevitAPI')
+import Autodesk
+from Autodesk.Revit.DB import *
+from Autodesk.Revit.DB.Electrical import *
+
+clr.AddReference('DSCoreNodes')
+import DSCore
+from DSCore.List import *
+
+import sys
+pyt_path = r'C:\Program Files (x86)\IronPython 2.7\Lib'
+sys.path.append(pyt_path)
+
+#The inputs to this node will be stored as a list in the IN variables.
+addto = UnwrapElement(IN[0])
+view = UnwrapElement(IN[1])
+
+doc = DocumentManager.Instance.CurrentDBDocument
+uiapp = DocumentManager.Instance.CurrentUIApplication
+app = uiapp.Application
+uidoc = DocumentManager.Instance.CurrentUIApplication.ActiveUIDocument
+
+OUT = []
+OUT = input, addto
+
+TransactionManager.Instance.EnsureInTransaction(doc)
+
+for _ in addto:
+	_.NewWires(view, WiringType.Arc)
+	
+TransactionManager.Instance.TransactionTaskDone()
+</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Nodes.DSModelElementSelection guid="82ce966b-c3d3-4748-8dcf-098acaee475b" type="Dynamo.Nodes.DSModelElementSelection" nickname="Select panel" x="4203.3199063837" y="546.620660945494" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false" />
+    <PythonNodeModels.PythonNode guid="5e8e3390-224f-447c-af6e-b25e0076b606" type="PythonNodeModels.PythonNode" nickname="Python Script" x="4930.30291298411" y="775.201436210601" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="1">
+      <PortInfo index="0" default="False" />
+      <Script>import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+
+clr.AddReference('RevitServices')
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+from System.Collections.Generic import *
+
+clr.AddReference('RevitNodes')
+import Revit
+clr.ImportExtensions(Revit.Elements)
+
+clr.AddReference('RevitAPI')
+import Autodesk
+from Autodesk.Revit.DB import *
+from Autodesk.Revit.DB.Electrical import *
+from Autodesk.Revit.DB import MEPSystem
+
+clr.AddReference('DSCoreNodes')
+import DSCore
+from DSCore.List import *
+
+import sys
+pyt_path = r'C:\Program Files (x86)\IronPython 2.7\Lib'
+sys.path.append(pyt_path)
+
+# Import List ( ICollection(ElementId) = List[ElementId]() )
+clr.AddReference("System")
+from System.Collections.Generic import List 
+
+#The inputs to this node will be stored as a list in the IN variables.
+input = UnwrapElement(IN[0])
+
+electComponents = List[ElementId]()
+
+
+for i in input:
+	electComponents.Add(i.Id)
+
+
+doc = DocumentManager.Instance.CurrentDBDocument
+uiapp = DocumentManager.Instance.CurrentUIApplication
+app = uiapp.Application
+uidoc = DocumentManager.Instance.CurrentUIApplication.ActiveUIDocument
+
+TransactionManager.Instance.EnsureInTransaction(doc)
+
+newcircuit =  doc.Create.NewElectricalSystem(electComponents, ElectricalSystemType.PowerCircuit)
+
+OUT = []
+OUT.append(newcircuit)
+
+
+TransactionManager.Instance.TransactionTaskDone()
+</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Nodes.DSModelElementsSelection guid="7941047e-4999-438f-833c-f2bbd95881c0" type="Dynamo.Nodes.DSModelElementsSelection" nickname="Select Model Elements" x="4101.40748295911" y="805.045554463868" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <instance id="614d5c01-712d-4ef6-b815-7edd9e7eb7eb-001f9b4b" />
+      <instance id="b1f0dac0-63ce-4fbe-8e06-1ef0687a6b9b-002043fe" />
+      <instance id="b1f0dac0-63ce-4fbe-8e06-1ef0687a6b9b-0020449e" />
+    </Dynamo.Nodes.DSModelElementsSelection>
+    <Dynamo.Graph.Nodes.ZeroTouch.DSVarArgFunction guid="4ed3d4a2-5914-4780-9f7f-288da48c8d1f" type="Dynamo.Graph.Nodes.ZeroTouch.DSVarArgFunction" nickname="List.Join" x="6880.12999443291" y="378.671225708128" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false" assembly="DSCoreNodes.dll" function="DSCore.List.Join@var[]..[]" inputcount="2">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSVarArgFunction>
+    <PythonNodeModels.PythonNode guid="10f76658-d1dc-443d-a609-19632b66e7fe" type="PythonNodeModels.PythonNode" nickname="Python Script" x="6302.24813312667" y="550.677344633788" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="2">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <Script>import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+
+clr.AddReference('RevitServices')
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+from System.Collections.Generic import *
+
+clr.AddReference('RevitNodes')
+import Revit
+clr.ImportExtensions(Revit.Elements)
+
+clr.AddReference('RevitAPI')
+import Autodesk
+from Autodesk.Revit.DB import *
+from Autodesk.Revit.DB.Electrical import *
+from Autodesk.Revit.DB import MEPSystem
+
+clr.AddReference('DSCoreNodes')
+import DSCore
+from DSCore.List import *
+
+import sys
+pyt_path = r'C:\Program Files (x86)\IronPython 2.7\Lib'
+sys.path.append(pyt_path)
+
+# Import List ( ICollection(ElementId) = List[ElementId]() )
+clr.AddReference("System")
+from System.Collections.Generic import List 
+
+
+circuit = UnwrapElement(IN[0])
+panel = UnwrapElement(IN[1])
+
+doc = DocumentManager.Instance.CurrentDBDocument
+uiapp = DocumentManager.Instance.CurrentUIApplication
+app = uiapp.Application
+uidoc = DocumentManager.Instance.CurrentUIApplication.ActiveUIDocument
+
+TransactionManager.Instance.EnsureInTransaction(doc)
+
+for _ in circuit:
+	_.SelectPanel(panel)
+
+TransactionManager.Instance.TransactionTaskDone()
+
+#Assign your output to the OUT variable.
+OUT = []
+OUT = circuit, panel</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Nodes.DSModelElementSelection guid="e87f69bf-1056-49ea-9e17-3fff3cf6b40a" type="Dynamo.Nodes.DSModelElementSelection" nickname="Select panel" x="4142.46575832064" y="948.760456943497" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <instance id="614d5c01-712d-4ef6-b815-7edd9e7eb7eb-001f9976" />
+    </Dynamo.Nodes.DSModelElementSelection>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="9144a69c-08f3-4230-93e4-8dbcd2f82aa6" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="6450.35539132746" y="308.009883006919" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="a[0];" ShouldFocus="false">
+      <PortInfo index="0" default="False" />
+    </Dynamo.Graph.Nodes.CodeBlockNodeModel>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="2de982fb-4cf7-4cdd-9130-975ecb9eaff9" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="6434.98526170924" y="556.462882112594" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="a[0];" ShouldFocus="false">
+      <PortInfo index="0" default="False" />
+    </Dynamo.Graph.Nodes.CodeBlockNodeModel>
+    <Dynamo.Nodes.DSModelElementsSelection guid="dc69ba0e-3d17-4b51-9083-c612e0767a5f" type="Dynamo.Nodes.DSModelElementsSelection" nickname="Select Model Elements" x="4107.8393157409" y="388.950045826179" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false" />
+    <CoreNodeModels.CreateList guid="4017edca-e59b-4492-8894-39b9f5962640" type="CoreNodeModels.CreateList" nickname="List.Create" x="4657.29993799312" y="448.738751009829" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="2">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+    </CoreNodeModels.CreateList>
+    <Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid="1c1ce282-30db-41f0-8ded-0381b8954b19" type="Dynamo.Graph.Nodes.ZeroTouch.DSFunction" nickname="List.Sublists" x="4596.66399240417" y="94.1445755865467" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false" assembly="DSCoreNodes.dll" function="DSCore.List.Sublists@var[]..[],var[]..[],int">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <PortInfo index="2" default="False" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSFunction>
+    <PythonNodeModels.PythonNode guid="1f1dcdf9-7bb4-4639-b255-e90fb5b2b3bd" type="PythonNodeModels.PythonNode" nickname="Python Script" x="4919.09395004347" y="-65.7816771100855" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="1">
+      <PortInfo index="0" default="False" />
+      <Script>import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+
+clr.AddReference('RevitServices')
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+from System.Collections.Generic import *
+
+clr.AddReference('RevitNodes')
+import Revit
+clr.ImportExtensions(Revit.Elements)
+
+clr.AddReference('RevitAPI')
+import Autodesk
+from Autodesk.Revit.DB import *
+from Autodesk.Revit.DB.Electrical import *
+from Autodesk.Revit.DB import MEPSystem
+
+clr.AddReference('DSCoreNodes')
+import DSCore
+from DSCore.List import *
+
+import sys
+pyt_path = r'C:\Program Files (x86)\IronPython 2.7\Lib'
+sys.path.append(pyt_path)
+
+# Import List ( ICollection(ElementId) = List[ElementId]() )
+clr.AddReference("System")
+from System.Collections.Generic import List 
+
+#The inputs to this node will be stored as a list in the IN variables.
+input = UnwrapElement(IN[0])
+
+electComponents = List[ElementId]()
+
+
+
+for each i in input:
+
+    electComponents = ListElementId
+
+    for each item in i:
+        electComponents.Add(item.Id)
+
+
+doc = DocumentManager.Instance.CurrentDBDocument
+uiapp = DocumentManager.Instance.CurrentUIApplication
+app = uiapp.Application
+uidoc = DocumentManager.Instance.CurrentUIApplication.ActiveUIDocument
+
+TransactionManager.Instance.EnsureInTransaction(doc)
+
+newcircuit =  doc.Create.NewElectricalSystem(electComponents, ElectricalSystemType.PowerCircuit)
+
+OUT = []
+OUT.append(newcircuit)
+
+
+TransactionManager.Instance.TransactionTaskDone()
+
+</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid="edc56a0c-fee7-4d62-83fb-3e98aaeceab9" type="Dynamo.Graph.Nodes.ZeroTouch.DSFunction" nickname="List.DiagonalRight" x="6955.49354879748" y="502.189360911445" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false" assembly="DSCoreNodes.dll" function="DSCore.List.DiagonalRight@var[]..[],int">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSFunction>
+    <Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid="c342d35b-282c-4aa2-a5fb-a8392dc50c66" type="Dynamo.Graph.Nodes.ZeroTouch.DSFunction" nickname="Csv.ValueByRowAndColumn" x="4884.47149571242" y="334.235150715048" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false" assembly="..\1.3\packages\archi-lab.net\bin\archilab.dll" function="archilab.Csv.Csv.ValueByRowAndColumn@int,int">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <PortInfo index="2" default="False" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSFunction>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="6a57d2b9-a0f8-4a7c-bfc5-0c8cadb891f8" start_index="0" end="f9cd8296-94fc-4f34-b304-62a3616a972b" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="f9cd8296-94fc-4f34-b304-62a3616a972b" start_index="0" end="d91dcf3e-6e39-4bac-bc2d-9a1a9c6143e3" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="d91dcf3e-6e39-4bac-bc2d-9a1a9c6143e3" start_index="0" end="6adfae48-3793-4236-86be-e7b6ceeca671" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="625b3bff-0aa4-4dcd-87a2-3f786776ed3f" start_index="0" end="4017edca-e59b-4492-8894-39b9f5962640" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="005a045a-71fc-46bf-b8a0-bbc2c60873de" start_index="0" end="90fdff12-32cc-4be4-80a9-0494d377ce36" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="5178f1fa-da62-4b08-9183-359a3007f00d" start_index="0" end="6adfae48-3793-4236-86be-e7b6ceeca671" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="90fdff12-32cc-4be4-80a9-0494d377ce36" start_index="0" end="9144a69c-08f3-4230-93e4-8dbcd2f82aa6" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="442e7793-9287-4df3-bb43-9f9919c705d0" start_index="0" end="40f56400-e2a4-4ce4-9632-9693dd9ef299" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="82ce966b-c3d3-4748-8dcf-098acaee475b" start_index="0" end="90fdff12-32cc-4be4-80a9-0494d377ce36" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="5e8e3390-224f-447c-af6e-b25e0076b606" start_index="0" end="10f76658-d1dc-443d-a609-19632b66e7fe" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="7941047e-4999-438f-833c-f2bbd95881c0" start_index="0" end="5e8e3390-224f-447c-af6e-b25e0076b606" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="4ed3d4a2-5914-4780-9f7f-288da48c8d1f" start_index="0" end="40f56400-e2a4-4ce4-9632-9693dd9ef299" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="10f76658-d1dc-443d-a609-19632b66e7fe" start_index="0" end="2de982fb-4cf7-4cdd-9130-975ecb9eaff9" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="e87f69bf-1056-49ea-9e17-3fff3cf6b40a" start_index="0" end="10f76658-d1dc-443d-a609-19632b66e7fe" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="9144a69c-08f3-4230-93e4-8dbcd2f82aa6" start_index="0" end="4ed3d4a2-5914-4780-9f7f-288da48c8d1f" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="2de982fb-4cf7-4cdd-9130-975ecb9eaff9" start_index="0" end="4ed3d4a2-5914-4780-9f7f-288da48c8d1f" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="dc69ba0e-3d17-4b51-9083-c612e0767a5f" start_index="0" end="4017edca-e59b-4492-8894-39b9f5962640" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="4017edca-e59b-4492-8894-39b9f5962640" start_index="0" end="005a045a-71fc-46bf-b8a0-bbc2c60873de" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="51df0ced-9746-4331-bb67-f4df978e000f" annotationText="Move elements from existing to existing circuit.&#xD;&#xA;IN[0] = Elements&#xD;&#xA;IN[1] = move to this existing Electrical System" left="6147.51246630232" top="947.18477101209" width="144" height="633" fontSize="30" InitialTop="1461.18477101209" InitialHeight="149" TextblockHeight="504" backgrouund="#FFC1D676">
+      <Models ModelGuid="6adfae48-3793-4236-86be-e7b6ceeca671" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="af8b744d-8795-446c-beb5-d235346d4a79" annotationText="Create new circuit on Panel and assign elementset to new circuit" left="4949.43576989492" top="110.679487005944" width="155.906666666667" height="355" fontSize="30" InitialTop="372.679487005944" InitialHeight="149" TextblockHeight="252" backgrouund="#FFC1D676">
+      <Models ModelGuid="005a045a-71fc-46bf-b8a0-bbc2c60873de" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="0c1802b8-37fa-4034-b853-d47eed21ce74" annotationText="Select panel.&#xD;&#xA;IN[0] = Electrical System&#xD;&#xA;IN[1] = Panel element" left="6294.5859135134" top="7.210404027241" width="144" height="417" fontSize="30" InitialTop="305.210404027241" InitialHeight="149" TextblockHeight="288" backgrouund="#FFC1D676">
+      <Models ModelGuid="90fdff12-32cc-4be4-80a9-0494d377ce36" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="2811f492-1d2b-4812-8722-04bb349cd915" annotationText="Generate Wires for electrical systems" left="7559.81229609145" top="143.054508349453" width="144" height="273" fontSize="30" InitialTop="297.054508349453" InitialHeight="149" TextblockHeight="144" backgrouund="#FFC1D676">
+      <Models ModelGuid="40f56400-e2a4-4ce4-9632-9693dd9ef299" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="37cd7041-1836-49ae-b3ef-e1d3392d4c71" annotationText="Create new circuit on Panel and assign elementset to new circuit" left="4920.30291298411" top="513.201436210601" width="155.906666666667" height="355" fontSize="30" InitialTop="775.201436210601" InitialHeight="123" TextblockHeight="252" backgrouund="#FFC1D676">
+      <Models ModelGuid="5e8e3390-224f-447c-af6e-b25e0076b606" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+  </Annotations>
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="2625.35864257813" eyeY="22387.884765625" eyeZ="-17209.857421875" lookX="5679.41943359375" lookY="-22633.435546875" lookZ="13180.732421875" upX="-0.371851325035095" upY="-0.342020153999329" upZ="-0.862988293170929" />
+  </Cameras>
+</Workspace>

@@ -1,0 +1,70 @@
+<Workspace Version="1.3.3.4651" X="-173.805885186103" Y="462.671342231801" zoom="3.61572129874955" ScaleFactor="1" Name="RIE.RevisionsOnSheet" Description="Returns Revisions that are placed on a sheet." ID="f38e69af-7dc1-4daa-b891-36250aa16d19" Category="RIE.Revisions">
+  <NamespaceResolutionMap />
+  <Elements>
+    <PythonNodeModels.PythonNode guid="fdfb148d-a187-4c72-b933-f39f8c5b807b" type="PythonNodeModels.PythonNode" nickname="Python Script" x="250" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="1">
+      <PortInfo index="0" default="False" />
+      <Script>import clr
+# Import RevitAPI
+clr.AddReference("RevitAPI")
+import Autodesk
+from Autodesk.Revit.DB import *
+
+import Autodesk
+clr.AddReference("RevitNodes")
+import Revit
+clr.ImportExtensions(Revit.Elements)
+
+# Import DocumentManager and TransactionManager
+clr.AddReference("RevitServices")
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+# Import geometry conversion extension methods
+clr.ImportExtensions(Revit.GeometryConversion)
+# Import Element wrapper extension methods
+clr.ImportExtensions(Revit.Elements)
+
+# Define active document, active UI interface, and active application instance.
+doc = DocumentManager.Instance.CurrentDBDocument
+uiapp = DocumentManager.Instance.CurrentUIApplication
+app = uiapp.Application
+
+def tolist(obj):
+	if isinstance(obj, list):
+		return UnwrapElement(obj)
+	else:
+		return [UnwrapElement(obj)]
+
+OUT = []
+SheetRevs = []
+
+
+xs = tolist(IN[0])
+	
+for x in xs:
+	SheetRevs.append(x.GetAllRevisionIds())
+
+for lst in SheetRevs:
+	elementlist = []
+	for rev in lst:
+		elementlist.append(doc.GetElement(rev).ToDSType(True))
+	OUT.append(elementlist)
+
+</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="1d3fe55f-a064-4e11-a6ac-4ed2b7c668ad" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="171.727015411054" y="0.421933698798654" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="Sheet" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+    <Dynamo.Graph.Nodes.CustomNodes.Output guid="d18d3b67-44e6-44c7-9a39-0db916523f43" type="Dynamo.Graph.Nodes.CustomNodes.Output" nickname="Output" x="382.334475589812" y="-1.26580109639596" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <Symbol value="Revisions" />
+    </Dynamo.Graph.Nodes.CustomNodes.Output>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="fdfb148d-a187-4c72-b933-f39f8c5b807b" start_index="0" end="d18d3b67-44e6-44c7-9a39-0db916523f43" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="1d3fe55f-a064-4e11-a6ac-4ed2b7c668ad" start_index="0" end="fdfb148d-a187-4c72-b933-f39f8c5b807b" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+  <Presets />
+</Workspace>

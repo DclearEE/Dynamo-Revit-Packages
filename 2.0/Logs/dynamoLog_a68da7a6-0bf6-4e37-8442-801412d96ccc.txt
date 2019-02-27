@@ -1,0 +1,18 @@
+Dynamo log started 2018-08-07 14:33:44Z
+2018-08-07 14:33:44Z : 
+2018-08-07 14:33:44Z : RequestUpdateVersionInfo
+2018-08-07 14:33:44Z : Requesting version update info...
+2018-08-07 14:33:44Z : Dynamo -- Build 2.0.1.5055
+2018-08-07 14:33:45Z : Duplicate migration type registered for SunPathDirection
+2018-08-07 14:33:46Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-08-07 14:33:46Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-08-07 14:33:46Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-08-07 14:33:46Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\2\;C:\Program Files\Dynamo\Dynamo Core\2\;C:\Program Files\Dynamo\Dynamo Core\2\;C:\Program Files\Dynamo\Dynamo Core\2\
+2018-08-07 14:33:46Z : Loading node definition for "Dynamo.CustomNodeInfo" from: N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Power Copied Elements\DuplicatePanelElementsAndCircuits  .dyf
+2018-08-07 14:33:46Z : Original file 'DuplicatePanelElementsAndCircuits  .dyf' gets backed up at 'N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Power Copied Elements\backup\DuplicatePanelElementsAndCircuits  .dyf.2.backup'
+2018-08-07 14:33:46Z : Unable to create instance of custom node with id: \"baf73550-ccd9-4c94-8543-5eb088bfd742"
+2018-08-07 14:33:46Z : Active view is now ID Start/Save View
+2018-08-07 14:33:47Z : Dynamo is up to date.
+2018-08-07 14:34:05Z : Clearing workspace...
+2018-08-07 14:34:11Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-08-07 14:34:11Z : Goodbye

@@ -1,0 +1,109 @@
+Dynamo log started 2019-01-18 15:05:43Z
+2019-01-18 15:05:45Z : Dynamo -- Build 1.3.2.2480
+2019-01-18 15:05:46Z : Duplicate migration type registered for SunPathDirection
+2019-01-18 15:05:47Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2019-01-18 15:05:48Z : System.InvalidOperationException:
+2019-01-18 15:05:48Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2019-01-18 15:05:48Z : 
+2019-01-18 15:05:52Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2019-01-18 15:05:52Z : Backup files timer is started with an interval of 60000 milliseconds
+2019-01-18 15:05:52Z : SYSTEM:Environment Path:C:\Users\dcleary\AppData\Roaming\pyRevit-Master\bin\lib\win32\x64;C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\\bin;C:\Users\dcleary\AppData\Local\GitHubDesktop\bin;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2019-01-18 15:05:52Z : RENDER : Rendering Tier: 2
+2019-01-18 15:05:52Z : RENDER : Pixel Shader 3 Supported: True
+2019-01-18 15:05:52Z : RENDER : Pixel Shader 4 Supported: False
+2019-01-18 15:05:52Z : RENDER : Software Effect Rendering Supported: True
+2019-01-18 15:05:52Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-01-18 15:05:53Z : RENDER : Rendering Tier: 2
+2019-01-18 15:05:53Z : RENDER : Pixel Shader 3 Supported: True
+2019-01-18 15:05:53Z : RENDER : Pixel Shader 4 Supported: False
+2019-01-18 15:05:53Z : RENDER : Software Effect Rendering Supported: True
+2019-01-18 15:05:53Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-01-18 15:05:53Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2019-01-18 15:05:53Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2019-01-18 15:05:54Z : Welcome to Dynamo!
+2019-01-18 15:05:54Z : 00:00:01.0066671 elapsed for loading Dynamo main window.
+2019-01-18 15:05:54Z : WPF Render Mode: SoftwareOnly
+2019-01-18 15:06:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-01-18 15:06:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-01-18 15:08:08Z : Clearing workspace...
+2019-01-18 15:08:10Z : Clearing workspace...
+2019-01-18 15:10:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\Sheet.Views+.dyf
+2019-01-18 15:10:20Z : Original file 'Sheet.Views+.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\backup\Sheet.Views+.dyf.5.backup'
+2019-01-18 15:10:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.ElementsOfCategoryByView.dyf
+2019-01-18 15:10:21Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2019-01-18 15:10:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2019-01-18 15:10:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2019-01-18 15:11:27Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\REVISIONS\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:11:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:11:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:12:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:12:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:13:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:13:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:14:19Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2019-01-18 15:14:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:14:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:15:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:15:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:16:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:16:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:17:47Z : Active view is now 136 - FIRST FLOOR LIGHTING PLAN - AREA B
+2019-01-18 15:17:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:17:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:18:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:18:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:19:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:19:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:20:29Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2019-01-18 15:20:42Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2019-01-18 15:20:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:20:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:21:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:21:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:22:21Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\REVISIONS\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:22:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:22:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:23:52Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\REVISIONS\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:24:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:24:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:25:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:25:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:26:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:26:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:27:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:27:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:28:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:28:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:29:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:29:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:30:23Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Revision Properties.dyf
+2019-01-18 15:30:23Z : Original file 'Revision Properties.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Revision Properties.dyf.0.backup'
+2019-01-18 15:30:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:30:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:30:58Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\RevisionCloud.FromElements.dyf
+2019-01-18 15:30:58Z : Original file 'RevisionCloud.FromElements.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\RevisionCloud.FromElements.dyf.0.backup'
+2019-01-18 15:30:58Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\BoundingBox.PerimeterCurvesByNormal.dyf
+2019-01-18 15:30:58Z : Original file 'BoundingBox.PerimeterCurvesByNormal.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\BoundingBox.PerimeterCurvesByNormal.dyf.0.backup'
+2019-01-18 15:30:58Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Point.Average.dyf
+2019-01-18 15:30:58Z : Original file 'Point.Average.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\Point.Average.dyf.0.backup'
+2019-01-18 15:30:58Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\BoundingBox.PerimeterCurvesOnPlane.dyf
+2019-01-18 15:30:58Z : Original file 'BoundingBox.PerimeterCurvesOnPlane.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\BoundingBox.PerimeterCurvesOnPlane.dyf.0.backup'
+2019-01-18 15:30:58Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\BoundingBox.FromBoundingBoxes.dyf
+2019-01-18 15:30:58Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\View.Plane.dyf
+2019-01-18 15:30:58Z : Original file 'View.Plane.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\View.Plane.dyf.0.backup'
+2019-01-18 15:31:00Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2019-01-18 15:31:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:31:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:32:52Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:32:52Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:33:53Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:33:53Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:34:53Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:34:53Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:35:53Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:35:53Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:36:53Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:36:53Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CHANGE CLOUDS TO A SELECTED REVISION.dyn
+2019-01-18 15:37:14Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\REVISIONS\CHANGE CLOUDS TO A SELECTED REVISION.dyn ...
+2019-01-18 15:37:16Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2019-01-18 15:37:16Z : Goodbye

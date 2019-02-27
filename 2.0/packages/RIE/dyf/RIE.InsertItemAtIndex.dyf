@@ -1,0 +1,58 @@
+<Workspace Version="1.3.3.4651" X="161" Y="255" zoom="1" ScaleFactor="1" Name="RIE.InsertItemAtIndex" Description="Inserts Items into list at given index" ID="61a19cec-218a-447c-b8f0-c753e8b0a795" Category="RIE.List">
+  <NamespaceResolutionMap>
+    <ClassMap partialName="Revit" resolvedName="Revit.BoundingBox" assemblyName="BimorphNodes.dll" />
+    <ClassMap partialName="Revit.BoundingBox" resolvedName="Revit.BoundingBox" assemblyName="BimorphNodes.dll" />
+  </NamespaceResolutionMap>
+  <Elements>
+    <PythonNodeModels.PythonNode guid="c71ea355-89df-4b5f-854e-9099595f1683" type="PythonNodeModels.PythonNode" nickname="Python Script" x="251" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="4">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <PortInfo index="2" default="False" />
+      <PortInfo index="3" default="False" />
+      <Script># Python code implemented by kennyb6 https://forum.dynamobim.com/u/kennyb6
+
+_list = IN[0]
+elems = [x for _,x in sorted(zip(IN[2],IN[1]))]
+keep = IN[3]
+
+if keep:
+	indices = [v+i for i,v in enumerate(sorted(IN[2]))]
+else:
+	indices = sorted(IN[2])
+
+for ind, elem in zip(indices, elems):
+	_list.insert(ind, elem)
+
+OUT = _list</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="2feb40ac-9c0e-4696-a75c-8998b35e225a" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="-3" y="1" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="List" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="b3bf229e-3d30-4ec8-bd2c-a8d9325caa83" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="0" y="150" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="Item" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="fe8e816e-664f-4ebb-ae07-4aff8b9c1a1c" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="0" y="300" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="Index" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+    <Dynamo.Graph.Nodes.CustomNodes.Output guid="48136dd7-8105-4fdc-98e8-963eb7ea29bd" type="Dynamo.Graph.Nodes.CustomNodes.Output" nickname="Output" x="449" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <Symbol value="List" />
+    </Dynamo.Graph.Nodes.CustomNodes.Output>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="ae43583b-4180-4bb6-af90-18a4b36e29fd" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="-97" y="382" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="method : bool = false" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="c71ea355-89df-4b5f-854e-9099595f1683" start_index="0" end="48136dd7-8105-4fdc-98e8-963eb7ea29bd" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="2feb40ac-9c0e-4696-a75c-8998b35e225a" start_index="0" end="c71ea355-89df-4b5f-854e-9099595f1683" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="b3bf229e-3d30-4ec8-bd2c-a8d9325caa83" start_index="0" end="c71ea355-89df-4b5f-854e-9099595f1683" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="fe8e816e-664f-4ebb-ae07-4aff8b9c1a1c" start_index="0" end="c71ea355-89df-4b5f-854e-9099595f1683" end_index="2" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="ae43583b-4180-4bb6-af90-18a4b36e29fd" start_index="0" end="c71ea355-89df-4b5f-854e-9099595f1683" end_index="3" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>

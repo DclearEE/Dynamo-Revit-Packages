@@ -1,0 +1,665 @@
+Dynamo log started 2018-08-29 19:08:07Z
+2018-08-29 19:08:09Z : Dynamo -- Build 1.3.2.2480
+2018-08-29 19:08:09Z : Duplicate migration type registered for SunPathDirection
+2018-08-29 19:08:10Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-08-29 19:08:11Z : System.InvalidOperationException:
+2018-08-29 19:08:11Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-08-29 19:08:11Z : 
+2018-08-29 19:08:15Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-08-29 19:08:15Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-08-29 19:08:15Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-08-29 19:08:15Z : RENDER : Rendering Tier: 2
+2018-08-29 19:08:15Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-29 19:08:15Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-29 19:08:15Z : RENDER : Software Effect Rendering Supported: True
+2018-08-29 19:08:15Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-29 19:08:15Z : RENDER : Rendering Tier: 2
+2018-08-29 19:08:15Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-29 19:08:15Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-29 19:08:15Z : RENDER : Software Effect Rendering Supported: True
+2018-08-29 19:08:15Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-29 19:08:15Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-08-29 19:08:15Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-08-29 19:08:16Z : Welcome to Dynamo!
+2018-08-29 19:08:16Z : 00:00:00.7299551 elapsed for loading Dynamo main window.
+2018-08-29 19:08:17Z : WPF Render Mode: SoftwareOnly
+2018-08-29 19:08:50Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\Elements in connected network.dyf
+2018-08-29 19:08:50Z : Active view is now 124 - FIRST FLOOR TELCOM PLAN
+2018-08-29 19:09:11Z : Active view is now Section 3
+2018-08-29 19:09:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:09:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:09:39Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:10:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:10:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:11:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:11:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:12:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:12:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:13:12Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:13:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:13:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:14:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:14:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:14:33Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:15:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:15:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:15:32Z : Active view is now Section 7
+2018-08-29 19:15:32Z : Active view is now Section 3
+2018-08-29 19:15:32Z : Active view is now Section 7
+2018-08-29 19:15:35Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:15:36Z : Active view is now Section 7
+2018-08-29 19:15:40Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:15:44Z : Active view is now Section 7
+2018-08-29 19:15:47Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:15:49Z : Active view is now Section 7
+2018-08-29 19:16:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:16:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:16:16Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:17:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:17:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:18:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:18:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:18:36Z : Active view is now Section 7
+2018-08-29 19:18:51Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:19:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:19:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:20:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:20:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:20:33Z : Active view is now Section 7
+2018-08-29 19:20:49Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:21:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:21:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:21:38Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:21:51Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:22:00Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:22:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:22:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:23:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:23:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:24:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:24:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:25:14Z : Active view is now Section 7
+2018-08-29 19:25:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:25:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:25:15Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:25:36Z : Active view is now Section 7
+2018-08-29 19:25:36Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:26:25Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:26:25Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:26:40Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:26:42Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:26:52Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:26:54Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:27:03Z : Active view is now Section 9
+2018-08-29 19:27:05Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:27:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:27:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:27:47Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA B
+2018-08-29 19:28:07Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:28:08Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA B
+2018-08-29 19:28:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:28:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:29:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:29:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:29:57Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA B
+2018-08-29 19:30:11Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA B
+2018-08-29 19:30:22Z : Active view is now FIRST FLOOR UNDER RAISED FLOOR FIRE ALARM PLAN - AREA A
+2018-08-29 19:30:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:30:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:30:25Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA B
+2018-08-29 19:30:34Z : Active view is now ROOF POWER PLAN - AREA B
+2018-08-29 19:30:56Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA B
+2018-08-29 19:31:06Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-29 19:31:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:31:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:32:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:32:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:33:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:33:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:34:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:34:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:35:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:35:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:36:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:36:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:36:30Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-29 19:36:45Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-29 19:36:48Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA B
+2018-08-29 19:36:57Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:37:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:37:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:37:25Z : Active view is now Section 9
+2018-08-29 19:37:38Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:37:58Z : Active view is now Section 9
+2018-08-29 19:38:02Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:38:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:38:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:38:37Z : Active view is now Section 9
+2018-08-29 19:38:43Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:38:46Z : Active view is now Section 9
+2018-08-29 19:39:00Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:39:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:39:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:40:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:40:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:41:07Z : Active view is now Section 9
+2018-08-29 19:41:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:41:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:41:39Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:42:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:42:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:42:39Z : Active view is now Section 9
+2018-08-29 19:42:44Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:42:56Z : Active view is now Section 9
+2018-08-29 19:42:57Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:43:12Z : Active view is now Section 8
+2018-08-29 19:43:14Z : Active view is now Section 9
+2018-08-29 19:43:14Z : Active view is now Section 8
+2018-08-29 19:43:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:43:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:43:54Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:44:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:44:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:45:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:45:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:45:32Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:45:34Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:45:47Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:46:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:46:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:47:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:47:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:47:44Z : Active view is now Section 10
+2018-08-29 19:48:12Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:48:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:48:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:49:08Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC Copy 1
+2018-08-29 19:49:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:49:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:50:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:50:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:50:19Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:51:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:51:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:51:17Z : Active view is now Section 10
+2018-08-29 19:51:38Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:51:41Z : Active view is now Section 10
+2018-08-29 19:51:43Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:51:45Z : Active view is now Section 8
+2018-08-29 19:51:46Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:51:50Z : Active view is now Section 10
+2018-08-29 19:51:55Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:52:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:52:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:53:15Z : Active view is now Section 10
+2018-08-29 19:53:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:53:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:53:34Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:54:02Z : Active view is now Section 10
+2018-08-29 19:54:06Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:54:10Z : Active view is now Section 10
+2018-08-29 19:54:14Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:54:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:54:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:54:57Z : Active view is now Section 7
+2018-08-29 19:55:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:55:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:56:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:56:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:57:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:57:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:58:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:58:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 19:58:17Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:58:18Z : Active view is now Section 10
+2018-08-29 19:58:27Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 19:59:18Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 19:59:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 19:59:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:00:05Z : Active view is now SUITE 124 - MECHANICAL EQUIPMENT SCHEDULE
+2018-08-29 20:00:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:00:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:01:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:01:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:01:46Z : Active view is now EQUIPMENT NOT ON MECH SCHEDULE
+2018-08-29 20:01:52Z : Active view is now SUITE 124 - MECHANICAL EQUIPMENT SCHEDULE
+2018-08-29 20:02:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:02:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:03:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:03:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:03:27Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2018-08-29 20:04:06Z : Active view is now EQUIPMENT NOT ON MECH SCHEDULE
+2018-08-29 20:04:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:04:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:04:40Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2018-08-29 20:04:49Z : Active view is now SUITE 124 - MECHANICAL EQUIPMENT SCHEDULE
+2018-08-29 20:04:55Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:04:57Z : Active view is now Section 10
+2018-08-29 20:04:58Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:05:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:05:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:05:30Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:05:33Z : Active view is now Section 10
+2018-08-29 20:05:37Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:06:21Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:06:21Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:06:26Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:07:12Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:07:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:07:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:07:35Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:08:48Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:08:48Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:08:56Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2018-08-29 20:08:59Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:09:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:09:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:09:21Z : Active view is now EQUIPMENT SCHEDULE NOTES
+2018-08-29 20:09:23Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:09:30Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2018-08-29 20:10:01Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2018-08-29 20:10:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:10:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:10:38Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2018-08-29 20:11:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:11:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:11:26Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2018-08-29 20:11:27Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2018-08-29 20:11:28Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:11:48Z : Active view is now Section 10
+2018-08-29 20:11:49Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:11:49Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:11:51Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:12:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:12:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:13:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:13:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:14:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:14:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:14:31Z : Active view is now Section 10
+2018-08-29 20:14:32Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:14:44Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:14:45Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:14:46Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:15:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:15:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:16:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:16:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:17:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:17:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:17:44Z : Active view is now Section 10
+2018-08-29 20:17:48Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:18:06Z : Active view is now Section 10
+2018-08-29 20:18:07Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:18:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:18:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:19:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:19:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:20:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:20:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:20:57Z : Active view is now Section 10
+2018-08-29 20:21:04Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:21:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:21:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:21:38Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:21:54Z : Active view is now Section 10
+2018-08-29 20:21:56Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:22:00Z : Active view is now Section 10
+2018-08-29 20:22:11Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:22:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:22:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:23:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:23:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:24:03Z : Active view is now Section 11
+2018-08-29 20:24:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:24:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:24:35Z : Active view is now Section 10
+2018-08-29 20:24:36Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:24:37Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:24:38Z : Active view is now Section 11
+2018-08-29 20:24:40Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:24:41Z : Active view is now Section 7
+2018-08-29 20:24:42Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:24:56Z : Active view is now Section 10
+2018-08-29 20:25:07Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:25:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:25:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:26:14Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:26:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:26:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:26:18Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:26:34Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:26:39Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:27:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:27:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:28:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:28:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:29:03Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:29:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:29:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:29:19Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:29:28Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:29:42Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:30:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:30:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:30:51Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:30:57Z : Active view is now Section 10
+2018-08-29 20:31:01Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:31:02Z : Active view is now Section 10
+2018-08-29 20:31:05Z : Active view is now Section 11
+2018-08-29 20:31:07Z : Active view is now Section 10
+2018-08-29 20:31:10Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:31:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:31:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:31:32Z : Active view is now Section 10
+2018-08-29 20:31:38Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:32:06Z : Active view is now Section 10
+2018-08-29 20:32:10Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:32:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:32:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:32:21Z : Active view is now Section 10
+2018-08-29 20:32:23Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:32:34Z : Active view is now Section 10
+2018-08-29 20:33:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:33:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:34:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:34:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:34:32Z : Active view is now Section 7
+2018-08-29 20:34:33Z : Active view is now Section 10
+2018-08-29 20:34:40Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:35:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:35:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:36:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:36:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:36:38Z : Active view is now Section 10
+2018-08-29 20:36:45Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:36:50Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:36:56Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:37:01Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:37:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:37:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:37:44Z : Active view is now Section 7
+2018-08-29 20:37:44Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:38:00Z : Active view is now Section 10
+2018-08-29 20:38:03Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:38:08Z : Active view is now Section 10
+2018-08-29 20:38:13Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:38:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:38:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:38:20Z : Active view is now Section 10
+2018-08-29 20:38:21Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:38:35Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:38:37Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:39:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:39:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:40:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:40:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:41:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:41:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:41:38Z : Active view is now Section 10
+2018-08-29 20:41:39Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:42:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:42:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:42:20Z : Active view is now Section 10
+2018-08-29 20:42:21Z : Active view is now Section 7
+2018-08-29 20:42:22Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:42:24Z : Active view is now Section 10
+2018-08-29 20:42:24Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:42:25Z : Active view is now Section 7
+2018-08-29 20:42:26Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:42:27Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 20:42:27Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:43:11Z : Active view is now Section 12
+2018-08-29 20:43:16Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:43:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:43:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:43:17Z : Active view is now Section 12
+2018-08-29 20:43:19Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:43:28Z : Active view is now Section 12
+2018-08-29 20:43:50Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:44:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:44:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:44:21Z : Active view is now Section 12
+2018-08-29 20:44:24Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:44:39Z : Active view is now Section 12
+2018-08-29 20:44:42Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:44:45Z : Active view is now Section 12
+2018-08-29 20:44:52Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:45:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:45:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:45:56Z : Active view is now Section 12
+2018-08-29 20:46:02Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:46:06Z : Active view is now Section 12
+2018-08-29 20:46:14Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:46:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:46:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:46:17Z : Active view is now Section 12
+2018-08-29 20:46:26Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:47:00Z : Active view is now Section 12
+2018-08-29 20:47:02Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:47:10Z : Active view is now Section 12
+2018-08-29 20:47:12Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:47:16Z : Active view is now Section 12
+2018-08-29 20:47:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:47:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:47:18Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:47:22Z : Active view is now Section 12
+2018-08-29 20:47:23Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:47:27Z : Active view is now Section 12
+2018-08-29 20:47:29Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:47:32Z : Active view is now Section 12
+2018-08-29 20:47:33Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:48:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:48:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:49:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:49:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:50:16Z : Active view is now Section 12
+2018-08-29 20:50:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:50:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:50:19Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:50:28Z : Active view is now Section 12
+2018-08-29 20:50:30Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:50:45Z : Active view is now Section 12
+2018-08-29 20:50:46Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:51:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:51:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:52:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:52:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:53:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:53:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:54:13Z : Active view is now Section 11
+2018-08-29 20:54:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:54:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:54:24Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:54:30Z : Active view is now Section 11
+2018-08-29 20:54:32Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:54:36Z : Active view is now Section 11
+2018-08-29 20:54:37Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:54:40Z : Active view is now Section 11
+2018-08-29 20:54:42Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:54:45Z : Active view is now Section 11
+2018-08-29 20:54:47Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:54:53Z : Active view is now Section 11
+2018-08-29 20:54:54Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:54:58Z : Active view is now Section 11
+2018-08-29 20:55:00Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:55:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:55:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:56:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:56:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:56:40Z : Active view is now Section 11
+2018-08-29 20:56:42Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 20:57:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:57:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:58:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:58:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 20:59:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 20:59:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:00:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:00:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:01:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:01:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:01:58Z : Active view is now Section 11
+2018-08-29 21:01:59Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:02:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:02:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:02:37Z : Active view is now Section 13
+2018-08-29 21:02:51Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:02:51Z : Active view is now Section 13
+2018-08-29 21:02:57Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:03:02Z : Active view is now Section 13
+2018-08-29 21:03:05Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:03:08Z : Active view is now Section 13
+2018-08-29 21:03:10Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:03:14Z : Active view is now Section 13
+2018-08-29 21:03:15Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:03:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:03:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:03:18Z : Active view is now Section 13
+2018-08-29 21:03:20Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:03:23Z : Active view is now Section 13
+2018-08-29 21:03:25Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:03:28Z : Active view is now Section 13
+2018-08-29 21:03:29Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:03:31Z : Active view is now Section 13
+2018-08-29 21:03:37Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:04:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:04:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:05:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:05:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:05:22Z : Active view is now Section 13
+2018-08-29 21:05:22Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:05:52Z : Active view is now Section 14
+2018-08-29 21:06:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:06:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:06:17Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:06:22Z : Active view is now Section 14
+2018-08-29 21:06:26Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:06:36Z : Active view is now Section 14
+2018-08-29 21:06:47Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:06:59Z : Active view is now Section 14
+2018-08-29 21:07:02Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:07:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:07:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:07:19Z : Active view is now Section 14
+2018-08-29 21:07:22Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:07:42Z : Active view is now Section 14
+2018-08-29 21:07:43Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:07:47Z : Active view is now Section 14
+2018-08-29 21:07:49Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:08:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:08:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:09:06Z : Active view is now Section 14
+2018-08-29 21:09:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:09:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:09:19Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:10:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:10:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:11:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:11:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:12:02Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 21:12:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:12:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:13:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:13:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:13:53Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:14:02Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 21:14:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:14:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:14:19Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:14:24Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 21:14:28Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:15:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:15:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:16:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:16:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:17:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:17:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:18:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:18:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:19:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:19:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:19:49Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 21:19:59Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:20:00Z : Active view is now Section 14
+2018-08-29 21:20:01Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:20:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:20:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:21:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:21:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:21:17Z : Active view is now Section 14
+2018-08-29 21:21:18Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:21:19Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 21:21:32Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:22:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:22:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:23:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:23:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:24:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:24:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:24:17Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 21:24:18Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:25:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:25:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:26:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:26:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:27:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:27:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:28:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:28:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:29:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:29:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:30:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:30:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:31:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:31:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:32:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:32:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:33:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:33:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:34:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:34:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:35:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:35:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:35:30Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-29 21:35:36Z : Active view is now 142 COORDINATION RCP - WORK
+2018-08-29 21:36:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:36:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:37:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:37:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:38:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:38:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:39:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:39:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:40:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:40:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:41:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:41:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:42:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:42:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:43:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:43:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:44:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:44:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:45:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:45:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:46:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:46:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:48:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:48:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:48:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:48:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:49:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:49:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:50:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:50:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:51:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:51:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:52:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:52:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:53:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:53:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:54:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-08-29 21:54:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-08-29 21:54:48Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-08-29 21:54:48Z : Goodbye

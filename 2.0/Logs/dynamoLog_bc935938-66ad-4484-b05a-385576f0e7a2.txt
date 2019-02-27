@@ -1,0 +1,38 @@
+Dynamo log started 2018-08-07 15:36:18Z
+2018-08-07 15:36:18Z : 
+2018-08-07 15:36:21Z : RequestUpdateVersionInfo
+2018-08-07 15:36:21Z : Requesting version update info...
+2018-08-07 15:36:21Z : Dynamo -- Build 2.0.1.5055
+2018-08-07 15:36:21Z : Duplicate migration type registered for SunPathDirection
+2018-08-07 15:36:23Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-08-07 15:36:23Z : Successfully uninstalled package from "C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\Clockwork for Dynamo 1.x"
+2018-08-07 15:36:24Z : System.InvalidOperationException:
+2018-08-07 15:36:24Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-08-07 15:36:24Z : 
+2018-08-07 15:36:26Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-08-07 15:36:26Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-08-07 15:36:26Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\2\
+2018-08-07 15:36:26Z : RENDER : Rendering Tier: 2
+2018-08-07 15:36:26Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-07 15:36:26Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-07 15:36:26Z : RENDER : Software Effect Rendering Supported: True
+2018-08-07 15:36:26Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-07 15:36:27Z : RENDER : Rendering Tier: 2
+2018-08-07 15:36:27Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-07 15:36:27Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-07 15:36:27Z : RENDER : Software Effect Rendering Supported: True
+2018-08-07 15:36:27Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-07 15:36:27Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-08-07 15:36:27Z : LibraryUI (id: 85941358-5525-4FF4-8D61-6CA831F122AB) view extension is added
+2018-08-07 15:36:27Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-08-07 15:36:27Z : PackageManagerViewExtension (id: 100f5ec3-fde7-4205-80a7-c968b3a5a27b) view extension is added
+2018-08-07 15:36:28Z : Welcome to Dynamo!
+2018-08-07 15:36:28Z : 00:00:01.5679822 elapsed for loading Dynamo main window.
+2018-08-07 15:36:30Z : WPF Render Mode: SoftwareOnly
+2018-08-07 15:36:30Z : Dynamo is up to date.
+2018-08-07 15:36:30Z : ERR_ABORTED
+2018-08-07 15:36:35Z : Unable to create instance of custom node with id: \"baf73550-ccd9-4c94-8543-5eb088bfd742"
+2018-08-07 15:36:35Z : Unable to create instance of custom node with id: \"baf73550-ccd9-4c94-8543-5eb088bfd742"
+2018-08-07 15:36:35Z : Active view is now ID Start/Save View
+2018-08-07 15:36:44Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-08-07 15:36:44Z : Goodbye

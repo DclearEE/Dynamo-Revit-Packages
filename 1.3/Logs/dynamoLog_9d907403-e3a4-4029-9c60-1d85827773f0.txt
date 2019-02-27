@@ -1,0 +1,311 @@
+Dynamo log started 2018-06-07 18:39:52Z
+2018-06-07 18:39:52Z : RequestUpdateVersionInfo
+2018-06-07 18:39:52Z : Requesting version update info...
+2018-06-07 18:39:52Z : Dynamo -- Build 1.3.2.2480
+2018-06-07 18:39:52Z : Duplicate migration type registered for SunPathDirection
+2018-06-07 18:39:54Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-06-07 18:39:54Z : System.InvalidOperationException:
+2018-06-07 18:39:54Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-06-07 18:39:54Z : 
+2018-06-07 18:39:57Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-06-07 18:39:57Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-06-07 18:39:57Z : RENDER : Rendering Tier: 2
+2018-06-07 18:39:57Z : RENDER : Pixel Shader 3 Supported: True
+2018-06-07 18:39:57Z : RENDER : Pixel Shader 4 Supported: False
+2018-06-07 18:39:57Z : RENDER : Software Effect Rendering Supported: True
+2018-06-07 18:39:57Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-06-07 18:39:57Z : RENDER : Rendering Tier: 2
+2018-06-07 18:39:57Z : RENDER : Pixel Shader 3 Supported: True
+2018-06-07 18:39:57Z : RENDER : Pixel Shader 4 Supported: False
+2018-06-07 18:39:57Z : RENDER : Software Effect Rendering Supported: True
+2018-06-07 18:39:57Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-06-07 18:39:57Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2016\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Autodesk\Revit 2016;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-06-07 18:39:57Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-06-07 18:39:57Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-06-07 18:39:57Z : Welcome to Dynamo!
+2018-06-07 18:39:57Z : 00:00:00.1375047 elapsed for loading Dynamo main window.
+2018-06-07 18:39:58Z : notification:System.IO.FileLoadException:
+ Dynamo has detected a conflict with a dependency and may be unstable. If any issues are detected, please uninstall addins or packages and contact the provider.: 
+ While loading assembly archilab, Version=2018.0.0.1, Culture=neutral, PublicKeyToken=null, Dynamo detected that the dependency RevitAPI, Version=18.0.0.0, Culture=neutral, PublicKeyToken=null was already loaded with an incompatiable version. It is likely that another Revit Addin has loaded this assembly, please try uninstalling other Addins, and starting Dynamo again. Dynamo may be unstable in this state.
+It is likely one of the following assemblies loaded the incompatible version:
+UIFrameworkInterop, UIFrameworkInterop, UIFrameworkInterop, UIFramework, UIFramework, UIFrameworkServices, AddInManagerUI, AddInManagerUI, APIInterop, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, UtilityAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, GraphicsAPI, GraphicsAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceAPI, InterfaceAPI, PointCloudAccessAPI, PointCloudAccessAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, IntfIFCAPI, IntfIFCAPI, AddInManager, AddInManager, AddInManager, KeynoteDBServer, StraightSegmentCalculationServers, FittingAndAccessoryCalculationServers, CollaborateDB, CollaborateDB, CollaborateDB, CollaborateDB, RSCloudClient, RSCloudClient, RSCloudClient, AddInJournaling, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, RevitUIAPI, RevitUIAPI, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, AutoLoader, AutoLoader, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, KeynoteUIServer, KeynoteUIServer, MemberForces, MemberForces, MemberForces, ObjectNumberingUI, ObjectNumberingUI, ObjectNumberingUI, PressureLossReport, PressureLossReport, SectionProperties, SectionProperties, SectionProperties, SectionProperties, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, C4RNET, C4RNET, C4RNET, AREXRevitStart, AREXRevitStart, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, SSONETUI, SSONETUI, SSONET, SSONET, SmartMonkey, SmartMonkey, SmartMonkey, DynamoRevitVersionSelector, DynamoRevitVersionSelector, BIMOnePanelInformation, BIMOnePanelInformation, ExportViewSelectorAddin, ExportViewSelectorAddin, nwexportrevit2016_13, nwexportrevit2016_13, PowerPack_2016, PowerPack_2016, Xrev.Freebies.2016, Xrev.Freebies.2016, RevitAPIUIMacrosInterop, RevitAPIUIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, AddInJournalClient, REX.ApplicationServices, AREXRevitMngr, AREXRevitMngr, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RS.Enterprise.Common.ClientServer.Helper, RSEnterpriseClientRevitService, RS.Enterprise.Common.ClientServer.Proxy, RS.Enterprise.Common.ClientServer.ServiceContract.Model, RS.Enterprise.Common.ClientServer.ServiceContract.Local, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Utility, RS.Enterprise.Utility, MacroHookup, MacroHookup, RevitAPIBrowserUtils, RevitAPIBrowserUtils, RevitAPIBrowserUtils, RevitAPIBrowserUtils, DynamoRevitDS, DynamoRevitDS, RevitServices, RevitServices, DynamoRaaSHelper, RevitNodes, RevitNodes, SimpleRaaS, SimpleRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, DSRevitNodesUI, DSRevitNodesUI, DynamoRaaS
+2018-06-07 18:39:58Z : notification:System.IO.FileLoadException:
+ Dynamo has detected a conflict with a dependency and may be unstable. If any issues are detected, please uninstall addins or packages and contact the provider.: 
+ While loading assembly archilabUI, Version=2018.0.0.1, Culture=neutral, PublicKeyToken=null, Dynamo detected that the dependency RevitAPI, Version=18.0.0.0, Culture=neutral, PublicKeyToken=null was already loaded with an incompatiable version. It is likely that another Revit Addin has loaded this assembly, please try uninstalling other Addins, and starting Dynamo again. Dynamo may be unstable in this state.
+It is likely one of the following assemblies loaded the incompatible version:
+UIFrameworkInterop, UIFrameworkInterop, UIFrameworkInterop, UIFramework, UIFramework, UIFrameworkServices, AddInManagerUI, AddInManagerUI, APIInterop, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, UtilityAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, GraphicsAPI, GraphicsAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceAPI, InterfaceAPI, PointCloudAccessAPI, PointCloudAccessAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, IntfIFCAPI, IntfIFCAPI, AddInManager, AddInManager, AddInManager, KeynoteDBServer, StraightSegmentCalculationServers, FittingAndAccessoryCalculationServers, CollaborateDB, CollaborateDB, CollaborateDB, CollaborateDB, RSCloudClient, RSCloudClient, RSCloudClient, AddInJournaling, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, RevitUIAPI, RevitUIAPI, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, AutoLoader, AutoLoader, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, KeynoteUIServer, KeynoteUIServer, MemberForces, MemberForces, MemberForces, ObjectNumberingUI, ObjectNumberingUI, ObjectNumberingUI, PressureLossReport, PressureLossReport, SectionProperties, SectionProperties, SectionProperties, SectionProperties, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, C4RNET, C4RNET, C4RNET, AREXRevitStart, AREXRevitStart, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, SSONETUI, SSONETUI, SSONET, SSONET, SmartMonkey, SmartMonkey, SmartMonkey, DynamoRevitVersionSelector, DynamoRevitVersionSelector, BIMOnePanelInformation, BIMOnePanelInformation, ExportViewSelectorAddin, ExportViewSelectorAddin, nwexportrevit2016_13, nwexportrevit2016_13, PowerPack_2016, PowerPack_2016, Xrev.Freebies.2016, Xrev.Freebies.2016, RevitAPIUIMacrosInterop, RevitAPIUIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, AddInJournalClient, REX.ApplicationServices, AREXRevitMngr, AREXRevitMngr, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RS.Enterprise.Common.ClientServer.Helper, RSEnterpriseClientRevitService, RS.Enterprise.Common.ClientServer.Proxy, RS.Enterprise.Common.ClientServer.ServiceContract.Model, RS.Enterprise.Common.ClientServer.ServiceContract.Local, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Utility, RS.Enterprise.Utility, MacroHookup, MacroHookup, RevitAPIBrowserUtils, RevitAPIBrowserUtils, RevitAPIBrowserUtils, RevitAPIBrowserUtils, DynamoRevitDS, DynamoRevitDS, RevitServices, RevitServices, DynamoRaaSHelper, RevitNodes, RevitNodes, SimpleRaaS, SimpleRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, DSRevitNodesUI, DSRevitNodesUI, DynamoRaaS
+2018-06-07 18:39:58Z : notification:System.IO.FileLoadException:
+ Dynamo has detected a conflict with a dependency and may be unstable. If any issues are detected, please uninstall addins or packages and contact the provider.: 
+ While loading assembly BimorphNodes2018, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, Dynamo detected that the dependency RevitAPI, Version=18.0.0.0, Culture=neutral, PublicKeyToken=null was already loaded with an incompatiable version. It is likely that another Revit Addin has loaded this assembly, please try uninstalling other Addins, and starting Dynamo again. Dynamo may be unstable in this state.
+It is likely one of the following assemblies loaded the incompatible version:
+UIFrameworkInterop, UIFrameworkInterop, UIFrameworkInterop, UIFramework, UIFramework, UIFrameworkServices, AddInManagerUI, AddInManagerUI, APIInterop, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, UtilityAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, GraphicsAPI, GraphicsAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceAPI, InterfaceAPI, PointCloudAccessAPI, PointCloudAccessAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, IntfIFCAPI, IntfIFCAPI, AddInManager, AddInManager, AddInManager, KeynoteDBServer, StraightSegmentCalculationServers, FittingAndAccessoryCalculationServers, CollaborateDB, CollaborateDB, CollaborateDB, CollaborateDB, RSCloudClient, RSCloudClient, RSCloudClient, AddInJournaling, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, RevitUIAPI, RevitUIAPI, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, AutoLoader, AutoLoader, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, KeynoteUIServer, KeynoteUIServer, MemberForces, MemberForces, MemberForces, ObjectNumberingUI, ObjectNumberingUI, ObjectNumberingUI, PressureLossReport, PressureLossReport, SectionProperties, SectionProperties, SectionProperties, SectionProperties, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, C4RNET, C4RNET, C4RNET, AREXRevitStart, AREXRevitStart, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, SSONETUI, SSONETUI, SSONET, SSONET, SmartMonkey, SmartMonkey, SmartMonkey, DynamoRevitVersionSelector, DynamoRevitVersionSelector, BIMOnePanelInformation, BIMOnePanelInformation, ExportViewSelectorAddin, ExportViewSelectorAddin, nwexportrevit2016_13, nwexportrevit2016_13, PowerPack_2016, PowerPack_2016, Xrev.Freebies.2016, Xrev.Freebies.2016, RevitAPIUIMacrosInterop, RevitAPIUIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, AddInJournalClient, REX.ApplicationServices, AREXRevitMngr, AREXRevitMngr, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RS.Enterprise.Common.ClientServer.Helper, RSEnterpriseClientRevitService, RS.Enterprise.Common.ClientServer.Proxy, RS.Enterprise.Common.ClientServer.ServiceContract.Model, RS.Enterprise.Common.ClientServer.ServiceContract.Local, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Utility, RS.Enterprise.Utility, MacroHookup, MacroHookup, RevitAPIBrowserUtils, RevitAPIBrowserUtils, RevitAPIBrowserUtils, RevitAPIBrowserUtils, DynamoRevitDS, DynamoRevitDS, RevitServices, RevitServices, DynamoRaaSHelper, RevitNodes, RevitNodes, SimpleRaaS, SimpleRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, DSRevitNodesUI, DSRevitNodesUI, DynamoRaaS, BimorphNodes, BimorphNodes
+2018-06-07 18:39:59Z : Update available: 2.0.1.0
+2018-06-07 18:39:59Z : Update download started...
+2018-06-07 18:39:59Z : Update download progress: 0%
+2018-06-07 18:39:59Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 18:40:02Z : Active view is now SECOND FLOOR - TELCOM PLAN - AREA E
+2018-06-07 18:40:13Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 18:40:25Z : Active view is now SECOND FLOOR - TELCOM PLAN - AREA E
+2018-06-07 18:40:29Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 18:40:31Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\Elements in connected network.dyf
+2018-06-07 18:40:31Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 18:40:48Z : Active view is now SECOND FLOOR - TELCOM PLAN - AREA E
+2018-06-07 18:40:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:40:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:41:42Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 18:41:47Z : Active view is now TPOE - NORTH WALL ELEVATION
+2018-06-07 18:41:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:41:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:42:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:42:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:43:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:43:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:44:52Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 18:44:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:44:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:44:58Z : Active view is now TPOE - NORTH WALL ELEVATION
+2018-06-07 18:45:10Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 18:45:11Z : Active view is now TPOE - NORTH WALL ELEVATION
+2018-06-07 18:45:26Z : Update download complete.
+2018-06-07 18:45:26Z : An exception occurred during a WebClient request.
+2018-06-07 18:45:36Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 18:45:40Z : Active view is now TPOE - NORTH WALL ELEVATION
+2018-06-07 18:45:44Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 18:45:49Z : Active view is now TPOE - NORTH WALL ELEVATION
+2018-06-07 18:45:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:45:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:46:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:46:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:47:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:47:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:48:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:48:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:49:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:49:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:50:37Z : Active view is now SECOND FLOOR - TELCOM PLAN - AREA E
+2018-06-07 18:50:37Z : Active view is now TPOE - NORTH WALL ELEVATION
+2018-06-07 18:50:44Z : Active view is now SECOND FLOOR - TELCOM
+2018-06-07 18:50:47Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 18:50:56Z : Active view is now SECOND FLOOR - TELCOM
+2018-06-07 18:50:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:50:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:50:59Z : Active view is now TPOE - NORTH WALL ELEVATION
+2018-06-07 18:51:36Z : Active view is now SECOND FLOOR - TELCOM
+2018-06-07 18:51:53Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 18:51:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:51:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:51:59Z : Active view is now SECOND FLOOR - TELCOM
+2018-06-07 18:52:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:52:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:53:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:53:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:54:48Z : Active view is now TPOE PART PLANS AND ELEVATIONS
+2018-06-07 18:54:50Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 18:54:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:54:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:54:58Z : Active view is now TPOE PART PLANS AND ELEVATIONS
+2018-06-07 18:55:03Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 18:55:03Z : Active view is now SECOND FLOOR - TELCOM
+2018-06-07 18:55:12Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 18:55:14Z : Active view is now SECOND FLOOR - TELCOM
+2018-06-07 18:55:20Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 18:55:32Z : Active view is now SECOND FLOOR - TELCOM
+2018-06-07 18:55:40Z : Active view is now TPOE PART PLANS AND ELEVATIONS
+2018-06-07 18:55:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:55:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:56:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:56:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:57:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:57:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:58:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:58:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 18:59:03Z : Active view is now SECOND FLOOR - TELCOM
+2018-06-07 18:59:04Z : Active view is now TPOE - NORTH WALL ELEVATION
+2018-06-07 18:59:32Z : Active view is now SECOND FLOOR - TELCOM
+2018-06-07 18:59:33Z : Active view is now TPOE PART PLANS AND ELEVATIONS
+2018-06-07 18:59:33Z : Active view is now SECOND FLOOR - TELCOM
+2018-06-07 18:59:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 18:59:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:00:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:00:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:01:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:01:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:02:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:02:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:03:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:03:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:04:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:04:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:05:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:05:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:06:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:06:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:07:24Z : Active view is now EQUIPMENT SCHEDULE
+2018-06-07 19:07:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:07:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:08:53Z : Active view is now SPOE ELEVATIONS
+2018-06-07 19:08:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:08:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:09:44Z : Active view is now FIRST FLOOR - COORDINATION VIEW
+2018-06-07 19:09:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:09:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:10:44Z : Active view is now EQUIPMENT SCHEDULE
+2018-06-07 19:10:44Z : Active view is now FIRST FLOOR - COORDINATION VIEW
+2018-06-07 19:10:45Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 19:10:47Z : Active view is now FIRST FLOOR - COORDINATION VIEW
+2018-06-07 19:10:55Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 19:10:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:10:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:11:26Z : Active view is now FIRST FLOOR - COORDINATION VIEW
+2018-06-07 19:11:33Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 19:11:39Z : Active view is now FIRST FLOOR - COORDINATION VIEW
+2018-06-07 19:11:49Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 19:11:53Z : Active view is now FIRST FLOOR - COORDINATION VIEW
+2018-06-07 19:11:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:11:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:12:01Z : Active view is now SOUTH CORRIDOR WEST FACING
+2018-06-07 19:12:15Z : Active view is now FIRST FLOOR - COORDINATION VIEW
+2018-06-07 19:12:48Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 19:12:51Z : Active view is now FIRST FLOOR - COORDINATION VIEW
+2018-06-07 19:12:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:12:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:13:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:13:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:14:41Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 19:14:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:14:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:15:16Z : Active view is now FIRST FLOOR - COORDINATION VIEW
+2018-06-07 19:15:17Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 19:15:20Z : Active view is now SECOND FLOOR - TELCOM
+2018-06-07 19:15:23Z : Active view is now SPOE ELEVATIONS
+2018-06-07 19:15:29Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 19:15:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:15:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:16:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:16:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:17:19Z : Active view is now SPOE ELEVATIONS
+2018-06-07 19:17:20Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 19:17:20Z : Active view is now SPOE ELEVATIONS
+2018-06-07 19:17:22Z : Active view is now SECOND FLOOR - TELCOM
+2018-06-07 19:17:23Z : Active view is now EQUIPMENT SCHEDULE
+2018-06-07 19:17:29Z : Active view is now SOUTH CORRIDOR WEST FACING
+2018-06-07 19:17:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:17:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:18:14Z : Active view is now FIRST FLOOR
+2018-06-07 19:18:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:18:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:19:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:19:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:20:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:20:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:21:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:21:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:22:05Z : Active view is now SOUTH CORRIDOR WEST FACING
+2018-06-07 19:22:11Z : Active view is now FIRST FLOOR
+2018-06-07 19:22:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:22:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:23:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:23:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:24:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:24:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:25:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:25:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:26:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:26:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:27:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:27:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:28:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:28:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:29:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:29:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:30:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:30:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:31:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:31:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:32:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:32:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:33:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:33:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:34:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:34:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:35:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:35:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:36:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:36:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:37:59Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:37:59Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:38:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:38:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:39:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:39:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:40:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:40:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:41:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:41:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:42:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:42:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:43:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:43:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:44:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:44:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:45:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:45:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:46:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:46:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:47:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:47:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:48:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:48:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:49:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:49:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:50:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:50:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:51:50Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 19:51:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:51:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:52:05Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 19:52:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:52:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:52:59Z : Active view is now EQUIPMENT SCHEDULE
+2018-06-07 19:52:59Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 19:53:05Z : Active view is now FIRST FLOOR
+2018-06-07 19:53:05Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 19:53:08Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 19:53:14Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 19:53:21Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 19:53:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:53:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:54:12Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 19:54:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:54:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:55:14Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 19:55:22Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 19:55:44Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 19:55:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:55:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:56:03Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 19:56:46Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 19:56:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:56:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:57:10Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 19:57:25Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 19:57:28Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 19:57:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:57:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:58:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:58:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 19:59:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 19:59:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 20:00:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 20:00:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 20:01:12Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 20:01:42Z : Active view is now SPOE - NORTH WALL ELEVATION
+2018-06-07 20:01:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 20:01:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 20:02:16Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 20:02:33Z : Active view is now SECOND FLOOR - TELCOM
+2018-06-07 20:02:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn ...
+2018-06-07 20:02:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Copy Conduit Parameters into Run from Selected Conduit.dyn
+2018-06-07 20:03:07Z : Active view is now FIRST FLOOR - TELCOM
+2018-06-07 20:03:14Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-06-07 20:03:14Z : Goodbye

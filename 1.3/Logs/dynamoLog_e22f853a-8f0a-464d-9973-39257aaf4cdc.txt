@@ -1,0 +1,249 @@
+Dynamo log started 2019-02-01 15:49:43Z
+2019-02-01 15:49:45Z : Dynamo -- Build 1.3.2.2480
+2019-02-01 15:49:46Z : Duplicate migration type registered for SunPathDirection
+2019-02-01 15:49:47Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2019-02-01 15:49:48Z : System.InvalidOperationException:
+2019-02-01 15:49:48Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2019-02-01 15:49:48Z : 
+2019-02-01 15:49:53Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2019-02-01 15:49:53Z : Backup files timer is started with an interval of 60000 milliseconds
+2019-02-01 15:49:53Z : SYSTEM:Environment Path:C:\Users\dcleary\AppData\Roaming\pyRevit-Master\bin\lib\win32\x64;C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\\bin;C:\Users\dcleary\AppData\Local\GitHubDesktop\bin;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2019-02-01 15:49:53Z : RENDER : Rendering Tier: 2
+2019-02-01 15:49:53Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-01 15:49:53Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-01 15:49:53Z : RENDER : Software Effect Rendering Supported: True
+2019-02-01 15:49:53Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-01 15:49:53Z : RENDER : Rendering Tier: 2
+2019-02-01 15:49:53Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-01 15:49:53Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-01 15:49:53Z : RENDER : Software Effect Rendering Supported: True
+2019-02-01 15:49:53Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-01 15:49:54Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2019-02-01 15:49:54Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2019-02-01 15:49:54Z : Welcome to Dynamo!
+2019-02-01 15:49:54Z : 00:00:00.7610167 elapsed for loading Dynamo main window.
+2019-02-01 15:49:55Z : WPF Render Mode: SoftwareOnly
+2019-02-01 15:49:57Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2019-02-01 15:49:58Z : Active view is now FIRST FLOOR - WORK
+2019-02-01 15:49:59Z : Active view is now SUITE 142 - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-01 15:49:59Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2019-02-01 15:50:00Z : Active view is now SUITE 142 - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-01 15:50:02Z : Active view is now FIRST FLOOR - WORK
+2019-02-01 15:50:06Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2019-02-01 15:50:53Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-01 15:50:53Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-01 15:52:02Z : Active view is now FIRST FLOOR - WORK
+2019-02-01 15:53:48Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2019-02-01 15:54:04Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - CIRCLE LOCK
+2019-02-01 15:54:33Z : Active view is now 142 - FIRST FLOOR FIRE ALARM PLAN - DOC
+2019-02-01 15:55:31Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - CIRCLE LOCK
+2019-02-01 15:59:05Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 15:59:11Z : Active view is now FIRST FLOOR - WORK
+2019-02-01 15:59:11Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 15:59:15Z : Active view is now SUITE 142 - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-01 15:59:19Z : Active view is now FIRST FLOOR - WORK
+2019-02-01 15:59:26Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2019-02-01 15:59:26Z : Active view is now FIRST FLOOR - WORK
+2019-02-01 15:59:28Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 15:59:49Z : Active view is now SUITE 142 - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-01 15:59:57Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 16:00:17Z : Active view is now FIRST FLOOR - WORK
+2019-02-01 16:02:04Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 16:04:39Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - CIRCLE LOCK
+2019-02-01 16:06:12Z : Active view is now 142 - FIRST FLOOR FIRE ALARM PLAN - DOC
+2019-02-01 16:06:23Z : Active view is now FIRST FLOOR - WORK
+2019-02-01 16:07:50Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 16:07:54Z : Active view is now FIRST FLOOR - WORK
+2019-02-01 16:08:07Z : Active view is now 142 - FIRST FLOOR FIRE ALARM PLAN - DOC
+2019-02-01 16:08:13Z : Active view is now FIRST FLOOR - WORK
+2019-02-01 16:08:16Z : Active view is now 142 - FIRST FLOOR FIRE ALARM PLAN - DOC
+2019-02-01 16:08:20Z : Active view is now FIRST FLOOR - WORK
+2019-02-01 16:08:23Z : Active view is now SUITE 142 - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-01 16:08:31Z : Active view is now FIRST FLOOR - WORK
+2019-02-01 16:08:33Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 16:08:33Z : Active view is now FIRST FLOOR - WORK
+2019-02-01 16:09:52Z : Active view is now SUITE 142 - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-01 16:10:02Z : Active view is now FIRST FLOOR - WORK
+2019-02-01 16:10:28Z : Active view is now SUITE 142 - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-01 16:10:41Z : Active view is now FIRST FLOOR - WORK
+2019-02-01 16:12:40Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - CIRCLE LOCK
+2019-02-01 16:13:47Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 16:14:09Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA A
+2019-02-01 16:14:19Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA B
+2019-02-01 16:15:35Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 16:15:49Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA A
+2019-02-01 16:15:49Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 16:15:49Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - CIRCLE LOCK
+2019-02-01 16:16:04Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 16:16:09Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA B
+2019-02-01 16:16:37Z : Active view is now 142 - FIRST FLOOR FIRE ALARM PLAN - DOC
+2019-02-01 16:18:48Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 16:19:13Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2019-02-01 16:20:00Z : Active view is now 142 - FIRST FLOOR FIRE ALARM PLAN - DOC
+2019-02-01 16:20:12Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2019-02-01 16:20:57Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 16:22:49Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2019-02-01 16:23:00Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 16:23:02Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA B
+2019-02-01 16:23:09Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 16:23:34Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA B
+2019-02-01 16:25:04Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 16:25:28Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA B
+2019-02-01 16:26:11Z : Active view is now SUITE 142 - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-01 16:26:25Z : Active view is now FIRST FLOOR - WORK
+2019-02-01 16:26:33Z : Active view is now SUITE 142 - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-01 16:26:35Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA B
+2019-02-01 16:28:13Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2019-02-01 16:36:27Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 16:36:31Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2019-02-01 16:36:31Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 16:36:38Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2019-02-01 16:36:38Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - AREA B
+2019-02-01 16:36:43Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2019-02-01 16:37:13Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2019-02-01 16:37:32Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2019-02-01 16:37:34Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2019-02-01 16:57:40Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 17:58:19Z : Active view is now L224 - PDU - RPP SCHEDULE
+2019-02-01 17:58:20Z : Active view is now L224 - PDU - RPP SCHEDULE Copy 1
+2019-02-01 17:59:05Z : Active view is now L224 - PDU - RPP SCHEDULE
+2019-02-01 17:59:06Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 17:59:57Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 18:02:12Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 18:02:14Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 18:02:16Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 18:02:30Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 18:03:01Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 18:03:51Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2019-02-01 18:13:37Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 18:13:38Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2019-02-01 18:17:44Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 18:19:46Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2019-02-01 18:20:36Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 18:30:32Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2019-02-01 18:30:33Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 18:30:39Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2019-02-01 18:30:41Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 18:30:44Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2019-02-01 18:30:44Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 18:30:47Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 18:30:49Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 18:30:51Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 18:31:04Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 18:31:07Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 18:55:20Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:00:09Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:00:20Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:03:42Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:03:49Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:03:54Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:04:03Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:11:07Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:12:11Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:12:29Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:13:23Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:16:23Z : Active view is now 230 - SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:16:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:16:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:17:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:17:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:18:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:18:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:19:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:19:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:20:10Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:20:11Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:20:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:20:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:21:35Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:21:37Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:21:37Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:21:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:21:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:22:01Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:22:14Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:22:16Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:22:24Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:22:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:22:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:23:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:23:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:24:49Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:24:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:24:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:24:59Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:25:04Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:25:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:25:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:26:39Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:26:53Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:26:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:26:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:27:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:27:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:28:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:28:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:29:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:29:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:30:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:30:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:31:34Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:31:36Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:31:40Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:31:41Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:31:47Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2019-02-01 19:31:49Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2019-02-01 19:31:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:31:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:32:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:32:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:33:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:33:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:34:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:34:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:35:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:35:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:50:51Z : Active view is now ID Start/Save View
+2019-02-01 19:51:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:51:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:51:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:51:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:51:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:51:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:51:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:51:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:51:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:51:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:51:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:51:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:51:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:51:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:51:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:51:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:51:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:51:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:51:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:51:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:51:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:51:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:51:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:51:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:51:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:51:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:51:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:51:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:51:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:51:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:51:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:51:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:52:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:52:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:53:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:53:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:54:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:54:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:55:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2019-02-01 19:55:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2019-02-01 19:56:05Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\FindAndReplaceParameters\FindAndReplaceParameters.dyn ...
+2019-02-01 19:56:05Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2019-02-01 19:56:05Z : Goodbye

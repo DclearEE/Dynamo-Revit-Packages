@@ -1,0 +1,106 @@
+<Workspace Version="1.3.3.4111" X="-398.827788157584" Y="228.070271841007" zoom="0.988548899604769" ScaleFactor="1" Name="RIE.SelectNLinkedElements" Description="Select N amount of elements from selected link." ID="e492c1a2-0ed0-4d1c-aaf4-cc53718a6654" Category="RIE.Elements">
+  <NamespaceResolutionMap />
+  <Elements>
+    <PythonNodeModels.PythonNode guid="7211e0a5-68a5-4082-92a0-75fae7700bb6" type="PythonNodeModels.PythonNode" nickname="Python Script" x="733.620185391551" y="207.426666666667" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="2">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <Script># Copyright(c) 2017, Dimitar Venkov
+# @5devene, dimitar.ven@gmail.com
+# www.badmonkeys.net
+
+import clr
+
+clr.AddReference("RevitAPIUI")
+from Autodesk.Revit.UI import *
+
+clr.AddReference("RevitAPI")
+from Autodesk.Revit.DB import RevitLinkInstance, Transform 
+
+clr.AddReference("RevitServices")
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+doc = DocumentManager.Instance.CurrentDBDocument
+uidoc = DocumentManager.Instance.CurrentUIApplication.ActiveUIDocument
+
+clr.AddReference("RevitNodes")
+import Revit
+clr.ImportExtensions(Revit.Elements)
+clr.ImportExtensions(Revit.GeometryConversion)
+
+OUT = []
+collection = []
+
+sel1 = uidoc.Selection
+ot1 = Selection.ObjectType.Element
+ot2 = Selection.ObjectType.LinkedElement
+li_ref = sel1.PickObject(ot1, "Select a link instance first.")
+link1 = doc.GetElement(li_ref.ElementId)
+for i in range(0, IN[1]):
+	if isinstance(link1, RevitLinkInstance):
+		el_ref = sel1.PickObject(ot2, "Pick a linked element.")
+		LinkDoc = link1.GetLinkDocument()
+		tf1 = link1.GetTotalTransform().ToCoordinateSystem(True)
+		collection.append(LinkDoc.GetElement(el_ref.LinkedElementId).ToDSType(True))
+		OUT = collection, link1, tf1
+	else:
+		OUT = link1, Transform.Identity.ToCoordinateSystem(True)</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="dca6be41-abb8-4515-8221-c2ad8cd45939" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="957.620185391551" y="211.64" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="r[0];&#xA;r[1];&#xA;r[2];" ShouldFocus="false">
+      <PortInfo index="0" default="False" />
+    </Dynamo.Graph.Nodes.CodeBlockNodeModel>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="cb11d8dd-9d90-4eab-a413-4987fcaa8873" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="RIE.LinkedElementCategory" x="1147.62018539155" y="183" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <ID value="a7f3ebc9-93d7-4d15-8e5d-5edc26a92b07" />
+      <Name value="RIE.LinkedElementCategory" />
+      <Description value="Returns Category of Linked Element" />
+      <Inputs>
+        <Input value="LinkElement" />
+      </Inputs>
+      <Outputs>
+        <Output value="Category" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <Dynamo.Graph.Nodes.CustomNodes.Output guid="5c1881c8-5873-4235-ac83-27d48618b0a8" type="Dynamo.Graph.Nodes.CustomNodes.Output" nickname="Output" x="1685.62018539155" y="100" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <Symbol value="Elements" />
+    </Dynamo.Graph.Nodes.CustomNodes.Output>
+    <Dynamo.Graph.Nodes.CustomNodes.Output guid="7cc8d258-7bd8-4be5-83d6-0d51d2c2e813" type="Dynamo.Graph.Nodes.CustomNodes.Output" nickname="Output" x="1685.62018539155" y="183" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <Symbol value="Category" />
+    </Dynamo.Graph.Nodes.CustomNodes.Output>
+    <Dynamo.Graph.Nodes.CustomNodes.Output guid="bb663d7c-4da9-4c54-96e4-65b8280d9340" type="Dynamo.Graph.Nodes.CustomNodes.Output" nickname="Output" x="1685.62018539155" y="267" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <Symbol value="Transform" />
+    </Dynamo.Graph.Nodes.CustomNodes.Output>
+    <Dynamo.Graph.Nodes.CustomNodes.Output guid="b51c05c6-95e7-4054-a6c5-e7c2073e44b8" type="Dynamo.Graph.Nodes.CustomNodes.Output" nickname="Output" x="1685.62018539155" y="350" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <Symbol value="LinkInstance" />
+    </Dynamo.Graph.Nodes.CustomNodes.Output>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="0ad77aa6-1171-4d30-98ea-e60700271c07" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="512.620185391551" y="178.426666666667" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="Refresh?" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="21068d6c-28e1-4ad7-b9cf-55e018b76450" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="512.620185391551" y="262.426666666667" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="N : int = 1" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="f8d9a5c4-4994-419d-994e-e65b4ea5a276" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="1495.62018539155" y="187.213333333333" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="a[0];" ShouldFocus="false">
+      <PortInfo index="0" default="False" />
+    </Dynamo.Graph.Nodes.CodeBlockNodeModel>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="7211e0a5-68a5-4082-92a0-75fae7700bb6" start_index="0" end="dca6be41-abb8-4515-8221-c2ad8cd45939" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="dca6be41-abb8-4515-8221-c2ad8cd45939" start_index="0" end="cb11d8dd-9d90-4eab-a413-4987fcaa8873" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="dca6be41-abb8-4515-8221-c2ad8cd45939" start_index="0" end="5c1881c8-5873-4235-ac83-27d48618b0a8" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="dca6be41-abb8-4515-8221-c2ad8cd45939" start_index="1" end="b51c05c6-95e7-4054-a6c5-e7c2073e44b8" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="dca6be41-abb8-4515-8221-c2ad8cd45939" start_index="2" end="bb663d7c-4da9-4c54-96e4-65b8280d9340" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="cb11d8dd-9d90-4eab-a413-4987fcaa8873" start_index="0" end="f8d9a5c4-4994-419d-994e-e65b4ea5a276" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="0ad77aa6-1171-4d30-98ea-e60700271c07" start_index="0" end="7211e0a5-68a5-4082-92a0-75fae7700bb6" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="21068d6c-28e1-4ad7-b9cf-55e018b76450" start_index="0" end="7211e0a5-68a5-4082-92a0-75fae7700bb6" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="f8d9a5c4-4994-419d-994e-e65b4ea5a276" start_index="0" end="7cc8d258-7bd8-4be5-83d6-0d51d2c2e813" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="222951.46577125" eyeY="143549.9382125" eyeZ="141192.1619505" lookX="-61857.19624" lookY="-122551.4304" lookZ="-171714.997888" upX="-0.124211840331554" upY="0.930417597293854" upZ="-0.34481093287468" />
+  </Cameras>
+</Workspace>

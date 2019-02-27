@@ -1,0 +1,58 @@
+Dynamo log started 2019-02-19 16:59:32Z
+2019-02-19 16:59:32Z : 
+2019-02-19 16:59:32Z : RequestUpdateVersionInfo
+2019-02-19 16:59:32Z : Requesting version update info...
+2019-02-19 16:59:32Z : Dynamo -- Build 2.0.1.5055
+2019-02-19 16:59:33Z : Duplicate migration type registered for SunPathDirection
+2019-02-19 16:59:35Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2019-02-19 16:59:35Z : System.InvalidOperationException:
+2019-02-19 16:59:35Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2019-02-19 16:59:35Z : 
+2019-02-19 16:59:36Z : Could not create an instance of null
+2019-02-19 16:59:36Z : Value cannot be null.
+Parameter name: assemblyFile
+2019-02-19 16:59:36Z :    at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at Dynamo.Extensions.ExtensionLoader.Load(ExtensionDefinition extension)
+2019-02-19 16:59:36Z : Could not create an instance of null
+2019-02-19 16:59:36Z : Value cannot be null.
+Parameter name: assemblyFile
+2019-02-19 16:59:36Z :    at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at Dynamo.Extensions.ExtensionLoader.Load(ExtensionDefinition extension)
+2019-02-19 16:59:37Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2019-02-19 16:59:37Z : Backup files timer is started with an interval of 60000 milliseconds
+2019-02-19 16:59:37Z : SYSTEM:Environment Path:C:\Users\dcleary\AppData\Roaming\pyRevit-Master\bin\lib\win32\x64;C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\\bin;C:\Users\dcleary\AppData\Local\GitHubDesktop\bin;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\bin;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\2\;C:\Program Files\Dynamo\Dynamo Core\2\
+2019-02-19 16:59:37Z : RENDER : Rendering Tier: 2
+2019-02-19 16:59:37Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-19 16:59:37Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-19 16:59:37Z : RENDER : Software Effect Rendering Supported: True
+2019-02-19 16:59:37Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-19 16:59:38Z : RENDER : Rendering Tier: 2
+2019-02-19 16:59:38Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-19 16:59:38Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-19 16:59:38Z : RENDER : Software Effect Rendering Supported: True
+2019-02-19 16:59:38Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-19 16:59:38Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2019-02-19 16:59:38Z : LibraryUI (id: 85941358-5525-4FF4-8D61-6CA831F122AB) view extension is added
+2019-02-19 16:59:38Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2019-02-19 16:59:38Z : DynaHub View Extension (id: 7E85F38F-0A19-4F24-9E18-96845764780Q) view extension is added
+2019-02-19 16:59:38Z : Could not create an instance of DynamoHub.ViewExtension
+2019-02-19 16:59:38Z : PackageManagerViewExtension: Object reference not set to an instance of an object.
+2019-02-19 16:59:38Z : Welcome to Dynamo!
+2019-02-19 16:59:38Z : 00:00:00.2546930 elapsed for loading Dynamo main window.
+2019-02-19 16:59:38Z : WPF Render Mode: SoftwareOnly
+2019-02-19 16:59:38Z : Update available: 2.0.2.0
+2019-02-19 16:59:38Z : Update download started...
+2019-02-19 16:59:38Z : Update download progress: 0%
+2019-02-19 16:59:38Z : ERR_ABORTED
+2019-02-19 16:59:41Z : Update download progress: 10%
+2019-02-19 16:59:44Z : Update download progress: 20%
+2019-02-19 16:59:47Z : Update download progress: 30%
+2019-02-19 16:59:49Z : Update download progress: 40%
+2019-02-19 16:59:52Z : Update download progress: 50%
+2019-02-19 16:59:54Z : Update download progress: 60%
+2019-02-19 16:59:56Z : Update download progress: 70%
+2019-02-19 16:59:58Z : Update download progress: 80%
+2019-02-19 16:59:58Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2019-02-19 16:59:58Z : Goodbye

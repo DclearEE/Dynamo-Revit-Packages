@@ -1,0 +1,142 @@
+Dynamo log started 2018-10-16 18:03:20Z
+2018-10-16 18:03:22Z : Dynamo -- Build 1.3.2.2480
+2018-10-16 18:03:23Z : Duplicate migration type registered for SunPathDirection
+2018-10-16 18:03:24Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-10-16 18:03:25Z : System.InvalidOperationException:
+2018-10-16 18:03:25Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-10-16 18:03:25Z : 
+2018-10-16 18:03:29Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-10-16 18:03:29Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-10-16 18:03:29Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-10-16 18:03:29Z : RENDER : Rendering Tier: 2
+2018-10-16 18:03:29Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-16 18:03:29Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-16 18:03:29Z : RENDER : Software Effect Rendering Supported: True
+2018-10-16 18:03:29Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-16 18:03:29Z : RENDER : Rendering Tier: 2
+2018-10-16 18:03:29Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-16 18:03:29Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-16 18:03:29Z : RENDER : Software Effect Rendering Supported: True
+2018-10-16 18:03:29Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-16 18:03:30Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-10-16 18:03:30Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-10-16 18:03:30Z : Welcome to Dynamo!
+2018-10-16 18:03:30Z : 00:00:00.8607500 elapsed for loading Dynamo main window.
+2018-10-16 18:03:31Z : WPF Render Mode: SoftwareOnly
+2018-10-16 18:04:02Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA B
+2018-10-16 18:04:29Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-16 18:04:29Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-16 18:05:44Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-16 18:17:51Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2018-10-16 18:18:46Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-16 18:21:50Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA B
+2018-10-16 18:21:53Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-10-16 18:21:53Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA B
+2018-10-16 18:25:11Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA B
+2018-10-16 18:25:30Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA B
+2018-10-16 18:30:38Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-10-16 18:36:30Z : Active view is now 224 - SECOND FLOOR LIGHTING PLAN - HOST Copy 1
+2018-10-16 19:10:25Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-16 19:11:54Z : Active view is now 224 - SECOND FLOOR LIGHTING PLAN - HOST Copy 1
+2018-10-16 19:12:01Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-16 19:12:03Z : Active view is now 224 - SECOND FLOOR LIGHTING PLAN - HOST Copy 1
+2018-10-16 19:12:17Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-10-16 19:12:25Z : Active view is now 224 - SECOND FLOOR LIGHTING PLAN - HOST Copy 1
+2018-10-16 19:12:32Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-10-16 19:12:33Z : Active view is now 224 - SECOND FLOOR LIGHTING PLAN - HOST Copy 1
+2018-10-16 20:53:54Z : Active view is now OVERALL CEILING COORDINATION
+2018-10-16 20:55:04Z : Active view is now SECOND FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-10-16 20:55:43Z : Active view is now OVERALL CEILING COORDINATION
+2018-10-16 20:55:43Z : Active view is now SECOND FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-10-16 20:55:45Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-10-16 20:55:45Z : Active view is now SECOND FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-10-16 20:55:46Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA B
+2018-10-16 20:55:46Z : Active view is now SECOND FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-10-16 20:55:47Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2018-10-16 20:55:48Z : Active view is now SECOND FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-10-16 20:55:49Z : Active view is now 224 - SECOND FLOOR LIGHTING PLAN - HOST Copy 1
+2018-10-16 20:56:25Z : Active view is now SECOND FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-10-16 20:56:30Z : Active view is now 224 - SECOND FLOOR LIGHTING PLAN - HOST Copy 1
+2018-10-16 21:49:14Z : Active view is now ROOF POWER PLAN - AREA A
+2018-10-16 21:49:19Z : Active view is now 224 - SECOND FLOOR LIGHTING PLAN - HOST Copy 1
+2018-10-16 21:49:31Z : Active view is now FIRST FLOOR POWER PLAN - AREA A
+2018-10-16 21:55:42Z : Active view is now DESIGN SCHEDULES
+2018-10-16 21:55:48Z : Active view is now 224 - SECOND FLOOR LIGHTING PLAN - HOST Copy 1
+2018-10-16 21:55:48Z : Active view is now DESIGN SCHEDULES
+2018-10-16 21:55:50Z : Active view is now FIRST FLOOR POWER PLAN - AREA A
+2018-10-16 21:55:50Z : Active view is now DESIGN SCHEDULES
+2018-10-16 21:55:51Z : Active view is now ID Start/Save View
+2018-10-16 21:55:51Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 21:55:56Z : Active view is now DESIGN SCHEDULES
+2018-10-16 21:55:57Z : Active view is now ID Start/Save View
+2018-10-16 21:55:57Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 21:55:59Z : Active view is now DESIGN SCHEDULES
+2018-10-16 21:56:03Z : Active view is now ID Start/Save View
+2018-10-16 21:56:03Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 21:56:06Z : Active view is now DESIGN SCHEDULES
+2018-10-16 21:56:08Z : Active view is now ID Start/Save View
+2018-10-16 21:56:08Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 21:56:12Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 21:56:12Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 21:56:15Z : Active view is now ID Start/Save View
+2018-10-16 21:56:15Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 21:56:15Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 21:56:15Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 21:56:23Z : Active view is now DESIGN SCHEDULES
+2018-10-16 21:56:58Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 21:56:58Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 21:57:00Z : Active view is now DESIGN SCHEDULES
+2018-10-16 21:57:57Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 21:57:57Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 21:58:03Z : Active view is now DESIGN SCHEDULES
+2018-10-16 21:58:16Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 21:58:16Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 21:58:36Z : Active view is now DESIGN SCHEDULES
+2018-10-16 21:58:46Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 21:58:46Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 21:59:03Z : Active view is now DESIGN SCHEDULES
+2018-10-16 22:00:14Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 22:00:14Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 22:00:22Z : Active view is now DESIGN SCHEDULES
+2018-10-16 22:00:41Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 22:00:41Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 22:00:47Z : Active view is now DESIGN SCHEDULES
+2018-10-16 22:01:17Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 22:01:17Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 22:01:20Z : Active view is now DESIGN SCHEDULES
+2018-10-16 22:01:25Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 22:01:25Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 22:01:28Z : Active view is now DESIGN SCHEDULES
+2018-10-16 22:01:35Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 22:01:35Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 22:01:40Z : Active view is now DESIGN SCHEDULES
+2018-10-16 22:01:52Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 22:01:52Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 22:01:55Z : Active view is now DESIGN SCHEDULES
+2018-10-16 22:02:01Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 22:02:01Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 22:02:05Z : Active view is now DESIGN SCHEDULES
+2018-10-16 22:02:16Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 22:02:16Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 22:02:18Z : Active view is now DESIGN SCHEDULES
+2018-10-16 22:02:20Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 22:02:20Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 22:02:29Z : Active view is now DESIGN SCHEDULES
+2018-10-16 22:02:44Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 22:02:44Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 22:03:18Z : Active view is now DESIGN SCHEDULES
+2018-10-16 22:03:28Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 22:03:28Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 22:04:20Z : Active view is now DESIGN SCHEDULES
+2018-10-16 22:04:29Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 22:04:29Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 22:04:42Z : Active view is now DESIGN SCHEDULES
+2018-10-16 22:06:34Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 22:06:34Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 22:08:45Z : Active view is now DESIGN SCHEDULES
+2018-10-16 22:13:16Z : Active view is now DESIGN SCHEDULES AND MOUNTING HEIGHTS
+2018-10-16 22:13:16Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-16 22:13:23Z : Active view is now DESIGN SCHEDULES
+2018-10-16 22:13:25Z : Active view is now E002 - ELECTRICAL DESIGN SCHEDULE
+2018-10-16 22:15:37Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-10-16 22:15:37Z : Goodbye

@@ -1,0 +1,324 @@
+Dynamo log started 2018-08-07 17:10:47Z
+2018-08-07 17:10:49Z : RequestUpdateVersionInfo
+2018-08-07 17:10:49Z : Requesting version update info...
+2018-08-07 17:10:49Z : Dynamo -- Build 1.3.2.2480
+2018-08-07 17:10:49Z : Duplicate migration type registered for SunPathDirection
+2018-08-07 17:10:50Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-08-07 17:10:51Z : System.InvalidOperationException:
+2018-08-07 17:10:51Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-08-07 17:10:51Z : 
+2018-08-07 17:10:55Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-08-07 17:10:55Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-08-07 17:10:55Z : RENDER : Rendering Tier: 2
+2018-08-07 17:10:55Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-07 17:10:55Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-07 17:10:55Z : RENDER : Software Effect Rendering Supported: True
+2018-08-07 17:10:55Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-07 17:10:55Z : RENDER : Rendering Tier: 2
+2018-08-07 17:10:55Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-07 17:10:55Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-07 17:10:55Z : RENDER : Software Effect Rendering Supported: True
+2018-08-07 17:10:55Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-07 17:10:55Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2016\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2016;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-08-07 17:10:55Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-08-07 17:10:55Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-08-07 17:10:56Z : Welcome to Dynamo!
+2018-08-07 17:10:56Z : 00:00:00.6753054 elapsed for loading Dynamo main window.
+2018-08-07 17:10:57Z : notification:System.IO.FileLoadException:
+ Dynamo has detected a conflict with a dependency and may be unstable. If any issues are detected, please uninstall addins or packages and contact the provider.: 
+ While loading assembly archilab, Version=2018.0.0.1, Culture=neutral, PublicKeyToken=null, Dynamo detected that the dependency RevitAPI, Version=18.0.0.0, Culture=neutral, PublicKeyToken=null was already loaded with an incompatiable version. It is likely that another Revit Addin has loaded this assembly, please try uninstalling other Addins, and starting Dynamo again. Dynamo may be unstable in this state.
+It is likely one of the following assemblies loaded the incompatible version:
+UIFrameworkInterop, UIFrameworkInterop, UIFrameworkInterop, UIFramework, UIFramework, UIFrameworkServices, AddInManagerUI, AddInManagerUI, APIInterop, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, UtilityAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, GraphicsAPI, GraphicsAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceAPI, InterfaceAPI, PointCloudAccessAPI, PointCloudAccessAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, IntfIFCAPI, IntfIFCAPI, AddInManager, AddInManager, AddInManager, KeynoteDBServer, StraightSegmentCalculationServers, FittingAndAccessoryCalculationServers, CollaborateDB, CollaborateDB, CollaborateDB, CollaborateDB, RSCloudClient, RSCloudClient, RSCloudClient, AddInJournaling, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, RevitUIAPI, RevitUIAPI, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, AutoLoader, AutoLoader, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, KeynoteUIServer, KeynoteUIServer, MemberForces, MemberForces, MemberForces, ObjectNumberingUI, ObjectNumberingUI, ObjectNumberingUI, PressureLossReport, PressureLossReport, SectionProperties, SectionProperties, SectionProperties, SectionProperties, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, C4RNET, C4RNET, C4RNET, AREXRevitStart, AREXRevitStart, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, SSONETUI, SSONETUI, SSONET, SSONET, SmartMonkey, SmartMonkey, SmartMonkey, BIMOnePanelInformation, BIMOnePanelInformation, ExportViewSelectorAddin, ExportViewSelectorAddin, nwexportrevit2016_13, nwexportrevit2016_13, PowerPack_2016, PowerPack_2016, Xrev.Freebies.2016, Xrev.Freebies.2016, RevitAPIUIMacrosInterop, RevitAPIUIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, AddInJournalClient, REX.ApplicationServices, AREXRevitMngr, AREXRevitMngr, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RS.Enterprise.Common.ClientServer.Helper, RSEnterpriseClientRevitService, RS.Enterprise.Common.ClientServer.Proxy, RS.Enterprise.Common.ClientServer.ServiceContract.Model, RS.Enterprise.Common.ClientServer.ServiceContract.Local, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Utility, RS.Enterprise.Utility, MacroHookup, MacroHookup, DynamoRevitVersionSelector, DynamoRevitVersionSelector, DynamoRevitDS, DynamoRevitDS, RevitServices, RevitServices, DynamoRaaSHelper, RevitNodes, RevitNodes, SimpleRaaS, SimpleRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, DSRevitNodesUI, DSRevitNodesUI, DynamoRaaS
+2018-08-07 17:10:57Z : notification:System.IO.FileLoadException:
+ Dynamo has detected a conflict with a dependency and may be unstable. If any issues are detected, please uninstall addins or packages and contact the provider.: 
+ While loading assembly archilabUI, Version=2018.0.0.1, Culture=neutral, PublicKeyToken=null, Dynamo detected that the dependency RevitAPI, Version=18.0.0.0, Culture=neutral, PublicKeyToken=null was already loaded with an incompatiable version. It is likely that another Revit Addin has loaded this assembly, please try uninstalling other Addins, and starting Dynamo again. Dynamo may be unstable in this state.
+It is likely one of the following assemblies loaded the incompatible version:
+UIFrameworkInterop, UIFrameworkInterop, UIFrameworkInterop, UIFramework, UIFramework, UIFrameworkServices, AddInManagerUI, AddInManagerUI, APIInterop, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, UtilityAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, GraphicsAPI, GraphicsAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceAPI, InterfaceAPI, PointCloudAccessAPI, PointCloudAccessAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, IntfIFCAPI, IntfIFCAPI, AddInManager, AddInManager, AddInManager, KeynoteDBServer, StraightSegmentCalculationServers, FittingAndAccessoryCalculationServers, CollaborateDB, CollaborateDB, CollaborateDB, CollaborateDB, RSCloudClient, RSCloudClient, RSCloudClient, AddInJournaling, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, RevitUIAPI, RevitUIAPI, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, AutoLoader, AutoLoader, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, KeynoteUIServer, KeynoteUIServer, MemberForces, MemberForces, MemberForces, ObjectNumberingUI, ObjectNumberingUI, ObjectNumberingUI, PressureLossReport, PressureLossReport, SectionProperties, SectionProperties, SectionProperties, SectionProperties, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, C4RNET, C4RNET, C4RNET, AREXRevitStart, AREXRevitStart, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, SSONETUI, SSONETUI, SSONET, SSONET, SmartMonkey, SmartMonkey, SmartMonkey, BIMOnePanelInformation, BIMOnePanelInformation, ExportViewSelectorAddin, ExportViewSelectorAddin, nwexportrevit2016_13, nwexportrevit2016_13, PowerPack_2016, PowerPack_2016, Xrev.Freebies.2016, Xrev.Freebies.2016, RevitAPIUIMacrosInterop, RevitAPIUIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, AddInJournalClient, REX.ApplicationServices, AREXRevitMngr, AREXRevitMngr, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RS.Enterprise.Common.ClientServer.Helper, RSEnterpriseClientRevitService, RS.Enterprise.Common.ClientServer.Proxy, RS.Enterprise.Common.ClientServer.ServiceContract.Model, RS.Enterprise.Common.ClientServer.ServiceContract.Local, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Utility, RS.Enterprise.Utility, MacroHookup, MacroHookup, DynamoRevitVersionSelector, DynamoRevitVersionSelector, DynamoRevitDS, DynamoRevitDS, RevitServices, RevitServices, DynamoRaaSHelper, RevitNodes, RevitNodes, SimpleRaaS, SimpleRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, DSRevitNodesUI, DSRevitNodesUI, DynamoRaaS
+2018-08-07 17:10:57Z : notification:System.IO.FileLoadException:
+ Dynamo has detected a conflict with a dependency and may be unstable. If any issues are detected, please uninstall addins or packages and contact the provider.: 
+ While loading assembly Beaker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, Dynamo detected that the dependency RevitAPI, Version=17.0.0.0, Culture=neutral, PublicKeyToken=null was already loaded with an incompatiable version. It is likely that another Revit Addin has loaded this assembly, please try uninstalling other Addins, and starting Dynamo again. Dynamo may be unstable in this state.
+It is likely one of the following assemblies loaded the incompatible version:
+UIFrameworkInterop, UIFrameworkInterop, UIFrameworkInterop, UIFramework, UIFramework, UIFrameworkServices, AddInManagerUI, AddInManagerUI, APIInterop, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, UtilityAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, GraphicsAPI, GraphicsAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceAPI, InterfaceAPI, PointCloudAccessAPI, PointCloudAccessAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, IntfIFCAPI, IntfIFCAPI, AddInManager, AddInManager, AddInManager, KeynoteDBServer, StraightSegmentCalculationServers, FittingAndAccessoryCalculationServers, CollaborateDB, CollaborateDB, CollaborateDB, CollaborateDB, RSCloudClient, RSCloudClient, RSCloudClient, AddInJournaling, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, RevitUIAPI, RevitUIAPI, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, AutoLoader, AutoLoader, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, KeynoteUIServer, KeynoteUIServer, MemberForces, MemberForces, MemberForces, ObjectNumberingUI, ObjectNumberingUI, ObjectNumberingUI, PressureLossReport, PressureLossReport, SectionProperties, SectionProperties, SectionProperties, SectionProperties, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, C4RNET, C4RNET, C4RNET, AREXRevitStart, AREXRevitStart, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, SSONETUI, SSONETUI, SSONET, SSONET, SmartMonkey, SmartMonkey, SmartMonkey, BIMOnePanelInformation, BIMOnePanelInformation, ExportViewSelectorAddin, ExportViewSelectorAddin, nwexportrevit2016_13, nwexportrevit2016_13, PowerPack_2016, PowerPack_2016, Xrev.Freebies.2016, Xrev.Freebies.2016, RevitAPIUIMacrosInterop, RevitAPIUIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, AddInJournalClient, REX.ApplicationServices, AREXRevitMngr, AREXRevitMngr, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RS.Enterprise.Common.ClientServer.Helper, RSEnterpriseClientRevitService, RS.Enterprise.Common.ClientServer.Proxy, RS.Enterprise.Common.ClientServer.ServiceContract.Model, RS.Enterprise.Common.ClientServer.ServiceContract.Local, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Utility, RS.Enterprise.Utility, MacroHookup, MacroHookup, DynamoRevitVersionSelector, DynamoRevitVersionSelector, DynamoRevitDS, DynamoRevitDS, RevitServices, RevitServices, DynamoRaaSHelper, RevitNodes, RevitNodes, SimpleRaaS, SimpleRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, DSRevitNodesUI, DSRevitNodesUI, DynamoRaaS
+2018-08-07 17:10:57Z : notification:System.IO.FileLoadException:
+ Dynamo has detected a conflict with a dependency and may be unstable. If any issues are detected, please uninstall addins or packages and contact the provider.: 
+ While loading assembly BimorphNodes2018, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, Dynamo detected that the dependency RevitAPI, Version=18.0.0.0, Culture=neutral, PublicKeyToken=null was already loaded with an incompatiable version. It is likely that another Revit Addin has loaded this assembly, please try uninstalling other Addins, and starting Dynamo again. Dynamo may be unstable in this state.
+It is likely one of the following assemblies loaded the incompatible version:
+UIFrameworkInterop, UIFrameworkInterop, UIFrameworkInterop, UIFramework, UIFramework, UIFrameworkServices, AddInManagerUI, AddInManagerUI, APIInterop, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, UtilityAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, GraphicsAPI, GraphicsAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceAPI, InterfaceAPI, PointCloudAccessAPI, PointCloudAccessAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, IntfIFCAPI, IntfIFCAPI, AddInManager, AddInManager, AddInManager, KeynoteDBServer, StraightSegmentCalculationServers, FittingAndAccessoryCalculationServers, CollaborateDB, CollaborateDB, CollaborateDB, CollaborateDB, RSCloudClient, RSCloudClient, RSCloudClient, AddInJournaling, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, RevitUIAPI, RevitUIAPI, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, AutoLoader, AutoLoader, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, KeynoteUIServer, KeynoteUIServer, MemberForces, MemberForces, MemberForces, ObjectNumberingUI, ObjectNumberingUI, ObjectNumberingUI, PressureLossReport, PressureLossReport, SectionProperties, SectionProperties, SectionProperties, SectionProperties, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, C4RNET, C4RNET, C4RNET, AREXRevitStart, AREXRevitStart, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, SSONETUI, SSONETUI, SSONET, SSONET, SmartMonkey, SmartMonkey, SmartMonkey, BIMOnePanelInformation, BIMOnePanelInformation, ExportViewSelectorAddin, ExportViewSelectorAddin, nwexportrevit2016_13, nwexportrevit2016_13, PowerPack_2016, PowerPack_2016, Xrev.Freebies.2016, Xrev.Freebies.2016, RevitAPIUIMacrosInterop, RevitAPIUIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, AddInJournalClient, REX.ApplicationServices, AREXRevitMngr, AREXRevitMngr, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RS.Enterprise.Common.ClientServer.Helper, RSEnterpriseClientRevitService, RS.Enterprise.Common.ClientServer.Proxy, RS.Enterprise.Common.ClientServer.ServiceContract.Model, RS.Enterprise.Common.ClientServer.ServiceContract.Local, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Utility, RS.Enterprise.Utility, MacroHookup, MacroHookup, DynamoRevitVersionSelector, DynamoRevitVersionSelector, DynamoRevitDS, DynamoRevitDS, RevitServices, RevitServices, DynamoRaaSHelper, RevitNodes, RevitNodes, SimpleRaaS, SimpleRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, DSRevitNodesUI, DSRevitNodesUI, DynamoRaaS, BimorphNodes, BimorphNodes
+2018-08-07 17:10:58Z : Update available: 2.0.1.0
+2018-08-07 17:10:58Z : Update download started...
+2018-08-07 17:10:58Z : Update download progress: 0%
+2018-08-07 17:11:01Z : Update download progress: 10%
+2018-08-07 17:11:06Z : Update download progress: 20%
+2018-08-07 17:11:21Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-07 17:11:21Z : Update download progress: 30%
+2018-08-07 17:11:27Z : Update download progress: 40%
+2018-08-07 17:11:33Z : Update download progress: 50%
+2018-08-07 17:11:38Z : Update download progress: 60%
+2018-08-07 17:11:43Z : Update download progress: 70%
+2018-08-07 17:11:47Z : Update download progress: 80%
+2018-08-07 17:11:51Z : Update download progress: 90%
+2018-08-07 17:11:53Z : Update download progress: 100%
+2018-08-07 17:11:53Z : Update download complete.
+2018-08-07 17:11:53Z : Successful
+2018-08-07 17:11:53Z : Update download complete.
+2018-08-07 17:11:55Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-07 17:11:55Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-07 17:57:07Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 18:12:43Z : Active view is now PANEL SCHEDULES - PBB
+2018-08-07 18:12:48Z : Active view is now ID Start/Save View
+2018-08-07 18:12:48Z : Active view is now PANEL SCHEDULES - PBB
+2018-08-07 18:12:51Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-07 18:12:51Z : Active view is now PANEL SCHEDULES - PBB
+2018-08-07 18:13:27Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 18:13:40Z : Active view is now PANEL SCHEDULES - PBB
+2018-08-07 18:13:53Z : Active view is now L193-PP2-1
+2018-08-07 18:14:10Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 18:18:15Z : Active view is now L193-PP2-1
+2018-08-07 18:18:15Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 18:18:17Z : Active view is now PANEL SCHEDULES - PBB
+2018-08-07 18:18:42Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 18:18:46Z : Active view is now PANEL SCHEDULES - PBB
+2018-08-07 18:19:15Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 18:21:12Z : Active view is now PANEL SCHEDULES - PBB
+2018-08-07 18:22:54Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 18:24:11Z : Active view is now PANEL SCHEDULES - PBB
+2018-08-07 18:24:12Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 18:24:42Z : Active view is now PANEL SCHEDULES - PBB
+2018-08-07 18:25:06Z : Active view is now L199-PP2
+2018-08-07 18:25:40Z : Active view is now PANEL SCHEDULES - PBB
+2018-08-07 18:31:35Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 18:31:50Z : Active view is now ROOF POWER PLAN - AREA A
+2018-08-07 18:31:53Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 18:32:01Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-07 18:36:06Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 18:36:12Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-07 18:37:06Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 18:37:10Z : Active view is now PANEL SCHEDULES - PBB
+2018-08-07 18:38:06Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 18:43:21Z : Active view is now L199-PP4
+2018-08-07 18:43:33Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 18:43:49Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-07 18:44:08Z : Active view is now L199-PP4
+2018-08-07 18:44:24Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-07 18:44:30Z : Active view is now PANEL SCHEDULES - PBB
+2018-08-07 18:44:31Z : Active view is now L199-PP4
+2018-08-07 18:44:41Z : Active view is now PANEL SCHEDULES - PBB
+2018-08-07 18:44:46Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-07 18:45:05Z : Active view is now 142 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-07 18:49:55Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 18:54:22Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-07 18:54:24Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 19:10:34Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.ElementsByView.dyf
+2018-08-07 19:10:35Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.SetRevitSelection.dyf
+2018-08-07 19:10:35Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Tag Host Element.dyf
+2018-08-07 19:10:35Z : Original file 'Tag Host Element.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Tag Host Element.dyf.8.backup'
+2018-08-07 19:10:35Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\SteamNodes\dyf\Element.IsTagged.dyf
+2018-08-07 19:10:35Z : Original file 'Element.IsTagged.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\SteamNodes\dyf\backup\Element.IsTagged.dyf.8.backup'
+2018-08-07 19:10:35Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Create Annotation Tag.dyf
+2018-08-07 19:10:35Z : Original file 'Create Annotation Tag.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Create Annotation Tag.dyf.11.backup'
+2018-08-07 19:10:35Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Document.ActiveViewFromCurrentDocument.dyf
+2018-08-07 19:10:35Z : Original file 'Document.ActiveViewFromCurrentDocument.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\Document.ActiveViewFromCurrentDocument.dyf.9.backup'
+2018-08-07 19:10:35Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\Doc.ActiveView.dyf
+2018-08-07 19:10:35Z : Original file 'Doc.ActiveView.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\backup\Doc.ActiveView.dyf.14.backup'
+2018-08-07 19:10:35Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 19:10:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:10:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:11:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:11:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:12:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:12:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:13:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:13:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:14:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:14:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:15:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:15:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:16:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:16:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:17:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:17:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:18:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:18:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:19:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:19:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:20:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:20:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:21:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:21:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:22:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:22:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:23:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:23:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:24:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:24:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:25:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:25:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:26:45Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\List.MatchWithKeyValues.dyf
+2018-08-07 19:26:45Z : Original file 'List.MatchWithKeyValues.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\List.MatchWithKeyValues.dyf.1.backup'
+2018-08-07 19:26:45Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\TurnIntoList.dyf
+2018-08-07 19:26:45Z : Original file 'TurnIntoList.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\TurnIntoList.dyf.65.backup'
+2018-08-07 19:26:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:26:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:27:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:27:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:28:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:28:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:29:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:29:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:30:54Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\LunchBox for Dynamo\dyf\LunchBox List Matcher.dyf
+2018-08-07 19:30:54Z : Original file 'LunchBox List Matcher.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\LunchBox for Dynamo\dyf\backup\LunchBox List Matcher.dyf.1.backup'
+2018-08-07 19:30:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:30:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:31:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-07 19:31:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-07 19:32:29Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Tag Elements\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:32:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:32:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:33:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:33:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:34:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:34:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:35:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:35:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:36:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:36:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:37:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:37:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:38:08Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-08-07 19:38:10Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 19:38:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:38:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:39:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:39:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:40:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:40:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:41:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:41:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:42:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:42:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:43:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:43:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:44:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:44:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:45:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:45:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:46:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:46:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:47:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:47:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:48:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:48:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:50:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:50:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:50:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:50:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:51:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:51:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:52:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:52:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:53:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:53:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:54:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:54:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:55:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:55:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:56:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:56:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:57:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:57:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:58:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:58:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 19:59:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 19:59:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:00:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:00:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:01:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:01:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:02:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:02:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:03:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:03:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:04:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:04:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:05:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:05:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:06:54Z : Active view is now Unnamed
+2018-08-07 20:06:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:06:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:07:05Z : Active view is now Unnamed
+2018-08-07 20:07:15Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-07 20:07:22Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC Copy 1
+2018-08-07 20:07:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:07:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:08:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:08:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:09:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:09:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:10:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:10:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:12:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:12:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:12:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:12:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:13:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:13:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:14:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:14:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:15:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:15:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:16:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:16:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:17:59Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:17:59Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:18:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:18:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:19:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:19:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:20:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:20:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:21:42Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 20:21:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:21:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:22:25Z : Active view is now FIRST FLOOR - WORK
+2018-08-07 20:22:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:22:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:23:16Z : Active view is now Section 2
+2018-08-07 20:23:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:23:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:23:59Z : Active view is now FIRST FLOOR - WORK
+2018-08-07 20:24:54Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-07 20:24:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:24:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:25:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:25:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:26:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:26:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:27:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:27:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:28:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:28:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:29:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:29:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:30:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:30:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:31:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:31:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:32:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:32:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:33:46Z : Active view is now 124 - FIRST FLOOR TELCOM PLAN HOST - DOC
+2018-08-07 20:33:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:33:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:34:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:34:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:35:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:35:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:36:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:36:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:37:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:37:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:38:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:38:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:39:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-08-07 20:39:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-08-07 20:40:21Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-08-07 20:40:21Z : Goodbye

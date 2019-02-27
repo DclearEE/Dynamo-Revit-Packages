@@ -1,0 +1,200 @@
+Dynamo log started 2018-09-12 19:16:22Z
+2018-09-12 19:16:22Z : Dynamo -- Build 1.3.2.2480
+2018-09-12 19:16:22Z : Duplicate migration type registered for SunPathDirection
+2018-09-12 19:16:24Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-09-12 19:16:24Z : System.InvalidOperationException:
+2018-09-12 19:16:24Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-09-12 19:16:24Z : 
+2018-09-12 19:16:28Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-09-12 19:16:28Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-09-12 19:16:28Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-09-12 19:16:28Z : RENDER : Rendering Tier: 2
+2018-09-12 19:16:28Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-12 19:16:28Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-12 19:16:28Z : RENDER : Software Effect Rendering Supported: True
+2018-09-12 19:16:28Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-12 19:16:28Z : RENDER : Rendering Tier: 2
+2018-09-12 19:16:28Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-12 19:16:28Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-12 19:16:28Z : RENDER : Software Effect Rendering Supported: True
+2018-09-12 19:16:28Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-12 19:16:28Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-09-12 19:16:28Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-09-12 19:16:28Z : Welcome to Dynamo!
+2018-09-12 19:16:28Z : 00:00:00.2605013 elapsed for loading Dynamo main window.
+2018-09-12 19:16:29Z : WPF Render Mode: SoftwareOnly
+2018-09-12 19:16:47Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\View.Phase.dyf
+2018-09-12 19:16:47Z : Original file 'View.Phase.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\View.Phase.dyf.4.backup'
+2018-09-12 19:16:48Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\ReturnListOrSingleValue.dyf
+2018-09-12 19:16:48Z : Original file 'ReturnListOrSingleValue.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\ReturnListOrSingleValue.dyf.31.backup'
+2018-09-12 19:16:48Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\TurnIntoList.dyf
+2018-09-12 19:16:48Z : Original file 'TurnIntoList.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\TurnIntoList.dyf.84.backup'
+2018-09-12 19:16:48Z : Active view is now EFO 118 - FIRST FLOOR POWER PLAN
+2018-09-12 19:17:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:17:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:18:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:18:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:19:29Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:19:29Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:20:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:20:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:21:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:21:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:22:14Z : Active view is now SCHEDULES                                          PDU DISTRIBUTION
+2018-09-12 19:22:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:22:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:23:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:23:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:24:16Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:24:17Z : Active view is now FIRST FLOOR POWER PLAN
+2018-09-12 19:24:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:24:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:25:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:25:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:26:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:26:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:27:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:27:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:28:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:28:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:28:57Z : Active view is now SCHEDULES                                          PDU DISTRIBUTION
+2018-09-12 19:29:26Z : Active view is now FIRST FLOOR POWER PLAN
+2018-09-12 19:29:27Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:29:29Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:29:29Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:29:49Z : Active view is now FIRST FLOOR POWER PLAN
+2018-09-12 19:29:51Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:30:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:30:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:31:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:31:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:31:58Z : Active view is now FIRST FLOOR POWER PLAN
+2018-09-12 19:32:00Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:32:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:32:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:33:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:33:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:33:48Z : Active view is now CLOSING VIEW
+2018-09-12 19:33:48Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:34:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:34:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:35:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:35:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:35:37Z : Active view is now RACK ELEVATION DETAILS - ASH 7 BDF 11 ROW  F
+2018-09-12 19:35:37Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:35:40Z : Active view is now CLOSING VIEW
+2018-09-12 19:35:40Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:36:08Z : Active view is now ASH 9 TYPICAL SERVER ROW SECTION DETAIL
+2018-09-12 19:36:08Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:36:20Z : Active view is now CLOSING VIEW
+2018-09-12 19:36:20Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:36:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:36:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:36:31Z : Active view is now Temp. Level 1
+2018-09-12 19:36:31Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:37:00Z : Active view is now Sheet
+2018-09-12 19:37:00Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:37:10Z : Active view is now Temp. Level 1
+2018-09-12 19:37:10Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:37:11Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:37:25Z : Active view is now Sheet
+2018-09-12 19:37:25Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:37:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:37:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:37:48Z : Active view is now Temp. Level 1
+2018-09-12 19:37:48Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:37:49Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:38:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:38:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:38:53Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:39:19Z : Active view is now Temp. Level 1
+2018-09-12 19:39:19Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:39:26Z : Active view is now Sheet
+2018-09-12 19:39:26Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:39:29Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:39:29Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:39:32Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:39:40Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:39:47Z : Active view is now Sheet
+2018-09-12 19:39:47Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:39:51Z : Active view is now Temp. Level 1
+2018-09-12 19:39:51Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:39:51Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:39:52Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:39:54Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:39:55Z : Active view is now CLOSING VIEW
+2018-09-12 19:39:55Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:39:57Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:39:58Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:39:59Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:40:01Z : Active view is now Sheet
+2018-09-12 19:40:01Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:40:05Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:40:06Z : Active view is now TYPICAL BDF ROW - PLAN SOUTH SECTION
+2018-09-12 19:40:08Z : Active view is now Sheet
+2018-09-12 19:40:08Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:40:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:40:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:41:15Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:41:20Z : Active view is now Temp. Level 1
+2018-09-12 19:41:20Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:41:23Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:41:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:41:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:41:49Z : Active view is now Sheet
+2018-09-12 19:41:49Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:42:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:42:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:42:40Z : Active view is now Temp. Level 1
+2018-09-12 19:42:40Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:42:48Z : Active view is now Sheet
+2018-09-12 19:42:48Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:43:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:43:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:44:16Z : Active view is now Temp. Level 1
+2018-09-12 19:44:16Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:44:24Z : Active view is now Sheet
+2018-09-12 19:44:24Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:44:28Z : Active view is now Temp. Level 1
+2018-09-12 19:44:28Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:44:28Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:44:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:44:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:44:30Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:44:31Z : Active view is now Temp. Level 1
+2018-09-12 19:44:31Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:44:38Z : Active view is now Sheet
+2018-09-12 19:44:38Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:44:58Z : Active view is now Temp. Level 1
+2018-09-12 19:44:58Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:44:59Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:45:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:45:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:46:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:46:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:47:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:47:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:47:34Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:48:10Z : Active view is now Temp. Level 1
+2018-09-12 19:48:10Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-09-12 19:48:24Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:48:27Z : Active view is now TYPICAL BDF ROW - PLAN SOUTH SECTION
+2018-09-12 19:48:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:48:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:49:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:49:29Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:50:32Z : Active view is now FIRST FLOOR POWER PLAN
+2018-09-12 19:50:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:50:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:50:47Z : Active view is now FIRST FLOOR GROUNDING PLAN
+2018-09-12 19:51:29Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:51:29Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:51:39Z : Active view is now FIRST FLOOR POWER PLAN
+2018-09-12 19:51:43Z : Active view is now PART PLANS AND SECTIONS - MDF AND BDF
+2018-09-12 19:52:29Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:52:29Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:53:29Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-09-12 19:53:29Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-09-12 19:54:03Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\FindAndReplaceParameters\FindAndReplaceParameters.dyn ...
+2018-09-12 19:54:03Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-09-12 19:54:03Z : Goodbye

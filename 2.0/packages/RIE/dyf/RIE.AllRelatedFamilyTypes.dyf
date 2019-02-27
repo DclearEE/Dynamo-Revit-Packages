@@ -1,0 +1,90 @@
+<Workspace Version="1.3.3.4651" X="424.88831973671" Y="141.3826951488" zoom="1.29289109579114" ScaleFactor="1" Name="RIE.AllRelatedFamilyTypes" Description="Input a family type, and get all the family types that belongs to the family." ID="e517d3d5-561f-4c7a-b6a1-71b4c8330638" Category="RIE.Elements">
+  <NamespaceResolutionMap>
+    <ClassMap partialName="FamilyType" resolvedName="Revit.Elements.FamilyType" assemblyName="RevitNodes.dll" />
+  </NamespaceResolutionMap>
+  <Elements>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="777b29ea-417e-45d4-881e-5084a6a8fcc8" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="29" y="-2" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="familyType : FamilyType" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+    <Dynamo.Graph.Nodes.CustomNodes.Output guid="7a120301-312f-4a43-bfc5-be8732ce1c43" type="Dynamo.Graph.Nodes.CustomNodes.Output" nickname="Output" x="694.440826543605" y="-1" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <Symbol value="familyType" />
+    </Dynamo.Graph.Nodes.CustomNodes.Output>
+    <PythonNodeModels.PythonNode guid="b1e4f798-29e4-4892-9b01-e9bba12b80bc" type="PythonNodeModels.PythonNode" nickname="Python Script" x="519.393752605721" y="20.8234350569424" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="2">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <Script># BORROWED FROM MEPOver Package by TPover (Fanily types of family)
+
+import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+
+# Import DocumentManager and TransactionManager
+clr.AddReference("RevitServices")
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+
+if IN[1] != None:
+	doc = UnwrapElement(IN[1])
+else:
+	doc = DocumentManager.Instance.CurrentDBDocument
+
+#The inputs to this node will be stored as a list in the IN variables.
+if isinstance(IN[0], list):
+	toggle = 0
+	family = UnwrapElement(IN[0])
+else:
+	toggle = 1
+	family = [UnwrapElement(IN[0])]
+
+listout = []
+for fam in family:
+	ids = fam.GetFamilySymbolIds()
+	types = []
+	for i in ids:
+		type = doc.GetElement(i)
+		types.append(type)
+	listout.append(types)
+
+#Assign your output to the OUT variable.
+if toggle == 0:
+	OUT = listout
+else:
+	OUT = types
+
+if len(OUT) == 1:
+	OUT = OUT[0]</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid="03c3d94a-b2a9-4f4e-9c39-535e24353cca" type="Dynamo.Graph.Nodes.ZeroTouch.DSFunction" nickname="FamilyType.Family" x="274.405417039971" y="-7.59061242867853" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false" assembly="RevitNodes.dll" function="Revit.Elements.FamilyType.Family">
+      <PortInfo index="0" default="False" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSFunction>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="4b25333d-f714-43de-b06e-4d309b8096d4" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="RIE.LinkDocFromLink" x="260.806064135394" y="81.1783877374573" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <ID value="d04f09ff-a04d-42d6-980e-f9fc98e163df" />
+      <Name value="RIE.LinkDocFromLink" />
+      <Description value="Retrieves link Document element from link element." />
+      <Inputs>
+        <Input value="LinkInstance" />
+      </Inputs>
+      <Outputs>
+        <Output value="LinkDoc" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="2fa65acd-cc99-4d1a-aab8-f0c38fb5725b" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="14.304253342101" y="81.5337178448997" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="LinkOptional : var = null" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="777b29ea-417e-45d4-881e-5084a6a8fcc8" start_index="0" end="03c3d94a-b2a9-4f4e-9c39-535e24353cca" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="b1e4f798-29e4-4892-9b01-e9bba12b80bc" start_index="0" end="7a120301-312f-4a43-bfc5-be8732ce1c43" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="03c3d94a-b2a9-4f4e-9c39-535e24353cca" start_index="0" end="b1e4f798-29e4-4892-9b01-e9bba12b80bc" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="4b25333d-f714-43de-b06e-4d309b8096d4" start_index="0" end="b1e4f798-29e4-4892-9b01-e9bba12b80bc" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="2fa65acd-cc99-4d1a-aab8-f0c38fb5725b" start_index="0" end="4b25333d-f714-43de-b06e-4d309b8096d4" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>

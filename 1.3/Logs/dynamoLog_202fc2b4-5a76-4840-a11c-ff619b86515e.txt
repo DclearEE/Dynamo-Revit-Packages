@@ -1,0 +1,67 @@
+Dynamo log started 2018-12-21 15:43:09Z
+2018-12-21 15:43:11Z : Dynamo -- Build 1.3.2.2480
+2018-12-21 15:43:12Z : Duplicate migration type registered for SunPathDirection
+2018-12-21 15:43:13Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-12-21 15:43:14Z : System.InvalidOperationException:
+2018-12-21 15:43:14Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-12-21 15:43:14Z : 
+2018-12-21 15:43:18Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-12-21 15:43:18Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-12-21 15:43:18Z : SYSTEM:Environment Path:C:\Users\dcleary\AppData\Roaming\pyRevit-Master\bin\lib\win32\x64;C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\\bin;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-12-21 15:43:18Z : RENDER : Rendering Tier: 2
+2018-12-21 15:43:18Z : RENDER : Pixel Shader 3 Supported: True
+2018-12-21 15:43:18Z : RENDER : Pixel Shader 4 Supported: False
+2018-12-21 15:43:18Z : RENDER : Software Effect Rendering Supported: True
+2018-12-21 15:43:18Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-12-21 15:43:19Z : RENDER : Rendering Tier: 2
+2018-12-21 15:43:19Z : RENDER : Pixel Shader 3 Supported: True
+2018-12-21 15:43:19Z : RENDER : Pixel Shader 4 Supported: False
+2018-12-21 15:43:19Z : RENDER : Software Effect Rendering Supported: True
+2018-12-21 15:43:19Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-12-21 15:43:19Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-12-21 15:43:19Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-12-21 15:43:20Z : Welcome to Dynamo!
+2018-12-21 15:43:20Z : 00:00:00.7737785 elapsed for loading Dynamo main window.
+2018-12-21 15:43:21Z : WPF Render Mode: SoftwareOnly
+2018-12-21 15:44:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-12-21 15:44:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-12-21 15:44:39Z : Clearing workspace...
+2018-12-21 15:46:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-12-21 15:46:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-12-21 15:47:01Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Room Names\Find Rooms By Name.dyn ...
+2018-12-21 15:47:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn ...
+2018-12-21 15:47:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn
+2018-12-21 15:48:11Z : Active view is now OVERALL YARD PLAN
+2018-12-21 15:48:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn ...
+2018-12-21 15:48:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn
+2018-12-21 15:48:30Z : Active view is now SECOND FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-12-21 15:49:14Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Get Built In Parameter.dyf
+2018-12-21 15:49:14Z : Original file 'Get Built In Parameter.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Get Built In Parameter.dyf.0.backup'
+2018-12-21 15:49:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn ...
+2018-12-21 15:49:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn
+2018-12-21 15:50:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn ...
+2018-12-21 15:50:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn
+2018-12-21 15:50:29Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\GetParameterAsValueString.dyf
+2018-12-21 15:50:29Z : Original file 'GetParameterAsValueString.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\backup\GetParameterAsValueString.dyf.1.backup'
+2018-12-21 15:51:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn ...
+2018-12-21 15:51:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn
+2018-12-21 15:52:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn ...
+2018-12-21 15:52:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn
+2018-12-21 15:53:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn ...
+2018-12-21 15:53:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn
+2018-12-21 15:53:58Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\LunchBox for Dynamo\dyf\LunchBox Get Parameter Value.dyf
+2018-12-21 15:54:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn ...
+2018-12-21 15:54:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn
+2018-12-21 15:55:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn ...
+2018-12-21 15:55:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn
+2018-12-21 15:56:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn ...
+2018-12-21 15:56:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn
+2018-12-21 15:57:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn ...
+2018-12-21 15:57:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn
+2018-12-21 15:58:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn ...
+2018-12-21 15:58:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn
+2018-12-21 15:59:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn ...
+2018-12-21 15:59:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Find Rooms By Name.dyn
+2018-12-21 15:59:38Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Room Names\Find Rooms By Name.dyn ...
+2018-12-21 15:59:39Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-12-21 15:59:39Z : Goodbye

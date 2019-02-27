@@ -1,0 +1,140 @@
+Dynamo log started 2019-02-21 15:04:04Z
+2019-02-21 15:04:06Z : RequestUpdateVersionInfo
+2019-02-21 15:04:06Z : Requesting version update info...
+2019-02-21 15:04:06Z : Dynamo -- Build 1.3.2.2480
+2019-02-21 15:04:06Z : Duplicate migration type registered for SunPathDirection
+2019-02-21 15:04:07Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2019-02-21 15:04:07Z : Successfully uninstalled package from "C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE"
+2019-02-21 15:04:08Z : System.InvalidOperationException:
+2019-02-21 15:04:08Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2019-02-21 15:04:08Z : 
+2019-02-21 15:04:13Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2019-02-21 15:04:13Z : Backup files timer is started with an interval of 60000 milliseconds
+2019-02-21 15:04:13Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\\bin;C:\Users\dcleary\AppData\Local\GitHubDesktop\bin;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2019-02-21 15:04:13Z : RENDER : Rendering Tier: 2
+2019-02-21 15:04:13Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-21 15:04:13Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-21 15:04:13Z : RENDER : Software Effect Rendering Supported: True
+2019-02-21 15:04:13Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-21 15:04:13Z : RENDER : Rendering Tier: 2
+2019-02-21 15:04:13Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-21 15:04:13Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-21 15:04:13Z : RENDER : Software Effect Rendering Supported: True
+2019-02-21 15:04:13Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-21 15:04:14Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2019-02-21 15:04:14Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2019-02-21 15:04:14Z : Welcome to Dynamo!
+2019-02-21 15:04:14Z : 00:00:00.6411849 elapsed for loading Dynamo main window.
+2019-02-21 15:04:15Z : WPF Render Mode: SoftwareOnly
+2019-02-21 15:04:15Z : Update available: 2.0.2.0
+2019-02-21 15:04:15Z : Update download started...
+2019-02-21 15:04:15Z : Update download progress: 0%
+2019-02-21 15:04:18Z : Update download progress: 10%
+2019-02-21 15:04:22Z : Update download progress: 20%
+2019-02-21 15:04:27Z : Update download progress: 30%
+2019-02-21 15:04:32Z : Update download progress: 40%
+2019-02-21 15:04:35Z : Update download progress: 50%
+2019-02-21 15:04:40Z : Update download progress: 60%
+2019-02-21 15:04:45Z : Update download progress: 70%
+2019-02-21 15:04:49Z : Update download progress: 80%
+2019-02-21 15:04:51Z : Unable to create instance of custom node with id: \"42e2c8c4-1dba-4a24-aaae-5f5a52f94a1f"
+2019-02-21 15:04:51Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-21 15:04:54Z : Update download progress: 90%
+2019-02-21 15:04:59Z : Update download progress: 100%
+2019-02-21 15:04:59Z : Update download complete.
+2019-02-21 15:04:59Z : Successful
+2019-02-21 15:04:59Z : Update download complete.
+2019-02-21 15:06:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:06:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:07:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:07:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:08:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:08:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:09:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:09:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:09:39Z : IronPython.Runtime.UnboundNameException: name 'IN' is not defined
+   at IronPython.Runtime.Operations.PythonOps.GetVariable(CodeContext context, String name, Boolean isGlobal, Boolean lightThrow)
+   at IronPython.Compiler.LookupGlobalInstruction.Run(InterpretedFrame frame)
+   at Microsoft.Scripting.Interpreter.Interpreter.Run(InterpretedFrame frame)
+   at Microsoft.Scripting.Interpreter.LightLambda.Run2[T0,T1,TRet](T0 arg0, T1 arg1)
+   at IronPython.Compiler.PythonScriptCode.RunWorker(CodeContext ctx)
+   at IronPython.Compiler.PythonScriptCode.EvalWrapper(CodeContext ctx)
+   at Microsoft.Scripting.Hosting.ScriptSource.Execute(ScriptScope scope)
+   at Dynamo.Python.IronPythonCompletionProvider.TryGetType(String name)
+2019-02-21 15:09:39Z : Failed to look up type
+2019-02-21 15:10:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:10:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:11:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:11:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:12:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:12:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:13:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:13:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:13:20Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\PlaceViewsOnSheets\get location.dyn ...
+2019-02-21 15:13:20Z : Clearing workspace...
+2019-02-21 15:13:38Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Element.CopyByVector.dyf
+2019-02-21 15:13:38Z : Original file 'Element.CopyByVector.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\Element.CopyByVector.dyf.0.backup'
+2019-02-21 15:13:38Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\TurnIntoList.dyf
+2019-02-21 15:13:38Z : Original file 'TurnIntoList.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\TurnIntoList.dyf.5.backup'
+2019-02-21 15:13:38Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-21 15:14:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2019-02-21 15:14:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2019-02-21 15:15:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2019-02-21 15:15:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2019-02-21 15:16:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2019-02-21 15:16:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2019-02-21 15:17:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2019-02-21 15:17:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2019-02-21 15:17:42Z : Clearing workspace...
+2019-02-21 15:17:44Z : Unable to create instance of custom node with id: \"42e2c8c4-1dba-4a24-aaae-5f5a52f94a1f"
+2019-02-21 15:17:44Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-21 15:18:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:18:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:19:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:19:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:20:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:20:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:21:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:21:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:22:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:22:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:23:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:23:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:24:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:24:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:25:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:25:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:25:56Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\PlaceViewsOnSheets\get location.dyn ...
+2019-02-21 15:25:56Z : Clearing workspace...
+2019-02-21 15:25:59Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-21 15:26:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-21 15:26:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-21 15:26:37Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\FindAndReplaceParameters\FindPanelByName v1.3.2.dyn ...
+2019-02-21 15:26:37Z : Clearing workspace...
+2019-02-21 15:26:38Z : Unable to create instance of custom node with id: \"42e2c8c4-1dba-4a24-aaae-5f5a52f94a1f"
+2019-02-21 15:26:38Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-21 15:27:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:27:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:28:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:28:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:29:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:29:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:30:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:30:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:31:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:31:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:31:17Z : IronPython.Runtime.UnboundNameException: name 'dataEnteringNode' is not defined
+   at IronPython.Runtime.Operations.PythonOps.GetVariable(CodeContext context, String name, Boolean isGlobal, Boolean lightThrow)
+   at IronPython.Compiler.LookupGlobalInstruction.Run(InterpretedFrame frame)
+   at Microsoft.Scripting.Interpreter.Interpreter.Run(InterpretedFrame frame)
+   at Microsoft.Scripting.Interpreter.LightLambda.Run2[T0,T1,TRet](T0 arg0, T1 arg1)
+   at IronPython.Compiler.PythonScriptCode.RunWorker(CodeContext ctx)
+   at IronPython.Compiler.PythonScriptCode.EvalWrapper(CodeContext ctx)
+   at Microsoft.Scripting.Hosting.ScriptSource.Execute(ScriptScope scope)
+   at Dynamo.Python.IronPythonCompletionProvider.TryGetType(String name)
+2019-02-21 15:31:17Z : Failed to look up type
+2019-02-21 15:32:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn ...
+2019-02-21 15:32:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\get location.dyn
+2019-02-21 15:33:00Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\PlaceViewsOnSheets\get location.dyn ...
+2019-02-21 15:33:00Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2019-02-21 15:33:00Z : Goodbye

@@ -1,0 +1,256 @@
+Dynamo log started 2018-08-31 18:21:53Z
+2018-08-31 18:21:53Z : 
+2018-08-31 18:21:55Z : RequestUpdateVersionInfo
+2018-08-31 18:21:55Z : Requesting version update info...
+2018-08-31 18:21:55Z : Dynamo -- Build 2.0.1.5055
+2018-08-31 18:21:55Z : Duplicate migration type registered for SunPathDirection
+2018-08-31 18:21:57Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-08-31 18:21:57Z : System.InvalidOperationException:
+2018-08-31 18:21:57Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-08-31 18:21:57Z : 
+2018-08-31 18:22:00Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-08-31 18:22:00Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-08-31 18:22:00Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\2\
+2018-08-31 18:22:00Z : RENDER : Rendering Tier: 2
+2018-08-31 18:22:00Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-31 18:22:00Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-31 18:22:00Z : RENDER : Software Effect Rendering Supported: True
+2018-08-31 18:22:00Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-31 18:22:00Z : RENDER : Rendering Tier: 2
+2018-08-31 18:22:00Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-31 18:22:00Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-31 18:22:00Z : RENDER : Software Effect Rendering Supported: True
+2018-08-31 18:22:00Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-31 18:22:01Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-08-31 18:22:01Z : LibraryUI (id: 85941358-5525-4FF4-8D61-6CA831F122AB) view extension is added
+2018-08-31 18:22:01Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-08-31 18:22:01Z : PackageManagerViewExtension (id: 100f5ec3-fde7-4205-80a7-c968b3a5a27b) view extension is added
+2018-08-31 18:22:01Z : Welcome to Dynamo!
+2018-08-31 18:22:01Z : 00:00:00.7265523 elapsed for loading Dynamo main window.
+2018-08-31 18:22:02Z : WPF Render Mode: SoftwareOnly
+2018-08-31 18:22:03Z : Dynamo is up to date.
+2018-08-31 18:22:03Z : ERR_ABORTED
+2018-08-31 18:22:04Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\spring nodes\dyf\Element.GetParameterUnitValue.dyf
+2018-08-31 18:22:04Z : Original file 'Element.GetParameterUnitValue.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\spring nodes\dyf\backup\Element.GetParameterUnitValue.dyf.1.backup'
+2018-08-31 18:22:04Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\archi-lab.net\dyf\Key Schedule.dyf
+2018-08-31 18:22:04Z : Original file 'Key Schedule.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\archi-lab.net\dyf\backup\Key Schedule.dyf.1.backup'
+2018-08-31 18:22:04Z : Active view is now ID Start/Save View
+2018-08-31 18:23:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:23:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:23:10Z : ViewExtensionCommandExecutive ( UniqueId: 41f6fc3a-828e-4754-9242-181a032e7f73, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 18:24:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:24:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:24:00Z : ViewExtensionCommandExecutive ( UniqueId: 243f555c-3293-49e1-b6c8-84fcff529de5, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 18:25:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:25:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:26:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:26:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:27:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:27:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:28:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:28:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:28:03Z : Microsoft.Scripting.SyntaxErrorException: unexpected token ')'
+   at Microsoft.Scripting.ErrorSink.Add(SourceUnit source, String message, SourceSpan span, Int32 errorCode, Severity severity)
+   at IronPython.Compiler.Parser.ReportSyntaxError(Int32 start, Int32 end, String message, Int32 errorCode)
+   at IronPython.Compiler.Parser.ReportSyntaxError(Token t, IndexSpan span, Int32 errorCode, Boolean allowIncomplete)
+   at IronPython.Compiler.Parser.ReportSyntaxError(TokenWithSpan t, Int32 errorCode)
+   at IronPython.Compiler.Parser.EatEndOfInput()
+   at IronPython.Compiler.Parser.ParseTestListAsExpression()
+   at IronPython.Compiler.Parser.ParseTopExpression()
+   at IronPython.Runtime.PythonContext.ParseAndBindAst(CompilerContext context)
+   at IronPython.Runtime.PythonContext.CompilePythonCode(SourceUnit sourceUnit, CompilerOptions options, ErrorSink errorSink)
+   at IronPython.Runtime.PythonContext.CompileSourceCode(SourceUnit sourceUnit, CompilerOptions options, ErrorSink errorSink)
+   at Microsoft.Scripting.SourceUnit.Execute(Scope scope, ErrorSink errorSink)
+   at Microsoft.Scripting.Hosting.ScriptSource.Execute(ScriptScope scope)
+   at Dynamo.Python.IronPythonCompletionProvider.TryGetType(String name)
+2018-08-31 18:28:03Z : Failed to look up type
+2018-08-31 18:29:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:29:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:30:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:30:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:30:33Z : ViewExtensionCommandExecutive ( UniqueId: 1f4cf9d9-dc8d-43a7-82c5-2e25ac367508, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 18:31:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:31:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:32:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:32:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:32:46Z : ViewExtensionCommandExecutive ( UniqueId: 85b2cf65-8e16-4564-b419-8c4bdaa3d893, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 18:33:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:33:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:34:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:34:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:35:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:35:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:36:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:36:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:37:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:37:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:37:10Z : ViewExtensionCommandExecutive ( UniqueId: 2e78264a-0c50-49ef-8a24-346c7166e8de, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 18:37:16Z : ViewExtensionCommandExecutive ( UniqueId: c3d46197-d8a9-46a3-ba14-72afecf9fdc4, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 18:37:27Z : ViewExtensionCommandExecutive ( UniqueId: 8c917e33-f1b4-4fe3-a9a7-0e9a49c91b96, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 18:38:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:38:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:38:46Z : ViewExtensionCommandExecutive ( UniqueId: d49e5ace-9caa-45a0-bf3a-3e433ba6f7af, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 18:39:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:39:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:39:15Z : ViewExtensionCommandExecutive ( UniqueId: 9d4d1522-2220-4944-ae13-f90e86fcc0e4, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 18:40:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:40:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:40:14Z : ViewExtensionCommandExecutive ( UniqueId: b5aebdf4-07b6-44c8-abde-4ce92d450061, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 18:40:50Z : ViewExtensionCommandExecutive ( UniqueId: a489956d-71cf-46ac-8e87-a16e8fdae4ba, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 18:41:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:41:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:42:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:42:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:43:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:43:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:44:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:44:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:45:08Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:45:08Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:46:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:46:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:47:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:47:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:48:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:48:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:49:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:49:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:50:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:50:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:51:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:51:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:52:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:52:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:53:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:53:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:54:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:54:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:55:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:55:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:56:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:56:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:57:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:57:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:58:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:58:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:58:22Z : ViewExtensionCommandExecutive ( UniqueId: 0f515b61-dc6b-44b9-9662-78f7d54b09a5, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 18:58:58Z : ViewExtensionCommandExecutive ( UniqueId: 93acd12f-c749-4b88-807d-70a58573d364, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 18:59:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 18:59:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 18:59:50Z : ViewExtensionCommandExecutive ( UniqueId: 65c47729-1ed1-47e0-9a14-e05c8717e4fd, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:00:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:00:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:01:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:01:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:02:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:02:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:03:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:03:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:04:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:04:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:05:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:05:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:06:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:06:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:07:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:07:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:08:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:08:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:08:45Z : ViewExtensionCommandExecutive ( UniqueId: 002a8282-dd62-463e-8565-3127e20676b2, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:08:45Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\RIE\dyf\RIE.SelectElementById.dyf
+2018-08-31 19:08:45Z : Original file 'RIE.SelectElementById.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\RIE\dyf\backup\RIE.SelectElementById.dyf.0.backup'
+2018-08-31 19:09:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:09:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:09:38Z : ViewExtensionCommandExecutive ( UniqueId: 82d666f6-2c92-4de7-ad3e-1446a330c191, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:09:55Z : ViewExtensionCommandExecutive ( UniqueId: 57dc56a0-3a4c-415e-9215-ba878a7a4d20, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:10:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:10:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:11:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:11:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:11:40Z : Active view is now ID Start/Save View
+2018-08-31 19:12:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:12:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:12:34Z : ViewExtensionCommandExecutive ( UniqueId: fce973d7-7918-4dd0-a29e-15f2e38bfd13, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:12:58Z : ViewExtensionCommandExecutive ( UniqueId: c5c75f81-abe4-4dbe-b5c2-4c6a150e451d, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:13:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:13:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:13:41Z : Active view is now ID Start/Save View
+2018-08-31 19:13:49Z : Active view is now ID Start/Save View
+2018-08-31 19:14:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:14:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:14:35Z : ViewExtensionCommandExecutive ( UniqueId: 0da75e13-4eca-4127-b8be-70b8cfb13f31, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:15:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:15:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:16:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:16:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:17:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:17:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:18:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:18:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:18:14Z : ViewExtensionCommandExecutive ( UniqueId: 05087069-4319-43c0-a1ad-7f1804908669, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:18:30Z : ViewExtensionCommandExecutive ( UniqueId: 55342b50-11df-4389-b004-dda1e656d1c7, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:18:33Z : ViewExtensionCommandExecutive ( UniqueId: 8157786a-9797-4ef9-bf9a-e97905bbc70f, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:18:48Z : ViewExtensionCommandExecutive ( UniqueId: 4f217b1f-dfcd-4241-a498-eda207531579, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:19:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:19:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:20:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:20:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:20:44Z : ViewExtensionCommandExecutive ( UniqueId: 96fc0bd3-6688-4aad-9981-e992e8a05cd1, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:20:58Z : ViewExtensionCommandExecutive ( UniqueId: 1a8d78ab-39e5-4bf3-a844-c1795a49dc9b, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:20:58Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\BumbleBee\dyf\Read Excel.dyf
+2018-08-31 19:20:58Z : Original file 'Read Excel.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\BumbleBee\dyf\backup\Read Excel.dyf.0.backup'
+2018-08-31 19:21:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:21:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:22:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:22:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:22:27Z : ViewExtensionCommandExecutive ( UniqueId: c1651ea6-e6af-44f8-bef6-f5cd751a83b4, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:23:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:23:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:24:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:24:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:25:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:25:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:25:05Z : ViewExtensionCommandExecutive ( UniqueId: 56ddf3c3-dd65-497f-bbca-7c701b47a401, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:25:25Z : ViewExtensionCommandExecutive ( UniqueId: 807dfea6-d9c2-441a-8908-a2018a23e1a3, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:25:25Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\DynamoAI\dyf\ReadTrainingData.dyf
+2018-08-31 19:25:25Z : Original file 'ReadTrainingData.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\DynamoAI\dyf\backup\ReadTrainingData.dyf.0.backup'
+2018-08-31 19:26:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:26:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:26:06Z : ViewExtensionCommandExecutive ( UniqueId: 1094ebbf-df0e-42bb-aa13-9b498ca32d34, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:26:50Z : ViewExtensionCommandExecutive ( UniqueId: 853f7fa6-f99c-430e-a0ae-9085d4215f06, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:27:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:27:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:27:45Z : ViewExtensionCommandExecutive ( UniqueId: 0468fcbb-2fe0-446b-9295-2948ea3f27c5, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:28:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:28:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:29:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:29:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:30:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:30:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:31:12Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:31:12Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:32:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:32:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:32:38Z : ViewExtensionCommandExecutive ( UniqueId: bb920a37-c136-400b-be61-9144239263e1, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:33:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:33:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:34:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:34:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:35:00Z : ViewExtensionCommandExecutive ( UniqueId: ff93359e-69fa-474e-aa2d-f47861290807, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:35:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:35:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:35:18Z : ViewExtensionCommandExecutive ( UniqueId: fed192ba-7169-43e2-b270-079a3d330eab, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:35:18Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\spring nodes\dyf\List.DropFirstLast.dyf
+2018-08-31 19:35:18Z : Original file 'List.DropFirstLast.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\spring nodes\dyf\backup\List.DropFirstLast.dyf.0.backup'
+2018-08-31 19:35:56Z : ViewExtensionCommandExecutive ( UniqueId: 0cfc968d-b41d-4f56-b3a1-cb6cbe38aace, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-08-31 19:36:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:36:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:36:46Z : !! Warning: The Power System "25" is empty and will be deleted.
+2018-08-31 19:36:46Z : !! Warning: An error occurred in family "ID MECH CONNECTION" that cannot be automatically resolved.
+Error Information:
+"The value for Power Factor must be between 0 and 1."
+2018-08-31 19:37:01Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-08-31 19:37:01Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-08-31 19:37:01Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\ExcelLink\Mech Connection Parameters.dyn ...
+2018-08-31 19:37:03Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-08-31 19:37:03Z : Goodbye

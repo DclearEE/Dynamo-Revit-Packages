@@ -1,0 +1,43 @@
+Dynamo log started 2018-09-13 19:11:08Z
+2018-09-13 19:11:10Z : Dynamo -- Build 1.3.2.2480
+2018-09-13 19:11:10Z : Duplicate migration type registered for SunPathDirection
+2018-09-13 19:11:12Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-09-13 19:11:12Z : System.InvalidOperationException:
+2018-09-13 19:11:12Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-09-13 19:11:12Z : 
+2018-09-13 19:11:17Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-09-13 19:11:17Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-09-13 19:11:17Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-09-13 19:11:17Z : RENDER : Rendering Tier: 2
+2018-09-13 19:11:17Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-13 19:11:17Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-13 19:11:17Z : RENDER : Software Effect Rendering Supported: True
+2018-09-13 19:11:17Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-13 19:11:17Z : RENDER : Rendering Tier: 2
+2018-09-13 19:11:17Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-13 19:11:17Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-13 19:11:17Z : RENDER : Software Effect Rendering Supported: True
+2018-09-13 19:11:17Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-13 19:11:18Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-09-13 19:11:18Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-09-13 19:11:18Z : Welcome to Dynamo!
+2018-09-13 19:11:18Z : 00:00:00.9161965 elapsed for loading Dynamo main window.
+2018-09-13 19:11:19Z : WPF Render Mode: SoftwareOnly
+2018-09-13 19:11:50Z : Clearing workspace...
+2018-09-13 19:12:07Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\Collector.LinkedInstanceElements.dyf
+2018-09-13 19:12:15Z : Clearing workspace...
+2018-09-13 19:12:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-09-13 19:12:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-09-13 19:12:24Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\LunchBox for Dynamo\dyf\LunchBox Get Parameter Value.dyf
+2018-09-13 19:12:24Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\List.CountOccurences.dyf
+2018-09-13 19:12:24Z : Original file 'List.CountOccurences.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\List.CountOccurences.dyf.36.backup'
+2018-09-13 19:12:24Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\TurnIntoList.dyf
+2018-09-13 19:12:24Z : Original file 'TurnIntoList.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\TurnIntoList.dyf.85.backup'
+2018-09-13 19:12:25Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\List.ReplaceNull.dyf
+2018-09-13 19:12:25Z : Original file 'List.ReplaceNull.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\List.ReplaceNull.dyf.28.backup'
+2018-09-13 19:12:25Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Get Documents.dyf
+2018-09-13 19:12:25Z : Original file 'Get Documents.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Get Documents.dyf.57.backup'
+2018-09-13 19:12:25Z : Active view is now Project View
+2018-09-13 19:13:15Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\LINKED CEILING DYNAMO\CEILING LOCATIONS.dyn ...
+2018-09-13 19:14:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CEILING LOCATIONS.dyn ...
+2018-09-13 19:14:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CEILING LOCATIONS.dyn

@@ -1,0 +1,32 @@
+<Workspace Version="1.3.2.2480" X="67.6813871434357" Y="180.206439499838" zoom="0.620260554377853" ScaleFactor="1" Name="Home" Description="" RunType="Manual" RunPeriod="1000" HasRunWithoutCrash="False">
+  <NamespaceResolutionMap />
+  <Elements>
+    <DSRevitNodesUI.Categories guid="6f9c8556-5287-45de-86af-a89ea827fcf2" type="DSRevitNodesUI.Categories" nickname="Categories" x="55.6882015115429" y="496.944545587169" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false" index="114:ConduitFitting" />
+    <DSRevitNodesUI.ElementsOfCategory guid="8051b231-a365-49f0-9520-504074ea8c26" type="DSRevitNodesUI.ElementsOfCategory" nickname="All Elements of Category" x="263.217074484565" y="505.631881022236" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+    </DSRevitNodesUI.ElementsOfCategory>
+    <DSRevitNodesUI.ElementsOfCategory guid="61a78503-0211-46b1-a258-70cc5f146fc4" type="DSRevitNodesUI.ElementsOfCategory" nickname="All Elements of Category" x="243.410478724329" y="209.395113875992" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+    </DSRevitNodesUI.ElementsOfCategory>
+    <DSRevitNodesUI.Categories guid="9f9b4713-ebf2-4299-8aaa-428e0cbc86d7" type="DSRevitNodesUI.Categories" nickname="Categories" x="53.5588982604251" y="208.339286008802" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false" index="118:Conduit" />
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="6f9c8556-5287-45de-86af-a89ea827fcf2" start_index="0" end="8051b231-a365-49f0-9520-504074ea8c26" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="9f9b4713-ebf2-4299-8aaa-428e0cbc86d7" start_index="0" end="61a78503-0211-46b1-a258-70cc5f146fc4" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="98d8e113-353c-49b8-b6fa-08a2e6036f67" annotationText="Get all Conduit Fittings and their curves" left="45.6882015115429" top="414.944545587169" width="401.528872973022" height="183.687335435067" fontSize="30" InitialTop="496.944545587169" InitialHeight="266.980623576069" TextblockHeight="72" backgrouund="#FFC1D676">
+      <Models ModelGuid="6f9c8556-5287-45de-86af-a89ea827fcf2" />
+      <Models ModelGuid="8051b231-a365-49f0-9520-504074ea8c26" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="49b460ec-657f-4dd7-8b8b-96041a51b650" annotationText="Get all Conduits and their location lines" left="43.5588982604251" top="126.339286008802" width="383.851580463904" height="176.05582786719" fontSize="30" InitialTop="208.339286008802" InitialHeight="196.670748881125" TextblockHeight="72" backgrouund="#FFC1D676">
+      <Models ModelGuid="9f9b4713-ebf2-4299-8aaa-428e0cbc86d7" />
+      <Models ModelGuid="61a78503-0211-46b1-a258-70cc5f146fc4" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+  </Annotations>
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-2439.45190429688" eyeY="39868.453125" eyeZ="-6294.87060546875" lookX="-1267.21875" lookY="-40164.6875" lookZ="3186.10083007813" upX="0.366412609815598" upY="0.130526199936867" upZ="-0.921251714229584" />
+  </Cameras>
+</Workspace>

@@ -1,0 +1,57 @@
+<Workspace Version="1.3.2.2480" X="-1919.67884448182" Y="22450.2755724283" zoom="0.878021593918262" ScaleFactor="1" Name="Home" Description="" RunType="Manual" RunPeriod="1000" HasRunWithoutCrash="True">
+  <NamespaceResolutionMap>
+    <ClassMap partialName="List" resolvedName="DSCore.List" assemblyName="DSCoreNodes.dll" />
+  </NamespaceResolutionMap>
+  <Elements>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="7f242515-62e4-40c6-b4b7-03a77611174a" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="DuplicatePanelElementsAndCircuits  " x="2284.14159219863" y="-25313.9706258965" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <PortInfo index="2" default="False" />
+      <PortInfo index="3" default="False" />
+      <PortInfo index="4" default="False" />
+      <ID value="e53d91ca-a7f7-4900-8a76-fd95a1ba65af" />
+      <Name value="DuplicatePanelElementsAndCircuits  " />
+      <Description value="Duplicate an electrical panels elements and circuits to another selected panel" />
+      <Inputs>
+        <Input value="Origin Element Location" />
+        <Input value="End Element Location" />
+        <Input value="Origin Panel" />
+        <Input value="End Panel" />
+        <Input value="Set New Phase" />
+      </Inputs>
+      <Outputs>
+        <Output value="Circuits and Panel" />
+        <Output value="Elements" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <Dynamo.Nodes.DSModelElementSelection guid="a0ec85af-3569-49ce-bb20-eb29270f089f" type="Dynamo.Nodes.DSModelElementSelection" nickname="Select Model Element" x="1804.49545169218" y="-25573.2377342539" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <instance id="614d5c01-712d-4ef6-b815-7edd9e7eb7eb-001f9977" />
+    </Dynamo.Nodes.DSModelElementSelection>
+    <Dynamo.Nodes.DSModelElementSelection guid="062ceda3-4265-4384-a2d7-30e62b4edd7b" type="Dynamo.Nodes.DSModelElementSelection" nickname="Select Model Element" x="1819.26206101813" y="-25268.2894982473" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="true">
+      <instance id="4de1189f-f0ec-4f9b-bc82-964292f896ff-001eeb5a" />
+    </Dynamo.Nodes.DSModelElementSelection>
+    <Dynamo.Nodes.DSModelElementSelection guid="879208f0-3af2-4e40-8617-8abfeb3d7014" type="Dynamo.Nodes.DSModelElementSelection" nickname="Select Model Element" x="1775.04078040814" y="-25053.0427177494" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="true">
+      <instance id="2be85a6c-6c35-41c9-ad01-efa953ac1136-0023c8ca" />
+    </Dynamo.Nodes.DSModelElementSelection>
+    <Dynamo.Nodes.DSModelElementSelection guid="7c28528c-5a3e-4eae-84d6-de1a2468d799" type="Dynamo.Nodes.DSModelElementSelection" nickname="Select Model Element" x="1807.90752046645" y="-25444.0901587721" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="true">
+      <instance id="2be85a6c-6c35-41c9-ad01-efa953ac1136-0023c8ca" />
+    </Dynamo.Nodes.DSModelElementSelection>
+    <CoreNodeModels.Input.StringInput guid="b3395c01-8b39-4463-9e0b-564685e70cf4" type="CoreNodeModels.Input.StringInput" nickname="String" x="2134.83569451892" y="-24970.8080604138" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>Suite 130</System.String>
+      <System.String value="Suite 130" />
+    </CoreNodeModels.Input.StringInput>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="a0ec85af-3569-49ce-bb20-eb29270f089f" start_index="0" end="7f242515-62e4-40c6-b4b7-03a77611174a" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="062ceda3-4265-4384-a2d7-30e62b4edd7b" start_index="0" end="7f242515-62e4-40c6-b4b7-03a77611174a" end_index="2" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="879208f0-3af2-4e40-8617-8abfeb3d7014" start_index="0" end="7f242515-62e4-40c6-b4b7-03a77611174a" end_index="3" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="7c28528c-5a3e-4eae-84d6-de1a2468d799" start_index="0" end="7f242515-62e4-40c6-b4b7-03a77611174a" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="b3395c01-8b39-4463-9e0b-564685e70cf4" start_index="0" end="7f242515-62e4-40c6-b4b7-03a77611174a" end_index="4" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>

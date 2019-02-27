@@ -1,0 +1,654 @@
+Dynamo log started 2018-10-29 17:28:12Z
+2018-10-29 17:28:15Z : Dynamo -- Build 1.3.2.2480
+2018-10-29 17:28:15Z : Duplicate migration type registered for SunPathDirection
+2018-10-29 17:28:16Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-10-29 17:28:17Z : System.InvalidOperationException:
+2018-10-29 17:28:17Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-10-29 17:28:17Z : 
+2018-10-29 17:28:22Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-10-29 17:28:22Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-10-29 17:28:22Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-10-29 17:28:22Z : RENDER : Rendering Tier: 2
+2018-10-29 17:28:22Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-29 17:28:22Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-29 17:28:22Z : RENDER : Software Effect Rendering Supported: True
+2018-10-29 17:28:22Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-29 17:28:22Z : RENDER : Rendering Tier: 2
+2018-10-29 17:28:22Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-29 17:28:22Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-29 17:28:22Z : RENDER : Software Effect Rendering Supported: True
+2018-10-29 17:28:22Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-29 17:28:22Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-10-29 17:28:22Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-10-29 17:28:23Z : Welcome to Dynamo!
+2018-10-29 17:28:23Z : 00:00:00.9787779 elapsed for loading Dynamo main window.
+2018-10-29 17:28:24Z : WPF Render Mode: SoftwareOnly
+2018-10-29 17:29:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-29 17:29:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-29 17:32:10Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 17:32:43Z : Active view is now PANEL SCHEDULES - "D" SYSTEM
+2018-10-29 17:32:46Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 17:32:57Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\Elements change Level.dyf
+2018-10-29 17:32:57Z : Original file 'Elements change Level.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\backup\Elements change Level.dyf.3.backup'
+2018-10-29 17:32:57Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 17:33:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:33:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:33:30Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2018-10-29 17:34:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:34:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:34:37Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 17:35:24Z : Active view is now MECHAINICAL EQUIPMENT SCHEDULE
+2018-10-29 17:35:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:35:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:35:41Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 17:36:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:36:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:36:39Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 17:37:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:37:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:38:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:38:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:39:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:39:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:40:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:40:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:41:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:41:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:42:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:42:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:43:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:43:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:44:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:44:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:45:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:45:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:45:44Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 17:46:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:46:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:47:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:47:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:48:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:48:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:48:43Z : Active view is now POWER DETAILS
+2018-10-29 17:48:56Z : Active view is now FIRE ALARM DETAILS
+2018-10-29 17:49:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:49:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:51:12Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:51:12Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:51:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:51:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:51:45Z : Active view is now PANEL SCHEDULES - "D" SYSTEM
+2018-10-29 17:52:01Z : Active view is now PANEL SCHEDULES - "D" SYSTEM
+2018-10-29 17:52:24Z : Active view is now SUITE 242 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 17:52:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:52:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:53:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:53:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:54:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:54:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:54:28Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 17:55:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:55:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:56:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:56:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:57:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:57:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:58:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:58:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 17:59:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 17:59:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:00:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:00:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:01:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:01:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:02:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:02:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:03:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:03:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:04:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:04:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:05:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:05:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:06:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:06:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:07:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:07:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:08:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:08:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:09:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:09:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:10:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:10:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:11:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:11:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:12:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:12:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:13:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:13:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:14:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:14:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:15:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:15:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:16:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:16:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:17:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:17:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:18:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:18:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:19:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:19:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:20:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:20:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:21:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:21:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:22:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:22:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:23:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:23:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:24:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:24:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:25:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:25:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:26:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:26:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:27:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:27:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:28:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:28:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:29:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:29:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:30:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:30:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:31:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:31:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:32:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:32:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:33:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:33:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:34:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:34:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:35:22Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:35:22Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:36:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:36:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:37:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:37:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:38:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:38:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:39:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:39:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:40:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:40:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:41:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:41:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:42:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:42:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:43:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:43:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:44:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:44:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:45:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:45:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:46:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:46:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:47:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:47:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:48:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:48:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:49:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:49:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:50:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:50:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:51:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:51:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:52:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:52:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:53:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:53:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:54:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:54:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:55:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:55:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:56:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:56:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:57:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:57:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:58:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:58:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 18:59:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 18:59:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:00:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:00:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:01:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:01:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:02:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:02:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:03:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:03:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:04:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:04:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:05:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:05:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:06:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:06:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:07:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:07:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:08:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:08:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:09:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:09:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:10:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:10:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:11:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:11:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:12:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:12:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:13:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:13:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:14:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:14:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:15:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:15:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:16:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:16:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:16:32Z : Active view is now SUITE 242 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:17:07Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:17:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:17:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:17:30Z : Active view is now SUITE 242 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:18:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:18:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:19:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:19:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:20:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:20:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:21:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:21:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:22:13Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:22:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:22:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:23:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-29 19:23:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-29 19:23:31Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\FindAndReplaceParameters\FindAndReplaceParameters.dyn ...
+2018-10-29 19:23:32Z : Clearing workspace...
+2018-10-29 19:25:14Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:25:41Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:26:44Z : Active view is now Project View
+2018-10-29 19:27:11Z : !! Warning: The Power System "1,3,5" is empty and will be deleted.
+2018-10-29 19:27:11Z : !! Warning: The Power System "13,15,17" is empty and will be deleted.
+2018-10-29 19:27:11Z : !! Warning: The Power System "14,16,18" is empty and will be deleted.
+2018-10-29 19:27:11Z : !! Warning: The Power System "19,21,23" is empty and will be deleted.
+2018-10-29 19:27:11Z : !! Warning: The Power System "2,4,6" is empty and will be deleted.
+2018-10-29 19:27:11Z : !! Warning: The Power System "20,22,24" is empty and will be deleted.
+2018-10-29 19:27:11Z : !! Warning: The Power System "7,9,11" is empty and will be deleted.
+2018-10-29 19:27:11Z : !! Warning: The Power System "8,10,12" is empty and will be deleted.
+2018-10-29 19:27:18Z : !! Warning: The Power System "1,3,5" is empty and will be deleted.
+2018-10-29 19:27:18Z : !! Warning: The Power System "13,15,17" is empty and will be deleted.
+2018-10-29 19:27:18Z : !! Warning: The Power System "14,16,18" is empty and will be deleted.
+2018-10-29 19:27:18Z : !! Warning: The Power System "19,21,23" is empty and will be deleted.
+2018-10-29 19:27:18Z : !! Warning: The Power System "2,4,6" is empty and will be deleted.
+2018-10-29 19:27:18Z : !! Warning: The Power System "7,9,11" is empty and will be deleted.
+2018-10-29 19:27:18Z : !! Warning: The Power System "8,10,12" is empty and will be deleted.
+2018-10-29 19:27:24Z : !! Warning: The Power System "1,3,5" is empty and will be deleted.
+2018-10-29 19:27:24Z : !! Warning: The Power System "13,15,17" is empty and will be deleted.
+2018-10-29 19:27:24Z : !! Warning: The Power System "14,16,18" is empty and will be deleted.
+2018-10-29 19:27:24Z : !! Warning: The Power System "19,21,23" is empty and will be deleted.
+2018-10-29 19:27:24Z : !! Warning: The Power System "2,4,6" is empty and will be deleted.
+2018-10-29 19:27:24Z : !! Warning: The Power System "7,9,11" is empty and will be deleted.
+2018-10-29 19:27:24Z : !! Warning: The Power System "8,10,12" is empty and will be deleted.
+2018-10-29 19:27:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-10-29 19:27:25Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-10-29 19:27:55Z : Active view is now L230-SWA-MECH-A2
+2018-10-29 19:27:57Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:28:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-10-29 19:28:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-10-29 19:29:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-10-29 19:29:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-10-29 19:30:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-10-29 19:30:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-10-29 19:31:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-10-29 19:31:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-10-29 19:32:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-10-29 19:32:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-10-29 19:33:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-10-29 19:33:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-10-29 19:34:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-10-29 19:34:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-10-29 19:35:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-10-29 19:35:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-10-29 19:36:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-10-29 19:36:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-10-29 19:36:50Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:37:00Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:37:03Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:37:06Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:37:12Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:37:15Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:37:18Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:37:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-10-29 19:37:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-10-29 19:37:24Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:37:48Z : Active view is now ROOF - WORK
+2018-10-29 19:38:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-10-29 19:38:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-10-29 19:38:27Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:38:31Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:38:33Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:38:35Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:38:37Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:38:42Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:38:43Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:39:01Z : Clearing workspace...
+2018-10-29 19:39:13Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Element.CopyByVector.dyf
+2018-10-29 19:39:13Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\TurnIntoList.dyf
+2018-10-29 19:39:13Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:39:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:39:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:40:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:40:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:41:20Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:41:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:41:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:41:29Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:41:36Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:41:37Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:41:46Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:42:03Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:03Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:03Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:03Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:03Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:03Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:03Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:42:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:42:38Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:39Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:39Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:39Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:39Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:39Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:39Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:39Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:54Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:54Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:54Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:54Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:54Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:54Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:42:54Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:06Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:06Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:06Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:06Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:06Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:06Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:06Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:43:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:43:29Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:29Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:29Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:29Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:29Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:29Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:29Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:29Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:43Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:43Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:43Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:43Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:43Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:43Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:43Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:43:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:44:10Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:44:10Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:44:10Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:44:10Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:44:10Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:44:10Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:44:10Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:44:12Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:44:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:44:23Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:44:25Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:44:25Z : Clearing workspace...
+2018-10-29 19:44:27Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:44:53Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\FindAndReplaceParameters\FindAndReplaceParameters.dyn ...
+2018-10-29 19:44:53Z : Clearing workspace...
+2018-10-29 19:44:55Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:44:58Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:45:03Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:45:06Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:45:32Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 19:45:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:45:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:45:55Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:46:06Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 19:46:20Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:46:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:46:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:46:50Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:46:50Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:46:50Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:46:50Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:46:50Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:46:50Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:46:50Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:47:23Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:47:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:47:27Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:48:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:48:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:48:25Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:49:12Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 19:49:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:49:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:50:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:50:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:51:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:51:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:52:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:52:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:53:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:53:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:54:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:54:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:55:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:55:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:56:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:56:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:56:45Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:56:45Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:56:45Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:56:45Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:56:45Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:56:45Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:56:45Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:56:47Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 19:57:06Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:57:11Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 19:57:17Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:57:17Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:57:17Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:57:17Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:57:17Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:57:17Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:57:17Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:57:17Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-29 19:57:17Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-29 19:57:17Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-29 19:57:17Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-29 19:57:17Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-29 19:57:17Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-29 19:57:17Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-29 19:57:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:57:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:57:41Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:57:49Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:57:49Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:57:49Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:57:49Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:57:49Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:57:49Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:57:49Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:57:49Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:57:58Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 19:58:05Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:58:05Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:58:05Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:58:05Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:58:05Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:58:05Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:58:05Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:58:09Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:58:15Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 19:58:22Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:58:22Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:58:22Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:58:22Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:58:22Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:58:22Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:58:22Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:58:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:58:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:58:33Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:58:48Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 19:59:02Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:59:09Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:09Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:09Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:09Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:09Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:09Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:09Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:09Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:18Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 19:59:25Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:25Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:25Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:25Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:25Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:25Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:25Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:25Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 19:59:25Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 19:59:30Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:59:34Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 19:59:41Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:41Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:41Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:41Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:41Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:41Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:41Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:45Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 19:59:48Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 19:59:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 19:59:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 20:00:06Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 20:00:21Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 20:00:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 20:00:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 20:01:01Z : Active view is now ROOF - WORK
+2018-10-29 20:01:20Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 20:01:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 20:01:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 20:01:26Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 20:01:35Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 20:01:42Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 20:01:44Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 20:02:20Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-29 20:02:23Z : Active view is now L224-SWA-GPNL
+2018-10-29 20:02:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 20:02:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 20:02:35Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-29 20:02:37Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 20:02:44Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-29 20:02:54Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 20:03:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 20:03:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 20:03:25Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 20:03:34Z : Active view is now L236-SWA-GPNL
+2018-10-29 20:03:36Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 20:03:48Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 20:03:52Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 20:03:55Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 20:04:01Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 20:04:03Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 20:04:09Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 20:04:15Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 20:04:20Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 20:04:23Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 20:04:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 20:04:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 20:04:29Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 20:04:30Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-29 20:04:35Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 20:04:54Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 20:05:23Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 20:05:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 20:05:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 20:05:41Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 20:05:49Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 20:06:04Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 20:06:10Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 20:06:18Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 20:06:25Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 20:06:25Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 20:06:25Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-29 20:06:30Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 20:06:37Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-29 20:06:43Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 20:06:48Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-29 20:06:48Z : Clearing workspace...
+2018-10-29 20:07:19Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.GetPanelScheduleViews.dyf
+2018-10-29 20:07:19Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.GetPanelFromPanelScheduleView.dyf
+2018-10-29 20:07:19Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\PanelScheduleView.ElectricalCircuits.dyf
+2018-10-29 20:07:20Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 20:07:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SPARE AND SPACE.dyn ...
+2018-10-29 20:07:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SPARE AND SPACE.dyn
+2018-10-29 20:07:29Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 20:07:46Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 20:07:57Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 20:08:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SPARE AND SPACE.dyn ...
+2018-10-29 20:08:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SPARE AND SPACE.dyn
+2018-10-29 20:08:36Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2018-10-29 20:08:43Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-29 20:08:43Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2018-10-29 20:08:45Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 20:08:45Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2018-10-29 20:08:48Z : Active view is now SECOND FLOOR - WORK
+2018-10-29 20:08:49Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2018-10-29 20:09:00Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-29 20:09:10Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2018-10-29 20:09:36Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 20:09:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SPARE AND SPACE.dyn ...
+2018-10-29 20:09:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SPARE AND SPACE.dyn
+2018-10-29 20:09:36Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2018-10-29 20:09:36Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 20:09:57Z : Active view is now 230 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 20:10:06Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-29 20:10:20Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 20:10:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SPARE AND SPACE.dyn ...
+2018-10-29 20:10:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SPARE AND SPACE.dyn
+2018-10-29 20:10:31Z : Active view is now 230 - SECOND FLOOR POWER PLAN - HOST
+2018-10-29 20:10:39Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-10-29 20:10:41Z : Active view is now L230-SWA-GPNL
+2018-10-29 20:11:24Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SPARE AND SPACE.dyn ...
+2018-10-29 20:11:24Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SPARE AND SPACE.dyn
+2018-10-29 20:11:25Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\CREATE SPARE OR SPACE\SPARE AND SPACE.dyn ...
+2018-10-29 20:11:25Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-10-29 20:11:25Z : Goodbye

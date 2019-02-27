@@ -1,0 +1,279 @@
+Dynamo log started 2019-02-15 19:11:50Z
+2019-02-15 19:11:53Z : Dynamo -- Build 1.3.2.2480
+2019-02-15 19:11:54Z : Duplicate migration type registered for SunPathDirection
+2019-02-15 19:11:56Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2019-02-15 19:11:57Z : System.InvalidOperationException:
+2019-02-15 19:11:57Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2019-02-15 19:11:57Z : 
+2019-02-15 19:12:09Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2019-02-15 19:12:09Z : Backup files timer is started with an interval of 60000 milliseconds
+2019-02-15 19:12:09Z : SYSTEM:Environment Path:C:\Users\dcleary\AppData\Roaming\pyRevit-Master\bin\lib\win32\x64;C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\\bin;C:\Users\dcleary\AppData\Local\GitHubDesktop\bin;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\bin;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2019-02-15 19:12:09Z : RENDER : Rendering Tier: 2
+2019-02-15 19:12:09Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-15 19:12:09Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-15 19:12:09Z : RENDER : Software Effect Rendering Supported: True
+2019-02-15 19:12:09Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-15 19:12:09Z : RENDER : Rendering Tier: 2
+2019-02-15 19:12:09Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-15 19:12:09Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-15 19:12:09Z : RENDER : Software Effect Rendering Supported: True
+2019-02-15 19:12:09Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-15 19:12:10Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2019-02-15 19:12:10Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2019-02-15 19:12:10Z : Welcome to Dynamo!
+2019-02-15 19:12:10Z : 00:00:00.8712293 elapsed for loading Dynamo main window.
+2019-02-15 19:12:12Z : WPF Render Mode: SoftwareOnly
+2019-02-15 19:12:14Z : Clearing workspace...
+2019-02-15 19:12:16Z : Clearing workspace...
+2019-02-15 19:12:32Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\Collector.LinkedInstanceElements.dyf
+2019-02-15 19:12:32Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Get Documents.dyf
+2019-02-15 19:12:32Z : Original file 'Get Documents.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Get Documents.dyf.65.backup'
+2019-02-15 19:12:32Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Element.Location+.dyf
+2019-02-15 19:12:32Z : Original file 'Element.Location+.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\Element.Location+.dyf.0.backup'
+2019-02-15 19:12:32Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\TurnIntoList.dyf
+2019-02-15 19:12:32Z : Original file 'TurnIntoList.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\TurnIntoList.dyf.3.backup'
+2019-02-15 19:12:33Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 19:13:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CEILING LOCATIONS.dyn ...
+2019-02-15 19:13:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CEILING LOCATIONS.dyn
+2019-02-15 19:13:40Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 19:13:40Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 19:14:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CEILING LOCATIONS.dyn ...
+2019-02-15 19:14:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CEILING LOCATIONS.dyn
+2019-02-15 19:15:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CEILING LOCATIONS.dyn ...
+2019-02-15 19:15:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\CEILING LOCATIONS.dyn
+2019-02-15 19:15:10Z : Clearing workspace...
+2019-02-15 19:15:18Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\LunchBox for Dynamo\dyf\LunchBox Get Parameter Value.dyf
+2019-02-15 19:15:18Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\List.CountOccurences.dyf
+2019-02-15 19:15:18Z : Original file 'List.CountOccurences.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\List.CountOccurences.dyf.0.backup'
+2019-02-15 19:15:18Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 19:16:08Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Equipment Check\1.3.1 GET EQUIPMENT.dyn ...
+2019-02-15 19:16:49Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\Doc.CopyFromLinkInstance.dyf
+2019-02-15 19:16:49Z : Original file 'Doc.CopyFromLinkInstance.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\backup\Doc.CopyFromLinkInstance.dyf.1.backup'
+2019-02-15 19:17:00Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\SteamNodes\dyf\Element.GetFromLinkedFile.dyf
+2019-02-15 19:17:00Z : Original file 'Element.GetFromLinkedFile.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\SteamNodes\dyf\backup\Element.GetFromLinkedFile.dyf.7.backup'
+2019-02-15 19:17:08Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\SelectLinkedElements.dyf
+2019-02-15 19:17:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 GET EQUIPMENT.dyn ...
+2019-02-15 19:17:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 GET EQUIPMENT.dyn
+2019-02-15 19:17:10Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\SelectLinkedFace.dyf
+2019-02-15 19:17:17Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 19:18:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 GET EQUIPMENT.dyn ...
+2019-02-15 19:18:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 GET EQUIPMENT.dyn
+2019-02-15 19:18:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Get Documents.dyf ...
+2019-02-15 19:18:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Get Documents.dyf
+2019-02-15 19:19:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 GET EQUIPMENT.dyn ...
+2019-02-15 19:19:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 GET EQUIPMENT.dyn
+2019-02-15 19:19:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Get Documents.dyf ...
+2019-02-15 19:19:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Get Documents.dyf
+2019-02-15 19:19:45Z : Clearing workspace...
+2019-02-15 19:19:53Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 19:19:55Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 19:21:40Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 19:21:55Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 19:23:21Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 19:39:45Z : Active view is now PANEL SCHEDULES
+2019-02-15 19:41:31Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 19:41:38Z : Active view is now PANEL SCHEDULES
+2019-02-15 19:41:41Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 19:41:54Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 19:42:06Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 19:42:13Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 19:42:24Z : Active view is now PANEL SCHEDULES
+2019-02-15 19:42:34Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 19:45:19Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 19:46:42Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 19:50:47Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 19:51:15Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 19:52:03Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 19:52:13Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 19:53:11Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 19:53:12Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 19:53:45Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 19:54:03Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 19:54:09Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 19:54:11Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 19:54:24Z : Active view is now ONELINE
+2019-02-15 19:54:34Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 19:54:52Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 19:55:14Z : Active view is now ONELINE
+2019-02-15 19:55:26Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 19:55:32Z : Active view is now ONELINE
+2019-02-15 19:55:45Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 19:56:01Z : Active view is now ONELINE
+2019-02-15 19:56:13Z : Active view is now PANEL SCHEDULES
+2019-02-15 19:56:18Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 19:57:21Z : Active view is now ONELINE
+2019-02-15 19:57:55Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 19:57:58Z : Active view is now ONELINE
+2019-02-15 19:58:01Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:00:39Z : Active view is now PANEL SCHEDULES
+2019-02-15 20:02:04Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:02:11Z : Active view is now PANEL SCHEDULES
+2019-02-15 20:02:26Z : Active view is now L193-PP2-2
+2019-02-15 20:02:36Z : Active view is now PANEL SCHEDULES
+2019-02-15 20:02:40Z : Active view is now ONELINE
+2019-02-15 20:02:42Z : Active view is now PANEL SCHEDULES
+2019-02-15 20:03:08Z : Active view is now ONELINE
+2019-02-15 20:03:09Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:03:12Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:03:18Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 20:06:16Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:06:19Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 20:08:10Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:08:24Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:08:36Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:08:37Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:08:47Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:10:10Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:10:10Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:10:23Z : Active view is now DESIGN SCHEDULES
+2019-02-15 20:13:03Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 20:13:04Z : Active view is now DESIGN SCHEDULES
+2019-02-15 20:14:37Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:14:45Z : Active view is now DESIGN SCHEDULES
+2019-02-15 20:14:47Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:14:54Z : Active view is now DESIGN SCHEDULES
+2019-02-15 20:15:01Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:15:06Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 20:15:07Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:18:39Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:18:44Z : Active view is now DESIGN SCHEDULES
+2019-02-15 20:20:42Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:20:43Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:27:51Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 20:31:44Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:31:54Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:31:58Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:33:20Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:33:33Z : Active view is now DESIGN SCHEDULES
+2019-02-15 20:33:43Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:34:21Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 20:35:02Z : Active view is now DESIGN SCHEDULES
+2019-02-15 20:35:03Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:35:06Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 20:35:12Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:35:15Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:35:26Z : Active view is now DESIGN SCHEDULES
+2019-02-15 20:35:40Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:36:02Z : Active view is now DESIGN SCHEDULES
+2019-02-15 20:36:03Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 20:36:40Z : Active view is now DESIGN SCHEDULES
+2019-02-15 20:36:42Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:38:13Z : Active view is now DESIGN SCHEDULES
+2019-02-15 20:38:31Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 20:38:33Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:38:35Z : Active view is now FIRST FLOOR - WORK
+2019-02-15 20:38:35Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:39:05Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:39:44Z : Active view is now OFO - MECHANICAL EQUIPMENT SCHEDULE
+2019-02-15 20:41:44Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:44:53Z : Active view is now OFFICE BUILD OUT - FIRST FLOOR DEMO PLAN - CONFERENCE SUITES
+2019-02-15 20:45:00Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:47:07Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:48:05Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:48:06Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:48:16Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:48:28Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:48:30Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:48:32Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:52:29Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:52:34Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:54:44Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:57:38Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:58:34Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:58:40Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:59:05Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:59:08Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:59:30Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:59:39Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:59:46Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:59:51Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 20:59:53Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:00:05Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:00:08Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:00:16Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:01:00Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:01:01Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:01:41Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:01:43Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:02:08Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:02:11Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:02:30Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:02:41Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:02:47Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:02:54Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:06:43Z : Active view is now DESIGN SCHEDULES
+2019-02-15 21:06:47Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:07:17Z : Active view is now DESIGN SCHEDULES
+2019-02-15 21:07:20Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:07:51Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:07:54Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:07:59Z : Active view is now View 1
+2019-02-15 21:07:59Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2019-02-15 21:08:04Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:08:05Z : Active view is now OFFICE BUILD OUT - FIRST FLOOR LIGHTING PLAN - DCC OFFICE
+2019-02-15 21:09:50Z : Active view is now FIRST FLOOR
+2019-02-15 21:10:55Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:10:59Z : Active view is now FIRST FLOOR
+2019-02-15 21:11:24Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:11:33Z : Active view is now FIRST FLOOR
+2019-02-15 21:13:00Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:13:13Z : Active view is now FIRST FLOOR
+2019-02-15 21:13:19Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:13:32Z : Active view is now FIRST FLOOR
+2019-02-15 21:13:41Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:14:30Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:15:03Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:19:30Z : Active view is now ELECTRICAL LEGEND ABBREVIATIONS AND GENERAL NOTES
+2019-02-15 21:19:31Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:19:31Z : Active view is now DESIGN SCHEDULES
+2019-02-15 21:19:31Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:19:54Z : Active view is now OVERALL POWER PLAN
+2019-02-15 21:20:14Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:20:14Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:20:28Z : Active view is now DETAILS
+2019-02-15 21:20:29Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:20:34Z : Active view is now ONELINE
+2019-02-15 21:20:34Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:20:39Z : Active view is now PANEL SCHEDULES
+2019-02-15 21:20:40Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:20:40Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:20:54Z : Active view is now FIRE ALARM LEGEND, ABBREVIATIONS AND GENERAL NOTES
+2019-02-15 21:20:54Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:21:17Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:21:18Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:21:24Z : Active view is now FIRE ALARM MATRIX, RISER, AND DETAILS.
+2019-02-15 21:21:24Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:21:24Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:25:19Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:32:22Z : Active view is now ELECTRICAL LEGEND ABBREVIATIONS AND GENERAL NOTES
+2019-02-15 21:32:58Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:33:08Z : Active view is now DESIGN SCHEDULES
+2019-02-15 21:33:15Z : Active view is now PANEL SCHEDULES
+2019-02-15 21:35:46Z : Active view is now ONELINE
+2019-02-15 21:36:15Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:36:15Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:41:14Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:41:17Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:41:23Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:41:23Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:48:55Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:49:04Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:49:55Z : Active view is now FIRE ALARM MATRIX, RISER, AND DETAILS.
+2019-02-15 21:50:02Z : Active view is now FIRST FLOOR FIRE ALARM PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:50:03Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:58:38Z : Active view is now ONELINE
+2019-02-15 21:58:39Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:58:39Z : Active view is now PANEL SCHEDULES
+2019-02-15 21:58:39Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:58:41Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:58:41Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:58:42Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:58:42Z : Active view is now FIRST FLOOR
+2019-02-15 21:58:42Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:58:43Z : Active view is now DESIGN SCHEDULES
+2019-02-15 21:58:43Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:58:44Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:58:44Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:58:45Z : Active view is now ELECTRICAL DEMOLITION PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-15 21:59:10Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2019-02-15 21:59:10Z : Goodbye

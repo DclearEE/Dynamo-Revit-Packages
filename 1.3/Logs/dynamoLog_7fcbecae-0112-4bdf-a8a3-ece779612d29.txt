@@ -1,0 +1,57 @@
+Dynamo log started 2018-08-08 18:40:01Z
+2018-08-08 18:40:04Z : RequestUpdateVersionInfo
+2018-08-08 18:40:04Z : Requesting version update info...
+2018-08-08 18:40:04Z : Dynamo -- Build 1.3.2.2480
+2018-08-08 18:40:04Z : Duplicate migration type registered for SunPathDirection
+2018-08-08 18:40:05Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-08-08 18:40:06Z : System.InvalidOperationException:
+2018-08-08 18:40:06Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-08-08 18:40:06Z : 
+2018-08-08 18:40:10Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-08-08 18:40:10Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-08-08 18:40:10Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-08-08 18:40:10Z : RENDER : Rendering Tier: 2
+2018-08-08 18:40:10Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-08 18:40:10Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-08 18:40:10Z : RENDER : Software Effect Rendering Supported: True
+2018-08-08 18:40:10Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-08 18:40:11Z : RENDER : Rendering Tier: 2
+2018-08-08 18:40:11Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-08 18:40:11Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-08 18:40:11Z : RENDER : Software Effect Rendering Supported: True
+2018-08-08 18:40:11Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-08 18:40:11Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-08-08 18:40:11Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-08-08 18:40:11Z : Welcome to Dynamo!
+2018-08-08 18:40:11Z : 00:00:00.8050188 elapsed for loading Dynamo main window.
+2018-08-08 18:40:12Z : WPF Render Mode: SoftwareOnly
+2018-08-08 18:40:13Z : Update available: 2.0.1.0
+2018-08-08 18:40:13Z : Update download started...
+2018-08-08 18:40:13Z : Update download progress: 0%
+2018-08-08 18:40:16Z : Update download progress: 10%
+2018-08-08 18:40:18Z : Update download progress: 20%
+2018-08-08 18:40:20Z : Update download progress: 30%
+2018-08-08 18:40:23Z : Update download progress: 40%
+2018-08-08 18:40:26Z : Update download progress: 50%
+2018-08-08 18:40:30Z : Update download progress: 60%
+2018-08-08 18:40:34Z : Update download progress: 70%
+2018-08-08 18:40:37Z : Update download progress: 80%
+2018-08-08 18:40:40Z : Update download progress: 90%
+2018-08-08 18:40:42Z : Update download progress: 100%
+2018-08-08 18:40:42Z : Update download complete.
+2018-08-08 18:40:42Z : Successful
+2018-08-08 18:40:42Z : Update download complete.
+2018-08-08 18:41:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-08 18:41:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-08 18:49:21Z : Active view is now L124 TELCOM SOUTH CORRIDOR
+2018-08-08 18:51:53Z : Active view is now L124 TELCOM NORTH CORRIDOR
+2018-08-08 18:51:56Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-08 18:52:13Z : Active view is now L124 TELCOM NORTH CORRIDOR
+2018-08-08 18:54:05Z : Active view is now 124 - FIRST FLOOR TELCOM PLAN - OVERALL
+2018-08-08 18:54:07Z : Active view is now L124 TELCOM NORTH CORRIDOR
+2018-08-08 18:54:31Z : Active view is now 124 - FIRST FLOOR TELCOM PLAN - OVERALL
+2018-08-08 18:54:33Z : Active view is now L124 TELCOM NORTH CORRIDOR
+2018-08-08 18:54:42Z : Active view is now 124 - FIRST FLOOR TELCOM PLAN - OVERALL
+2018-08-08 18:54:46Z : Active view is now L124 TELCOM NORTH CORRIDOR
+2018-08-08 19:05:42Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-08-08 19:05:42Z : Goodbye

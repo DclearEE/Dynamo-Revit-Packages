@@ -1,0 +1,228 @@
+Dynamo log started 2018-03-21 15:46:22Z
+2018-03-21 15:46:25Z : RequestUpdateVersionInfo
+2018-03-21 15:46:25Z : Requesting version update info...
+2018-03-21 15:46:25Z : Dynamo -- Build 1.3.2.2480
+2018-03-21 15:46:25Z : Duplicate migration type registered for SunPathDirection
+2018-03-21 15:46:27Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-03-21 15:46:27Z : System.InvalidOperationException:
+2018-03-21 15:46:27Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-03-21 15:46:27Z : 
+2018-03-21 15:46:30Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-03-21 15:46:30Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-03-21 15:46:30Z : RENDER : Rendering Tier: 2
+2018-03-21 15:46:30Z : RENDER : Pixel Shader 3 Supported: True
+2018-03-21 15:46:30Z : RENDER : Pixel Shader 4 Supported: False
+2018-03-21 15:46:30Z : RENDER : Software Effect Rendering Supported: True
+2018-03-21 15:46:30Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-03-21 15:46:30Z : RENDER : Rendering Tier: 2
+2018-03-21 15:46:30Z : RENDER : Pixel Shader 3 Supported: True
+2018-03-21 15:46:30Z : RENDER : Pixel Shader 4 Supported: False
+2018-03-21 15:46:30Z : RENDER : Software Effect Rendering Supported: True
+2018-03-21 15:46:30Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-03-21 15:46:30Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2016\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Autodesk\Revit 2016;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-03-21 15:46:30Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-03-21 15:46:30Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-03-21 15:46:31Z : Welcome to Dynamo!
+2018-03-21 15:46:31Z : 00:00:00.7987002 elapsed for loading Dynamo main window.
+2018-03-21 15:46:32Z : notification:System.IO.FileLoadException:
+ Dynamo has detected a conflict with a dependency and may be unstable. If any issues are detected, please uninstall addins or packages and contact the provider.: 
+ While loading assembly archilab, Version=2018.0.0.1, Culture=neutral, PublicKeyToken=null, Dynamo detected that the dependency RevitAPI, Version=18.0.0.0, Culture=neutral, PublicKeyToken=null was already loaded with an incompatiable version. It is likely that another Revit Addin has loaded this assembly, please try uninstalling other Addins, and starting Dynamo again. Dynamo may be unstable in this state.
+It is likely one of the following assemblies loaded the incompatible version:
+UIFrameworkInterop, UIFrameworkInterop, UIFrameworkInterop, UIFramework, UIFramework, UIFrameworkServices, AddInManagerUI, AddInManagerUI, APIInterop, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, UtilityAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, GraphicsAPI, GraphicsAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceAPI, InterfaceAPI, PointCloudAccessAPI, PointCloudAccessAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, IntfIFCAPI, IntfIFCAPI, AddInManager, AddInManager, AddInManager, KeynoteDBServer, StraightSegmentCalculationServers, FittingAndAccessoryCalculationServers, CollaborateDB, CollaborateDB, CollaborateDB, CollaborateDB, RSCloudClient, RSCloudClient, RSCloudClient, AddInJournaling, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, RevitUIAPI, RevitUIAPI, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, AutoLoader, AutoLoader, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, KeynoteUIServer, KeynoteUIServer, MemberForces, MemberForces, MemberForces, ObjectNumberingUI, ObjectNumberingUI, ObjectNumberingUI, PressureLossReport, PressureLossReport, SectionProperties, SectionProperties, SectionProperties, SectionProperties, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, C4RNET, C4RNET, C4RNET, AREXRevitStart, AREXRevitStart, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, SSONETUI, SSONETUI, SSONET, SSONET, SmartMonkey, SmartMonkey, SmartMonkey, DynamoRevitVersionSelector, DynamoRevitVersionSelector, BIMOnePanelInformation, BIMOnePanelInformation, ExportViewSelectorAddin, ExportViewSelectorAddin, nwexportrevit2016_13, nwexportrevit2016_13, PowerPack_2016, PowerPack_2016, RevitAPIUIMacrosInterop, RevitAPIUIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, AddInJournalClient, REX.ApplicationServices, AREXRevitMngr, AREXRevitMngr, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RS.Enterprise.Common.ClientServer.Helper, RSEnterpriseClientRevitService, RS.Enterprise.Common.ClientServer.Proxy, RS.Enterprise.Common.ClientServer.ServiceContract.Model, RS.Enterprise.Common.ClientServer.ServiceContract.Local, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Utility, RS.Enterprise.Utility, MacroHookup, MacroHookup, RevitAPIBrowserUtils, RevitAPIBrowserUtils, RevitAPIBrowserUtils, RevitAPIBrowserUtils, DynamoRevitDS, DynamoRevitDS, RevitServices, RevitServices, DynamoRaaSHelper, RevitNodes, RevitNodes, SimpleRaaS, SimpleRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, DSRevitNodesUI, DSRevitNodesUI, DynamoRaaS
+2018-03-21 15:46:32Z : notification:System.IO.FileLoadException:
+ Dynamo has detected a conflict with a dependency and may be unstable. If any issues are detected, please uninstall addins or packages and contact the provider.: 
+ While loading assembly archilabUI, Version=2018.0.0.1, Culture=neutral, PublicKeyToken=null, Dynamo detected that the dependency RevitAPI, Version=18.0.0.0, Culture=neutral, PublicKeyToken=null was already loaded with an incompatiable version. It is likely that another Revit Addin has loaded this assembly, please try uninstalling other Addins, and starting Dynamo again. Dynamo may be unstable in this state.
+It is likely one of the following assemblies loaded the incompatible version:
+UIFrameworkInterop, UIFrameworkInterop, UIFrameworkInterop, UIFramework, UIFramework, UIFrameworkServices, AddInManagerUI, AddInManagerUI, APIInterop, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, UtilityAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, GraphicsAPI, GraphicsAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceAPI, InterfaceAPI, PointCloudAccessAPI, PointCloudAccessAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, IntfIFCAPI, IntfIFCAPI, AddInManager, AddInManager, AddInManager, KeynoteDBServer, StraightSegmentCalculationServers, FittingAndAccessoryCalculationServers, CollaborateDB, CollaborateDB, CollaborateDB, CollaborateDB, RSCloudClient, RSCloudClient, RSCloudClient, AddInJournaling, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, RevitUIAPI, RevitUIAPI, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, AutoLoader, AutoLoader, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, KeynoteUIServer, KeynoteUIServer, MemberForces, MemberForces, MemberForces, ObjectNumberingUI, ObjectNumberingUI, ObjectNumberingUI, PressureLossReport, PressureLossReport, SectionProperties, SectionProperties, SectionProperties, SectionProperties, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, C4RNET, C4RNET, C4RNET, AREXRevitStart, AREXRevitStart, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, SSONETUI, SSONETUI, SSONET, SSONET, SmartMonkey, SmartMonkey, SmartMonkey, DynamoRevitVersionSelector, DynamoRevitVersionSelector, BIMOnePanelInformation, BIMOnePanelInformation, ExportViewSelectorAddin, ExportViewSelectorAddin, nwexportrevit2016_13, nwexportrevit2016_13, PowerPack_2016, PowerPack_2016, RevitAPIUIMacrosInterop, RevitAPIUIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, AddInJournalClient, REX.ApplicationServices, AREXRevitMngr, AREXRevitMngr, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RS.Enterprise.Common.ClientServer.Helper, RSEnterpriseClientRevitService, RS.Enterprise.Common.ClientServer.Proxy, RS.Enterprise.Common.ClientServer.ServiceContract.Model, RS.Enterprise.Common.ClientServer.ServiceContract.Local, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Utility, RS.Enterprise.Utility, MacroHookup, MacroHookup, RevitAPIBrowserUtils, RevitAPIBrowserUtils, RevitAPIBrowserUtils, RevitAPIBrowserUtils, DynamoRevitDS, DynamoRevitDS, RevitServices, RevitServices, DynamoRaaSHelper, RevitNodes, RevitNodes, SimpleRaaS, SimpleRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, DSRevitNodesUI, DSRevitNodesUI, DynamoRaaS
+2018-03-21 15:46:32Z : notification:System.IO.FileLoadException:
+ Dynamo has detected a conflict with a dependency and may be unstable. If any issues are detected, please uninstall addins or packages and contact the provider.: 
+ While loading assembly BimorphNodes2018, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, Dynamo detected that the dependency RevitAPI, Version=18.0.0.0, Culture=neutral, PublicKeyToken=null was already loaded with an incompatiable version. It is likely that another Revit Addin has loaded this assembly, please try uninstalling other Addins, and starting Dynamo again. Dynamo may be unstable in this state.
+It is likely one of the following assemblies loaded the incompatible version:
+UIFrameworkInterop, UIFrameworkInterop, UIFrameworkInterop, UIFramework, UIFramework, UIFrameworkServices, AddInManagerUI, AddInManagerUI, APIInterop, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, UtilityAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, GraphicsAPI, GraphicsAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceAPI, InterfaceAPI, PointCloudAccessAPI, PointCloudAccessAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, IntfIFCAPI, IntfIFCAPI, AddInManager, AddInManager, AddInManager, KeynoteDBServer, StraightSegmentCalculationServers, FittingAndAccessoryCalculationServers, CollaborateDB, CollaborateDB, CollaborateDB, CollaborateDB, RSCloudClient, RSCloudClient, RSCloudClient, AddInJournaling, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, RevitUIAPI, RevitUIAPI, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, AutoLoader, AutoLoader, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, KeynoteUIServer, KeynoteUIServer, MemberForces, MemberForces, MemberForces, ObjectNumberingUI, ObjectNumberingUI, ObjectNumberingUI, PressureLossReport, PressureLossReport, SectionProperties, SectionProperties, SectionProperties, SectionProperties, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, C4RNET, C4RNET, C4RNET, AREXRevitStart, AREXRevitStart, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, SSONETUI, SSONETUI, SSONET, SSONET, SmartMonkey, SmartMonkey, SmartMonkey, DynamoRevitVersionSelector, DynamoRevitVersionSelector, BIMOnePanelInformation, BIMOnePanelInformation, ExportViewSelectorAddin, ExportViewSelectorAddin, nwexportrevit2016_13, nwexportrevit2016_13, PowerPack_2016, PowerPack_2016, RevitAPIUIMacrosInterop, RevitAPIUIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, AddInJournalClient, REX.ApplicationServices, AREXRevitMngr, AREXRevitMngr, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RS.Enterprise.Common.ClientServer.Helper, RSEnterpriseClientRevitService, RS.Enterprise.Common.ClientServer.Proxy, RS.Enterprise.Common.ClientServer.ServiceContract.Model, RS.Enterprise.Common.ClientServer.ServiceContract.Local, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Utility, RS.Enterprise.Utility, MacroHookup, MacroHookup, RevitAPIBrowserUtils, RevitAPIBrowserUtils, RevitAPIBrowserUtils, RevitAPIBrowserUtils, DynamoRevitDS, DynamoRevitDS, RevitServices, RevitServices, DynamoRaaSHelper, RevitNodes, RevitNodes, SimpleRaaS, SimpleRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, DSRevitNodesUI, DSRevitNodesUI, DynamoRaaS, BimorphNodes, BimorphNodes
+2018-03-21 15:46:33Z : Dynamo is up to date.
+2018-03-21 15:46:37Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Get Documents.dyf
+2018-03-21 15:46:37Z : Original file 'Get Documents.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Get Documents.dyf.25.backup'
+2018-03-21 15:46:37Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\Collector.LinkedInstanceElements.dyf
+2018-03-21 15:46:37Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\LunchBox for Dynamo\dyf\LunchBox Get Parameter Value.dyf
+2018-03-21 15:46:37Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\List.CountOccurences.dyf
+2018-03-21 15:46:37Z : Original file 'List.CountOccurences.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\List.CountOccurences.dyf.6.backup'
+2018-03-21 15:46:37Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\TurnIntoList.dyf
+2018-03-21 15:46:37Z : Original file 'TurnIntoList.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\TurnIntoList.dyf.8.backup'
+2018-03-21 15:46:37Z : Active view is now FIRST FLOOR
+2018-03-21 15:47:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 15:47:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 15:47:43Z : Saving \\file-idg\software\Revit Addins\Equipment Check\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 15:48:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 15:48:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 15:49:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 15:49:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 15:50:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 15:50:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 15:51:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 15:51:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 15:52:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 15:52:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 15:53:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 15:53:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 15:54:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 15:54:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 15:55:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 15:55:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 15:56:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 15:56:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 15:57:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 15:57:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 15:58:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 15:58:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 15:59:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 15:59:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:00:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:00:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:01:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:01:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:02:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:02:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:03:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:03:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:04:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:04:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:05:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:05:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:06:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:06:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:07:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:07:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:08:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:08:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:09:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:09:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:10:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:10:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:11:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:11:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:12:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:12:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:13:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:13:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:14:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:14:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:15:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:15:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:16:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:16:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:17:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:17:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:18:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:18:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:19:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:19:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:20:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:20:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:21:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:21:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:22:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:22:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:23:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:23:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:24:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:24:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:25:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:25:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:26:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:26:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:27:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:27:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:27:49Z : Active view is now View 1
+2018-03-21 16:27:49Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-03-21 16:28:26Z : Active view is now FIRST FLOOR
+2018-03-21 16:28:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:28:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:28:46Z : Active view is now View 1
+2018-03-21 16:28:46Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-03-21 16:29:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:29:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:29:32Z : Active view is now FIRST FLOOR
+2018-03-21 16:29:34Z : Active view is now FIRST FLOOR
+2018-03-21 16:30:17Z : Active view is now View 1
+2018-03-21 16:30:17Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-03-21 16:30:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:30:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:30:54Z : Active view is now Ref. Level
+2018-03-21 16:30:54Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-03-21 16:31:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:31:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:32:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:32:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:33:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:33:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:34:21Z : Active view is now FIRST FLOOR
+2018-03-21 16:34:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:34:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:34:51Z : Active view is now Ref. Level
+2018-03-21 16:34:51Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-03-21 16:35:03Z : Active view is now Front
+2018-03-21 16:35:03Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-03-21 16:35:11Z : Active view is now Back
+2018-03-21 16:35:11Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-03-21 16:35:30Z : Active view is now Right
+2018-03-21 16:35:30Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-03-21 16:35:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:35:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:35:31Z : Active view is now Front
+2018-03-21 16:35:31Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-03-21 16:36:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:36:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:37:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:37:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:38:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:38:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:39:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:39:30Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:40:30Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:40:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:41:27Z : Active view is now Left
+2018-03-21 16:41:27Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-03-21 16:41:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:41:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:41:31Z : Active view is now Back
+2018-03-21 16:41:31Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-03-21 16:41:36Z : Active view is now Ref. Level
+2018-03-21 16:41:36Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-03-21 16:42:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:42:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:42:42Z : Active view is now FIRST FLOOR
+2018-03-21 16:42:51Z : Active view is now FIRST FLOOR
+2018-03-21 16:43:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:43:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:43:33Z : Active view is now View 1
+2018-03-21 16:43:33Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-03-21 16:43:47Z : Active view is now Front
+2018-03-21 16:43:47Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-03-21 16:44:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:44:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:45:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:45:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:46:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:46:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:47:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:47:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:48:04Z : Active view is now Left
+2018-03-21 16:48:04Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-03-21 16:48:07Z : Active view is now Right
+2018-03-21 16:48:07Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-03-21 16:48:10Z : Active view is now Back
+2018-03-21 16:48:10Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-03-21 16:48:13Z : Active view is now Ref. Level
+2018-03-21 16:48:13Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-03-21 16:48:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:48:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:48:52Z : Active view is now FIRST FLOOR
+2018-03-21 16:48:57Z : Active view is now FIRST FLOOR
+2018-03-21 16:49:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:49:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:50:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:50:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:51:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn ...
+2018-03-21 16:51:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec2.0.dyn
+2018-03-21 16:52:19Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-03-21 16:52:19Z : Goodbye

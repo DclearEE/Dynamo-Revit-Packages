@@ -1,0 +1,291 @@
+Dynamo log started 2018-10-02 20:07:36Z
+2018-10-02 20:07:38Z : Dynamo -- Build 1.3.2.2480
+2018-10-02 20:07:38Z : Duplicate migration type registered for SunPathDirection
+2018-10-02 20:07:39Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-10-02 20:07:40Z : System.InvalidOperationException:
+2018-10-02 20:07:40Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-10-02 20:07:40Z : 
+2018-10-02 20:07:43Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-10-02 20:07:43Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-10-02 20:07:43Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-10-02 20:07:43Z : RENDER : Rendering Tier: 2
+2018-10-02 20:07:43Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-02 20:07:43Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-02 20:07:43Z : RENDER : Software Effect Rendering Supported: True
+2018-10-02 20:07:43Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-02 20:07:44Z : RENDER : Rendering Tier: 2
+2018-10-02 20:07:44Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-02 20:07:44Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-02 20:07:44Z : RENDER : Software Effect Rendering Supported: True
+2018-10-02 20:07:44Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-02 20:07:44Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-10-02 20:07:44Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-10-02 20:07:44Z : Welcome to Dynamo!
+2018-10-02 20:07:44Z : 00:00:00.6870777 elapsed for loading Dynamo main window.
+2018-10-02 20:07:45Z : WPF Render Mode: SoftwareOnly
+2018-10-02 20:08:43Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:08:43Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:10:07Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:10:52Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:11:01Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:11:45Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Element.CopyByVector.dyf
+2018-10-02 20:11:45Z : Original file 'Element.CopyByVector.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\Element.CopyByVector.dyf.53.backup'
+2018-10-02 20:11:45Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\TurnIntoList.dyf
+2018-10-02 20:11:45Z : Original file 'TurnIntoList.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\TurnIntoList.dyf.114.backup'
+2018-10-02 20:11:46Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:12:43Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:12:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:12:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:12:53Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:12:56Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:13:43Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:13:43Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:14:20Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:14:24Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:14:25Z : Clearing workspace...
+2018-10-02 20:14:49Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:14:55Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:15:01Z : !! Warning: The Power System "1" is empty and will be deleted.
+2018-10-02 20:15:01Z : !! Warning: The Power System "10" is empty and will be deleted.
+2018-10-02 20:15:01Z : !! Warning: The Power System "11" is empty and will be deleted.
+2018-10-02 20:15:01Z : !! Warning: The Power System "12" is empty and will be deleted.
+2018-10-02 20:15:01Z : !! Warning: The Power System "13" is empty and will be deleted.
+2018-10-02 20:15:01Z : !! Warning: The Power System "14" is empty and will be deleted.
+2018-10-02 20:15:01Z : !! Warning: The Power System "2" is empty and will be deleted.
+2018-10-02 20:15:01Z : !! Warning: The Power System "3" is empty and will be deleted.
+2018-10-02 20:15:01Z : !! Warning: The Power System "4" is empty and will be deleted.
+2018-10-02 20:15:01Z : !! Warning: The Power System "5" is empty and will be deleted.
+2018-10-02 20:15:01Z : !! Warning: The Power System "6" is empty and will be deleted.
+2018-10-02 20:15:01Z : !! Warning: The Power System "7" is empty and will be deleted.
+2018-10-02 20:15:01Z : !! Warning: The Power System "8" is empty and will be deleted.
+2018-10-02 20:15:01Z : !! Warning: The Power System "9" is empty and will be deleted.
+2018-10-02 20:15:12Z : !! Warning: The Power System "1" is empty and will be deleted.
+2018-10-02 20:15:12Z : !! Warning: The Power System "10" is empty and will be deleted.
+2018-10-02 20:15:12Z : !! Warning: The Power System "11" is empty and will be deleted.
+2018-10-02 20:15:12Z : !! Warning: The Power System "12" is empty and will be deleted.
+2018-10-02 20:15:12Z : !! Warning: The Power System "13" is empty and will be deleted.
+2018-10-02 20:15:12Z : !! Warning: The Power System "14" is empty and will be deleted.
+2018-10-02 20:15:12Z : !! Warning: The Power System "15" is empty and will be deleted.
+2018-10-02 20:15:12Z : !! Warning: The Power System "16" is empty and will be deleted.
+2018-10-02 20:15:12Z : !! Warning: The Power System "17" is empty and will be deleted.
+2018-10-02 20:15:12Z : !! Warning: The Power System "2" is empty and will be deleted.
+2018-10-02 20:15:12Z : !! Warning: The Power System "3" is empty and will be deleted.
+2018-10-02 20:15:12Z : !! Warning: The Power System "4" is empty and will be deleted.
+2018-10-02 20:15:12Z : !! Warning: The Power System "5" is empty and will be deleted.
+2018-10-02 20:15:12Z : !! Warning: The Power System "6" is empty and will be deleted.
+2018-10-02 20:15:12Z : !! Warning: The Power System "7" is empty and will be deleted.
+2018-10-02 20:15:12Z : !! Warning: The Power System "8" is empty and will be deleted.
+2018-10-02 20:15:12Z : !! Warning: The Power System "9" is empty and will be deleted.
+2018-10-02 20:15:35Z : !! Warning: The Power System "1" is empty and will be deleted.
+2018-10-02 20:15:35Z : !! Warning: The Power System "10" is empty and will be deleted.
+2018-10-02 20:15:35Z : !! Warning: The Power System "11" is empty and will be deleted.
+2018-10-02 20:15:35Z : !! Warning: The Power System "12" is empty and will be deleted.
+2018-10-02 20:15:35Z : !! Warning: The Power System "13" is empty and will be deleted.
+2018-10-02 20:15:35Z : !! Warning: The Power System "14" is empty and will be deleted.
+2018-10-02 20:15:35Z : !! Warning: The Power System "15" is empty and will be deleted.
+2018-10-02 20:15:35Z : !! Warning: The Power System "16" is empty and will be deleted.
+2018-10-02 20:15:35Z : !! Warning: The Power System "17" is empty and will be deleted.
+2018-10-02 20:15:35Z : !! Warning: The Power System "18" is empty and will be deleted.
+2018-10-02 20:15:35Z : !! Warning: The Power System "2" is empty and will be deleted.
+2018-10-02 20:15:35Z : !! Warning: The Power System "3" is empty and will be deleted.
+2018-10-02 20:15:35Z : !! Warning: The Power System "4" is empty and will be deleted.
+2018-10-02 20:15:35Z : !! Warning: The Power System "5" is empty and will be deleted.
+2018-10-02 20:15:35Z : !! Warning: The Power System "6" is empty and will be deleted.
+2018-10-02 20:15:35Z : !! Warning: The Power System "7" is empty and will be deleted.
+2018-10-02 20:15:35Z : !! Warning: The Power System "8" is empty and will be deleted.
+2018-10-02 20:15:35Z : !! Warning: The Power System "9" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "1" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "10" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "11" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "12" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "13" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "14" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "15" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "16" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "17" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "18" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "19" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "2" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "20" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "21" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "22" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "23" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "3" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "4" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "5" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "6" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "7" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "8" is empty and will be deleted.
+2018-10-02 20:15:44Z : !! Warning: The Power System "9" is empty and will be deleted.
+2018-10-02 20:15:45Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-10-02 20:15:45Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-10-02 20:15:56Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Remove Elements and or Circuits\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-10-02 20:15:56Z : Clearing workspace...
+2018-10-02 20:15:58Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:16:04Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:16:15Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:16:40Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-02 20:16:40Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-02 20:16:40Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-02 20:16:40Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:16:43Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:16:43Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:17:43Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:17:43Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:18:04Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:18:26Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-02 20:18:26Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-02 20:18:26Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-02 20:18:37Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:18:43Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:18:43Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:18:44Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:19:07Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-02 20:19:07Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-02 20:19:12Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:19:16Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:19:40Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-02 20:19:40Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-02 20:19:43Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:19:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:20:43Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:20:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:20:54Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:20:57Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:21:05Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:22:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:22:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:23:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:23:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:24:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:24:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:24:52Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:25:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:25:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:26:17Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2018-10-02 20:26:23Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:26:36Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-10-02 20:26:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:26:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:26:51Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:26:52Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:26:54Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:27:13Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:27:25Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:27:26Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:27:34Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:27:35Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:27:39Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:27:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:27:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:27:45Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:28:25Z : Active view is now 230 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:28:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:28:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:29:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:29:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:30:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:30:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:31:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:31:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:32:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:32:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:33:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:33:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:34:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:34:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:35:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:35:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:36:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:36:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:37:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:37:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:38:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:38:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:39:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:39:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:40:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:40:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-02 20:40:57Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-02 20:40:58Z : Clearing workspace...
+2018-10-02 20:41:02Z : Clearing workspace...
+2018-10-02 20:41:35Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\SteamNodes\dyf\Element.IsTagged.dyf
+2018-10-02 20:41:35Z : Original file 'Element.IsTagged.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\SteamNodes\dyf\backup\Element.IsTagged.dyf.14.backup'
+2018-10-02 20:41:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:41:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:41:48Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Get Tagged Element Id.dyf
+2018-10-02 20:41:48Z : Original file 'Get Tagged Element Id.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Get Tagged Element Id.dyf.0.backup'
+2018-10-02 20:42:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:42:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:43:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:43:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:44:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:44:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:45:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:45:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:46:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:46:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:47:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:47:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:48:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:48:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:49:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:49:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:50:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:50:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:51:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:51:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:52:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:52:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:53:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:53:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:54:26Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:54:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:54:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:55:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:55:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:56:43Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:56:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:56:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:57:25Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 20:57:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:57:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:58:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:58:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:59:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 20:59:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 20:59:53Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 21:00:00Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 21:00:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 21:00:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 21:01:18Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 21:01:22Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 21:02:47Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 21:02:47Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 21:02:47Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 21:02:47Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 21:02:58Z : Active view is now 230 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 21:03:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 21:03:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 21:04:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 21:04:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 21:05:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 21:05:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 21:06:05Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 21:06:24Z : Active view is now 230 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 21:06:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 21:06:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 21:07:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 21:07:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 21:08:11Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 21:08:16Z : Active view is now 230 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 21:08:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 21:08:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 21:09:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 21:09:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 21:10:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 21:10:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 21:11:44Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-02 21:11:44Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-02 21:12:10Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-10-02 21:12:24Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST

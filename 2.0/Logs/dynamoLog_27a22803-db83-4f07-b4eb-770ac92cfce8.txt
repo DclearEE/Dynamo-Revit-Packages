@@ -1,0 +1,54 @@
+Dynamo log started 2018-09-04 16:02:25Z
+2018-09-04 16:02:26Z : 
+2018-09-04 16:02:27Z : RequestUpdateVersionInfo
+2018-09-04 16:02:27Z : Requesting version update info...
+2018-09-04 16:02:27Z : Dynamo -- Build 2.0.1.5055
+2018-09-04 16:02:28Z : Duplicate migration type registered for SunPathDirection
+2018-09-04 16:02:29Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-09-04 16:02:30Z : System.InvalidOperationException:
+2018-09-04 16:02:30Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-09-04 16:02:30Z : 
+2018-09-04 16:02:32Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-09-04 16:02:32Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-09-04 16:02:32Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\2\
+2018-09-04 16:02:32Z : RENDER : Rendering Tier: 2
+2018-09-04 16:02:32Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-04 16:02:32Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-04 16:02:32Z : RENDER : Software Effect Rendering Supported: True
+2018-09-04 16:02:32Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-04 16:02:32Z : RENDER : Rendering Tier: 2
+2018-09-04 16:02:32Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-04 16:02:32Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-04 16:02:32Z : RENDER : Software Effect Rendering Supported: True
+2018-09-04 16:02:32Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-04 16:02:32Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-09-04 16:02:32Z : LibraryUI (id: 85941358-5525-4FF4-8D61-6CA831F122AB) view extension is added
+2018-09-04 16:02:32Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-09-04 16:02:32Z : PackageManagerViewExtension (id: 100f5ec3-fde7-4205-80a7-c968b3a5a27b) view extension is added
+2018-09-04 16:02:33Z : Welcome to Dynamo!
+2018-09-04 16:02:33Z : 00:00:00.7828510 elapsed for loading Dynamo main window.
+2018-09-04 16:02:34Z : WPF Render Mode: SoftwareOnly
+2018-09-04 16:02:34Z : Dynamo is up to date.
+2018-09-04 16:02:34Z : ERR_ABORTED
+2018-09-04 16:02:36Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\spring nodes\dyf\Element.GetParameterUnitValue.dyf
+2018-09-04 16:02:36Z : Original file 'Element.GetParameterUnitValue.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\spring nodes\dyf\backup\Element.GetParameterUnitValue.dyf.3.backup'
+2018-09-04 16:02:37Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\RIE\dyf\RIE.SelectElementById.dyf
+2018-09-04 16:02:37Z : Original file 'RIE.SelectElementById.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\RIE\dyf\backup\RIE.SelectElementById.dyf.2.backup'
+2018-09-04 16:02:37Z : Active view is now ID Start/Save View
+2018-09-04 16:03:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn ...
+2018-09-04 16:03:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Mech Connection Parameters.dyn
+2018-09-04 16:03:41Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\ExcelLink\Mech Connection Parameters.dyn ...
+2018-09-04 16:03:41Z : Clearing workspace...
+2018-09-04 16:03:57Z : ViewExtensionCommandExecutive ( UniqueId: a9402358-a326-412f-9b79-8a3831c5f9c6, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-09-04 16:04:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-09-04 16:04:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-09-04 16:05:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-09-04 16:05:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-09-04 16:05:57Z : ViewExtensionCommandExecutive ( UniqueId: 7a441058-a46a-43c6-8522-132b83e96c7f, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2018-09-04 16:06:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-09-04 16:06:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-09-04 16:07:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-09-04 16:07:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-09-04 16:08:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-09-04 16:08:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-09-04 16:08:38Z : ViewExtensionCommandExecutive ( UniqueId: 00b7ca91-60fb-4eef-886d-5b059227befd, Name: LibraryUI, commandTypeName: CreateNodeCommand )

@@ -1,0 +1,95 @@
+<Workspace Version="1.3.3.4651" X="160.554743795185" Y="274.357621678984" zoom="1.78359936238281" ScaleFactor="1" Name="RIE.SetRevisionIssuedBy" Description="Sets IssuedBy parameter for input Revision" ID="833eafc7-78c4-43bd-8be1-438d5c3c6429" Category="RIE.Revisions">
+  <NamespaceResolutionMap />
+  <Elements>
+    <PythonNodeModels.PythonNode guid="9edd42ea-1d83-467d-b16f-ec3e40084e17" type="PythonNodeModels.PythonNode" nickname="Python Script [IssuedBy]" x="250" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="2">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <Script>import sys
+#pyt_path = r"C:\Program Files (x86)\IronPython 2.7\DLLs"
+#sys.path.append(pyt_path)
+import clr
+
+#clr.AddReference('IronPython.SQLite.dll')
+pyt_path = r"C:\Program Files (x86)\IronPython 2.7\Lib"
+sys.path.append(pyt_path)
+#import sqlite3
+
+# Import ToDSType(bool) extension method
+clr.AddReference('RevitNodes')
+import Revit
+clr.ImportExtensions(Revit.GeometryConversion)
+clr.ImportExtensions(Revit.Elements)
+
+# Import DocumentManager and TransactionManager
+clr.AddReference('RevitServices')
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+
+doc = DocumentManager.Instance.CurrentDBDocument
+uidoc = DocumentManager.Instance.CurrentUIApplication.ActiveUIDocument
+app = DocumentManager.Instance.CurrentUIApplication.Application
+
+# Import List ( ICollection(ElementId) = List[ElementId]() )
+clr.AddReference('System')
+from System.Collections.Generic import List
+
+# Import Revit API + APIUI
+clr.AddReference('RevitAPI')
+from Autodesk.Revit.DB import *
+from Autodesk.Revit.DB.Electrical import *
+
+clr.AddReference('RevitAPIUI')
+from Autodesk.Revit.UI import *
+
+OUT = []
+
+def tolist(obj):
+	if isinstance(obj, list):
+		return UnwrapElement(obj)
+	else:
+		return [UnwrapElement(obj)]
+
+def setvalue(rev,issuedby):
+	rev.IssuedBy = issuedby
+	return issuedby
+
+TransactionManager.Instance.EnsureInTransaction(doc)
+
+if isinstance(IN[1], list):
+	if len(IN[1]) == len(IN[0]):
+		for i,j in zip(tolist(IN[0]),tolist(IN[1])):
+			OUT.append(setvalue(i,j))
+	else:
+		for i in tolist(IN[0]):
+			OUT.append(setvalue(i,IN[1][0]))
+else:
+	for i in tolist(IN[0]):
+		OUT.append(setvalue(i,IN[1]))
+	
+TransactionManager.Instance.TransactionTaskDone()
+</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="7b668a29-1041-4496-a45a-4fadf05ec9a2" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="140.166006600277" y="-1.12132805280223" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="Revision" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="4b453ef1-11e3-4dcb-aec8-7c23e24c51af" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="79.6142917489576" y="64.2184039606302" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="IssuedBy:string" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+    <Dynamo.Graph.Nodes.CustomNodes.Output guid="0d6b1979-d1ee-42b0-a992-429e908038a8" type="Dynamo.Graph.Nodes.CustomNodes.Output" nickname="Output" x="427.569613201482" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <Symbol value="IssuedBy" />
+    </Dynamo.Graph.Nodes.CustomNodes.Output>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="9edd42ea-1d83-467d-b16f-ec3e40084e17" start_index="0" end="0d6b1979-d1ee-42b0-a992-429e908038a8" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="7b668a29-1041-4496-a45a-4fadf05ec9a2" start_index="0" end="9edd42ea-1d83-467d-b16f-ec3e40084e17" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="4b453ef1-11e3-4dcb-aec8-7c23e24c51af" start_index="0" end="9edd42ea-1d83-467d-b16f-ec3e40084e17" end_index="1" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>

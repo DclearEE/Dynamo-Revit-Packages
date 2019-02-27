@@ -1,0 +1,402 @@
+Dynamo log started 2018-08-13 16:27:02Z
+2018-08-13 16:27:04Z : Dynamo -- Build 1.3.2.2480
+2018-08-13 16:27:04Z : Duplicate migration type registered for SunPathDirection
+2018-08-13 16:27:05Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-08-13 16:27:06Z : System.InvalidOperationException:
+2018-08-13 16:27:06Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-08-13 16:27:06Z : 
+2018-08-13 16:27:09Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-08-13 16:27:09Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-08-13 16:27:09Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-08-13 16:27:09Z : RENDER : Rendering Tier: 2
+2018-08-13 16:27:09Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-13 16:27:09Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-13 16:27:09Z : RENDER : Software Effect Rendering Supported: True
+2018-08-13 16:27:09Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-13 16:27:10Z : RENDER : Rendering Tier: 2
+2018-08-13 16:27:10Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-13 16:27:10Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-13 16:27:10Z : RENDER : Software Effect Rendering Supported: True
+2018-08-13 16:27:10Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-13 16:27:10Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-08-13 16:27:10Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-08-13 16:27:10Z : Welcome to Dynamo!
+2018-08-13 16:27:10Z : 00:00:00.7119575 elapsed for loading Dynamo main window.
+2018-08-13 16:27:11Z : WPF Render Mode: SoftwareOnly
+2018-08-13 16:27:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.ElementsByView.dyf
+2018-08-13 16:27:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.SetRevitSelection.dyf
+2018-08-13 16:27:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Tag Host Element.dyf
+2018-08-13 16:27:20Z : Original file 'Tag Host Element.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Tag Host Element.dyf.12.backup'
+2018-08-13 16:27:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\SteamNodes\dyf\Element.IsTagged.dyf
+2018-08-13 16:27:20Z : Original file 'Element.IsTagged.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\SteamNodes\dyf\backup\Element.IsTagged.dyf.11.backup'
+2018-08-13 16:27:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Create Annotation Tag.dyf
+2018-08-13 16:27:20Z : Original file 'Create Annotation Tag.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Create Annotation Tag.dyf.15.backup'
+2018-08-13 16:27:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Document.ActiveViewFromCurrentDocument.dyf
+2018-08-13 16:27:20Z : Original file 'Document.ActiveViewFromCurrentDocument.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\Document.ActiveViewFromCurrentDocument.dyf.12.backup'
+2018-08-13 16:27:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\Doc.ActiveView.dyf
+2018-08-13 16:27:20Z : Original file 'Doc.ActiveView.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\backup\Doc.ActiveView.dyf.18.backup'
+2018-08-13 16:27:20Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-13 16:28:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:28:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:29:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:29:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:30:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:30:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:31:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:31:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:32:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:32:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:33:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:33:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:34:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:34:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:35:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:35:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:36:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:36:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:37:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:37:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:38:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:38:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:39:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:39:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:39:13Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Tag Elements\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:48:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:48:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:49:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:49:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:50:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:50:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:51:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:51:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:52:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:52:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:53:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:53:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:54:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:54:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:55:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:55:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:56:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:56:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:57:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:57:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:58:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:58:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 16:59:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 16:59:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:00:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:00:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:01:00Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-13 17:01:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:01:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:02:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:02:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:03:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:03:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:04:16Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-13 17:04:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:04:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:05:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:05:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:06:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:06:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:07:06Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-13 17:07:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:07:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:08:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:08:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:09:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:09:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:10:11Z : Active view is now ROOF POWER PLAN - AREA A
+2018-08-13 17:10:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:10:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:10:28Z : Active view is now Sheet
+2018-08-13 17:10:28Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-13 17:10:54Z : Active view is now ROOF POWER PLAN - AREA A
+2018-08-13 17:11:02Z : Active view is now Sheet
+2018-08-13 17:11:02Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-13 17:11:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:11:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:11:11Z : Active view is now ROOF POWER PLAN - AREA A
+2018-08-13 17:11:20Z : Active view is now Sheet
+2018-08-13 17:11:20Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-13 17:11:26Z : Active view is now ROOF POWER PLAN - AREA A
+2018-08-13 17:11:27Z : Active view is now ROOF POWER PLAN - AREA A
+2018-08-13 17:12:08Z : Active view is now Sheet
+2018-08-13 17:12:08Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-13 17:12:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:12:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:12:19Z : Active view is now ROOF POWER PLAN - AREA A
+2018-08-13 17:12:29Z : Active view is now Sheet
+2018-08-13 17:12:29Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-13 17:13:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:13:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:13:14Z : Active view is now ROOF POWER PLAN - AREA A
+2018-08-13 17:13:14Z : Active view is now ROOF POWER PLAN - AREA A
+2018-08-13 17:13:26Z : Active view is now FIRST FLOOR POWER PLAN - AREA A
+2018-08-13 17:14:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:14:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:15:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:15:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:15:25Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-13 17:16:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:16:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:17:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:17:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:18:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:18:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:19:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:19:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:20:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:20:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:21:14Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:21:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:21:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:22:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:22:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:23:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:23:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:23:22Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:23:55Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:23:59Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:24:03Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:24:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:24:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures 7-27-18.dyn
+2018-08-13 17:24:35Z : Active view is now L136-SWD-GPNL
+2018-08-13 17:24:38Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:24:46Z : Active view is now L136-SWD-GPNL-2
+2018-08-13 17:24:47Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:24:49Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:24:51Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Tag Elements\Tag Light Fixtures 7-27-18.dyn ...
+2018-08-13 17:24:56Z : Clearing workspace...
+2018-08-13 17:25:03Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Element.CopyByVector.dyf
+2018-08-13 17:25:03Z : Original file 'Element.CopyByVector.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\Element.CopyByVector.dyf.20.backup'
+2018-08-13 17:25:03Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\TurnIntoList.dyf
+2018-08-13 17:25:03Z : Original file 'TurnIntoList.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\TurnIntoList.dyf.70.backup'
+2018-08-13 17:25:03Z : Active view is now 124 - FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:25:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-13 17:25:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-13 17:25:26Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:25:35Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-13 17:25:35Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-08-13 17:25:38Z : Active view is now L136-SWD-GPNL
+2018-08-13 17:25:42Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:26:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-13 17:26:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-13 17:26:22Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:26:26Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:26:42Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:26:56Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:27:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-13 17:27:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-13 17:27:20Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:27:25Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:28:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-13 17:28:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-13 17:28:22Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:28:24Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:29:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-13 17:29:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-13 17:29:36Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:29:40Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:29:43Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:29:45Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:30:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-13 17:30:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-13 17:31:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-13 17:31:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-13 17:31:23Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:31:30Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:32:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-13 17:32:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-13 17:33:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-13 17:33:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-13 17:33:47Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:33:57Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:34:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-13 17:34:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-13 17:35:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-13 17:35:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-13 17:35:30Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:35:39Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:36:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-13 17:36:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-13 17:37:46Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-13 17:37:46Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-13 17:38:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-13 17:38:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-13 17:38:52Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:38:55Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:39:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-13 17:39:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-13 17:39:39Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-13 17:39:39Z : Clearing workspace...
+2018-08-13 17:44:36Z : Clearing workspace...
+2018-08-13 17:45:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 17:45:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 17:46:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 17:46:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 17:47:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 17:47:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 17:48:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 17:48:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 17:49:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 17:49:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 17:50:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 17:50:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 17:51:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 17:51:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 17:51:42Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:52:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 17:52:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 17:52:12Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:53:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 17:53:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 17:54:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 17:54:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 17:54:36Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:55:03Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:55:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 17:55:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 17:56:07Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:56:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 17:56:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 17:56:13Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:56:29Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:56:36Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:56:39Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:57:06Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:57:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 17:57:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 17:57:32Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:57:36Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:57:57Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:58:00Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:58:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 17:58:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 17:58:21Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:58:34Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:58:52Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:58:58Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:59:04Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:59:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 17:59:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 17:59:11Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:59:21Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:59:24Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:59:26Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 17:59:53Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 18:00:16Z : Active view is now 136 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-13 18:00:16Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:00:16Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:00:21Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 18:00:47Z : Active view is now 136 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-13 18:01:12Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:01:12Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:02:01Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 18:02:01Z : Active view is now 136 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-13 18:02:05Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 18:02:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:02:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:02:12Z : Active view is now 136 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-13 18:02:13Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 18:02:20Z : Active view is now 136 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-13 18:02:34Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 18:02:35Z : Active view is now 136 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-13 18:02:49Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 18:02:55Z : Active view is now 136 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-13 18:03:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:03:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:03:13Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 18:03:17Z : Active view is now 136 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-13 18:03:24Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 18:03:27Z : Active view is now 136 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-13 18:03:42Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 18:03:45Z : Active view is now 136 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-13 18:04:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:04:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:05:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:05:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:06:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:06:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:06:19Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 18:06:40Z : Active view is now 136 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-13 18:07:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:07:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:07:19Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 18:07:57Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\List.MatchWithKeyValues.dyf
+2018-08-13 18:07:57Z : Original file 'List.MatchWithKeyValues.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\List.MatchWithKeyValues.dyf.2.backup'
+2018-08-13 18:08:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:08:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:09:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:09:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:10:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:10:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:10:22Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\LunchBox for Dynamo\dyf\LunchBox List Matcher.dyf
+2018-08-13 18:10:22Z : Original file 'LunchBox List Matcher.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\LunchBox for Dynamo\dyf\backup\LunchBox List Matcher.dyf.3.backup'
+2018-08-13 18:10:43Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\SteamNodes\dyf\List.FilterByString.dyf
+2018-08-13 18:10:43Z : Original file 'List.FilterByString.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\SteamNodes\dyf\backup\List.FilterByString.dyf.3.backup'
+2018-08-13 18:11:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:11:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:12:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:12:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:13:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:13:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:14:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:14:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:15:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:15:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:16:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:16:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:17:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:17:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:17:34Z : Active view is now 136 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-13 18:18:00Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 18:18:09Z : Active view is now 136 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-13 18:18:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:18:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:19:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:19:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:20:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-13 18:20:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-13 18:20:22Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Set Element Location\SetElementLocation.dyn ...
+2018-08-13 18:20:27Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 18:20:48Z : Active view is now 136 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-13 18:21:07Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-13 18:21:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SetElementLocation.dyn ...
+2018-08-13 18:21:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SetElementLocation.dyn
+2018-08-13 18:21:21Z : Active view is now 136 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-13 18:22:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SetElementLocation.dyn ...
+2018-08-13 18:22:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SetElementLocation.dyn
+2018-08-13 18:22:47Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\List.AlphabeticalSequence.dyf
+2018-08-13 18:22:47Z : Original file 'List.AlphabeticalSequence.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\List.AlphabeticalSequence.dyf.1.backup'
+2018-08-13 18:22:47Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Character.FromNumber.dyf
+2018-08-13 18:22:47Z : Original file 'Character.FromNumber.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\Character.FromNumber.dyf.1.backup'
+2018-08-13 18:22:54Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\String.AlphanumericToMorse.dyf
+2018-08-13 18:22:54Z : Original file 'String.AlphanumericToMorse.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\String.AlphanumericToMorse.dyf.0.backup'
+2018-08-13 18:22:54Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\List.FromString.dyf
+2018-08-13 18:22:54Z : Original file 'List.FromString.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\List.FromString.dyf.1.backup'
+2018-08-13 18:23:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SetElementLocation.dyn ...
+2018-08-13 18:23:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SetElementLocation.dyn
+2018-08-13 18:24:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SetElementLocation.dyn ...
+2018-08-13 18:24:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\SetElementLocation.dyn
+2018-08-13 18:24:48Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Set Element Location\SetElementLocation.dyn ...
+2018-08-13 18:25:04Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\Collector.LinkedInstanceElements.dyf
+2018-08-13 18:25:04Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\LunchBox for Dynamo\dyf\LunchBox Get Parameter Value.dyf
+2018-08-13 18:25:04Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\List.CountOccurences.dyf
+2018-08-13 18:25:04Z : Original file 'List.CountOccurences.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\List.CountOccurences.dyf.33.backup'
+2018-08-13 18:25:04Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\List.ReplaceNull.dyf
+2018-08-13 18:25:04Z : Original file 'List.ReplaceNull.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\List.ReplaceNull.dyf.25.backup'
+2018-08-13 18:25:04Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Get Documents.dyf
+2018-08-13 18:25:04Z : Original file 'Get Documents.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Get Documents.dyf.54.backup'
+2018-08-13 18:25:05Z : Active view is now 136 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-13 18:25:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 (Must Set Phase).dyn ...
+2018-08-13 18:25:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 (Must Set Phase).dyn
+2018-08-13 18:26:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 (Must Set Phase).dyn ...
+2018-08-13 18:26:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 (Must Set Phase).dyn
+2018-08-13 18:27:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 (Must Set Phase).dyn ...
+2018-08-13 18:27:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 (Must Set Phase).dyn
+2018-08-13 18:27:36Z : Clearing workspace...
+2018-08-13 18:27:38Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-08-13 18:27:38Z : Goodbye

@@ -1,0 +1,1251 @@
+Dynamo log started 2018-08-22 15:22:53Z
+2018-08-22 15:22:55Z : Dynamo -- Build 1.3.2.2480
+2018-08-22 15:22:56Z : Duplicate migration type registered for SunPathDirection
+2018-08-22 15:22:57Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-08-22 15:22:58Z : System.InvalidOperationException:
+2018-08-22 15:22:58Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-08-22 15:22:58Z : 
+2018-08-22 15:23:02Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-08-22 15:23:02Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-08-22 15:23:02Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-08-22 15:23:02Z : RENDER : Rendering Tier: 2
+2018-08-22 15:23:02Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-22 15:23:02Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-22 15:23:02Z : RENDER : Software Effect Rendering Supported: True
+2018-08-22 15:23:02Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-22 15:23:02Z : RENDER : Rendering Tier: 2
+2018-08-22 15:23:02Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-22 15:23:02Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-22 15:23:02Z : RENDER : Software Effect Rendering Supported: True
+2018-08-22 15:23:02Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-22 15:23:03Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-08-22 15:23:03Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-08-22 15:23:03Z : Welcome to Dynamo!
+2018-08-22 15:23:03Z : 00:00:00.7451397 elapsed for loading Dynamo main window.
+2018-08-22 15:23:04Z : WPF Render Mode: SoftwareOnly
+2018-08-22 15:23:15Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\ElectricalSystem.RemoveFromCircuit.dyf
+2018-08-22 15:23:15Z : Original file 'ElectricalSystem.RemoveFromCircuit.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\backup\ElectricalSystem.RemoveFromCircuit.dyf.1.backup'
+2018-08-22 15:23:16Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\Element.ElectricalCircuit.dyf
+2018-08-22 15:23:16Z : Original file 'Element.ElectricalCircuit.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\backup\Element.ElectricalCircuit.dyf.2.backup'
+2018-08-22 15:23:16Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 15:24:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Circuits (Light Fixture Filter).dyn ...
+2018-08-22 15:24:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Circuits (Light Fixture Filter).dyn
+2018-08-22 15:24:20Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Remove Elements and or Circuits\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:24:51Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.GetPanelAndEquipmentFromCircuit.dyf
+2018-08-22 15:25:00Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.GetCircuitFromPanelScheduleView.dyf
+2018-08-22 15:25:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:25:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:25:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.GetElementConnector.dyf
+2018-08-22 15:25:40Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.SelectPanel.dyf
+2018-08-22 15:26:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:26:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:26:40Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Remove Elements and or Circuits\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:26:40Z : Clearing workspace...
+2018-08-22 15:27:00Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Element.CopyByVector.dyf
+2018-08-22 15:27:00Z : Original file 'Element.CopyByVector.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\Element.CopyByVector.dyf.23.backup'
+2018-08-22 15:27:00Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\TurnIntoList.dyf
+2018-08-22 15:27:00Z : Original file 'TurnIntoList.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\TurnIntoList.dyf.75.backup'
+2018-08-22 15:27:00Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 15:27:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 15:27:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 15:27:34Z : Clearing workspace...
+2018-08-22 15:27:36Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 15:28:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:28:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:29:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:29:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:29:21Z : Active view is now FIRST FLOOR RCP - WORK
+2018-08-22 15:30:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:30:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:31:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:31:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:31:13Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 15:31:21Z : !! Warning: The  System "Switch System (a)" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "1" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "10" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "11" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "12" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "13" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "14" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "15" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "16" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "17" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "18" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "19" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "2" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "20" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "21" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "3" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "4" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "5" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "6" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "7" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "8" is empty and will be deleted.
+2018-08-22 15:31:21Z : !! Warning: The Power System "9" is empty and will be deleted.
+2018-08-22 15:31:56Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-08-22 15:32:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:32:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:32:03Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 15:32:03Z : Active view is now FIRST FLOOR RCP - WORK
+2018-08-22 15:32:09Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 15:33:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:33:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:33:22Z : !! Warning: The  System "Switch System (b)" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "1" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "10" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "11" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "12" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "13" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "14" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "15" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "16" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "17" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "18" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "19" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "2" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "20" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "21" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "3" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "4" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "5" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "6" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "7" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "8" is empty and will be deleted.
+2018-08-22 15:33:22Z : !! Warning: The Power System "9" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The  System "Switch System (c)" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "1" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "10" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "2" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "29" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "3" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "31" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "33" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "34" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "35" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "36" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "37" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "38" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "39" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "4" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "5" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "6" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "7" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "8" is empty and will be deleted.
+2018-08-22 15:33:34Z : !! Warning: The Power System "9" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The  System "Switch System (d)" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "1" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "10" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "11" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "12" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "13" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "14" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "15" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "16" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "17" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "18" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "19" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "2" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "20" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "21" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "22" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "3" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "4" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "5" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "6" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "7" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "8" is empty and will be deleted.
+2018-08-22 15:33:41Z : !! Warning: The Power System "9" is empty and will be deleted.
+2018-08-22 15:33:47Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Remove Elements and or Circuits\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:34:06Z : Active view is now FIRST FLOOR RCP - WORK
+2018-08-22 15:34:22Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 15:35:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:35:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:36:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:36:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:37:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:37:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:38:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:38:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:38:58Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 15:39:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:39:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:40:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:40:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:40:18Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 15:40:19Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 15:40:31Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 15:40:34Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 15:40:35Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 15:41:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:41:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:41:11Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 15:41:24Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 15:42:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:42:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:42:20Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 15:42:29Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 15:42:34Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 15:42:53Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 15:42:59Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 15:43:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:43:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:43:55Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 15:44:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:44:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:44:08Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 15:44:27Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 15:45:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:45:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:45:04Z : Active view is now FIRST FLOOR RCP - WORK
+2018-08-22 15:45:07Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 15:45:11Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 15:46:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:46:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:47:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:47:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:48:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:48:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:49:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:49:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:49:06Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 15:49:08Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 15:50:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:50:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:50:36Z : Active view is now FIRST FLOOR RCP - WORK
+2018-08-22 15:50:45Z : Active view is now View 1
+2018-08-22 15:50:45Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-22 15:50:51Z : Active view is now Ref. Level
+2018-08-22 15:50:51Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-22 15:51:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:51:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:51:25Z : Active view is now FIRST FLOOR RCP - WORK
+2018-08-22 15:51:32Z : Active view is now FIRST FLOOR RCP - WORK
+2018-08-22 15:52:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:52:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:53:02Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 15:53:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:53:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:53:51Z : Active view is now POWER DETAILS
+2018-08-22 15:54:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:54:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:55:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:55:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:55:40Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 15:55:43Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 15:55:46Z : Active view is now POWER DETAILS
+2018-08-22 15:56:01Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 15:56:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:56:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:56:14Z : Active view is now POWER DETAILS
+2018-08-22 15:56:15Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 15:56:21Z : Active view is now POWER DETAILS
+2018-08-22 15:56:46Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 15:56:48Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 15:57:02Z : Active view is now View 1
+2018-08-22 15:57:02Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-22 15:57:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:57:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:57:30Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 15:57:31Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 15:57:38Z : Active view is now View 1
+2018-08-22 15:57:38Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-22 15:57:43Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 15:58:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:58:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 15:59:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 15:59:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:00:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:00:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:00:15Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:01:02Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 16:01:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:01:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:01:15Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:01:32Z : Active view is now POWER DETAILS
+2018-08-22 16:01:33Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:01:37Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 16:01:54Z : Active view is now View 1
+2018-08-22 16:01:54Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-22 16:01:58Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 16:01:59Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 16:02:01Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:02:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:02:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:03:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:03:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:04:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:04:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:05:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:05:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:05:07Z : Active view is now POWER DETAILS
+2018-08-22 16:05:14Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:06:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:06:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:07:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:07:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:08:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:08:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:09:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:09:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:10:02Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:10:02Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:10:33Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2018-08-22 16:10:47Z : Active view is now SUITE 124 - MECHANICAL EQUIPMENT SCHEDULE
+2018-08-22 16:11:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:11:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:11:17Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:11:22Z : Active view is now SUITE 124 - MECHANICAL EQUIPMENT SCHEDULE
+2018-08-22 16:11:26Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:11:29Z : Active view is now SUITE 124 - MECHANICAL EQUIPMENT SCHEDULE
+2018-08-22 16:12:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:12:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:12:59Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:13:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:13:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:13:10Z : Active view is now SUITE 124 - MECHANICAL EQUIPMENT SCHEDULE
+2018-08-22 16:13:48Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:13:52Z : Active view is now SUITE 124 - MECHANICAL EQUIPMENT SCHEDULE
+2018-08-22 16:14:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:14:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:14:10Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:15:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:15:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:15:55Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2018-08-22 16:15:57Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:15:58Z : Active view is now POWER DETAILS
+2018-08-22 16:16:02Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:16:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:16:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:16:12Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-08-22 16:16:19Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:17:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:17:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:18:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:18:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:19:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:19:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:20:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:20:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:21:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:21:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:21:40Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 16:21:43Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:22:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:22:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:22:06Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 16:22:38Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-08-22 16:22:48Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 16:22:51Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-08-22 16:22:51Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 16:23:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:23:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:23:33Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:23:34Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 16:24:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:24:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:24:39Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:25:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:25:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:26:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:26:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:27:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:27:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:28:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:28:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:29:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:29:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:30:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:30:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:30:46Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 16:31:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:31:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:31:10Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:31:20Z : Active view is now FIRST FLOOR POWER PLAN - AREA A
+2018-08-22 16:31:48Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:31:57Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-22 16:32:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:32:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:33:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:33:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:33:11Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:33:25Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-22 16:34:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:34:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:35:02Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:35:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:35:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:35:14Z : Active view is now L124-SWA-GPNL-2
+2018-08-22 16:35:46Z : Active view is now L124-SWB-GPNL-2
+2018-08-22 16:36:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:36:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:36:07Z : Active view is now L124-SWD-GPNL-2
+2018-08-22 16:36:30Z : Active view is now L124-SWC-GPNL-2
+2018-08-22 16:36:48Z : Active view is now L124-SWD-GPNL-2
+2018-08-22 16:36:51Z : Active view is now L124-SWC-GPNL-2
+2018-08-22 16:37:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:37:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:37:20Z : Active view is now L124-SWD-GPNL-2
+2018-08-22 16:37:24Z : Active view is now L124-SWB-GPNL-2
+2018-08-22 16:37:40Z : Active view is now L124-SWC-MECH-C1
+2018-08-22 16:37:41Z : Active view is now L124-SWC-GPNL-2
+2018-08-22 16:37:46Z : Active view is now L124-SWC-MECH-C1
+2018-08-22 16:37:46Z : Active view is now L124-SWC-GPNL-2
+2018-08-22 16:37:47Z : Active view is now L124-SWB-GPNL-2
+2018-08-22 16:37:57Z : Active view is now L124-SWA-GPNL-2
+2018-08-22 16:38:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:38:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:38:09Z : Active view is now L124-SWB-GPNL-2
+2018-08-22 16:38:11Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:39:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:39:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:40:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:40:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:41:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:41:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 16:41:20Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Remove Elements and or Circuits\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 16:41:20Z : Clearing workspace...
+2018-08-22 16:41:32Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 16:41:33Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:42:01Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 16:42:02Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:43:36Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 16:44:50Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-08-22 16:44:54Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 16:45:02Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 16:45:20Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 16:46:02Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:47:49Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 16:47:57Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 16:47:58Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 16:48:03Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:49:41Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 16:49:43Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:49:48Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 16:49:48Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:49:52Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 16:50:10Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:50:41Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:51:35Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:51:39Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:51:48Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 16:51:50Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:51:55Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:52:03Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:52:11Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:52:13Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 16:52:16Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:53:14Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:53:16Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 16:55:09Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 16:55:49Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 16:56:16Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:03:50Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:04:00Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 17:04:03Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:04:10Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:04:21Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:04:28Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:04:48Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:04:55Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:05:27Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:05:46Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 17:08:08Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:08:22Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 17:09:04Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:17:33Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 17:22:50Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:23:15Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 17:24:27Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:24:54Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN HOST - DOC
+2018-08-22 17:25:57Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:25:59Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 17:26:09Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:26:09Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA B
+2018-08-22 17:26:32Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:26:41Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:26:53Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:27:24Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:27:24Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:27:29Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:27:42Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 17:27:47Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:27:47Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:28:00Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:28:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:28:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:28:26Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:28:36Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:29:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:29:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:29:16Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:29:19Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:29:26Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:29:32Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:29:58Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:30:02Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:30:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:30:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:30:15Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:30:16Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:30:47Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:31:03Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:31:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:31:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:31:15Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:32:02Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-22 17:32:02Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-22 17:32:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:32:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:32:30Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:32:36Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:32:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-22 17:32:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-22 17:33:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:33:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:33:28Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:33:39Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:33:50Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:34:12Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-22 17:34:12Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-22 17:34:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:34:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:34:25Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:34:47Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-22 17:34:47Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-22 17:34:58Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:35:02Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:35:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:35:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:35:14Z : Active view is now L130-SWA-GPNL-2
+2018-08-22 17:35:21Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 17:36:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:36:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:37:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:37:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:38:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:38:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:39:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:39:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:40:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:40:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:41:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:41:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:42:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:42:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:43:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:43:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:44:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:44:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:45:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:45:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:46:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:46:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:47:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:47:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:48:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:48:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:49:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:49:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:50:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:50:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:51:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:51:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:52:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:52:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:53:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:53:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:54:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:54:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:55:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:55:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:56:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:56:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:57:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:57:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:58:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:58:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 17:59:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 17:59:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:00:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:00:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:00:34Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 18:01:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:01:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:02:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:02:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:03:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:03:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:04:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:04:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:05:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:05:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:06:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:06:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:07:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:07:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:08:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:08:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:09:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:09:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:10:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:10:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:11:00Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 18:11:02Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 18:11:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:11:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:12:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:12:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:13:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:13:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:14:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:14:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:15:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:15:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:16:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:16:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:17:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:17:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:18:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:18:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:19:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:19:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:19:19Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 18:19:20Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 18:20:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:20:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:20:11Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 18:21:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:21:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:22:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:22:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:23:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:23:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:24:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:24:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:25:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:25:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:25:49Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 18:26:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:26:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:27:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:27:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:28:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:28:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:29:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:29:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:30:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:30:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:31:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:31:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:32:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:32:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:32:19Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 18:32:20Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 18:32:22Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 18:33:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:33:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:34:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:34:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:35:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:35:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:36:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:36:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:37:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:37:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:38:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:38:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:39:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:39:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:40:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:40:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:41:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:41:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:42:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:42:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:42:27Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 18:43:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:43:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:44:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:44:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:45:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:45:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:46:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:46:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:47:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:47:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:47:52Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 18:48:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:48:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:48:20Z : Active view is now 142 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 18:49:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:49:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:50:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:50:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:51:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:51:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:52:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:52:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:53:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:53:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:54:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:54:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:55:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:55:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:56:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:56:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:57:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:57:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:58:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:58:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 18:59:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 18:59:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 19:00:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 19:00:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 19:01:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 19:01:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 19:02:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 19:02:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 19:03:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 19:03:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 19:04:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 19:04:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 19:04:30Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 19:04:31Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 19:05:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 19:05:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 19:06:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 19:06:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 19:07:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 19:07:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 19:07:19Z : Active view is now FIRST FLOOR POWER PLAN - AREA A
+2018-08-22 19:07:20Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 19:07:30Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-22 19:08:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 19:08:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 19:09:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 19:09:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 19:09:41Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 19:09:42Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 19:10:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 19:10:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 19:11:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 19:11:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 19:12:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 19:12:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 19:13:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 19:13:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 19:14:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 19:14:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 19:15:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 19:15:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 19:16:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 19:16:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 19:17:00Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 19:17:00Z : Clearing workspace...
+2018-08-22 19:18:09Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 19:19:06Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 19:22:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn ...
+2018-08-22 19:22:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn
+2018-08-22 19:23:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn ...
+2018-08-22 19:23:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn
+2018-08-22 19:23:23Z : Microsoft.Scripting.SyntaxErrorException: EOL while scanning single-quoted string
+   at Microsoft.Scripting.ErrorSink.Add(SourceUnit source, String message, SourceSpan span, Int32 errorCode, Severity severity)
+   at IronPython.Compiler.Parser.TokenizerErrorSink.Add(SourceUnit sourceUnit, String message, SourceSpan span, Int32 errorCode, Severity severity)
+   at IronPython.Compiler.Tokenizer.ReportSyntaxError(IndexSpan span, String message, Int32 errorCode)
+   at IronPython.Compiler.Tokenizer.UnexpectedEndOfString(Boolean isTriple, Boolean isIncomplete)
+   at IronPython.Compiler.Tokenizer.ContinueString(Char quote, Boolean isRaw, Boolean isUnicode, Boolean isBytes, Boolean isTriple, Int32 startAdd)
+   at IronPython.Compiler.Tokenizer.ReadString(Char quote, Boolean isRaw, Boolean isUni, Boolean isBytes)
+   at IronPython.Compiler.Tokenizer.Next()
+   at IronPython.Compiler.Tokenizer.GetNextToken()
+   at IronPython.Compiler.Parser.FetchLookahead()
+   at IronPython.Compiler.Parser.ParsePrimary()
+   at IronPython.Compiler.Parser.ParsePower()
+   at IronPython.Compiler.Parser.ParseFactor()
+   at IronPython.Compiler.Parser.ParseExpr(Int32 precedence)
+   at IronPython.Compiler.Parser.ParseComparison()
+   at IronPython.Compiler.Parser.ParseNotTest()
+   at IronPython.Compiler.Parser.ParseAndTest()
+   at IronPython.Compiler.Parser.ParseOrTest()
+   at IronPython.Compiler.Parser.ParseExpression()
+   at IronPython.Compiler.Parser.ParseTestListAsExpr()
+   at IronPython.Compiler.Parser.ParseTestListAsExpression()
+   at IronPython.Compiler.Parser.ParseTopExpression()
+   at IronPython.Runtime.PythonContext.ParseAndBindAst(CompilerContext context)
+   at IronPython.Runtime.PythonContext.CompilePythonCode(SourceUnit sourceUnit, CompilerOptions options, ErrorSink errorSink)
+   at IronPython.Runtime.PythonContext.CompileSourceCode(SourceUnit sourceUnit, CompilerOptions options, ErrorSink errorSink)
+   at Microsoft.Scripting.SourceUnit.Execute(Scope scope, ErrorSink errorSink)
+   at Microsoft.Scripting.Hosting.ScriptSource.Execute(ScriptScope scope)
+   at Dynamo.Python.IronPythonCompletionProvider.TryGetType(String name)
+2018-08-22 19:23:23Z : Failed to look up type
+2018-08-22 19:23:49Z : IronPython.Runtime.UnboundNameException: name 'Universe' is not defined
+   at IronPython.Runtime.Operations.PythonOps.GetVariable(CodeContext context, String name, Boolean isGlobal, Boolean lightThrow)
+   at IronPython.Compiler.LookupGlobalInstruction.Run(InterpretedFrame frame)
+   at Microsoft.Scripting.Interpreter.Interpreter.Run(InterpretedFrame frame)
+   at Microsoft.Scripting.Interpreter.LightLambda.Run2[T0,T1,TRet](T0 arg0, T1 arg1)
+   at IronPython.Compiler.PythonScriptCode.RunWorker(CodeContext ctx)
+   at IronPython.Compiler.PythonScriptCode.EvalWrapper(CodeContext ctx)
+   at Microsoft.Scripting.Hosting.ScriptSource.Execute(ScriptScope scope)
+   at Dynamo.Python.IronPythonCompletionProvider.TryGetType(String name)
+2018-08-22 19:23:49Z : Failed to look up type
+2018-08-22 19:24:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn ...
+2018-08-22 19:24:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn
+2018-08-22 19:25:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn ...
+2018-08-22 19:25:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn
+2018-08-22 19:25:21Z : Active view is now 142 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 19:25:29Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\DynamoPlayDespacito\Play Despacito.dyn ...
+2018-08-22 19:26:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn ...
+2018-08-22 19:26:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn
+2018-08-22 19:27:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn ...
+2018-08-22 19:27:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn
+2018-08-22 19:28:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn ...
+2018-08-22 19:28:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn
+2018-08-22 19:29:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn ...
+2018-08-22 19:29:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn
+2018-08-22 19:30:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn ...
+2018-08-22 19:30:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn
+2018-08-22 19:31:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn ...
+2018-08-22 19:31:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn
+2018-08-22 19:32:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn ...
+2018-08-22 19:32:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn
+2018-08-22 19:32:33Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 19:33:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn ...
+2018-08-22 19:33:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn
+2018-08-22 19:34:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn ...
+2018-08-22 19:34:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn
+2018-08-22 19:35:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn ...
+2018-08-22 19:35:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn
+2018-08-22 19:36:05Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn ...
+2018-08-22 19:36:05Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Play Despacito.dyn
+2018-08-22 19:36:55Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\DynamoPlayDespacito\Play Despacito.dyn ...
+2018-08-22 19:36:57Z : Clearing workspace...
+2018-08-22 19:40:00Z : Active view is now 142 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 19:40:03Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 19:40:12Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 19:44:44Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-08-22 19:44:44Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 19:44:46Z : Active view is now PANEL SCHEDULES - "B" SYSTEM
+2018-08-22 19:44:47Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 19:44:49Z : Active view is now PANEL SCHEDULES - "C" SYSTEM
+2018-08-22 19:44:49Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 19:44:51Z : Active view is now PANEL SCHEDULES - "D" SYSTEM
+2018-08-22 19:44:52Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 19:53:54Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2018-08-22 19:56:35Z : Active view is now L124-SWC-GPNL-2
+2018-08-22 19:56:41Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2018-08-22 19:56:54Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2018-08-22 19:57:02Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\DynamoPlayDespacito\Play Despacito.dyn ...
+2018-08-22 19:57:02Z : Clearing workspace...
+2018-08-22 19:57:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-22 19:57:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-22 19:57:47Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 19:57:55Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 19:58:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 19:58:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 19:58:08Z : !! Warning: The Power System "1" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "10" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "11" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "12" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "13" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "14" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "15" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "16" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "17" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "18" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "19" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "2" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "20" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "21" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "22" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "23" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "3" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "4" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "5" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "6" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "7" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "8" is empty and will be deleted.
+2018-08-22 19:58:08Z : !! Warning: The Power System "9" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "1" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "10" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "11" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "12" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "13" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "14" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "15" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "16" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "17" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "18" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "19" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "2" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "20" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "21" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "22" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "3" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "4" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "5" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "6" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "7" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "8" is empty and will be deleted.
+2018-08-22 19:58:15Z : !! Warning: The Power System "9" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "1" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "10" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "11" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "12" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "13" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "14" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "15" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "16" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "17" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "18" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "19" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "2" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "20" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "21" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "22" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "23" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "24" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "3" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "4" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "5" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "6" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "7" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "8" is empty and will be deleted.
+2018-08-22 19:58:26Z : !! Warning: The Power System "9" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "1" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "10" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "11" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "12" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "13" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "14" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "15" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "16" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "17" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "18" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "19" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "2" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "20" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "21" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "22" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "23" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "3" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "4" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "5" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "6" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "7" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "8" is empty and will be deleted.
+2018-08-22 19:58:34Z : !! Warning: The Power System "9" is empty and will be deleted.
+2018-08-22 19:59:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 19:59:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 20:00:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 20:00:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 20:00:18Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 20:01:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn ...
+2018-08-22 20:01:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Remove Elements and circuits from Panel.dyn
+2018-08-22 20:01:20Z : Clearing workspace...
+2018-08-22 20:01:25Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 20:01:31Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 20:01:39Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 20:01:47Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 20:02:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:02:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:02:07Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 20:02:23Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 20:02:42Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-22 20:02:42Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-22 20:02:53Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 20:03:11Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-22 20:03:11Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-22 20:03:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:03:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:03:27Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 20:03:46Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-22 20:03:46Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-22 20:04:02Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 20:04:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:04:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:04:07Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 20:04:24Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-22 20:04:24Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-08-22 20:05:21Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:05:21Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:06:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:06:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:06:10Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-08-22 20:06:37Z : Active view is now L124-SWA-GPNL
+2018-08-22 20:06:51Z : Active view is now PANEL SCHEDULES - "A" SYSTEM
+2018-08-22 20:07:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:07:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:08:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:08:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:09:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:09:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:10:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:10:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:11:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:11:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:12:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:12:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:13:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:13:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:14:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:14:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:14:21Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 20:14:22Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 20:14:25Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 20:14:48Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 20:14:56Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 20:14:56Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 20:14:57Z : Active view is now 130 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 20:14:57Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 20:15:14Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 20:15:14Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:15:14Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:15:46Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 20:16:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:16:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:16:19Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 20:17:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:17:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:18:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:18:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:19:14Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:19:14Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:20:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:20:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:21:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:21:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:22:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:22:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:23:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:23:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:23:32Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 20:23:45Z : Active view is now L130-SWA-GPNL-2
+2018-08-22 20:23:50Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 20:23:53Z : Active view is now L130-SWA-GPNL-2
+2018-08-22 20:23:55Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 20:24:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:24:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:24:20Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 20:25:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:25:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:26:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:26:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:26:10Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 20:27:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:27:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:28:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:28:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:29:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:29:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:30:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:30:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:31:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:31:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:32:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:32:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:33:14Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:33:14Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:34:13Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:34:13Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:35:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:35:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:36:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:36:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:37:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:37:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:38:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:38:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:39:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:39:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:40:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:40:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:41:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:41:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:42:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:42:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:43:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:43:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:44:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:44:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:45:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:45:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:46:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:46:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:47:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:47:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:48:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:48:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:49:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:49:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:50:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:50:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:51:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:51:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:52:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:52:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:53:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:53:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:54:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:54:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:55:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:55:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:56:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:56:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:57:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:57:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:58:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:58:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 20:59:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 20:59:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:00:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:00:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:01:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:01:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:02:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:02:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:03:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:03:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:04:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:04:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:05:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:05:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:06:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:06:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:07:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:07:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:08:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:08:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:09:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:09:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:10:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:10:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:11:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:11:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:12:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:12:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:13:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:13:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:14:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:14:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:15:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:15:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:16:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:16:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:17:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:17:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:18:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:18:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:19:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:19:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:20:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:20:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:21:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:21:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:22:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:22:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:23:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:23:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:24:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:24:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:25:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:25:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:26:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:26:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:27:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:27:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:28:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:28:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:29:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:29:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:30:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:30:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:30:28Z : Active view is now SUITE 124 - MECHANICAL EQUIPMENT SCHEDULE
+2018-08-22 21:30:39Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 21:30:48Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 21:31:07Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-22 21:31:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:31:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:31:24Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 21:31:32Z : Active view is now SUITE 124 - MECHANICAL EQUIPMENT SCHEDULE
+2018-08-22 21:32:36Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:32:36Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:32:36Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 21:33:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:33:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:34:08Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:34:08Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:34:47Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 21:35:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:35:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:35:46Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 21:36:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:36:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:37:09Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:37:09Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:38:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:38:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:39:17Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:39:17Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:40:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:40:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:40:10Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 21:40:13Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 21:41:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:41:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:42:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:42:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:42:56Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 21:43:08Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:43:08Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:43:40Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 21:44:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:44:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:45:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:45:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:45:25Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 21:45:38Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-22 21:46:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:46:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:47:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:47:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:48:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:48:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:48:26Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2018-08-22 21:48:36Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-22 21:49:04Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-08-22 21:49:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:49:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:50:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:50:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:51:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:51:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:52:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:52:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:53:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:53:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:53:34Z : Active view is now 142 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 21:54:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:54:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:55:08Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:55:08Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:55:35Z : Active view is now SUITE 124 - MECHANICAL EQUIPMENT SCHEDULE
+2018-08-22 21:55:35Z : Active view is now 142 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 21:55:37Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-22 21:55:38Z : Active view is now 142 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-22 21:56:08Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:56:08Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:56:33Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-22 21:56:53Z : Active view is now SUITE 124 - MECHANICAL EQUIPMENT SCHEDULE
+2018-08-22 21:57:08Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:57:08Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:58:08Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:58:08Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 21:58:11Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-22 21:59:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 21:59:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 22:00:08Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 22:00:08Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 22:01:08Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-22 22:01:08Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-22 22:01:08Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-08-22 22:01:22Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-08-22 22:01:22Z : Goodbye

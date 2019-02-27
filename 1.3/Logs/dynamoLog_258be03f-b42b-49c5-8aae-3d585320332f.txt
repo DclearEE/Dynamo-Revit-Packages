@@ -1,0 +1,84 @@
+Dynamo log started 2018-09-28 16:41:01Z
+2018-09-28 16:41:01Z : Dynamo -- Build 1.3.2.2480
+2018-09-28 16:41:01Z : Duplicate migration type registered for SunPathDirection
+2018-09-28 16:41:03Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-09-28 16:41:04Z : System.InvalidOperationException:
+2018-09-28 16:41:04Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-09-28 16:41:04Z : 
+2018-09-28 16:41:07Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-09-28 16:41:07Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-09-28 16:41:07Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-09-28 16:41:07Z : RENDER : Rendering Tier: 2
+2018-09-28 16:41:07Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-28 16:41:07Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-28 16:41:07Z : RENDER : Software Effect Rendering Supported: True
+2018-09-28 16:41:07Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-28 16:41:08Z : RENDER : Rendering Tier: 2
+2018-09-28 16:41:08Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-28 16:41:08Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-28 16:41:08Z : RENDER : Software Effect Rendering Supported: True
+2018-09-28 16:41:08Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-28 16:41:08Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-09-28 16:41:08Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-09-28 16:41:08Z : Welcome to Dynamo!
+2018-09-28 16:41:08Z : 00:00:00.2665182 elapsed for loading Dynamo main window.
+2018-09-28 16:41:08Z : WPF Render Mode: SoftwareOnly
+2018-09-28 16:41:23Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 16:42:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-09-28 16:42:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-09-28 16:43:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-09-28 16:43:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-09-28 16:44:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-09-28 16:44:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-09-28 16:45:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-09-28 16:45:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-09-28 16:45:38Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-09-28 16:45:39Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 16:45:40Z : Active view is now 224 - SECOND FLOOR POWER PLAN - HOST
+2018-09-28 16:45:40Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 16:45:43Z : Active view is now L124-UPA-UPNL
+2018-09-28 16:45:43Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 16:45:59Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 16:46:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-09-28 16:46:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-09-28 16:47:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-09-28 16:47:08Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-09-28 16:48:08Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-09-28 16:48:08Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-09-28 16:49:08Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-09-28 16:49:08Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-09-28 16:50:08Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-09-28 16:50:08Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-09-28 16:50:44Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 16:50:57Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 16:51:00Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 16:51:02Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 16:51:08Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-09-28 16:51:08Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-09-28 16:51:26Z : Active view is now SECOND FLOOR - WORK
+2018-09-28 16:52:08Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-09-28 16:52:08Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-09-28 16:53:08Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-09-28 16:53:08Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-09-28 16:54:08Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn ...
+2018-09-28 16:54:08Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 WEAVE.dyn
+2018-09-28 16:55:01Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\PATTERN\1.3.2 WEAVE.dyn ...
+2018-09-28 17:06:15Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:06:24Z : Active view is now L124-SWC-GPNL-2
+2018-09-28 17:06:35Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:06:47Z : Active view is now L124-SWC-GPNL-2
+2018-09-28 17:06:58Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:07:05Z : Active view is now L124-SWC-GPNL-2
+2018-09-28 17:07:13Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:07:18Z : Active view is now L124-SWD-GPNL-2
+2018-09-28 17:07:32Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:07:41Z : Active view is now SECOND FLOOR - WORK
+2018-09-28 17:08:17Z : Active view is now FIRST FLOOR - WORK
+2018-09-28 17:08:21Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:08:34Z : Active view is now L124-SWC-GPNL-2
+2018-09-28 17:09:29Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:09:30Z : Active view is now FIRST FLOOR - WORK
+2018-09-28 17:10:03Z : Active view is now L124-SWC-GPNL-2
+2018-09-28 17:10:05Z : Active view is now FIRST FLOOR - WORK
+2018-09-28 17:10:14Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-09-28 17:10:14Z : Goodbye

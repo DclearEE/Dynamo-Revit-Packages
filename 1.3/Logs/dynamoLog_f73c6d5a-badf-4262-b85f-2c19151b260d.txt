@@ -1,0 +1,51 @@
+Dynamo log started 2019-02-21 20:45:49Z
+2019-02-21 20:45:50Z : RequestUpdateVersionInfo
+2019-02-21 20:45:50Z : Requesting version update info...
+2019-02-21 20:45:50Z : Dynamo -- Build 1.3.2.2480
+2019-02-21 20:45:50Z : Duplicate migration type registered for SunPathDirection
+2019-02-21 20:45:51Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2019-02-21 20:45:52Z : System.InvalidOperationException:
+2019-02-21 20:45:52Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2019-02-21 20:45:52Z : 
+2019-02-21 20:45:57Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2019-02-21 20:45:57Z : Backup files timer is started with an interval of 60000 milliseconds
+2019-02-21 20:45:57Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\\bin;C:\Users\dcleary\AppData\Local\GitHubDesktop\bin;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2019-02-21 20:45:57Z : RENDER : Rendering Tier: 2
+2019-02-21 20:45:57Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-21 20:45:57Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-21 20:45:57Z : RENDER : Software Effect Rendering Supported: True
+2019-02-21 20:45:57Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-21 20:45:57Z : RENDER : Rendering Tier: 2
+2019-02-21 20:45:57Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-21 20:45:57Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-21 20:45:57Z : RENDER : Software Effect Rendering Supported: True
+2019-02-21 20:45:57Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-21 20:45:57Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2019-02-21 20:45:57Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2019-02-21 20:45:57Z : Welcome to Dynamo!
+2019-02-21 20:45:57Z : 00:00:00.2727684 elapsed for loading Dynamo main window.
+2019-02-21 20:45:58Z : WPF Render Mode: SoftwareOnly
+2019-02-21 20:45:58Z : Update available: 2.0.2.0
+2019-02-21 20:45:58Z : Update download started...
+2019-02-21 20:45:58Z : Update download progress: 0%
+2019-02-21 20:46:01Z : Update download progress: 10%
+2019-02-21 20:46:03Z : Update download progress: 20%
+2019-02-21 20:46:06Z : Update download progress: 30%
+2019-02-21 20:46:08Z : Update download progress: 40%
+2019-02-21 20:46:11Z : Update download progress: 50%
+2019-02-21 20:46:13Z : Update download progress: 60%
+2019-02-21 20:46:15Z : Update download progress: 70%
+2019-02-21 20:46:18Z : Update download progress: 80%
+2019-02-21 20:46:20Z : Update download progress: 90%
+2019-02-21 20:46:22Z : Update download progress: 100%
+2019-02-21 20:46:22Z : Update download complete.
+2019-02-21 20:46:22Z : Successful
+2019-02-21 20:46:22Z : Update download complete.
+2019-02-21 20:46:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-21 20:46:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-21 20:48:03Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-21 20:48:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\GetIntersectionPoints.dyn ...
+2019-02-21 20:48:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\GetIntersectionPoints.dyn
+2019-02-21 20:49:26Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\PlaceViewsOnSheets\GetIntersectionPoints.dyn ...
+2019-02-21 20:49:26Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2019-02-21 20:49:26Z : Goodbye

@@ -1,0 +1,44 @@
+Dynamo log started 2018-09-25 13:25:44Z
+2018-09-25 13:25:46Z : Dynamo -- Build 1.3.2.2480
+2018-09-25 13:25:47Z : Duplicate migration type registered for SunPathDirection
+2018-09-25 13:25:48Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-09-25 13:25:49Z : System.InvalidOperationException:
+2018-09-25 13:25:49Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-09-25 13:25:49Z : 
+2018-09-25 13:25:53Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-09-25 13:25:53Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-09-25 13:25:53Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-09-25 13:25:53Z : RENDER : Rendering Tier: 2
+2018-09-25 13:25:53Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-25 13:25:53Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-25 13:25:53Z : RENDER : Software Effect Rendering Supported: True
+2018-09-25 13:25:53Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-25 13:25:53Z : RENDER : Rendering Tier: 2
+2018-09-25 13:25:53Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-25 13:25:53Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-25 13:25:53Z : RENDER : Software Effect Rendering Supported: True
+2018-09-25 13:25:53Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-25 13:25:54Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-09-25 13:25:54Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-09-25 13:25:54Z : Welcome to Dynamo!
+2018-09-25 13:25:54Z : 00:00:00.9087171 elapsed for loading Dynamo main window.
+2018-09-25 13:25:55Z : WPF Render Mode: SoftwareOnly
+2018-09-25 13:26:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.ElementsByView.dyf
+2018-09-25 13:26:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.SetRevitSelection.dyf
+2018-09-25 13:26:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Tag Host Element.dyf
+2018-09-25 13:26:20Z : Original file 'Tag Host Element.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Tag Host Element.dyf.13.backup'
+2018-09-25 13:26:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\SteamNodes\dyf\Element.IsTagged.dyf
+2018-09-25 13:26:20Z : Original file 'Element.IsTagged.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\SteamNodes\dyf\backup\Element.IsTagged.dyf.12.backup'
+2018-09-25 13:26:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Create Annotation Tag.dyf
+2018-09-25 13:26:20Z : Original file 'Create Annotation Tag.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Create Annotation Tag.dyf.16.backup'
+2018-09-25 13:26:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Document.ActiveViewFromCurrentDocument.dyf
+2018-09-25 13:26:20Z : Original file 'Document.ActiveViewFromCurrentDocument.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\Document.ActiveViewFromCurrentDocument.dyf.13.backup'
+2018-09-25 13:26:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\Doc.ActiveView.dyf
+2018-09-25 13:26:20Z : Original file 'Doc.ActiveView.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\backup\Doc.ActiveView.dyf.19.backup'
+2018-09-25 13:26:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\LunchBox for Dynamo\dyf\LunchBox List Matcher.dyf
+2018-09-25 13:26:20Z : Original file 'LunchBox List Matcher.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\LunchBox for Dynamo\dyf\backup\LunchBox List Matcher.dyf.5.backup'
+2018-09-25 13:26:20Z : Active view is now 124 - FIRST FLOOR FIRE ALARM PLAN - AREA A
+2018-09-25 13:26:54Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn ...
+2018-09-25 13:26:54Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Tag Light Fixtures SMARTLIER.dyn
+2018-09-25 13:27:47Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-09-25 13:27:47Z : Goodbye

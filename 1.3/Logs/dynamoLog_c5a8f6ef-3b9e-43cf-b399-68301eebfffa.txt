@@ -1,0 +1,531 @@
+Dynamo log started 2018-08-10 15:20:48Z
+2018-08-10 15:20:50Z : Dynamo -- Build 1.3.2.2480
+2018-08-10 15:20:51Z : Duplicate migration type registered for SunPathDirection
+2018-08-10 15:20:52Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-08-10 15:20:52Z : System.InvalidOperationException:
+2018-08-10 15:20:52Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-08-10 15:20:52Z : 
+2018-08-10 15:20:57Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-08-10 15:20:57Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-08-10 15:20:57Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-08-10 15:20:57Z : RENDER : Rendering Tier: 2
+2018-08-10 15:20:57Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-10 15:20:57Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-10 15:20:57Z : RENDER : Software Effect Rendering Supported: True
+2018-08-10 15:20:57Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-10 15:20:57Z : RENDER : Rendering Tier: 2
+2018-08-10 15:20:57Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-10 15:20:57Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-10 15:20:57Z : RENDER : Software Effect Rendering Supported: True
+2018-08-10 15:20:57Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-10 15:20:58Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-08-10 15:20:58Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-08-10 15:20:58Z : Welcome to Dynamo!
+2018-08-10 15:20:58Z : 00:00:00.7510281 elapsed for loading Dynamo main window.
+2018-08-10 15:20:59Z : WPF Render Mode: SoftwareOnly
+2018-08-10 15:21:19Z : Active view is now Project View
+2018-08-10 15:21:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:21:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:22:00Z : Active view is now Unnamed
+2018-08-10 15:22:05Z : Active view is now Unnamed
+2018-08-10 15:22:22Z : Active view is now Unnamed
+2018-08-10 15:22:32Z : Active view is now Unnamed
+2018-08-10 15:22:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:22:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:23:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:23:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:24:13Z : Active view is now UNDER FLOOR CABLE TRAY PLAN
+2018-08-10 15:24:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:24:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:25:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:25:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:26:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:26:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:27:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:27:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:28:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:28:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:29:59Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC Copy 1
+2018-08-10 15:29:59Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:29:59Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:30:30Z : Active view is now UNDER FLOOR CABLE TRAY PLAN
+2018-08-10 15:30:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:30:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:31:28Z : Active view is now UNDERGROUND YARD PLAN
+2018-08-10 15:31:53Z : Active view is now FIRST FLOOR DEMOLITION PLAN
+2018-08-10 15:32:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:32:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:32:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:32:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:33:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:33:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:34:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:34:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:35:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:35:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:36:43Z : Active view is now Unnamed
+2018-08-10 15:36:48Z : Active view is now Unnamed
+2018-08-10 15:36:56Z : Active view is now Unnamed
+2018-08-10 15:36:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:36:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:37:03Z : Active view is now START
+2018-08-10 15:37:09Z : Active view is now Unnamed
+2018-08-10 15:37:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:37:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:38:41Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 15:38:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:38:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:39:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:39:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:40:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:40:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:41:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:41:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:42:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:42:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:43:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:43:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:44:49Z : Active view is now ID Start/Save View
+2018-08-10 15:44:49Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:44:53Z : Active view is now 124 - FIRST FLOOR TELCOM PLAN - OVERALL
+2018-08-10 15:44:54Z : Active view is now ID Start/Save View
+2018-08-10 15:44:54Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:44:54Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-08-10 15:44:55Z : Active view is now ID Start/Save View
+2018-08-10 15:44:55Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:44:55Z : Active view is now FIRST FLOOR TELCOM CONDUIT PLAN - AREA A
+2018-08-10 15:44:55Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:44:56Z : Active view is now ID Start/Save View
+2018-08-10 15:44:56Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:44:56Z : Active view is now 124 - FIRST UNDER FLOOR POWER PLAN HOST - DOC
+2018-08-10 15:44:57Z : Active view is now ID Start/Save View
+2018-08-10 15:44:57Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:44:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:44:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:44:57Z : Active view is now 124 - FIRST UNDER FLOOR POWER PLAN HOST - DOC - AREA A
+2018-08-10 15:44:58Z : Active view is now ID Start/Save View
+2018-08-10 15:44:58Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:44:59Z : Active view is now 124 - FIRST UNDER FLOOR POWER PLAN HOST - DOC - AREA B
+2018-08-10 15:44:59Z : Active view is now ID Start/Save View
+2018-08-10 15:44:59Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:45:00Z : Active view is now START
+2018-08-10 15:45:00Z : Active view is now ID Start/Save View
+2018-08-10 15:45:00Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:45:01Z : Active view is now UNDERGROUND YARD PLAN
+2018-08-10 15:45:01Z : Active view is now ID Start/Save View
+2018-08-10 15:45:01Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:45:02Z : Active view is now UNDER FLOOR CABLE TRAY PLAN
+2018-08-10 15:45:02Z : Active view is now ID Start/Save View
+2018-08-10 15:45:02Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:45:03Z : Active view is now START
+2018-08-10 15:45:03Z : Active view is now ID Start/Save View
+2018-08-10 15:45:03Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:45:04Z : Active view is now START
+2018-08-10 15:45:05Z : Active view is now ID Start/Save View
+2018-08-10 15:45:05Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:45:07Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 15:45:10Z : Active view is now LEGEND
+2018-08-10 15:45:13Z : Active view is now ID Start/Save View
+2018-08-10 15:45:13Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:45:18Z : Active view is now LEGEND ABBREVIATIONS AND GENERAL NOTES
+2018-08-10 15:45:18Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:45:47Z : Active view is now LEGEND
+2018-08-10 15:45:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:45:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:46:00Z : Active view is now LEGEND ABBREVIATIONS AND GENERAL NOTES
+2018-08-10 15:46:00Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:46:07Z : Active view is now LEGEND
+2018-08-10 15:46:33Z : Active view is now LEGEND ABBREVIATIONS AND GENERAL NOTES
+2018-08-10 15:46:33Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:46:42Z : Active view is now TELECOM LEGEND
+2018-08-10 15:46:42Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:46:43Z : Active view is now LEGEND ABBREVIATIONS AND GENERAL NOTES
+2018-08-10 15:46:43Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:46:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:46:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:47:08Z : Active view is now TELECOM LEGEND 2-COLUMN
+2018-08-10 15:47:08Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:47:09Z : Active view is now LEGEND ABBREVIATIONS AND GENERAL NOTES
+2018-08-10 15:47:09Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:47:25Z : Active view is now LEGEND
+2018-08-10 15:47:26Z : Active view is now LEGEND ABBREVIATIONS AND GENERAL NOTES
+2018-08-10 15:47:26Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:47:36Z : Active view is now LEGEND
+2018-08-10 15:47:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:47:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:48:11Z : Active view is now LEGEND ABBREVIATIONS AND GENERAL NOTES
+2018-08-10 15:48:11Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:48:13Z : Active view is now LEGEND
+2018-08-10 15:48:17Z : Active view is now LEGEND ABBREVIATIONS AND GENERAL NOTES
+2018-08-10 15:48:17Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:48:36Z : Active view is now LEGEND
+2018-08-10 15:48:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:48:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:49:42Z : Active view is now SWITCHBOARD SWA, SWB, SWC AND SWD PROTECTIVE RELAY SYSTEM SETTINGS
+2018-08-10 15:49:44Z : Active view is now LEGEND
+2018-08-10 15:49:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:49:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:49:58Z : Active view is now E004 - SWITCHBOARD SWA, SWB, SWC AND SWD SYSTEM SETTINGS Copy 1
+2018-08-10 15:50:52Z : Active view is now LEGEND
+2018-08-10 15:50:53Z : Active view is now LEGEND ABBREVIATIONS AND GENERAL NOTES
+2018-08-10 15:50:53Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:50:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:50:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:51:02Z : Active view is now LEGEND
+2018-08-10 15:52:07Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:52:07Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:52:14Z : Active view is now LEGEND ABBREVIATIONS AND GENERAL NOTES
+2018-08-10 15:52:14Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:52:18Z : Active view is now ID Start/Save View
+2018-08-10 15:52:18Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:52:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:52:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:53:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:53:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:54:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:54:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:54:59Z : Active view is now LEGEND - EQUIPMENT SCHEDULE Copy 1
+2018-08-10 15:54:59Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:55:02Z : Active view is now ID Start/Save View
+2018-08-10 15:55:02Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:55:08Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 15:55:11Z : Active view is now ID Start/Save View
+2018-08-10 15:55:11Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:55:22Z : Active view is now LEGEND - EQUIPMENT SCHEDULE Copy 1
+2018-08-10 15:55:22Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:55:24Z : Active view is now Equipment Schedule Notes
+2018-08-10 15:55:24Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:55:49Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 15:55:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:55:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:56:11Z : Active view is now Equipment Schedule Notes
+2018-08-10 15:56:11Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:56:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:56:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:57:18Z : Active view is now ID Start/Save View
+2018-08-10 15:57:18Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:57:20Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 15:57:39Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-08-10 15:57:41Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 15:57:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:57:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:58:04Z : Active view is now ID Start/Save View
+2018-08-10 15:58:04Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:58:06Z : Active view is now Equipment Schedule Notes
+2018-08-10 15:58:06Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:58:07Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 15:58:31Z : Active view is now ID Start/Save View
+2018-08-10 15:58:31Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 15:58:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:58:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 15:59:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 15:59:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 16:00:11Z : Active view is now LEGEND - EQUIPMENT SCHEDULE Copy 1
+2018-08-10 16:00:11Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 16:00:21Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 16:00:27Z : Active view is now ELECTRICAL LEGEND Copy 1
+2018-08-10 16:00:30Z : Active view is now ELECTRICAL LEGEND Copy 2
+2018-08-10 16:00:32Z : Active view is now LEGEND - EQUIPMENT SCHEDULE Copy 1
+2018-08-10 16:00:32Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 16:00:38Z : Active view is now ELECTRICAL LEGEND Copy 2
+2018-08-10 16:00:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 16:00:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 16:01:06Z : Active view is now LEGEND - EQUIPMENT SCHEDULE Copy 1
+2018-08-10 16:01:06Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 16:01:07Z : Active view is now EQUIPMENT SCHEDULE LEGEND
+2018-08-10 16:01:08Z : Active view is now ID Start/Save View
+2018-08-10 16:01:08Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 16:01:09Z : Active view is now ELECTRICAL LEGEND Copy 1
+2018-08-10 16:01:10Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 16:01:11Z : Active view is now EQUIPMENT SCHEDULE LEGEND
+2018-08-10 16:01:16Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 16:01:17Z : Active view is now Equipment Schedule Notes
+2018-08-10 16:01:17Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 16:01:21Z : Active view is now ELECTRICAL LEGEND Copy 1
+2018-08-10 16:01:42Z : Active view is now Equipment Schedule Notes
+2018-08-10 16:01:42Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 16:01:46Z : Active view is now EQUIPMENT SCHEDULE NOTES
+2018-08-10 16:01:52Z : Active view is now Equipment Schedule Notes
+2018-08-10 16:01:52Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 16:01:52Z : Active view is now EQUIPMENT SCHEDULE NOTES
+2018-08-10 16:01:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 16:01:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 16:01:58Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 16:02:05Z : Active view is now MECHANICAL EQUIPMENT SCHEDULE
+2018-08-10 16:02:51Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 16:03:11Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 16:03:11Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 16:03:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 16:03:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 16:04:18Z : Active view is now ID Start/Save View
+2018-08-10 16:04:18Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 16:04:24Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 16:04:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 16:04:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 16:05:56Z : Active view is now LEGEND - EQUIP YARD
+2018-08-10 16:05:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 16:05:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 16:06:05Z : Active view is now UNDER FLOOR CABLE TRAY PLAN
+2018-08-10 16:06:27Z : Active view is now LEGEND - SCHEDULES
+2018-08-10 16:06:31Z : Active view is now UNDER FLOOR CABLE TRAY PLAN
+2018-08-10 16:06:33Z : Active view is now LIGHTING CONTROLS SCHEDULE
+2018-08-10 16:06:35Z : Active view is now UNDER FLOOR CABLE TRAY PLAN
+2018-08-10 16:06:38Z : Active view is now LEGEND - POWER
+2018-08-10 16:06:40Z : Active view is now UNDER FLOOR CABLE TRAY PLAN
+2018-08-10 16:06:53Z : Active view is now LIGHTING CONTROLS SCHEDULE
+2018-08-10 16:06:56Z : Active view is now UNDER FLOOR CABLE TRAY PLAN
+2018-08-10 16:06:57Z : Active view is now TELECOM LEGEND
+2018-08-10 16:06:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 16:06:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 16:07:00Z : Active view is now UNDER FLOOR CABLE TRAY PLAN
+2018-08-10 16:07:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 16:07:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 16:08:12Z : Active view is now ID Start/Save View
+2018-08-10 16:08:12Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 16:08:19Z : Active view is now UNDER FLOOR CABLE TRAY PLAN
+2018-08-10 16:08:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 16:08:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 16:09:26Z : Active view is now UNDERGROUND YARD PLAN
+2018-08-10 16:09:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 16:09:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 16:10:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 16:10:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 16:11:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 16:11:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 16:12:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 16:12:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 16:13:15Z : Active view is now FIRST FLOOR UNDER RAISED FLOOR CABLE TRAY
+2018-08-10 16:13:20Z : Active view is now EQUIPMENT YARD PATHWAYS
+2018-08-10 16:13:50Z : Active view is now FIRST FLOOR UNDER RAISED FLOOR CABLE TRAY
+2018-08-10 16:13:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 16:13:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 16:14:12Z : Active view is now LEGEND - EQUIP YARD
+2018-08-10 16:14:14Z : Active view is now FIRST FLOOR UNDER RAISED FLOOR CABLE TRAY
+2018-08-10 16:14:15Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 16:14:56Z : Active view is now FIRST FLOOR TELECOM CONDUIT PLAN - AREA A
+2018-08-10 16:14:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 16:14:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 16:15:53Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 16:15:54Z : Active view is now FIRST FLOOR UNDER RAISED FLOOR CABLE TRAY
+2018-08-10 16:15:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 16:15:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicateSheetsAndViews-L2-L3.dyn
+2018-08-10 16:16:00Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 16:16:45Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Sheet Duplicate\DuplicateSheetsAndViews-L2-L3.dyn ...
+2018-08-10 16:16:45Z : Clearing workspace...
+2018-08-10 16:17:05Z : notification:Error Opening File:
+ Error opening corrupted file: N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Power Copied Elements\PowerCopiedElements with node and ophase.dyn: 
+ System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Dynamo.Models.DynamoModel.OpenFileFromPath(String xmlPath, Boolean forceManualExecutionMode)
+   at Dynamo.Models.DynamoModel.ExecuteCommand(RecordableCommand command)
+   at Dynamo.ViewModels.DynamoViewModel.Open(Object parameters)
+2018-08-10 16:17:13Z : ERROR: The header for the custom node at N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Power Copied Elements\DuplicatePanelElementsAndCircuits  .dyf failed to load.  It will be left out of search.
+2018-08-10 16:17:13Z : System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Dynamo.Core.CustomNodeManager.TryGetInfoFromPath(String path, Boolean isTestMode, CustomNodeInfo& info)
+2018-08-10 16:17:13Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Element.CopyByVector.dyf
+2018-08-10 16:17:13Z : Original file 'Element.CopyByVector.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\Element.CopyByVector.dyf.17.backup'
+2018-08-10 16:17:13Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\TurnIntoList.dyf
+2018-08-10 16:17:13Z : Original file 'TurnIntoList.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\TurnIntoList.dyf.66.backup'
+2018-08-10 16:17:13Z : Unable to create instance of custom node with id: \"e53d91ca-a7f7-4900-8a76-fd95a1ba65af"
+2018-08-10 16:17:13Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 16:17:22Z : Clearing workspace...
+2018-08-10 16:17:30Z : Active view is now ID Start/Save View
+2018-08-10 16:17:30Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 16:17:30Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 16:17:45Z : notification:Error Opening File:
+ Error opening corrupted file: N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Power Copied Elements\PowerCopiedElements5.0.dyn: 
+ System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Dynamo.Models.DynamoModel.OpenFileFromPath(String xmlPath, Boolean forceManualExecutionMode)
+   at Dynamo.Models.DynamoModel.ExecuteCommand(RecordableCommand command)
+   at Dynamo.ViewModels.DynamoViewModel.Open(Object parameters)
+2018-08-10 16:17:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-10 16:17:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-10 16:18:09Z : Clearing workspace...
+2018-08-10 16:18:43Z : Clearing workspace...
+2018-08-10 16:18:46Z : notification:Error Opening File:
+ Error opening corrupted file: N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Power Copied Elements\DuplicatePanelElementsAndCircuits  .dyf: 
+ System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Dynamo.Models.DynamoModel.OpenFileFromPath(String xmlPath, Boolean forceManualExecutionMode)
+   at Dynamo.Models.DynamoModel.ExecuteCommand(RecordableCommand command)
+   at Dynamo.ViewModels.DynamoViewModel.Open(Object parameters)
+2018-08-10 16:19:40Z : Active view is now ELECTRICAL DEMOLITION PLAN
+2018-08-10 16:19:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicatePanelElementsAndCircuits  .dyf.0.backup ...
+2018-08-10 16:19:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicatePanelElementsAndCircuits  .dyf.0.backup
+2018-08-10 16:20:24Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\DuplicatePanelElementsAndCircuits.dyf ...
+2018-08-10 16:20:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-10 16:20:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-10 16:21:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-10 16:21:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-10 16:22:20Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC
+2018-08-10 16:22:28Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC Copy 2
+2018-08-10 16:22:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-10 16:22:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-10 16:23:48Z : Active view is now ID Start/Save View
+2018-08-10 16:23:48Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-08-10 16:23:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-08-10 16:23:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-08-10 16:24:04Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\NODE.dyn ...
+2018-08-10 16:24:08Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC Copy 2
+2018-08-10 16:24:10Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC Copy 2
+2018-08-10 16:24:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\NODE.dyn ...
+2018-08-10 16:24:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\NODE.dyn
+2018-08-10 16:25:13Z : !! Warning: The Power System "<unnamed>" is empty and will be deleted.
+2018-08-10 16:25:13Z : !! Warning: The Power System "<unnamed>" is empty and will be deleted.
+2018-08-10 16:25:13Z : !! Warning: The Power System "<unnamed>" is empty and will be deleted.
+2018-08-10 16:25:13Z : !! Warning: The Power System "<unnamed>" is empty and will be deleted.
+2018-08-10 16:25:13Z : !! Warning: The Power System "<unnamed>" is empty and will be deleted.
+2018-08-10 16:25:13Z : !! Warning: The Power System "<unnamed>" is empty and will be deleted.
+2018-08-10 16:25:13Z : !! Warning: The Power System "<unnamed>" is empty and will be deleted.
+2018-08-10 16:25:13Z : !! Warning: The Power System "<unnamed>" is empty and will be deleted.
+2018-08-10 16:25:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\NODE.dyn ...
+2018-08-10 16:25:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\NODE.dyn
+2018-08-10 16:26:29Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\NODE.dyn ...
+2018-08-10 16:27:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\NODE.dyn ...
+2018-08-10 16:27:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\NODE.dyn
+2018-08-10 16:28:33Z : Active view is now L130-SWA-MECH-A2
+2018-08-10 16:28:35Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC Copy 2
+2018-08-10 16:28:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\NODE.dyn ...
+2018-08-10 16:28:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\NODE.dyn
+2018-08-10 16:29:56Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-08-10 16:29:56Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-08-10 16:29:56Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-08-10 16:29:56Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-08-10 16:29:56Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-08-10 16:29:56Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-08-10 16:29:56Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-08-10 16:29:56Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-08-10 16:29:57Z : Active view is now L130-SWA-MECH-A2
+2018-08-10 16:29:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\NODE.dyn ...
+2018-08-10 16:29:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\NODE.dyn
+2018-08-10 16:30:02Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC Copy 2
+2018-08-10 16:30:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\NODE.dyn ...
+2018-08-10 16:30:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\NODE.dyn
+2018-08-10 16:31:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\NODE.dyn ...
+2018-08-10 16:31:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\NODE.dyn
+2018-08-10 16:32:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\NODE.dyn ...
+2018-08-10 16:32:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\NODE.dyn
+2018-08-10 16:33:08Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\NODE.dyn ...
+2018-08-10 16:33:15Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC Copy 2
+2018-08-10 16:33:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\NODE.dyn ...
+2018-08-10 16:33:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\NODE.dyn
+2018-08-10 16:33:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicatePanelElementsAndCircuits.dyf ...
+2018-08-10 16:33:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicatePanelElementsAndCircuits.dyf ...
+2018-08-10 16:33:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicatePanelElementsAndCircuits.dyf
+2018-08-10 16:34:18Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:34:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:34:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:34:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicatePanelElementsAndCircuits.dyf ...
+2018-08-10 16:34:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicatePanelElementsAndCircuits.dyf ...
+2018-08-10 16:34:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\DuplicatePanelElementsAndCircuits.dyf
+2018-08-10 16:35:19Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:35:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:35:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:36:11Z : Active view is now L130-SWA-MECH-A2
+2018-08-10 16:36:13Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC Copy 2
+2018-08-10 16:36:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:36:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:37:08Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-08-10 16:37:08Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-08-10 16:37:08Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-08-10 16:37:08Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-08-10 16:37:08Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-08-10 16:37:08Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-08-10 16:37:08Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-08-10 16:37:08Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-08-10 16:37:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:37:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:38:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:38:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:39:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:39:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:40:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:40:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:41:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:41:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:42:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:42:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:43:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:43:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:44:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:44:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:45:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:45:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:46:11Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:46:14Z : Clearing workspace...
+2018-08-10 16:46:19Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\Doc.ActiveView.dyf
+2018-08-10 16:46:19Z : Original file 'Doc.ActiveView.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\backup\Doc.ActiveView.dyf.16.backup'
+2018-08-10 16:46:20Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC Copy 2
+2018-08-10 16:46:41Z : Clearing workspace...
+2018-08-10 16:46:44Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC Copy 2
+2018-08-10 16:46:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:46:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:47:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:47:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:48:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:48:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:49:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:49:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:50:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:50:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:51:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:51:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:51:59Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:51:59Z : Clearing workspace...
+2018-08-10 16:52:06Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC Copy 2
+2018-08-10 16:52:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\circuitstest (3).dyn ...
+2018-08-10 16:52:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\circuitstest (3).dyn
+2018-08-10 16:53:22Z : Clearing workspace...
+2018-08-10 16:53:24Z : Active view is now 124 - FIRST FLOOR POWER PLAN HOST - DOC Copy 2
+2018-08-10 16:53:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:53:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:54:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:54:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:55:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:55:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:56:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:56:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:57:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:57:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:58:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:58:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 16:59:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 16:59:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 17:00:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 17:00:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 17:01:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 17:01:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 17:02:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 17:02:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 17:03:24Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 17:03:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 17:03:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 17:04:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 17:04:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 17:05:39Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 17:20:59Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn ...
+2018-08-10 17:20:59Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\POWER COPIED ELEMENTS (Mech connection 480V)(REVIT 2018, DYNAMO 1.3.2).dyn
+2018-08-10 17:21:21Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-08-10 17:21:21Z : Goodbye

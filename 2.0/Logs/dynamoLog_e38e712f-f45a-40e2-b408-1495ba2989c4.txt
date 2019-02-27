@@ -1,0 +1,145 @@
+Dynamo log started 2019-02-14 18:49:07Z
+2019-02-14 18:49:07Z : 
+2019-02-14 18:49:09Z : RequestUpdateVersionInfo
+2019-02-14 18:49:09Z : Requesting version update info...
+2019-02-14 18:49:09Z : Dynamo -- Build 2.0.1.5055
+2019-02-14 18:49:10Z : Duplicate migration type registered for SunPathDirection
+2019-02-14 18:49:12Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2019-02-14 18:49:12Z : System.InvalidOperationException:
+2019-02-14 18:49:12Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2019-02-14 18:49:12Z : 
+2019-02-14 18:49:13Z : Could not create an instance of null
+2019-02-14 18:49:13Z : Value cannot be null.
+Parameter name: assemblyFile
+2019-02-14 18:49:13Z :    at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at Dynamo.Extensions.ExtensionLoader.Load(ExtensionDefinition extension)
+2019-02-14 18:49:13Z : Could not create an instance of null
+2019-02-14 18:49:13Z : Value cannot be null.
+Parameter name: assemblyFile
+2019-02-14 18:49:13Z :    at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at Dynamo.Extensions.ExtensionLoader.Load(ExtensionDefinition extension)
+2019-02-14 18:49:15Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2019-02-14 18:49:15Z : Backup files timer is started with an interval of 60000 milliseconds
+2019-02-14 18:49:15Z : SYSTEM:Environment Path:C:\Users\dcleary\AppData\Roaming\pyRevit-Master\bin\lib\win32\x64;C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\\bin;C:\Users\dcleary\AppData\Local\GitHubDesktop\bin;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\bin;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\2\
+2019-02-14 18:49:15Z : RENDER : Rendering Tier: 2
+2019-02-14 18:49:15Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-14 18:49:15Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-14 18:49:15Z : RENDER : Software Effect Rendering Supported: True
+2019-02-14 18:49:15Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-14 18:49:16Z : RENDER : Rendering Tier: 2
+2019-02-14 18:49:16Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-14 18:49:16Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-14 18:49:16Z : RENDER : Software Effect Rendering Supported: True
+2019-02-14 18:49:16Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-14 18:49:16Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2019-02-14 18:49:16Z : LibraryUI (id: 85941358-5525-4FF4-8D61-6CA831F122AB) view extension is added
+2019-02-14 18:49:16Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2019-02-14 18:49:16Z : DynaHub View Extension (id: 7E85F38F-0A19-4F24-9E18-96845764780Q) view extension is added
+2019-02-14 18:49:16Z : Could not create an instance of DynamoHub.ViewExtension
+2019-02-14 18:49:16Z : PackageManagerViewExtension: Object reference not set to an instance of an object.
+2019-02-14 18:49:17Z : Welcome to Dynamo!
+2019-02-14 18:49:17Z : 00:00:01.0521730 elapsed for loading Dynamo main window.
+2019-02-14 18:49:18Z : WPF Render Mode: SoftwareOnly
+2019-02-14 18:49:18Z : Update available: 2.0.2.0
+2019-02-14 18:49:18Z : Update download started...
+2019-02-14 18:49:18Z : Update download progress: 0%
+2019-02-14 18:49:18Z : ERR_ABORTED
+2019-02-14 18:49:21Z : Update download progress: 10%
+2019-02-14 18:49:24Z : Update download progress: 20%
+2019-02-14 18:49:27Z : Update download progress: 30%
+2019-02-14 18:49:30Z : Update download progress: 40%
+2019-02-14 18:49:37Z : Update download progress: 50%
+2019-02-14 18:49:40Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\archi-lab.net\dyf\Export Image by View.dyf
+2019-02-14 18:49:40Z : Original file 'Export Image by View.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\archi-lab.net\dyf\backup\Export Image by View.dyf.0.backup'
+2019-02-14 18:49:40Z : connector 0bf9ee4f-6a31-426a-84d4-c6b6fa8e5792 could not be created, start or end port does not exist
+2019-02-14 18:49:40Z : connector 4daa603f-03f0-4529-9520-15723f0a28b4 could not be created, start or end port does not exist
+2019-02-14 18:49:40Z : connector 296a5fdd-39de-4308-af8d-41a5cf0c4480 could not be created, start or end port does not exist
+2019-02-14 18:49:40Z : connector 37224786-2483-4051-b18d-d638d70ff3a3 could not be created, start or end port does not exist
+2019-02-14 18:49:40Z : connector a47af6b6-76f7-4243-ba59-e6dfd4dde5ec could not be created, start or end port does not exist
+2019-02-14 18:49:40Z : connector 7d3ab0d6-1389-4034-a512-b66fdd5523fd could not be created, start or end port does not exist
+2019-02-14 18:49:40Z : connector 7f91d3fc-3a3d-41c4-87c1-43b127b24a44 could not be created, start or end port does not exist
+2019-02-14 18:49:40Z : connector 67b85ea9-bd54-46a2-99f2-e0266d28b9f2 could not be created, start or end port does not exist
+2019-02-14 18:49:40Z : connector 5ef08b51-fdb6-4c7d-b59d-32fe9b7652ac could not be created, start or end port does not exist
+2019-02-14 18:49:40Z : connector 5b4c75a5-6c9c-4236-a676-6a8f2036abaa could not be created, start or end port does not exist
+2019-02-14 18:49:40Z : Active view is now OFFICE BUILD OUT - FIRST FLOOR POWER PLAN - TENANT OFFICES
+2019-02-14 18:49:40Z : This graph has a nodeview with id:1edb3a14-888b-4c95-bc2b-c8262fa3a222 and name:Boolean, but does not contain a matching nodeModel
+2019-02-14 18:49:40Z : This graph has a nodeview with id:071dbcd4-bb11-4a18-b7f6-2f3d38bcb48b and name:Watch, but does not contain a matching nodeModel
+2019-02-14 18:49:40Z : This graph has a nodeview with id:5d1c6065-42d4-4139-b0bd-a1ae62bdf234 and name:File Path, but does not contain a matching nodeModel
+2019-02-14 18:49:40Z : This graph has a nodeview with id:22b1354c-3af3-460c-9845-0251f1b6f7c6 and name:Watch, but does not contain a matching nodeModel
+2019-02-14 18:49:40Z : This graph has a nodeview with id:58d55452-ebc9-4ed0-b806-5c1518fd2378 and name:View Type, but does not contain a matching nodeModel
+2019-02-14 18:49:40Z : This graph has a nodeview with id:1061d198-a505-4bf0-a035-1f335d19ef4d and name:Export Range, but does not contain a matching nodeModel
+2019-02-14 18:49:40Z : This graph has a nodeview with id:9d77d1c9-dded-44fc-b466-0485b5021941 and name:Image File Type, but does not contain a matching nodeModel
+2019-02-14 18:49:40Z : This graph has a nodeview with id:29affa98-2a9c-4d17-bfd3-8e7afb234c08 and name:Zoom Fit Type, but does not contain a matching nodeModel
+2019-02-14 18:49:40Z : This graph has a nodeview with id:8f4985f0-7d85-4be6-85ee-70495587aec9 and name:Image Resolution, but does not contain a matching nodeModel
+2019-02-14 18:49:40Z : This graph has a nodeview with id:19c0ad7c-6961-43cb-a7d4-b975431f50e2 and name:Fit Direction Type, but does not contain a matching nodeModel
+2019-02-14 18:49:44Z : Update download progress: 60%
+2019-02-14 18:49:48Z : Update download progress: 70%
+2019-02-14 18:49:51Z : Update download progress: 80%
+2019-02-14 18:49:54Z : Update download progress: 90%
+2019-02-14 18:49:57Z : Update download progress: 100%
+2019-02-14 18:49:57Z : Update download complete.
+2019-02-14 18:49:57Z : Successful
+2019-02-14 18:49:57Z : Update download complete.
+2019-02-14 18:49:58Z : Clearing workspace...
+2019-02-14 18:50:03Z : connector 0bf9ee4f-6a31-426a-84d4-c6b6fa8e5792 could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector 0bf9ee4f-6a31-426a-84d4-c6b6fa8e5792 could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector 4daa603f-03f0-4529-9520-15723f0a28b4 could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector 4daa603f-03f0-4529-9520-15723f0a28b4 could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector 296a5fdd-39de-4308-af8d-41a5cf0c4480 could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector 296a5fdd-39de-4308-af8d-41a5cf0c4480 could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector 37224786-2483-4051-b18d-d638d70ff3a3 could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector 37224786-2483-4051-b18d-d638d70ff3a3 could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector 4406bca8-50cb-482d-917e-6f22dca2b6f9 could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector 4406bca8-50cb-482d-917e-6f22dca2b6f9 could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector 5562baed-6466-4d5f-ac97-d0276bd8a125 could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector 5562baed-6466-4d5f-ac97-d0276bd8a125 could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector 37a38ed7-1c75-45df-9ef5-7743cccd9548 could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector 37a38ed7-1c75-45df-9ef5-7743cccd9548 could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector 80941f90-ae4c-4b6e-b142-15d218171efb could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector 80941f90-ae4c-4b6e-b142-15d218171efb could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector 3a76cf11-5634-4b01-a84d-5e019bf90172 could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector 3a76cf11-5634-4b01-a84d-5e019bf90172 could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector a5117fb9-b48c-4fc6-b1cd-51473246d2c5 could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : connector a5117fb9-b48c-4fc6-b1cd-51473246d2c5 could not be created, start or end port does not exist
+2019-02-14 18:50:03Z : Active view is now OFFICE BUILD OUT - FIRST FLOOR POWER PLAN - TENANT OFFICES
+2019-02-14 18:50:03Z : This graph has a nodeview with id:1edb3a14-888b-4c95-bc2b-c8262fa3a222 and name:Boolean, but does not contain a matching nodeModel
+2019-02-14 18:50:03Z : This graph has a nodeview with id:071dbcd4-bb11-4a18-b7f6-2f3d38bcb48b and name:Watch, but does not contain a matching nodeModel
+2019-02-14 18:50:03Z : This graph has a nodeview with id:5d1c6065-42d4-4139-b0bd-a1ae62bdf234 and name:File Path, but does not contain a matching nodeModel
+2019-02-14 18:50:03Z : This graph has a nodeview with id:22b1354c-3af3-460c-9845-0251f1b6f7c6 and name:Watch, but does not contain a matching nodeModel
+2019-02-14 18:50:03Z : This graph has a nodeview with id:465ab697-abcd-4fbe-b19f-e1bb81d9d92d and name:View Type, but does not contain a matching nodeModel
+2019-02-14 18:50:03Z : This graph has a nodeview with id:b3eeb475-0d1a-4bfe-9016-7abf1284115a and name:Export Range, but does not contain a matching nodeModel
+2019-02-14 18:50:03Z : This graph has a nodeview with id:5a42a4d1-0460-49f1-b140-b89940757300 and name:Image File Type, but does not contain a matching nodeModel
+2019-02-14 18:50:03Z : This graph has a nodeview with id:067585ff-eb9f-4b9b-9575-f1c379b8ce6d and name:Zoom Fit Type, but does not contain a matching nodeModel
+2019-02-14 18:50:03Z : This graph has a nodeview with id:6b85d6fc-07c9-4cb5-b166-372c8d5b50a4 and name:Image Resolution, but does not contain a matching nodeModel
+2019-02-14 18:50:03Z : This graph has a nodeview with id:1d973891-f469-4275-b4e5-df211801e875 and name:Fit Direction Type, but does not contain a matching nodeModel
+2019-02-14 18:50:10Z : Clearing workspace...
+2019-02-14 18:50:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-14 18:50:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-14 18:52:05Z : Active view is now FIRST FLOOR LIGHTING PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-14 18:53:31Z : Active view is now L193-PP2-2
+2019-02-14 18:53:32Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-14 18:54:39Z : Active view is now L193-PP2-2
+2019-02-14 18:55:28Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-14 19:03:41Z : Active view is now L193-PP2-2
+2019-02-14 19:04:14Z : Active view is now ELECTRICAL LEGEND ABBREVIATIONS AND GENERAL NOTES
+2019-02-14 19:04:47Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-14 19:04:57Z : Active view is now ELECTRICAL LEGEND ABBREVIATIONS AND GENERAL NOTES
+2019-02-14 19:05:02Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-14 19:06:04Z : Active view is now ELECTRICAL LEGEND ABBREVIATIONS AND GENERAL NOTES
+2019-02-14 19:06:15Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-14 19:06:49Z : Active view is now ELECTRICAL LEGEND ABBREVIATIONS AND GENERAL NOTES
+2019-02-14 19:07:39Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-14 19:07:46Z : Active view is now ELECTRICAL LEGEND ABBREVIATIONS AND GENERAL NOTES
+2019-02-14 19:07:48Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-14 19:17:54Z : Active view is now L193-PP2-2
+2019-02-14 19:18:12Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-14 19:18:18Z : Active view is now L193-PP2-2
+2019-02-14 19:18:23Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-14 19:18:31Z : Active view is now L193-PP2-2
+2019-02-14 19:21:04Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-14 19:21:28Z : Active view is now L193-PP2-2
+2019-02-14 19:28:54Z : Active view is now FIRST FLOOR POWER PLAN - TENANT OFFICES, STORAGE, CONF ROOMS, DCC, ERAD & FaCOPS
+2019-02-14 19:33:11Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2019-02-14 19:33:11Z : Goodbye

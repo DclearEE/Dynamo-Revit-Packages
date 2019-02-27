@@ -1,0 +1,106 @@
+Dynamo log started 2019-02-20 20:58:07Z
+2019-02-20 20:58:08Z : RequestUpdateVersionInfo
+2019-02-20 20:58:08Z : Requesting version update info...
+2019-02-20 20:58:08Z : Dynamo -- Build 1.3.2.2480
+2019-02-20 20:58:08Z : Duplicate migration type registered for SunPathDirection
+2019-02-20 20:58:10Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2019-02-20 20:58:10Z : System.InvalidOperationException:
+2019-02-20 20:58:10Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2019-02-20 20:58:10Z : 
+2019-02-20 20:58:14Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2019-02-20 20:58:14Z : Backup files timer is started with an interval of 60000 milliseconds
+2019-02-20 20:58:14Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\\bin;C:\Users\dcleary\AppData\Local\GitHubDesktop\bin;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2019-02-20 20:58:14Z : RENDER : Rendering Tier: 2
+2019-02-20 20:58:14Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-20 20:58:14Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-20 20:58:14Z : RENDER : Software Effect Rendering Supported: True
+2019-02-20 20:58:14Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-20 20:58:15Z : RENDER : Rendering Tier: 2
+2019-02-20 20:58:15Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-20 20:58:15Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-20 20:58:15Z : RENDER : Software Effect Rendering Supported: True
+2019-02-20 20:58:15Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-20 20:58:15Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2019-02-20 20:58:15Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2019-02-20 20:58:15Z : Welcome to Dynamo!
+2019-02-20 20:58:15Z : 00:00:00.2725496 elapsed for loading Dynamo main window.
+2019-02-20 20:58:15Z : WPF Render Mode: SoftwareOnly
+2019-02-20 20:58:15Z : Update available: 2.0.2.0
+2019-02-20 20:58:15Z : Update download started...
+2019-02-20 20:58:16Z : Update download progress: 0%
+2019-02-20 20:58:19Z : Update download progress: 10%
+2019-02-20 20:58:22Z : Update download progress: 20%
+2019-02-20 20:58:26Z : Update download progress: 30%
+2019-02-20 20:58:29Z : Update download progress: 40%
+2019-02-20 20:58:34Z : Update download progress: 50%
+2019-02-20 20:58:39Z : Update download progress: 60%
+2019-02-20 20:58:40Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-20 20:58:42Z : Update download progress: 70%
+2019-02-20 20:58:44Z : Update download progress: 80%
+2019-02-20 20:58:46Z : Update download progress: 90%
+2019-02-20 20:58:48Z : Update download progress: 100%
+2019-02-20 20:58:48Z : Update download complete.
+2019-02-20 20:58:48Z : Successful
+2019-02-20 20:58:48Z : Update download complete.
+2019-02-20 20:59:14Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-20 20:59:14Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-20 21:01:13Z : Active view is now BCHBAD
+2019-02-20 21:05:06Z : Active view is now Read Me
+2019-02-20 21:05:07Z : Active view is now BCHBAD
+2019-02-20 21:05:09Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-20 21:05:10Z : Active view is now BLBA
+2019-02-20 21:05:11Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-20 21:11:46Z : Active view is now BCHBAD
+2019-02-20 21:11:50Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-20 21:14:24Z : Active view is now BCHBAD
+2019-02-20 21:32:42Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-20 21:40:59Z : Active view is now BCHBAD
+2019-02-20 21:44:14Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-20 21:47:21Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-20 21:48:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 21:48:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 21:49:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 21:49:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 21:50:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 21:50:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 21:51:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 21:51:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 21:52:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 21:52:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 21:53:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 21:53:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 21:54:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 21:54:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 21:55:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 21:55:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 21:56:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 21:56:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 21:57:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 21:57:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 21:58:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 21:58:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 21:58:59Z : Active view is now BCHRAE
+2019-02-20 21:59:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 21:59:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 21:59:21Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-20 21:59:29Z : Active view is now BCHRAE
+2019-02-20 22:00:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 22:00:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 22:01:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 22:01:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 22:02:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 22:02:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 22:03:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 22:03:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 22:04:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 22:04:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 22:05:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 22:05:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 22:06:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 22:06:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 22:06:43Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-20 22:07:15Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn ...
+2019-02-20 22:07:15Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindPanelByName v1.3.2.dyn
+2019-02-20 22:08:02Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\FindAndReplaceParameters\FindPanelByName v1.3.2.dyn ...
+2019-02-20 22:08:02Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2019-02-20 22:08:02Z : Goodbye

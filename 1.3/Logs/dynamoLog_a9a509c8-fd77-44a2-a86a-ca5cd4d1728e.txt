@@ -1,0 +1,37 @@
+Dynamo log started 2019-02-21 16:35:16Z
+2019-02-21 16:35:17Z : RequestUpdateVersionInfo
+2019-02-21 16:35:17Z : Requesting version update info...
+2019-02-21 16:35:17Z : Dynamo -- Build 1.3.2.2480
+2019-02-21 16:35:17Z : Duplicate migration type registered for SunPathDirection
+2019-02-21 16:35:19Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2019-02-21 16:35:19Z : System.InvalidOperationException:
+2019-02-21 16:35:19Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2019-02-21 16:35:19Z : 
+2019-02-21 16:35:23Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2019-02-21 16:35:23Z : Backup files timer is started with an interval of 60000 milliseconds
+2019-02-21 16:35:23Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\\bin;C:\Users\dcleary\AppData\Local\GitHubDesktop\bin;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2019-02-21 16:35:23Z : RENDER : Rendering Tier: 2
+2019-02-21 16:35:23Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-21 16:35:23Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-21 16:35:23Z : RENDER : Software Effect Rendering Supported: True
+2019-02-21 16:35:23Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-21 16:35:24Z : RENDER : Rendering Tier: 2
+2019-02-21 16:35:24Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-21 16:35:24Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-21 16:35:24Z : RENDER : Software Effect Rendering Supported: True
+2019-02-21 16:35:24Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-21 16:35:24Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2019-02-21 16:35:24Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2019-02-21 16:35:24Z : Welcome to Dynamo!
+2019-02-21 16:35:24Z : 00:00:00.2712604 elapsed for loading Dynamo main window.
+2019-02-21 16:35:25Z : WPF Render Mode: SoftwareOnly
+2019-02-21 16:35:25Z : Update available: 2.0.2.0
+2019-02-21 16:35:25Z : Update download started...
+2019-02-21 16:35:25Z : Update download progress: 0%
+2019-02-21 16:35:28Z : Update download progress: 10%
+2019-02-21 16:35:30Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-21 16:35:30Z : Update download progress: 20%
+2019-02-21 16:35:33Z : Update download progress: 30%
+2019-02-21 16:35:35Z : Update download progress: 40%
+2019-02-21 16:35:37Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2019-02-21 16:35:37Z : Goodbye

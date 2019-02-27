@@ -1,0 +1,59 @@
+<Workspace Version="1.3.3.4651" X="325.1624201806" Y="280.669634528778" zoom="2.37004060791358" ScaleFactor="1" Name="RIE.CircuitsFromPanel" Description="Retrieves all Circuits from input panel element" ID="28ae3dff-a6aa-451a-808d-8c8d31d92ca6" Category="RIE.Power">
+  <NamespaceResolutionMap />
+  <Elements>
+    <PythonNodeModels.PythonNode guid="895cd74e-e2cb-4a94-be30-8fc6c30878b1" type="PythonNodeModels.PythonNode" nickname="Python Script" x="198" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="1">
+      <PortInfo index="0" default="False" />
+      <Script># @ Copyright - Designed by André Abotnes andre.abotnes@norconsult.com
+
+import clr
+
+# Import Revit API + APIUI
+clr.AddReference('RevitAPI')
+from Autodesk.Revit.DB import *
+from Autodesk.Revit.DB.Electrical import *
+
+OUT = []
+
+def tolist(obj):
+	if isinstance(obj, list):
+		return UnwrapElement(obj)
+	else:
+		return [UnwrapElement(obj)]
+
+panels = tolist(IN[0])
+circuitsInPanel = []
+circuits = []
+
+for x in panels:
+	circuits = []
+	for y in x.MEPModel.ElectricalSystems:
+		circuits.append(y)
+	circuitsInPanel.append(circuits)
+	
+OUT = circuitsInPanel
+
+#Assign your output to the OUT variable.
+if len(OUT) == 1:
+	OUT = OUT[0]
+else:
+	OUT = OUT </Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="aefbdf20-3ff7-4587-a3a0-be1a156f61e6" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="27" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="Panel" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+    <Dynamo.Graph.Nodes.CustomNodes.Output guid="2b434543-539c-4a37-9ec0-840491af387c" type="Dynamo.Graph.Nodes.CustomNodes.Output" nickname="Output" x="422" y="0" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <Symbol value="Circuits" />
+    </Dynamo.Graph.Nodes.CustomNodes.Output>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="895cd74e-e2cb-4a94-be30-8fc6c30878b1" start_index="0" end="2b434543-539c-4a37-9ec0-840491af387c" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="aefbdf20-3ff7-4587-a3a0-be1a156f61e6" start_index="0" end="895cd74e-e2cb-4a94-be30-8fc6c30878b1" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>

@@ -1,0 +1,560 @@
+Dynamo log started 2018-10-11 19:28:50Z
+2018-10-11 19:28:51Z : Dynamo -- Build 1.3.2.2480
+2018-10-11 19:28:51Z : Duplicate migration type registered for SunPathDirection
+2018-10-11 19:28:52Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-10-11 19:28:53Z : System.InvalidOperationException:
+2018-10-11 19:28:53Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-10-11 19:28:53Z : 
+2018-10-11 19:28:56Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-10-11 19:28:56Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-10-11 19:28:56Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-10-11 19:28:56Z : RENDER : Rendering Tier: 2
+2018-10-11 19:28:56Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-11 19:28:56Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-11 19:28:56Z : RENDER : Software Effect Rendering Supported: True
+2018-10-11 19:28:56Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-11 19:28:56Z : RENDER : Rendering Tier: 2
+2018-10-11 19:28:56Z : RENDER : Pixel Shader 3 Supported: True
+2018-10-11 19:28:56Z : RENDER : Pixel Shader 4 Supported: False
+2018-10-11 19:28:56Z : RENDER : Software Effect Rendering Supported: True
+2018-10-11 19:28:56Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-10-11 19:28:57Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-10-11 19:28:57Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-10-11 19:28:57Z : Welcome to Dynamo!
+2018-10-11 19:28:57Z : 00:00:00.2986622 elapsed for loading Dynamo main window.
+2018-10-11 19:28:57Z : WPF Render Mode: SoftwareOnly
+2018-10-11 19:29:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-10-11 19:29:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-10-11 19:30:18Z : Active view is now 142 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-10-11 19:30:36Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\spring nodes\dyf\Collector.LinkedInstanceElements.dyf
+2018-10-11 19:30:37Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\LunchBox for Dynamo\dyf\LunchBox Get Parameter Value.dyf
+2018-10-11 19:30:37Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\List.CountOccurences.dyf
+2018-10-11 19:30:37Z : Original file 'List.CountOccurences.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\List.CountOccurences.dyf.39.backup'
+2018-10-11 19:30:37Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\TurnIntoList.dyf
+2018-10-11 19:30:37Z : Original file 'TurnIntoList.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\TurnIntoList.dyf.132.backup'
+2018-10-11 19:30:37Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\List.ReplaceNull.dyf
+2018-10-11 19:30:37Z : Original file 'List.ReplaceNull.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\List.ReplaceNull.dyf.31.backup'
+2018-10-11 19:30:37Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Get Documents.dyf
+2018-10-11 19:30:37Z : Original file 'Get Documents.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Get Documents.dyf.60.backup'
+2018-10-11 19:30:37Z : Active view is now 142 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-10-11 19:30:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 (Must Set Phase).dyn ...
+2018-10-11 19:30:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 (Must Set Phase).dyn
+2018-10-11 19:31:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 (Must Set Phase).dyn ...
+2018-10-11 19:31:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 (Must Set Phase).dyn
+2018-10-11 19:32:55Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Equipment Check\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:34:32Z : Active view is now 242 - SECOND FLOOR LIGHTING PLAN - HOST
+2018-10-11 19:34:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:34:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:35:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:35:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:36:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:36:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:37:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:37:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:38:18Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 19:38:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:38:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:39:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:39:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:40:19Z : Active view is now 142 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-10-11 19:40:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:40:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:41:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:41:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:42:03Z : Active view is now 242 - SECOND FLOOR LIGHTING PLAN - HOST
+2018-10-11 19:42:45Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Get Type Parameter.dyf
+2018-10-11 19:42:45Z : Original file 'Get Type Parameter.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Get Type Parameter.dyf.2.backup'
+2018-10-11 19:42:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:42:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:43:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:43:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:44:08Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 19:44:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:44:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:45:51Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\DanEDU Dynamo\dyf\Family_GetParameterByName.dyf
+2018-10-11 19:45:51Z : Original file 'Family_GetParameterByName.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\DanEDU Dynamo\dyf\backup\Family_GetParameterByName.dyf.0.backup'
+2018-10-11 19:45:51Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\DanEDU Dynamo\dyf\Python Script Reader.dyf
+2018-10-11 19:45:51Z : Original file 'Python Script Reader.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\DanEDU Dynamo\dyf\backup\Python Script Reader.dyf.5.backup'
+2018-10-11 19:45:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:45:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:46:05Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\FamilyManager.RenameParameter.dyf
+2018-10-11 19:46:05Z : Original file 'FamilyManager.RenameParameter.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\backup\FamilyManager.RenameParameter.dyf.0.backup'
+2018-10-11 19:46:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:46:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:47:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:47:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:48:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:48:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:49:19Z : Active view is now View 1
+2018-10-11 19:49:19Z : The RunButton is disabled because Dynamo is not bound to the current active document.
+2018-10-11 19:49:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:49:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:50:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:50:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:51:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:51:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:52:50Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 19:53:06Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 19:53:06Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:53:06Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:53:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:53:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:54:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:54:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:55:23Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-11 19:55:28Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 19:55:33Z : Active view is now EQUIPMENT NOT ON MECH SCHEDULE
+2018-10-11 19:55:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:55:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:56:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:56:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:57:33Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-11 19:57:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:57:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:58:26Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\SteamNodes\dyf\Tool.GetPhaseByName.dyf
+2018-10-11 19:58:26Z : Original file 'Tool.GetPhaseByName.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\SteamNodes\dyf\backup\Tool.GetPhaseByName.dyf.1.backup'
+2018-10-11 19:58:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:58:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 19:59:56Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 19:59:56Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:00:33Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Equipment Check\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:00:34Z : Clearing workspace...
+2018-10-11 20:00:48Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\Elements change Level.dyf
+2018-10-11 20:00:48Z : Original file 'Elements change Level.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\backup\Elements change Level.dyf.1.backup'
+2018-10-11 20:00:48Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-11 20:00:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-11 20:00:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-11 20:01:01Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:01:57Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-11 20:01:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-11 20:01:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-11 20:02:00Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-11 20:02:09Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\FindAndReplaceParameters\FindAndReplaceParameters.dyn ...
+2018-10-11 20:02:11Z : Clearing workspace...
+2018-10-11 20:02:15Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-11 20:02:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:02:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:03:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:03:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:04:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:04:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:05:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:05:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:06:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:06:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:07:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:07:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:08:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:08:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:09:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:09:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:10:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:10:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:11:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:11:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:12:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:12:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:13:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:13:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:14:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:14:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:15:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:15:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:16:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:16:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:17:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:17:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:18:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:18:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:19:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:19:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:20:39Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:20:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:20:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn
+2018-10-11 20:21:02Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Equipment Check\1.3.1 LinkedMechToElec Building L2L3 New Version.dyn ...
+2018-10-11 20:21:03Z : Clearing workspace...
+2018-10-11 20:22:28Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-11 20:22:43Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:40:20Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Element.CopyByVector.dyf
+2018-10-11 20:40:20Z : Original file 'Element.CopyByVector.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\Element.CopyByVector.dyf.70.backup'
+2018-10-11 20:40:20Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:40:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:40:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:41:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:41:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:42:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:42:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:42:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:42:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:42:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:42:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:42:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:42:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:42:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:43:20Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:21Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:21Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:21Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:21Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:21Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:21Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:36Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:36Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:36Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:36Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:36Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:36Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:36Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:50Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:50Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:50Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:50Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:50Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:50Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:50Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:50Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:43:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:43:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:44:21Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:21Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:21Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:21Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:21Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:21Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:21Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:37Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:37Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:37Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:37Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:37Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:37Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:37Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:51Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:51Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:51Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:51Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:51Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:51Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:51Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:51Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:44:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:44:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:45:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:45:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:45:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:45:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:45:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:45:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:45:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:45:11Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-11 20:45:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:45:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:46:02Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:46:38Z : Active view is now EQUIPMENT NOT ON MECH SCHEDULE
+2018-10-11 20:46:38Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:46:39Z : Active view is now 242 - SECOND FLOOR LIGHTING PLAN - HOST
+2018-10-11 20:46:39Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:46:40Z : Active view is now 142 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-10-11 20:46:40Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:46:47Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-11 20:46:48Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-11 20:46:49Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-11 20:46:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:46:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:47:27Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:48:00Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2018-10-11 20:48:00Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:48:00Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:48:24Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:48:36Z : Active view is now SECOND FLOOR POWER PLAN - AREA A
+2018-10-11 20:48:41Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:48:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:48:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:49:14Z : Active view is now 230 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:49:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:49:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:50:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:50:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:51:49Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:51:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:51:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:52:04Z : !! Warning: The Power System "20,22,24" is empty and will be deleted.
+2018-10-11 20:52:04Z : !! Warning: The Power System "25,27,29" is empty and will be deleted.
+2018-10-11 20:52:04Z : !! Warning: The Power System "26,28,30" is empty and will be deleted.
+2018-10-11 20:52:04Z : !! Warning: The Power System "31,33,35" is empty and will be deleted.
+2018-10-11 20:52:04Z : !! Warning: The Power System "32,34,36" is empty and will be deleted.
+2018-10-11 20:52:04Z : !! Warning: The Power System "37,39,41" is empty and will be deleted.
+2018-10-11 20:52:04Z : !! Warning: The Power System "38,40,42" is empty and will be deleted.
+2018-10-11 20:52:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:04Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:04Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:04Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:04Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:04Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:04Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:04Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:04Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:16Z : Active view is now 230 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:52:23Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:23Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:23Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:23Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:23Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:23Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:23Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:23Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:23Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:23Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:23Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:23Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:23Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:23Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:23Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:23Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:28Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:52:31Z : Active view is now 230 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:52:38Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:38Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:38Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:38Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:38Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:38Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:38Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:38Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:38Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:38Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:38Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:38Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:38Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:38Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:45Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:52:49Z : Active view is now 230 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:52:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:56Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:52:56Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:56Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:56Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:56Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:56Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:56Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:56Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:52:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:52:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:53:16Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:53:19Z : Active view is now 230 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:53:31Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:53:37Z : Active view is now 230 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:53:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:53:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:53:58Z : Active view is now L230-SWD-MECH-D1
+2018-10-11 20:53:59Z : Active view is now 230 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:54:06Z : Active view is now L230-SWD-MECH-D1
+2018-10-11 20:54:08Z : Active view is now 230 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:54:58Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:54:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:54:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:54:58Z : Active view is now 230 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:54:58Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:55:05Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:55:16Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:55:23Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:23Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:23Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:23Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:23Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:23Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:23Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:31Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:55:36Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:55:44Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:44Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:44Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:44Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:44Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:44Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:44Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:44Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:44Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:55:44Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:55:44Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:55:44Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:55:44Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:55:44Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:55:44Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:55:44Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:55:47Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:55:51Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:55:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:55:58Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:55:58Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:55:58Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:55:58Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:55:58Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:55:58Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:55:58Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:55:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:55:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:56:02Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:56:06Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:56:14Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:14Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:14Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:14Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:14Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:14Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:14Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:14Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:14Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:14Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:14Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:14Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:14Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:14Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:18Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:56:22Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:56:31Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:56:35Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:56:43Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:43Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:43Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:43Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:43Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:43Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:43Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:43Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:43Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:43Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:43Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:43Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:43Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:43Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:43Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:43Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:47Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:56:51Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:56:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:58Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:56:58Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:58Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:58Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:58Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:58Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:58Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:58Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:56:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:56:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:57:00Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:57:04Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:57:13Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:57:13Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:57:13Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:57:13Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:57:13Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:57:13Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:57:13Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:57:13Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:57:13Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:57:13Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:57:13Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:57:13Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:57:13Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:57:13Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:57:16Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:57:20Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:57:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:57:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:58:32Z : Active view is now L236-SWD-MECH-D2
+2018-10-11 20:58:36Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:58:38Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:58:42Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 20:58:51Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:58:51Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:58:51Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:58:51Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:58:51Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:58:51Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:58:51Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-10-11 20:58:51Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:58:51Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:58:51Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:58:51Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:58:51Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:58:51Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:58:51Z : !! Warning: There are identical instances in the same place. This will result in double counting in schedules.
+2018-10-11 20:58:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:58:57Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 20:59:38Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 20:59:57Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 20:59:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-10-11 21:00:20Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-10-11 21:00:20Z : Clearing workspace...
+2018-10-11 21:00:22Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 21:00:42Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-11 21:00:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-11 21:00:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-11 21:01:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-11 21:01:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-11 21:02:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-11 21:02:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-11 21:03:44Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-11 21:03:47Z : Active view is now SUITE 230 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-11 21:03:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-11 21:03:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-11 21:04:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-11 21:04:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-11 21:05:57Z : Active view is now SUITE 236 - MECHANICAL EQUIPMENT SCHEDULE
+2018-10-11 21:05:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-11 21:05:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-11 21:06:19Z : Active view is now SECOND FLOOR - WORK
+2018-10-11 21:07:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-11 21:07:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-11 21:07:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-11 21:07:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-11 21:08:01Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 21:08:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn ...
+2018-10-11 21:08:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\FindAndReplaceParameters.dyn
+2018-10-11 21:09:00Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\FindAndReplaceParameters\FindAndReplaceParameters.dyn ...
+2018-10-11 21:09:00Z : Clearing workspace...
+2018-10-11 21:09:08Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 21:09:17Z : Clearing workspace...
+2018-10-11 21:09:29Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Create Annotation Tag.dyf
+2018-10-11 21:09:29Z : Original file 'Create Annotation Tag.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Create Annotation Tag.dyf.22.backup'
+2018-10-11 21:09:29Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\Tag Get Location.dyf
+2018-10-11 21:09:29Z : Original file 'Tag Get Location.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\MEPover\dyf\backup\Tag Get Location.dyf.5.backup'
+2018-10-11 21:09:29Z : Active view is now 236 - SECOND FLOOR POWER PLAN - HOST
+2018-10-11 21:09:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-11 21:09:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-11 21:10:58Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn ...
+2018-10-11 21:10:58Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\Duplicate Elements and Tags.dyn
+2018-10-11 21:11:10Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\Duplicate Elements and Tags.dyn ...
+2018-10-11 21:11:17Z : Clearing workspace...
+2018-10-11 21:11:20Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-10-11 21:11:20Z : Goodbye

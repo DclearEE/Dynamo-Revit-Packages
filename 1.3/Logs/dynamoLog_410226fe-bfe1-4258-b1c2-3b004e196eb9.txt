@@ -1,0 +1,70 @@
+Dynamo log started 2018-08-21 13:06:31Z
+2018-08-21 13:06:33Z : Dynamo -- Build 1.3.2.2480
+2018-08-21 13:06:33Z : Duplicate migration type registered for SunPathDirection
+2018-08-21 13:06:35Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-08-21 13:06:35Z : System.InvalidOperationException:
+2018-08-21 13:06:35Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-08-21 13:06:35Z : 
+2018-08-21 13:06:39Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-08-21 13:06:39Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-08-21 13:06:39Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-08-21 13:06:39Z : RENDER : Rendering Tier: 2
+2018-08-21 13:06:39Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-21 13:06:39Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-21 13:06:39Z : RENDER : Software Effect Rendering Supported: True
+2018-08-21 13:06:39Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-21 13:06:40Z : RENDER : Rendering Tier: 2
+2018-08-21 13:06:40Z : RENDER : Pixel Shader 3 Supported: True
+2018-08-21 13:06:40Z : RENDER : Pixel Shader 4 Supported: False
+2018-08-21 13:06:40Z : RENDER : Software Effect Rendering Supported: True
+2018-08-21 13:06:40Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-08-21 13:06:40Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-08-21 13:06:40Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-08-21 13:06:41Z : Welcome to Dynamo!
+2018-08-21 13:06:41Z : 00:00:00.9088259 elapsed for loading Dynamo main window.
+2018-08-21 13:06:42Z : WPF Render Mode: SoftwareOnly
+2018-08-21 13:06:51Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\RIE\dyf\RIE.SetRevitSelection.dyf
+2018-08-21 13:06:52Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-21 13:07:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:07:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:08:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:08:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:09:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:09:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:10:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:10:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:11:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:11:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:12:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:12:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:13:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:13:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:14:46Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:14:46Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:15:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:15:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:16:50Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:16:50Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:17:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:17:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:18:43Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:18:43Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:19:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:19:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:20:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:20:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:21:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:21:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:22:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:22:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:23:24Z : Active view is now Switch System Schedule
+2018-08-21 13:23:30Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-08-21 13:23:50Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:23:50Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:24:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:24:39Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:25:39Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:25:41Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\(1.3.2) Circuit Lights (DLR L2L3).dyn
+2018-08-21 13:25:41Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\Circuit Lights\(1.3.2) Circuit Lights (DLR L2L3).dyn ...
+2018-08-21 13:25:44Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-08-21 13:25:44Z : Goodbye

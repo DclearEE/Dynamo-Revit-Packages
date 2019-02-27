@@ -1,0 +1,131 @@
+<Workspace Version="1.3.2.2480" X="-820.699342018297" Y="291.09816352405" zoom="0.915562285281226" ScaleFactor="1" Name="Element.CopyToLevel" Description="Copies an element or a list of elements to a given level. Preserves the element's transform. PLEASE NOTE: This node only works for levels that have at least one view (e.g. floor plan) associated with them." ID="427c6688-85ad-4720-b2c7-eb8d7f03f53c" Category="Clockwork.Revit.Elements.Element.Actions">
+  <NamespaceResolutionMap>
+    <ClassMap partialName="List" resolvedName="DSCore.List" assemblyName="DSCoreNodes.dll" />
+    <ClassMap partialName="Level" resolvedName="Revit.Elements.Level" assemblyName="RevitNodes.dll" />
+  </NamespaceResolutionMap>
+  <Elements>
+    <PythonNodeModels.PythonNode guid="b8acd8b8-b819-49ec-adf7-18cb5e189f3f" type="PythonNodeModels.PythonNode" nickname="Python Script" x="1116.41881205331" y="4.25581541028916" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="3">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <PortInfo index="2" default="False" />
+      <Script>import clr
+from System.Collections.Generic import *
+clr.AddReference('RevitAPI')
+from Autodesk.Revit.DB import *
+import Autodesk
+
+clr.AddReference("RevitNodes")
+import Revit
+clr.ImportExtensions(Revit.Elements)
+
+clr.AddReference("RevitServices")
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+
+doc = DocumentManager.Instance.CurrentDBDocument
+items = UnwrapElement(IN[0])
+source_view = UnwrapElement(IN[1])
+target_view = UnwrapElement(IN[2])
+
+ids = list()
+for item in items:
+	ids.append(item.Id)	
+itemlist = List[ElementId](ids)
+
+TransactionManager.Instance.EnsureInTransaction(doc)
+newitems = ElementTransformUtils.CopyElements(source_view,itemlist,target_view, None, None)
+TransactionManager.Instance.TransactionTaskDone()
+
+elementlist = list()
+for item in newitems:
+	elementlist.append(doc.GetElement(item).ToDSType(False))
+
+OUT = elementlist</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="218fc7f4-7f73-49b0-92cb-a08fcf8cf029" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="Level.Views" x="824.802145511357" y="60.5001487824879" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="True" />
+      <ID value="b7449035-5047-4705-8515-127119e081e0" />
+      <Name value="Level.Views" />
+      <Description value="Returns all views associated with a given level" />
+      <Inputs>
+        <Input value="level" />
+        <Input value="toggleToRefresh" />
+      </Inputs>
+      <Outputs>
+        <Output value="firstView" />
+        <Output value="allViews" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="584c3f62-85d2-4f86-a51b-6536933beda8" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="Element.Level" x="619.306492847504" y="67.9478358667462" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <ID value="23a94b80-4bd0-436f-a1b1-f77654b4428c" />
+      <Name value="Element.Level" />
+      <Description value="Gets an element's level" />
+      <Inputs>
+        <Input value="element" />
+      </Inputs>
+      <Outputs>
+        <Output value="level" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="d2be8baf-6f9e-43b5-9ae5-cc352657d1f8" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="Level.Views" x="832.520640436932" y="205.601512711295" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="True" />
+      <ID value="b7449035-5047-4705-8515-127119e081e0" />
+      <Name value="Level.Views" />
+      <Description value="Returns all views associated with a given level" />
+      <Inputs>
+        <Input value="level" />
+        <Input value="toggleToRefresh" />
+      </Inputs>
+      <Outputs>
+        <Output value="firstView" />
+        <Output value="allViews" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid="eef70203-1ebf-47cf-b3ae-0bb64e6ff802" type="Dynamo.Graph.Nodes.ZeroTouch.DSFunction" nickname="List.FirstItem" x="452.386743481707" y="67.7833698698646" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false" assembly="DSCoreNodes.dll" function="DSCore.List.FirstItem@var[]..[]">
+      <PortInfo index="0" default="False" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSFunction>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="faf076b2-b251-4f6a-b8bc-3ad007004f4b" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="TurnIntoList" x="208.684298943367" y="-0.879057469290046" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <ID value="cd09ad33-8c34-4850-ac26-24448d92c38f" />
+      <Name value="TurnIntoList" />
+      <Description value="Turns an element (or a nested list) into a flat list" />
+      <Inputs>
+        <Input value="unknownItem" />
+      </Inputs>
+      <Outputs>
+        <Output value="seq" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="fae2a323-73c2-46c7-b918-aabf7f77d7c4" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="99" y="1" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="element" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+    <Dynamo.Graph.Nodes.CustomNodes.Output guid="48772a16-16ab-4e22-8550-8268948eaaeb" type="Dynamo.Graph.Nodes.CustomNodes.Output" nickname="Output" x="1315.41881205331" y="4" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <Symbol value="newElement" />
+    </Dynamo.Graph.Nodes.CustomNodes.Output>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="9364cd9b-03d9-4bb9-b8ed-7cfd74c831a2" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="623" y="207" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <Symbol value="level : Level" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="b8acd8b8-b819-49ec-adf7-18cb5e189f3f" start_index="0" end="48772a16-16ab-4e22-8550-8268948eaaeb" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="218fc7f4-7f73-49b0-92cb-a08fcf8cf029" start_index="0" end="b8acd8b8-b819-49ec-adf7-18cb5e189f3f" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="584c3f62-85d2-4f86-a51b-6536933beda8" start_index="0" end="218fc7f4-7f73-49b0-92cb-a08fcf8cf029" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="d2be8baf-6f9e-43b5-9ae5-cc352657d1f8" start_index="0" end="b8acd8b8-b819-49ec-adf7-18cb5e189f3f" end_index="2" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="eef70203-1ebf-47cf-b3ae-0bb64e6ff802" start_index="0" end="584c3f62-85d2-4f86-a51b-6536933beda8" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="faf076b2-b251-4f6a-b8bc-3ad007004f4b" start_index="0" end="b8acd8b8-b819-49ec-adf7-18cb5e189f3f" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="faf076b2-b251-4f6a-b8bc-3ad007004f4b" start_index="0" end="eef70203-1ebf-47cf-b3ae-0bb64e6ff802" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="fae2a323-73c2-46c7-b918-aabf7f77d7c4" start_index="0" end="faf076b2-b251-4f6a-b8bc-3ad007004f4b" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="9364cd9b-03d9-4bb9-b8ed-7cfd74c831a2" start_index="0" end="d2be8baf-6f9e-43b5-9ae5-cc352657d1f8" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>

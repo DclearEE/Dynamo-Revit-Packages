@@ -1,0 +1,143 @@
+Dynamo log started 2019-02-19 18:50:31Z
+2019-02-19 18:50:31Z : 
+2019-02-19 18:50:31Z : RequestUpdateVersionInfo
+2019-02-19 18:50:31Z : Requesting version update info...
+2019-02-19 18:50:31Z : Dynamo -- Build 2.0.1.5055
+2019-02-19 18:50:32Z : Duplicate migration type registered for SunPathDirection
+2019-02-19 18:50:34Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2019-02-19 18:50:34Z : System.InvalidOperationException:
+2019-02-19 18:50:34Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2019-02-19 18:50:34Z : 
+2019-02-19 18:50:35Z : Could not create an instance of null
+2019-02-19 18:50:35Z : Value cannot be null.
+Parameter name: assemblyFile
+2019-02-19 18:50:35Z :    at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at Dynamo.Extensions.ExtensionLoader.Load(ExtensionDefinition extension)
+2019-02-19 18:50:35Z : Could not create an instance of null
+2019-02-19 18:50:35Z : Value cannot be null.
+Parameter name: assemblyFile
+2019-02-19 18:50:35Z :    at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   at Dynamo.Extensions.ExtensionLoader.Load(ExtensionDefinition extension)
+2019-02-19 18:50:37Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2019-02-19 18:50:37Z : Backup files timer is started with an interval of 60000 milliseconds
+2019-02-19 18:50:37Z : SYSTEM:Environment Path:C:\Users\dcleary\AppData\Roaming\pyRevit-Master\bin\lib\win32\x64;C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\\bin;C:\Users\dcleary\AppData\Local\GitHubDesktop\bin;C:\Users\dcleary\AppData\Roaming\pyRevit-Master\bin;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\2\;C:\Program Files\Dynamo\Dynamo Core\2\
+2019-02-19 18:50:37Z : RENDER : Rendering Tier: 2
+2019-02-19 18:50:37Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-19 18:50:37Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-19 18:50:37Z : RENDER : Software Effect Rendering Supported: True
+2019-02-19 18:50:37Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-19 18:50:37Z : RENDER : Rendering Tier: 2
+2019-02-19 18:50:37Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-19 18:50:37Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-19 18:50:37Z : RENDER : Software Effect Rendering Supported: True
+2019-02-19 18:50:37Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-19 18:50:37Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2019-02-19 18:50:37Z : LibraryUI (id: 85941358-5525-4FF4-8D61-6CA831F122AB) view extension is added
+2019-02-19 18:50:37Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2019-02-19 18:50:37Z : DynaHub View Extension (id: 7E85F38F-0A19-4F24-9E18-96845764780Q) view extension is added
+2019-02-19 18:50:37Z : Could not create an instance of DynamoHub.ViewExtension
+2019-02-19 18:50:37Z : PackageManagerViewExtension: Object reference not set to an instance of an object.
+2019-02-19 18:50:37Z : Welcome to Dynamo!
+2019-02-19 18:50:37Z : 00:00:00.2775749 elapsed for loading Dynamo main window.
+2019-02-19 18:50:37Z : WPF Render Mode: SoftwareOnly
+2019-02-19 18:50:37Z : Update available: 2.0.2.0
+2019-02-19 18:50:37Z : Update download started...
+2019-02-19 18:50:38Z : ERR_ABORTED
+2019-02-19 18:50:38Z : Update download progress: 0%
+2019-02-19 18:50:40Z : Clearing workspace...
+2019-02-19 18:50:41Z : Update download progress: 10%
+2019-02-19 18:50:45Z : Update download progress: 20%
+2019-02-19 18:50:47Z : ViewExtensionCommandExecutive ( UniqueId: 7901f2fe-a6ef-4bd5-9ad3-827d117deee2, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2019-02-19 18:50:48Z : Update download progress: 30%
+2019-02-19 18:50:52Z : Update download progress: 40%
+2019-02-19 18:50:55Z : Update download progress: 50%
+2019-02-19 18:50:59Z : Update download progress: 60%
+2019-02-19 18:51:04Z : Update download progress: 70%
+2019-02-19 18:51:09Z : Update download progress: 80%
+2019-02-19 18:51:13Z : Update download progress: 90%
+2019-02-19 18:51:15Z : Update download progress: 100%
+2019-02-19 18:51:15Z : Update download complete.
+2019-02-19 18:51:15Z : Successful
+2019-02-19 18:51:15Z : Update download complete.
+2019-02-19 18:51:21Z : ViewExtensionCommandExecutive ( UniqueId: 41644810-662e-43eb-8393-7c990b9a9005, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2019-02-19 18:51:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 18:51:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 18:52:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 18:52:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 18:52:40Z : ViewExtensionCommandExecutive ( UniqueId: 17fa83b7-336a-46b8-a3e2-f78b5f163f74, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2019-02-19 18:52:57Z : ViewExtensionCommandExecutive ( UniqueId: 24bbb43d-5d6c-4744-afa2-4796750269b0, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2019-02-19 18:53:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 18:53:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 18:54:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 18:54:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 18:55:01Z : ViewExtensionCommandExecutive ( UniqueId: ed5a9c04-f9ce-4d40-ae2d-59b5b0112966, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2019-02-19 18:55:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 18:55:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 18:56:36Z : Active view is now RHAB1
+2019-02-19 18:56:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 18:56:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 18:57:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 18:57:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 18:58:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 18:58:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 18:59:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 18:59:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 19:00:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 19:00:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 19:01:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 19:01:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 19:02:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 19:02:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 19:02:40Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-19 19:02:56Z : Active view is now RLAB1
+2019-02-19 19:03:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 19:03:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 19:04:21Z : ViewExtensionCommandExecutive ( UniqueId: 39a10c7b-d10b-42ac-b775-645b8e88179b, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2019-02-19 19:04:21Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\spring nodes\dyf\Watch+.dyf
+2019-02-19 19:04:21Z : Original file 'Watch+.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\2.0\packages\spring nodes\dyf\backup\Watch+.dyf.0.backup'
+2019-02-19 19:04:32Z : ViewExtensionCommandExecutive ( UniqueId: cc217458-e1f6-4f4c-8c1d-e39231d5f805, Name: LibraryUI, commandTypeName: CreateNodeCommand )
+2019-02-19 19:04:32Z : RENDER : Rendering Tier: 2
+2019-02-19 19:04:32Z : RENDER : Pixel Shader 3 Supported: True
+2019-02-19 19:04:32Z : RENDER : Pixel Shader 4 Supported: False
+2019-02-19 19:04:32Z : RENDER : Software Effect Rendering Supported: True
+2019-02-19 19:04:32Z : RENDER : Maximum hardware texture size: 16384,16384
+2019-02-19 19:04:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 19:04:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 19:05:02Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-19 19:05:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 19:05:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 19:05:45Z : Active view is now RHAB1
+2019-02-19 19:06:08Z : Active view is now RHBA1
+2019-02-19 19:06:13Z : Active view is now RLAB1
+2019-02-19 19:06:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 19:06:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 19:07:36Z : Active view is now RHBA1
+2019-02-19 19:07:37Z : Active view is now RHAB1
+2019-02-19 19:07:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 19:07:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 19:08:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 19:08:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 19:09:37Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-19 19:09:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 19:09:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 19:09:45Z : Active view is now RHAB1
+2019-02-19 19:10:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 19:10:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 19:11:24Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-19 19:11:37Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2019-02-19 19:11:37Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2019-02-19 19:12:08Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\FindAndReplaceParameters\FindPanelByNmae.dyn ...
+2019-02-19 19:12:11Z : Clearing workspace...
+2019-02-19 19:12:15Z : connector 8e79f4d1-0ed4-462b-8750-c8f5965b00f1 could not be created, start or end port does not exist
+2019-02-19 19:12:15Z : connector 48f9beb9-cd9a-42be-95e0-0b70d5940fb2 could not be created, start or end port does not exist
+2019-02-19 19:12:15Z : connector b7e36d87-12a5-462b-949e-5c988031fc35 could not be created, start or end port does not exist
+2019-02-19 19:12:15Z : connector b5e39b50-a84e-46c2-9684-a40026e9b8e7 could not be created, start or end port does not exist
+2019-02-19 19:12:15Z : Active view is now FIRST FLOOR POWER PLAN- HOST
+2019-02-19 19:12:15Z : This graph has a nodeview with id:72eb4827-1d7e-4075-bcb1-e7511be42085 and name:Categories, but does not contain a matching nodeModel
+2019-02-19 19:12:15Z : This graph has a nodeview with id:ce537523-a197-4c4d-a4fc-50cc8b1542f1 and name:All Elements of Category, but does not contain a matching nodeModel
+2019-02-19 19:12:15Z : This graph has a nodeview with id:6bea5d24-3acd-4e49-bb91-becd3235cae2 and name:Watch, but does not contain a matching nodeModel
+2019-02-19 19:12:29Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\FindAndReplaceParameters\FindPanelByName v2.0.dyn ...
+2019-02-19 19:12:37Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2019-02-19 19:12:37Z : Goodbye

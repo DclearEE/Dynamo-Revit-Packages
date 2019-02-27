@@ -1,0 +1,78 @@
+<Workspace Version="1.3.2.2480" X="399.722673094958" Y="-129.134107651896" zoom="0.643484521153497" ScaleFactor="1" Name="Home" Description="" RunType="Manual" RunPeriod="1000" HasRunWithoutCrash="True">
+  <NamespaceResolutionMap />
+  <Elements>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="621d3553-96da-4b7d-a420-196a0566020b" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="1.3.2 NODE - COPY AND POWER" x="173.475586180443" y="553.760320379234" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <PortInfo index="2" default="False" />
+      <PortInfo index="3" default="False" />
+      <PortInfo index="4" default="False" />
+      <PortInfo index="5" default="False" />
+      <PortInfo index="6" default="False" />
+      <ID value="911930be-f226-4e09-97b8-1e1d9e9441a3" />
+      <Name value="1.3.2 NODE - COPY AND POWER" />
+      <Description value="Copys elements froma panel and powers them to a new panel. " />
+      <Inputs>
+        <Input value="&quot;Set Phase&quot;" />
+        <Input value="&quot;Load Name - Search For&quot;" />
+        <Input value="&quot;Load Name - Replace With&quot;" />
+        <Input value="&quot;Origin Location&quot;" />
+        <Input value="&quot;Destination Location&quot;" />
+        <Input value="&quot;Origin Panel&quot;" />
+        <Input value="&quot;Destination Panel&quot;" />
+      </Inputs>
+      <Outputs>
+        <Output value="Out &quot;Elements&quot;" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <DSRevitNodesUI.RevitPhases guid="bc91df00-ea95-4516-bf4f-bacb9a590ab9" type="DSRevitNodesUI.RevitPhases" nickname="Select Phase" x="-295.39425026965" y="341.79222587219" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false" index="12:Suite 230" />
+    <CoreNodeModels.Input.StringInput guid="8badde73-d9ef-4563-a5a9-266b67d07130" type="CoreNodeModels.Input.StringInput" nickname="String" x="-296.916442279036" y="527.355484971445" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>224</System.String>
+      <System.String value="224" />
+    </CoreNodeModels.Input.StringInput>
+    <CoreNodeModels.Input.StringInput guid="11e3d0be-c40e-4231-b8f7-da6c68d91b9e" type="CoreNodeModels.Input.StringInput" nickname="String" x="-296.916442279036" y="616.837813750736" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>230</System.String>
+      <System.String value="230" />
+    </CoreNodeModels.Input.StringInput>
+    <Dynamo.Nodes.DSModelElementSelection guid="d2925be8-f615-4f34-ad10-91f448b04b71" type="Dynamo.Nodes.DSModelElementSelection" nickname="Select Model Element" x="-522.679242472756" y="709.102151164451" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <instance id="9890ec06-6344-495e-a906-73481c835fbf-0032cd7d" />
+    </Dynamo.Nodes.DSModelElementSelection>
+    <Dynamo.Nodes.DSModelElementSelection guid="7e53269e-059d-436e-ba84-c948e19bfe3e" type="Dynamo.Nodes.DSModelElementSelection" nickname="Select Model Element" x="-522.679242472756" y="832.221048155986" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <instance id="27a1648c-854d-40f0-b6b8-7fdb256c0b3b-003790f8" />
+    </Dynamo.Nodes.DSModelElementSelection>
+    <Dynamo.Nodes.DSModelElementSelection guid="4ca3e45a-f625-4cfd-bf78-5e39871ae217" type="Dynamo.Nodes.DSModelElementSelection" nickname="Select Model Element" x="-302.812608773806" y="1028.93814042375" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <instance id="8f79d89c-8437-4507-8d42-337c73ce5fe4-0036f76d" />
+    </Dynamo.Nodes.DSModelElementSelection>
+    <Dynamo.Nodes.DSModelElementSelection guid="1d7bb92d-86cc-41ca-9104-bb7517d06f6f" type="Dynamo.Nodes.DSModelElementSelection" nickname="Select Model Element" x="-304.27346469428" y="1146.2534276791" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <instance id="9890ec06-6344-495e-a906-73481c835fbf-0032cde0" />
+    </Dynamo.Nodes.DSModelElementSelection>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="bc91df00-ea95-4516-bf4f-bacb9a590ab9" start_index="0" end="621d3553-96da-4b7d-a420-196a0566020b" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="8badde73-d9ef-4563-a5a9-266b67d07130" start_index="0" end="621d3553-96da-4b7d-a420-196a0566020b" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="11e3d0be-c40e-4231-b8f7-da6c68d91b9e" start_index="0" end="621d3553-96da-4b7d-a420-196a0566020b" end_index="2" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="d2925be8-f615-4f34-ad10-91f448b04b71" start_index="0" end="621d3553-96da-4b7d-a420-196a0566020b" end_index="3" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="7e53269e-059d-436e-ba84-c948e19bfe3e" start_index="0" end="621d3553-96da-4b7d-a420-196a0566020b" end_index="4" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="4ca3e45a-f625-4cfd-bf78-5e39871ae217" start_index="0" end="621d3553-96da-4b7d-a420-196a0566020b" end_index="5" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="1d7bb92d-86cc-41ca-9104-bb7517d06f6f" start_index="0" end="621d3553-96da-4b7d-a420-196a0566020b" end_index="6" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="966adeb8-a93e-4e26-9014-c1bd9e8e9906" annotationText="FIND REPLACE" left="-306.916442279036" top="445.355484971445" width="127.143333333333" height="239.482328779291" fontSize="30" InitialTop="527.355484971445" InitialHeight="187.482328779291" TextblockHeight="72" backgrouund="#FFD4B6DB">
+      <Models ModelGuid="8badde73-d9ef-4563-a5a9-266b67d07130" />
+      <Models ModelGuid="11e3d0be-c40e-4231-b8f7-da6c68d91b9e" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="bdf52981-6bce-4814-abec-6b2d5defb27f" annotationText="ORIGIN AND DESTINATION PANELS" left="-532.679242472756" top="591.102151164451" width="196.396666666667" height="360.118896991535" fontSize="30" InitialTop="709.102151164451" InitialHeight="268.603055378251" TextblockHeight="108" backgrouund="#FFFF7BAC">
+      <Models ModelGuid="d2925be8-f615-4f34-ad10-91f448b04b71" />
+      <Models ModelGuid="7e53269e-059d-436e-ba84-c948e19bfe3e" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="11323c0d-9fe3-48d1-a4d8-3dd88ce5244b" annotationText="ORIGIN AND DESTINATION LOCATIONS" left="-314.27346469428" top="910.93814042375" width="196.460855920474" height="354.31528725535" fontSize="30" InitialTop="1028.93814042375" InitialHeight="266.315287255347" TextblockHeight="108" backgrouund="#FF48B9FF">
+      <Models ModelGuid="4ca3e45a-f625-4cfd-bf78-5e39871ae217" />
+      <Models ModelGuid="1d7bb92d-86cc-41ca-9104-bb7517d06f6f" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+  </Annotations>
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>

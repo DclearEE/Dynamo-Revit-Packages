@@ -1,0 +1,4795 @@
+{
+  "Uuid": "e53d91ca-a7f7-4900-8a76-fd95a1ba65af",
+  "IsCustomNode": true,
+  "Category": "Electrical Design",
+  "Description": "Duplicate an electrical panels elements and circuits to another selected panel",
+  "Name": "DuplicatePanelElementsAndCircuits  ",
+  "ElementResolver": {
+    "ResolutionMap": {
+      "List": {
+        "Key": "DSCore.List",
+        "Value": "DSCoreNodes.dll"
+      }
+    }
+  },
+  "Inputs": [
+    {
+      "Id": "96893344044346abafc166662595dbf9",
+      "Name": "String",
+      "Type": "string",
+      "Value": "Panel Name",
+      "Description": "Creates a string."
+    },
+    {
+      "Id": "5c66e26dcb6b4d13a88a8c55a73284e1",
+      "Name": "String",
+      "Type": "string",
+      "Value": "Panel : ",
+      "Description": "Creates a string."
+    },
+    {
+      "Id": "e37d231147e24bae92c1416afeaaae79",
+      "Name": "String",
+      "Type": "string",
+      "Value": "Rating",
+      "Description": "Creates a string."
+    },
+    {
+      "Id": "5a6887a5ab4e4b7aac5412e19837910b",
+      "Name": "String",
+      "Type": "string",
+      "Value": "Load Name",
+      "Description": "Creates a string."
+    },
+    {
+      "Id": "046802f894164954874e2bb7f73f0415",
+      "Name": "String",
+      "Type": "string",
+      "Value": "Panel",
+      "Description": "Creates a string."
+    },
+    {
+      "Id": "32c2d2aafbd645edab594d7023669735",
+      "Name": "String",
+      "Type": "string",
+      "Value": "Load Name",
+      "Description": "Creates a string."
+    },
+    {
+      "Id": "f29ca0eb56584e36ab866d53c6553a81",
+      "Name": "String",
+      "Type": "string",
+      "Value": "Rating",
+      "Description": "Creates a string."
+    },
+    {
+      "Id": "5de6631b2d1a4fd78938e22d5cce653e",
+      "Name": "String",
+      "Type": "string",
+      "Value": "Phase Created",
+      "Description": "Creates a string."
+    }
+  ],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "DSRevitNodesUI.ElementsOfCategory, DSRevitNodesUI",
+      "NodeType": "ExtensionNode",
+      "Id": "941ffc88393e44ddb836bb1d0813e31f",
+      "Inputs": [
+        {
+          "Id": "baa7c93ab2cb4de3af3a937aec1bcdaa",
+          "Name": "Category",
+          "Description": "The Category",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "fc68554b3e024803a85e93c718bc2ee0",
+          "Name": "Elements",
+          "Description": "An element type.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Get all elements of the specified category from the model."
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.Categories, DSRevitNodesUI",
+      "SelectedIndex": 182,
+      "NodeType": "ExtensionNode",
+      "Id": "4ae4480206be4ceda7d5ae6a59dd19e6",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "c3afd8d55e2d42aebd25354be15b0771",
+          "Name": "Category",
+          "Description": "The selected Category.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "All built-in categories."
+    },
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "NodeType": "PythonScriptNode",
+      "Code": "import clr\nclr.AddReference('ProtoGeometry')\nfrom Autodesk.DesignScript.Geometry import *\n#The inputs to this node will be stored as a list in the IN variables.\nsystems = UnwrapElement(IN[0])\npanels = []\nelements = []\n\nfor x in systems:\n\tpanels.append(x.BaseEquipment)\n\tsublist = []\n\telementset = x.Elements\n\tfor x in elementset:\n\t\tsublist.append(x)\n\telements.append(sublist)\n\n#Assign your output to the OUT variable.\nOUT = elements",
+      "VariableInputPorts": true,
+      "Id": "5d8f25761cbb47429cdb30c8c1717522",
+      "Inputs": [
+        {
+          "Id": "7a8042a33d524ad886865189169cbf83",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "9a5f4430c7c64813a42975778cd95662",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded IronPython script."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Watch, CoreNodeModels",
+      "NodeType": "ExtensionNode",
+      "Id": "98539b905d304d60aa5772264c4c119f",
+      "Inputs": [
+        {
+          "Id": "c4f112578dad4da4b347e5764af90885",
+          "Name": "",
+          "Description": "Node to evaluate.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "59de8e007fc345d3a87291744cb1bdaf",
+          "Name": "",
+          "Description": "Watch contents.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Visualize the output of node."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.StringInput, CoreNodeModels",
+      "NodeType": "StringInputNode",
+      "InputValue": "Panel Name",
+      "Id": "96893344044346abafc166662595dbf9",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "1ee505d4012842c7806fbbad1c2e75b0",
+          "Name": "",
+          "Description": "String",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a string."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Element.GetParameterValueByName@string",
+      "Id": "4baf675f9c18479f9e638ab677bfd4e9",
+      "Inputs": [
+        {
+          "Id": "59288bfabcad4a51ba93822a2dc27a39",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "bc824d5727c749d3beec70ed68a7f980",
+          "Name": "parameterName",
+          "Description": "The name of the parameter whose value you want to obtain.\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "21025baa6dfa41a2b26094c4a481decc",
+          "Name": "var[]..[]",
+          "Description": "var[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Get the value of one of the element's parameters.\n\nElement.GetParameterValueByName (parameterName: string): var[]..[]"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "+@var[]..[],var[]..[]",
+      "Id": "e3d77ccd60114fc7961cfaefb3a45dce",
+      "Inputs": [
+        {
+          "Id": "739638afab84464695e66107da78ae94",
+          "Name": "x",
+          "Description": "x value.\n\nvar[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "16159edefe404be6a4175fa2e4fc808f",
+          "Name": "y",
+          "Description": "y value.\n\nvar[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "9bf3e275168a446cb785bbaa90ce93c6",
+          "Name": "var[]..[]",
+          "Description": "var[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Adds x to y.\n\n+ (x: var[]..[], y: var[]..[]): var[]..[]"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.StringInput, CoreNodeModels",
+      "NodeType": "StringInputNode",
+      "InputValue": "Panel : ",
+      "Id": "5c66e26dcb6b4d13a88a8c55a73284e1",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "e14595415e0349278e71287edc95ac07",
+          "Name": "",
+          "Description": "String",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a string."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "DSCore.List.FilterByBoolMask@var[]..[],var[]..[]",
+      "Id": "bce120bf5a7c4daba334a4e4bc75ddab",
+      "Inputs": [
+        {
+          "Id": "1b0021a735cd43f091ddbb4479edb989",
+          "Name": "list",
+          "Description": "List to filter.\n\nvar[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "55e8954261eb4cbc866222bb5c812be3",
+          "Name": "mask",
+          "Description": "List of booleans representing a mask.\n\nvar[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "f56a7972fb0944fe8690d659e4f8834e",
+          "Name": "in",
+          "Description": "Items whose mask index is true.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "aa5925705b154e84b81bef01a6fa1b63",
+          "Name": "out",
+          "Description": "Items whose mask index is false.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Filters a sequence by looking up corresponding indices in a separate list of booleans.\n\nList.FilterByBoolMask (list: var[]..[], mask: var[]..[]): var[]..[]"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "==@var[]..[],var[]..[]",
+      "Id": "a1e7eeb1e1e74b2098eb616d345503f2",
+      "Inputs": [
+        {
+          "Id": "ce1e2a76a95a44bf86a10a9455f3754c",
+          "Name": "x",
+          "Description": "x value.\n\nvar[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "446483503c2d41d692009c5ad7439438",
+          "Name": "y",
+          "Description": "y value.\n\nvar[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "3250002d1aa1479586066a56b55ca6ce",
+          "Name": "var[]..[]",
+          "Description": "var[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Equal x to y?\n\n== (x: var[]..[], y: var[]..[]): var[]..[]"
+    },
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "NodeType": "PythonScriptNode",
+      "Code": "import clr\nclr.AddReference('ProtoGeometry')\nfrom Autodesk.DesignScript.Geometry import *\n#The inputs to this node will be stored as a list in the IN variables.\nsystems = UnwrapElement(IN[0])\npanels = []\nelements = []\n\nfor x in systems:\n\tpanels.append(x.BaseEquipment)\n\tsublist = []\n\telementset = x.Elements\n\tfor x in elementset:\n\t\tsublist.append(x)\n\telements.append(sublist)\n\n#Assign your output to the OUT variable.\nOUT = elements",
+      "VariableInputPorts": true,
+      "Id": "f48bb83e59f544e5859f9289a46634f0",
+      "Inputs": [
+        {
+          "Id": "d2bb4cee5ab74c558fb5833c4e0b394d",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "a95495f3aef6456da0afdfcb0b2ac107",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded IronPython script."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Element.GetParameterValueByName@string",
+      "Id": "433649dfdc3f4fb99616516f5b935f5b",
+      "Inputs": [
+        {
+          "Id": "cd1606194bc144cda01c78c25e8bfd5b",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "18a013c6cbdc402ea4f161b61321a9ad",
+          "Name": "parameterName",
+          "Description": "The name of the parameter whose value you want to obtain.\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "2b0d5989a3e040eea243f82f12b0017a",
+          "Name": "var[]..[]",
+          "Description": "var[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Get the value of one of the element's parameters.\n\nElement.GetParameterValueByName (parameterName: string): var[]..[]"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.StringInput, CoreNodeModels",
+      "NodeType": "StringInputNode",
+      "InputValue": "Rating",
+      "Id": "e37d231147e24bae92c1416afeaaae79",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "3d32ca42d2f14c33a9f41346d25a4a81",
+          "Name": "",
+          "Description": "String",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a string."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.StringInput, CoreNodeModels",
+      "NodeType": "StringInputNode",
+      "InputValue": "Load Name",
+      "Id": "5a6887a5ab4e4b7aac5412e19837910b",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "74ad2b09c47a4554a37814fb690c2019",
+          "Name": "",
+          "Description": "String",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a string."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.StringInput, CoreNodeModels",
+      "NodeType": "StringInputNode",
+      "InputValue": "Panel",
+      "Id": "046802f894164954874e2bb7f73f0415",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "138e499c4ec24d85b9c35fad6bb0551e",
+          "Name": "",
+          "Description": "String",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a string."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Element.GetParameterValueByName@string",
+      "Id": "d3b46f4b72ef49c7a5a9dfce8a2cab4d",
+      "Inputs": [
+        {
+          "Id": "053b246474784c0691da970ea6bb3cca",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "1962a1f9273c4defa3caa2c2da3ca20b",
+          "Name": "parameterName",
+          "Description": "The name of the parameter whose value you want to obtain.\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "96287c20c5054cdaae007dbcb507427e",
+          "Name": "var[]..[]",
+          "Description": "var[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Get the value of one of the element's parameters.\n\nElement.GetParameterValueByName (parameterName: string): var[]..[]"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Element.GetLocation",
+      "Id": "95810d502ed54969be2cc73c6c039522",
+      "Inputs": [
+        {
+          "Id": "d7b6658669d448c68694f30599e3c864",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "fe1e4f0b13764f859ea5aaa562e99865",
+          "Name": "Geometry",
+          "Description": "Location Geometry",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Get an exsiting element's location\n\nElement.GetLocation ( ): Geometry"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Element.GetLocation",
+      "Id": "3e18f7fb23714e7b922ccf9a4999b1b6",
+      "Inputs": [
+        {
+          "Id": "e69fd04e050f4995ba3e735f7c599340",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "66723433e52a47e5a78dfff2a4e64aae",
+          "Name": "Geometry",
+          "Description": "Location Geometry",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Get an exsiting element's location\n\nElement.GetLocation ( ): Geometry"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Element.GetParameterValueByName@string",
+      "Id": "32101e1391b54c5aa584b76849a79516",
+      "Inputs": [
+        {
+          "Id": "b3534df02e704103a404a549a6f6cbce",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "259977c9cacd4dda950603be4f097f63",
+          "Name": "parameterName",
+          "Description": "The name of the parameter whose value you want to obtain.\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "912dad4787654620936501ef80487ba3",
+          "Name": "var[]..[]",
+          "Description": "var[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Get the value of one of the element's parameters.\n\nElement.GetParameterValueByName (parameterName: string): var[]..[]"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "\"true\";",
+      "Id": "21486f259b26415aa0b7ac63306008a1",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "367199285fee4234984df1b35ef96202",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Autodesk.DesignScript.Geometry.Vector.ByTwoPoints@Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point",
+      "Id": "69f202029fb345cda01716703ee2c8a2",
+      "Inputs": [
+        {
+          "Id": "f08818f564fe49ee8bac481e2eb615e7",
+          "Name": "start",
+          "Description": "Point",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "8815855a6343497ab2556cfa05e508e1",
+          "Name": "end",
+          "Description": "Point",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "ea2d3d4561744f9f870b0b71456f6c99",
+          "Name": "Vector",
+          "Description": "Vector",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Form a Vector by two end points. The result is a vector from the start to the end point.\n\nVector.ByTwoPoints (start: Point, end: Point): Vector"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "DSCore.List.Clean@var[]..[],bool",
+      "Id": "d777d8b890714c048107c24bfe794384",
+      "Inputs": [
+        {
+          "Id": "dda59e8decba4206abaa430b5818eea0",
+          "Name": "list",
+          "Description": "var[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "78fd6cd97d4a47d0b3a4f41495415143",
+          "Name": "preserveIndices",
+          "Description": "Provide an option to preserve the indices of the data such that non-trailing nulls may not be filtered out\n\nbool\nDefault value : true",
+          "UsingDefaultValue": true,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "e5dbc1f88de64566899ae6b3c8c4f8f9",
+          "Name": "var[]..[]",
+          "Description": "A list cleaned of nulls and empty lists",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Cleans data of nulls and empty lists from a given list of arbitrary dimension\n\nList.Clean (list: var[]..[], preserveIndices: bool = true): var[]..[]"
+    },
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "NodeType": "PythonScriptNode",
+      "Code": "import clr\r\nclr.AddReference('ProtoGeometry')\r\nfrom Autodesk.DesignScript.Geometry import *\r\n\r\nclr.AddReference('RevitServices')\r\nimport RevitServices\r\nfrom RevitServices.Persistence import DocumentManager\r\nfrom RevitServices.Transactions import TransactionManager\r\nfrom System.Collections.Generic import *\r\n\r\nclr.AddReference('RevitNodes')\r\nimport Revit\r\nclr.ImportExtensions(Revit.Elements)\r\n\r\nclr.AddReference('RevitAPI')\r\nimport Autodesk\r\nfrom Autodesk.Revit.DB import *\r\nfrom Autodesk.Revit.DB.Electrical import *\r\nfrom Autodesk.Revit.DB import MEPSystem\r\n\r\nclr.AddReference('DSCoreNodes')\r\nimport DSCore\r\nfrom DSCore.List import *\r\n\r\nimport sys\r\npyt_path = r'C:\\Program Files (x86)\\IronPython 2.7\\Lib'\r\nsys.path.append(pyt_path)\r\n\r\n# Import List ( ICollection(ElementId) = List[ElementId]() )\r\nclr.AddReference(\"System\")\r\nfrom System.Collections.Generic import List \r\n\r\n#The inputs to this node will be stored as a list in the IN variables.\r\ninput = UnwrapElement(IN[0])\r\n\r\nElectComponents = []\r\nNewCircuit = []\r\n\r\nfor sublist in input:\r\n\tsub = List[ElementId]()\r\n\tElectComponents.append(sub)\r\n\tfor item in sublist:\r\n\t\tsub.Add(item.Id)\r\n\r\n\r\ndoc = DocumentManager.Instance.CurrentDBDocument\r\nuiapp = DocumentManager.Instance.CurrentUIApplication\r\napp = uiapp.Application\r\nuidoc = DocumentManager.Instance.CurrentUIApplication.ActiveUIDocument\r\n\r\nListNewCircuit = []\r\n\r\nTransactionManager.Instance.EnsureInTransaction(doc)\r\n\r\nfor e in ElectComponents:\r\n\tNewCircuit = doc.Create.NewElectricalSystem(e, ElectricalSystemType.PowerCircuit)\r\n\tListNewCircuit.append(NewCircuit)\r\n\r\nTransactionManager.Instance.TransactionTaskDone()\r\n\r\n\r\nOUT = ListNewCircuit\r\n\r\n\r\n\r\n\r\n",
+      "VariableInputPorts": true,
+      "Id": "f6975d3aa3794120a09aff98d2b0d8ac",
+      "Inputs": [
+        {
+          "Id": "3cf4c25ea8d74a9eaca944801cb27b40",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "b322cff548904ff38f95b44fb0940f02",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded IronPython script."
+    },
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "NodeType": "PythonScriptNode",
+      "Code": "import clr\nclr.AddReference('ProtoGeometry')\nfrom Autodesk.DesignScript.Geometry import *\n\nclr.AddReference('RevitServices')\nimport RevitServices\nfrom RevitServices.Persistence import DocumentManager\nfrom RevitServices.Transactions import TransactionManager\nfrom System.Collections.Generic import *\n\nclr.AddReference('RevitNodes')\nimport Revit\nclr.ImportExtensions(Revit.Elements)\n\nclr.AddReference('RevitAPI')\nimport Autodesk\nfrom Autodesk.Revit.DB import *\nfrom Autodesk.Revit.DB.Electrical import *\nfrom Autodesk.Revit.DB import MEPSystem\n\nclr.AddReference('DSCoreNodes')\nimport DSCore\nfrom DSCore.List import *\n\nimport sys\npyt_path = r'C:\\Program Files (x86)\\IronPython 2.7\\Lib'\nsys.path.append(pyt_path)\n\n# Import List ( ICollection(ElementId) = List[ElementId]() )\nclr.AddReference(\"System\")\nfrom System.Collections.Generic import List \n\n\ncircuit = UnwrapElement(IN[0])\npanel = UnwrapElement(IN[1])\n\ndoc = DocumentManager.Instance.CurrentDBDocument\nuiapp = DocumentManager.Instance.CurrentUIApplication\napp = uiapp.Application\nuidoc = DocumentManager.Instance.CurrentUIApplication.ActiveUIDocument\n\nTransactionManager.Instance.EnsureInTransaction(doc)\n\nfor _ in circuit:\n\t_.SelectPanel(panel)\n\nTransactionManager.Instance.TransactionTaskDone()\n\n#Assign your output to the OUT variable.\nOUT = []\nOUT = circuit, panel",
+      "VariableInputPorts": true,
+      "Id": "8d8d549257844bc7909df22d40792c6c",
+      "Inputs": [
+        {
+          "Id": "f7b9a1f7508e4a639c6def201bdacfda",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "d5d54c7b9dce4622bb521375c606fa4b",
+          "Name": "IN[1]",
+          "Description": "Input #1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "4f6775d64531457aa48bdac0dfa8436e",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded IronPython script."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Element.SetParameterByName@string,var",
+      "Id": "67f0c559cbcf493cb03cf0a5e7f5f388",
+      "Inputs": [
+        {
+          "Id": "204f654651504523a6197aefe77540a6",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "c83a39b0327d4a8eb083c8a6d2cff2f7",
+          "Name": "parameterName",
+          "Description": "The name of the parameter to set.\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "35d555e13a7843519201273267e22fbe",
+          "Name": "value",
+          "Description": "The value.\n\nvar",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "4f2992649db24d6ea59d566b80af975a",
+          "Name": "Element",
+          "Description": "Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Set one of the element's parameters.\n\nElement.SetParameterByName (parameterName: string, value: var): Element"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Element.SetParameterByName@string,var",
+      "Id": "dafe802cdfff46ba8eb996619176f790",
+      "Inputs": [
+        {
+          "Id": "f4bbe80b61d44d6d83074c1c51ad5a22",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "cd7fe2e179ed40ca919da11e302a4dca",
+          "Name": "parameterName",
+          "Description": "The name of the parameter to set.\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "fd0528169cfd4308807f3ac2d97ea7ba",
+          "Name": "value",
+          "Description": "The value.\n\nvar",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "1a8d4aa7eb21416f8c7dfce34c9c3564",
+          "Name": "Element",
+          "Description": "Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Set one of the element's parameters.\n\nElement.SetParameterByName (parameterName: string, value: var): Element"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.StringInput, CoreNodeModels",
+      "NodeType": "StringInputNode",
+      "InputValue": "Load Name",
+      "Id": "32c2d2aafbd645edab594d7023669735",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "e2f35aa7e5af43e682418e72fd82ddf6",
+          "Name": "",
+          "Description": "String",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a string."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.StringInput, CoreNodeModels",
+      "NodeType": "StringInputNode",
+      "InputValue": "Rating",
+      "Id": "f29ca0eb56584e36ab866d53c6553a81",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "e0c12797ba614dc5a69243665809fd1b",
+          "Name": "",
+          "Description": "String",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a string."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CustomNodes.Output, DynamoCore",
+      "NodeType": "OutputNode",
+      "ElementResolver": null,
+      "Symbol": "Circuits and Panel",
+      "Id": "dd01cc3a765d4995998b6d8e96d0fc13",
+      "Inputs": [
+        {
+          "Id": "825b1fb0f3e74f74b077fbca5147c6fe",
+          "Name": "",
+          "Description": "",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [],
+      "Replication": "Disabled",
+      "Description": "A function output, use with custom nodes"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CustomNodes.Symbol, DynamoCore",
+      "NodeType": "InputNode",
+      "Parameter": {
+        "Name": "Origin Element Location",
+        "TypeName": "var",
+        "TypeRank": -1,
+        "DefaultValue": null,
+        "Description": ""
+      },
+      "Id": "e0f13af09f2448a48ac0cb4ec80b3d13",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "2d6fbe61dfae4911a9cfb31dc480ddcb",
+          "Name": "",
+          "Description": "Symbol",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "A function parameter, use with custom nodes.\r\n\r\nYou can specify the type and default value for parameter. E.g.,\r\n\r\ninput : var[]..[]\r\nvalue : bool = false"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CustomNodes.Symbol, DynamoCore",
+      "NodeType": "InputNode",
+      "Parameter": {
+        "Name": "End Element Location",
+        "TypeName": "var",
+        "TypeRank": -1,
+        "DefaultValue": null,
+        "Description": ""
+      },
+      "Id": "5810744802954aadb082859f9dde9e4a",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "0f5254ba48124d68a0e0de3b182886a3",
+          "Name": "",
+          "Description": "Symbol",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "A function parameter, use with custom nodes.\r\n\r\nYou can specify the type and default value for parameter. E.g.,\r\n\r\ninput : var[]..[]\r\nvalue : bool = false"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CustomNodes.Symbol, DynamoCore",
+      "NodeType": "InputNode",
+      "Parameter": {
+        "Name": "Origin Panel",
+        "TypeName": "var",
+        "TypeRank": -1,
+        "DefaultValue": null,
+        "Description": ""
+      },
+      "Id": "a6d00832c798457ab4a15622ad8b41f2",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "29391b5a8c6d435886164c785ff1e884",
+          "Name": "",
+          "Description": "Symbol",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "A function parameter, use with custom nodes.\r\n\r\nYou can specify the type and default value for parameter. E.g.,\r\n\r\ninput : var[]..[]\r\nvalue : bool = false"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CustomNodes.Symbol, DynamoCore",
+      "NodeType": "InputNode",
+      "Parameter": {
+        "Name": "End Panel",
+        "TypeName": "var",
+        "TypeRank": -1,
+        "DefaultValue": null,
+        "Description": ""
+      },
+      "Id": "6e424e9bff32439fadec1e35c1d5657d",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "e89c64cde1c94c72adbbd6e8133e5ca8",
+          "Name": "",
+          "Description": "Symbol",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "A function parameter, use with custom nodes.\r\n\r\nYou can specify the type and default value for parameter. E.g.,\r\n\r\ninput : var[]..[]\r\nvalue : bool = false"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CustomNodes.Output, DynamoCore",
+      "NodeType": "OutputNode",
+      "ElementResolver": null,
+      "Symbol": "Elements",
+      "Id": "c05c04477eac446eb10ab3c173348b43",
+      "Inputs": [
+        {
+          "Id": "ef380ab7e438477685498da67206acff",
+          "Name": "",
+          "Description": "",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [],
+      "Replication": "Disabled",
+      "Description": "A function output, use with custom nodes"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Element.SetParameterByName@string,var",
+      "Id": "7e23f943a04940348aa42a93b300b168",
+      "Inputs": [
+        {
+          "Id": "79dc6d2324004b26a9435a0e4a048919",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "b7d41ee2ec5e4519b0247a8f32080dbe",
+          "Name": "parameterName",
+          "Description": "The name of the parameter to set.\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "ee6e97548c4f4a38b1de0ce788c2b751",
+          "Name": "value",
+          "Description": "The value.\n\nvar",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "866a15bbae7c453886a772ba5bff0cfc",
+          "Name": "Element",
+          "Description": "Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Set one of the element's parameters.\n\nElement.SetParameterByName (parameterName: string, value: var): Element"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.StringInput, CoreNodeModels",
+      "NodeType": "StringInputNode",
+      "InputValue": "Phase Created",
+      "Id": "5de6631b2d1a4fd78938e22d5cce653e",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "29f94410e7c447d1b8c51ee5a357673d",
+          "Name": "",
+          "Description": "String",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a string."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CustomNodes.Symbol, DynamoCore",
+      "NodeType": "InputNode",
+      "Parameter": {
+        "Name": "Set New Phase",
+        "TypeName": "var",
+        "TypeRank": -1,
+        "DefaultValue": null,
+        "Description": ""
+      },
+      "Id": "ad00b695e41e474e8319ed11146102d0",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "4bef08f33ed3493f8d96eaec382f0098",
+          "Name": "",
+          "Description": "Symbol",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "A function parameter, use with custom nodes.\r\n\r\nYou can specify the type and default value for parameter. E.g.,\r\n\r\ninput : var[]..[]\r\nvalue : bool = false"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CustomNodes.Function, DynamoCore",
+      "FunctionSignature": "baf73550-ccd9-4c94-8543-5eb088bfd742",
+      "FunctionType": "Graph",
+      "NodeType": "FunctionNode",
+      "Id": "222ba9d647e74cb8bcfeb34cdda1b4b5",
+      "Inputs": [
+        {
+          "Id": "3583989f9097403d95466f7bf5699dfd",
+          "Name": "element",
+          "Description": "var[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": true,
+          "KeepListStructure": true
+        },
+        {
+          "Id": "b412b76567674d9cbae8da399f4ed3af",
+          "Name": "vector",
+          "Description": "Vector",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "a2f19fd555b84eb681e13ce9b1755003",
+          "Name": "rehostToClosestLevel",
+          "Description": "bool\nDefault value : false",
+          "UsingDefaultValue": true,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "2f7e8d12aca54aa2ac8be52b0a2ae440",
+          "Name": "newElement",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Copies an element or a list of elements by a given vector."
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "fc68554b3e024803a85e93c718bc2ee0",
+      "End": "7a8042a33d524ad886865189169cbf83",
+      "Id": "d8386c0f940f45588b5a1e382820d1b6"
+    },
+    {
+      "Start": "fc68554b3e024803a85e93c718bc2ee0",
+      "End": "1b0021a735cd43f091ddbb4479edb989",
+      "Id": "e7943bad2d6e44569b48297bc9863cfc"
+    },
+    {
+      "Start": "fc68554b3e024803a85e93c718bc2ee0",
+      "End": "053b246474784c0691da970ea6bb3cca",
+      "Id": "e3f8cf10cafb4128b17f1978c48da202"
+    },
+    {
+      "Start": "c3afd8d55e2d42aebd25354be15b0771",
+      "End": "baa7c93ab2cb4de3af3a937aec1bcdaa",
+      "Id": "586ac243f0ba466a8d54b44b5b6ec823"
+    },
+    {
+      "Start": "9a5f4430c7c64813a42975778cd95662",
+      "End": "c4f112578dad4da4b347e5764af90885",
+      "Id": "195dd78c4fa74b96a18f6abbdb76355a"
+    },
+    {
+      "Start": "1ee505d4012842c7806fbbad1c2e75b0",
+      "End": "bc824d5727c749d3beec70ed68a7f980",
+      "Id": "23d6f08df731409d8f75f111b27df119"
+    },
+    {
+      "Start": "21025baa6dfa41a2b26094c4a481decc",
+      "End": "16159edefe404be6a4175fa2e4fc808f",
+      "Id": "b9c9c8b515864ccd9dcda4fd78c6042b"
+    },
+    {
+      "Start": "21025baa6dfa41a2b26094c4a481decc",
+      "End": "ce1e2a76a95a44bf86a10a9455f3754c",
+      "Id": "4e1536b008b043e98b0ce3bf88d3c4ab"
+    },
+    {
+      "Start": "e14595415e0349278e71287edc95ac07",
+      "End": "739638afab84464695e66107da78ae94",
+      "Id": "875f87fd44a144f59145e2480eaa0ffe"
+    },
+    {
+      "Start": "f56a7972fb0944fe8690d659e4f8834e",
+      "End": "d2bb4cee5ab74c558fb5833c4e0b394d",
+      "Id": "9e3930d9864546d19eadc5ed0f1995df"
+    },
+    {
+      "Start": "f56a7972fb0944fe8690d659e4f8834e",
+      "End": "cd1606194bc144cda01c78c25e8bfd5b",
+      "Id": "54e11b961e734cd09ff2a9efab1c2631"
+    },
+    {
+      "Start": "f56a7972fb0944fe8690d659e4f8834e",
+      "End": "b3534df02e704103a404a549a6f6cbce",
+      "Id": "ef40a1cb4fbe44beb9aba2d3a1c01e59"
+    },
+    {
+      "Start": "3250002d1aa1479586066a56b55ca6ce",
+      "End": "55e8954261eb4cbc866222bb5c812be3",
+      "Id": "d663e381473e48ada27789628a228d44"
+    },
+    {
+      "Start": "a95495f3aef6456da0afdfcb0b2ac107",
+      "End": "3583989f9097403d95466f7bf5699dfd",
+      "Id": "0aab79328560427dac582a5a63e1396c"
+    },
+    {
+      "Start": "2b0d5989a3e040eea243f82f12b0017a",
+      "End": "35d555e13a7843519201273267e22fbe",
+      "Id": "21a476137aa2419fb31cf2a4d1e4d6ad"
+    },
+    {
+      "Start": "3d32ca42d2f14c33a9f41346d25a4a81",
+      "End": "18a013c6cbdc402ea4f161b61321a9ad",
+      "Id": "67f9fd4b96be4ef494c038b136dc346e"
+    },
+    {
+      "Start": "74ad2b09c47a4554a37814fb690c2019",
+      "End": "259977c9cacd4dda950603be4f097f63",
+      "Id": "990d7306ad9b4a21b417eb4880723471"
+    },
+    {
+      "Start": "138e499c4ec24d85b9c35fad6bb0551e",
+      "End": "1962a1f9273c4defa3caa2c2da3ca20b",
+      "Id": "d4b34e3c23f84b8a9929544fe7c5caac"
+    },
+    {
+      "Start": "96287c20c5054cdaae007dbcb507427e",
+      "End": "446483503c2d41d692009c5ad7439438",
+      "Id": "c7500c87091047caaf24dca40a6ae60f"
+    },
+    {
+      "Start": "fe1e4f0b13764f859ea5aaa562e99865",
+      "End": "f08818f564fe49ee8bac481e2eb615e7",
+      "Id": "1a39d9b28b8e4639aad59aeb731354c6"
+    },
+    {
+      "Start": "66723433e52a47e5a78dfff2a4e64aae",
+      "End": "8815855a6343497ab2556cfa05e508e1",
+      "Id": "acede07871d2418189e8a19e6c1a5aa8"
+    },
+    {
+      "Start": "912dad4787654620936501ef80487ba3",
+      "End": "fd0528169cfd4308807f3ac2d97ea7ba",
+      "Id": "2886e1b98fad4ce3a84e183d2ce690bb"
+    },
+    {
+      "Start": "367199285fee4234984df1b35ef96202",
+      "End": "a2f19fd555b84eb681e13ce9b1755003",
+      "Id": "08eba24771df4783b266eb7ec77b8c77"
+    },
+    {
+      "Start": "ea2d3d4561744f9f870b0b71456f6c99",
+      "End": "b412b76567674d9cbae8da399f4ed3af",
+      "Id": "67da4348079e45398f5c6d8f8a95a85d"
+    },
+    {
+      "Start": "e5dbc1f88de64566899ae6b3c8c4f8f9",
+      "End": "3cf4c25ea8d74a9eaca944801cb27b40",
+      "Id": "e856e1e2f8ee4a3f82562b4d92cbb57b"
+    },
+    {
+      "Start": "e5dbc1f88de64566899ae6b3c8c4f8f9",
+      "End": "79dc6d2324004b26a9435a0e4a048919",
+      "Id": "a1a1a00e0888402b845808d88fb16eed"
+    },
+    {
+      "Start": "e5dbc1f88de64566899ae6b3c8c4f8f9",
+      "End": "ef380ab7e438477685498da67206acff",
+      "Id": "8542f40cbd8642d9aadb8b8c2549901b"
+    },
+    {
+      "Start": "b322cff548904ff38f95b44fb0940f02",
+      "End": "f7b9a1f7508e4a639c6def201bdacfda",
+      "Id": "f28191418026465683f248224d763357"
+    },
+    {
+      "Start": "b322cff548904ff38f95b44fb0940f02",
+      "End": "204f654651504523a6197aefe77540a6",
+      "Id": "dc394d53ccf8439eb3365f3db83d9fc2"
+    },
+    {
+      "Start": "b322cff548904ff38f95b44fb0940f02",
+      "End": "f4bbe80b61d44d6d83074c1c51ad5a22",
+      "Id": "be542d34592a43fa8842304b5816a5f2"
+    },
+    {
+      "Start": "b322cff548904ff38f95b44fb0940f02",
+      "End": "825b1fb0f3e74f74b077fbca5147c6fe",
+      "Id": "d64988d3f0404914884487ab17c93418"
+    },
+    {
+      "Start": "e2f35aa7e5af43e682418e72fd82ddf6",
+      "End": "cd7fe2e179ed40ca919da11e302a4dca",
+      "Id": "57c89d91ce9244d68a31e3a8103a2d3c"
+    },
+    {
+      "Start": "e0c12797ba614dc5a69243665809fd1b",
+      "End": "c83a39b0327d4a8eb083c8a6d2cff2f7",
+      "Id": "1c4935494a7d4f638eb09184cc7e88a8"
+    },
+    {
+      "Start": "2d6fbe61dfae4911a9cfb31dc480ddcb",
+      "End": "d7b6658669d448c68694f30599e3c864",
+      "Id": "be411f499e9744af9dd1ecc8178e3936"
+    },
+    {
+      "Start": "0f5254ba48124d68a0e0de3b182886a3",
+      "End": "e69fd04e050f4995ba3e735f7c599340",
+      "Id": "a187b6c1f9ef4e71a78d903335895b93"
+    },
+    {
+      "Start": "29391b5a8c6d435886164c785ff1e884",
+      "End": "59288bfabcad4a51ba93822a2dc27a39",
+      "Id": "87b533ec02f84c5f9a2d5e5a9c7d6da5"
+    },
+    {
+      "Start": "e89c64cde1c94c72adbbd6e8133e5ca8",
+      "End": "d5d54c7b9dce4622bb521375c606fa4b",
+      "Id": "3b3aca8cc3c0473f8dcd11758a949ef9"
+    },
+    {
+      "Start": "29f94410e7c447d1b8c51ee5a357673d",
+      "End": "b7d41ee2ec5e4519b0247a8f32080dbe",
+      "Id": "443d2c3755a2431f9f9f5491f6dea40a"
+    },
+    {
+      "Start": "4bef08f33ed3493f8d96eaec382f0098",
+      "End": "ee6e97548c4f4a38b1de0ce788c2b751",
+      "Id": "b271c62b9d4849aa992723c64bd36801"
+    },
+    {
+      "Start": "2f7e8d12aca54aa2ac8be52b0a2ae440",
+      "End": "dda59e8decba4206abaa430b5818eea0",
+      "Id": "a84a1898be4948919a41801096276261"
+    }
+  ],
+  "Dependencies": [
+    "baf73550-ccd9-4c94-8543-5eb088bfd742"
+  ],
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": false,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.0.1.5055",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -17.0,
+      "EyeY": 24.0,
+      "EyeZ": 50.0,
+      "LookX": 12.0,
+      "LookY": -13.0,
+      "LookZ": -58.0,
+      "UpX": 0.0,
+      "UpY": 1.0,
+      "UpZ": 0.0
+    },
+    "NodeViews": [
+      {
+        "ShowGeometry": true,
+        "Name": "All Elements of Category",
+        "Id": "941ffc88393e44ddb836bb1d0813e31f",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 535.0,
+        "Y": 434.259144141781
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Categories",
+        "Id": "4ae4480206be4ceda7d5ae6a59dd19e6",
+        "IsSetAsInput": true,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 250.0,
+        "Y": 434.259144141781
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Python Script",
+        "Id": "5d8f25761cbb47429cdb30c8c1717522",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 808.999999999999,
+        "Y": 434.259144141781
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Watch",
+        "Id": "98539b905d304d60aa5772264c4c119f",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1033.0,
+        "Y": 158.71751709271
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "String",
+        "Id": "96893344044346abafc166662595dbf9",
+        "IsSetAsInput": true,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1754.65356191966,
+        "Y": 636.33078179983
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Element.GetParameterValueByName",
+        "Id": "4baf675f9c18479f9e638ab677bfd4e9",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1955.65356191966,
+        "Y": 610.330781799831
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "+",
+        "Id": "e3d77ccd60114fc7961cfaefb3a45dce",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 2858.65356191966,
+        "Y": 354.25262309069
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "String",
+        "Id": "5c66e26dcb6b4d13a88a8c55a73284e1",
+        "IsSetAsInput": true,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 2587.65356191966,
+        "Y": 354.25262309069
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "List.FilterByBoolMask",
+        "Id": "bce120bf5a7c4daba334a4e4bc75ddab",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 2587.65356191966,
+        "Y": 814.408940508971
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "==",
+        "Id": "a1e7eeb1e1e74b2098eb616d345503f2",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 2318.65356191966,
+        "Y": 840.408940508971
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Python Script",
+        "Id": "f48bb83e59f544e5859f9289a46634f0",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 2858.65356191966,
+        "Y": 246.25262309069
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Element.GetParameterValueByName",
+        "Id": "433649dfdc3f4fb99616516f5b935f5b",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 3351.43566658202,
+        "Y": 1017.47829927473
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "String",
+        "Id": "e37d231147e24bae92c1416afeaaae79",
+        "IsSetAsInput": true,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 3183.43566658202,
+        "Y": 1043.47829927473
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "String",
+        "Id": "5a6887a5ab4e4b7aac5412e19837910b",
+        "IsSetAsInput": true,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 3179.30628952507,
+        "Y": 1206.83976684824
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "String",
+        "Id": "046802f894164954874e2bb7f73f0415",
+        "IsSetAsInput": true,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1754.65356191966,
+        "Y": 892.408940508971
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Element.GetParameterValueByName",
+        "Id": "d3b46f4b72ef49c7a5a9dfce8a2cab4d",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1955.65356191966,
+        "Y": 866.408940508971
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Element.GetLocation",
+        "Id": "95810d502ed54969be2cc73c6c039522",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 3668.61158497773,
+        "Y": 418.549383578328
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Element.GetLocation",
+        "Id": "3e18f7fb23714e7b922ccf9a4999b1b6",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 3668.61158497773,
+        "Y": 528.549383578328
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Element.GetParameterValueByName",
+        "Id": "32101e1391b54c5aa584b76849a79516",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 3376.30628952507,
+        "Y": 1180.83976684824
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Code Block",
+        "Id": "21486f259b26415aa0b7ac63306008a1",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 3997.61158497773,
+        "Y": 594.762716911662
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Vector.ByTwoPoints",
+        "Id": "69f202029fb345cda01716703ee2c8a2",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 3997.61158497773,
+        "Y": 460.549383578328
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "List.Clean",
+        "Id": "d777d8b890714c048107c24bfe794384",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 4682.26388878992,
+        "Y": 469.820699496476
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Python Script",
+        "Id": "f6975d3aa3794120a09aff98d2b0d8ac",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 5030.04053081023,
+        "Y": 493.912986815134
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Python Script",
+        "Id": "8d8d549257844bc7909df22d40792c6c",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 5478.11246527281,
+        "Y": 440.257127652545
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Element.SetParameterByName",
+        "Id": "67f0c559cbcf493cb03cf0a5e7f5f388",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 5780.6457001964236,
+        "Y": 858.99021708628663
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Element.SetParameterByName",
+        "Id": "dafe802cdfff46ba8eb996619176f790",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 5799.5000418056834,
+        "Y": 1131.9478542277786
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "String",
+        "Id": "32c2d2aafbd645edab594d7023669735",
+        "IsSetAsInput": true,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 5602.5000418056834,
+        "Y": 1157.9478542277786
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "String",
+        "Id": "f29ca0eb56584e36ab866d53c6553a81",
+        "IsSetAsInput": true,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 5612.6457001964236,
+        "Y": 884.99021708628663
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Output",
+        "Id": "dd01cc3a765d4995998b6d8e96d0fc13",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 6167.74055284548,
+        "Y": 450.0
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Input",
+        "Id": "e0f13af09f2448a48ac0cb4ec80b3d13",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 3252.93923647597,
+        "Y": 441.227310367939
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Input",
+        "Id": "5810744802954aadb082859f9dde9e4a",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 3288.01652329087,
+        "Y": 713.866777937922
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Input",
+        "Id": "a6d00832c798457ab4a15622ad8b41f2",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1575.35948267243,
+        "Y": 494.258467633345
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Input",
+        "Id": "6e424e9bff32439fadec1e35c1d5657d",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 5143.93303812661,
+        "Y": 32.9048612305064
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Output",
+        "Id": "c05c04477eac446eb10ab3c173348b43",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 6258.90798082244,
+        "Y": 741.089627867896
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Element.SetParameterByName",
+        "Id": "7e23f943a04940348aa42a93b300b168",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 4933.8399277466,
+        "Y": 726.361909648226
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "String",
+        "Id": "5de6631b2d1a4fd78938e22d5cce653e",
+        "IsSetAsInput": true,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 4667.760373668,
+        "Y": 686.173876884464
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Input",
+        "Id": "ad00b695e41e474e8319ed11146102d0",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 4660.82889138155,
+        "Y": 839.1616895919
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Element.CopyByVector",
+        "Id": "222ba9d647e74cb8bcfeb34cdda1b4b5",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 4255.9931649700193,
+        "Y": 477.8706585672121
+      }
+    ],
+    "Annotations": [
+      {
+        "Id": "f5b31e7f0d644b3987b3c0f200516df4",
+        "Title": "GET ALL CIRCUITED ELEMENTS",
+        "Nodes": [
+          "941ffc88393e44ddb836bb1d0813e31f",
+          "4ae4480206be4ceda7d5ae6a59dd19e6",
+          "5d8f25761cbb47429cdb30c8c1717522",
+          "98539b905d304d60aa5772264c4c119f"
+        ],
+        "Left": 240.0,
+        "Top": 112.71751709271001,
+        "Width": 1093.0,
+        "Height": 424.00000000000006,
+        "FontSize": 30.0,
+        "InitialTop": 158.71751709271,
+        "InitialHeight": 482.600912199895,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "6dfa94033bc14e7d921a7111f46e1404",
+        "Title": "GET ELEMENTS ONLY CIRCUITED TO CHOSEN PANEL",
+        "Nodes": [
+          "96893344044346abafc166662595dbf9",
+          "4baf675f9c18479f9e638ab677bfd4e9",
+          "e3d77ccd60114fc7961cfaefb3a45dce",
+          "5c66e26dcb6b4d13a88a8c55a73284e1",
+          "bce120bf5a7c4daba334a4e4bc75ddab",
+          "a1e7eeb1e1e74b2098eb616d345503f2",
+          "f48bb83e59f544e5859f9289a46634f0",
+          "046802f894164954874e2bb7f73f0415",
+          "d3b46f4b72ef49c7a5a9dfce8a2cab4d"
+        ],
+        "Left": 1744.65356191966,
+        "Top": 200.25262309069,
+        "Width": 1293.0000000000002,
+        "Height": 785.156317418281,
+        "FontSize": 30.0,
+        "InitialTop": 246.25262309069,
+        "InitialHeight": 385.794363078087,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8249ee7d4aa24ca19845bbf11a1b3f67",
+        "Title": "GET CIRCUIT PARAMETERS TO BE COPIED",
+        "Nodes": [
+          "433649dfdc3f4fb99616516f5b935f5b",
+          "e37d231147e24bae92c1416afeaaae79",
+          "5a6887a5ab4e4b7aac5412e19837910b",
+          "32101e1391b54c5aa584b76849a79516"
+        ],
+        "Left": 3169.30628952507,
+        "Top": 935.47829927473,
+        "Width": 480.0,
+        "Height": 364.36146757351,
+        "FontSize": 30.0,
+        "InitialTop": 1017.47829927473,
+        "InitialHeight": 345.743913684737,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "bb524644c466439abf811e9fb0830a5c",
+        "Title": "COPY ELEMENTS TO FROM START POINT TO END POINT",
+        "Nodes": [
+          "95810d502ed54969be2cc73c6c039522",
+          "3e18f7fb23714e7b922ccf9a4999b1b6",
+          "21486f259b26415aa0b7ac63306008a1",
+          "69f202029fb345cda01716703ee2c8a2"
+        ],
+        "Left": 3658.61158497773,
+        "Top": 336.549383578328,
+        "Width": 535.0,
+        "Height": 326.213333333334,
+        "FontSize": 30.0,
+        "InitialTop": 418.549383578328,
+        "InitialHeight": 418.564668272691,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8ff28e08519f4aacb6302a4930d8909f",
+        "Title": "Create new circuit on Panel and assign elementset to new circuit",
+        "Nodes": [
+          "f6975d3aa3794120a09aff98d2b0d8ac"
+        ],
+        "Left": 5020.04053081023,
+        "Top": 231.912986815134,
+        "Width": 155.90666666666667,
+        "Height": 330.0,
+        "FontSize": 30.0,
+        "InitialTop": 493.912986815134,
+        "InitialHeight": 123.0,
+        "TextblockHeight": 252.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "c44bde421d9b4a25b4b6c8a32292d854",
+        "Title": "Select panel.\r\nIN[0] = Electrical System\r\nIN[1] = Panel element",
+        "Nodes": [
+          "8d8d549257844bc7909df22d40792c6c"
+        ],
+        "Left": 5468.11246527281,
+        "Top": 142.25712765254502,
+        "Width": 144.0,
+        "Height": 392.0,
+        "FontSize": 30.0,
+        "InitialTop": 440.257127652545,
+        "InitialHeight": 149.0,
+        "TextblockHeight": 288.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "965be587b82147d99615f0f5687d7cc4",
+        "Title": "SET RATING AND LOAD NAME FOR CIRCUITS",
+        "Nodes": [
+          "67f0c559cbcf493cb03cf0a5e7f5f388",
+          "dafe802cdfff46ba8eb996619176f790",
+          "32c2d2aafbd645edab594d7023669735",
+          "f29ca0eb56584e36ab866d53c6553a81"
+        ],
+        "Left": 5592.5000418056834,
+        "Top": 776.99021708628663,
+        "Width": 487.0,
+        "Height": 499.957637141492,
+        "FontSize": 30.0,
+        "InitialTop": 858.99021708628663,
+        "InitialHeight": 532.868093190177,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "59f2a4a031704c4497fa33c3ea734d03",
+        "Title": "",
+        "Nodes": [
+          "a6d00832c798457ab4a15622ad8b41f2"
+        ],
+        "Left": 1565.35948267243,
+        "Top": 448.258467633345,
+        "Width": 149.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 494.258467633345,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "d80d1de56fb240b4b841ef65373bdab5",
+        "Title": "",
+        "Nodes": [
+          "e0f13af09f2448a48ac0cb4ec80b3d13"
+        ],
+        "Left": 3242.93923647597,
+        "Top": 395.227310367939,
+        "Width": 240.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 441.227310367939,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "f5594f2a083b4b3da14b6338540ae77b",
+        "Title": "",
+        "Nodes": [
+          "5810744802954aadb082859f9dde9e4a"
+        ],
+        "Left": 3278.01652329087,
+        "Top": 667.866777937922,
+        "Width": 215.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 713.866777937922,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "7300467e720e4095850a78f78827905d",
+        "Title": "",
+        "Nodes": [
+          "ad00b695e41e474e8319ed11146102d0"
+        ],
+        "Left": 4650.82889138155,
+        "Top": 793.1616895919,
+        "Width": 157.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 839.1616895919,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "eb8a3488618a4939810706a54fb49b6d",
+        "Title": "",
+        "Nodes": [
+          "6e424e9bff32439fadec1e35c1d5657d"
+        ],
+        "Left": 5133.93303812661,
+        "Top": -13.095138769493602,
+        "Width": 124.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 32.9048612305064,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "9e041212e01f4eb98ff60f426c93eff9",
+        "Title": "",
+        "Nodes": [
+          "dd01cc3a765d4995998b6d8e96d0fc13"
+        ],
+        "Left": 6157.74055284548,
+        "Top": 404.0,
+        "Width": 198.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 450.0,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "499d1c79a6f840258004d0e8725902b5",
+        "Title": "",
+        "Nodes": [
+          "c05c04477eac446eb10ab3c173348b43"
+        ],
+        "Left": 6248.90798082244,
+        "Top": 695.089627867896,
+        "Width": 116.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 741.089627867896,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "f5b31e7f0d644b3987b3c0f200516df4",
+        "Title": "GET ALL CIRCUITED ELEMENTS",
+        "Nodes": [
+          "941ffc88393e44ddb836bb1d0813e31f",
+          "4ae4480206be4ceda7d5ae6a59dd19e6",
+          "5d8f25761cbb47429cdb30c8c1717522",
+          "98539b905d304d60aa5772264c4c119f"
+        ],
+        "Left": 240.0,
+        "Top": 112.71751709271001,
+        "Width": 1093.0,
+        "Height": 424.00000000000006,
+        "FontSize": 30.0,
+        "InitialTop": 158.71751709271,
+        "InitialHeight": 408.00000000000006,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "6dfa94033bc14e7d921a7111f46e1404",
+        "Title": "GET ELEMENTS ONLY CIRCUITED TO CHOSEN PANEL",
+        "Nodes": [
+          "96893344044346abafc166662595dbf9",
+          "4baf675f9c18479f9e638ab677bfd4e9",
+          "e3d77ccd60114fc7961cfaefb3a45dce",
+          "5c66e26dcb6b4d13a88a8c55a73284e1",
+          "bce120bf5a7c4daba334a4e4bc75ddab",
+          "a1e7eeb1e1e74b2098eb616d345503f2",
+          "f48bb83e59f544e5859f9289a46634f0",
+          "046802f894164954874e2bb7f73f0415",
+          "d3b46f4b72ef49c7a5a9dfce8a2cab4d"
+        ],
+        "Left": 1744.65356191966,
+        "Top": 200.25262309069,
+        "Width": 1293.0000000000002,
+        "Height": 785.156317418281,
+        "FontSize": 30.0,
+        "InitialTop": 246.25262309069,
+        "InitialHeight": 769.156317418281,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8249ee7d4aa24ca19845bbf11a1b3f67",
+        "Title": "GET CIRCUIT PARAMETERS TO BE COPIED",
+        "Nodes": [
+          "433649dfdc3f4fb99616516f5b935f5b",
+          "e37d231147e24bae92c1416afeaaae79",
+          "5a6887a5ab4e4b7aac5412e19837910b",
+          "32101e1391b54c5aa584b76849a79516"
+        ],
+        "Left": 3169.30628952507,
+        "Top": 935.47829927473,
+        "Width": 480.0,
+        "Height": 364.36146757351,
+        "FontSize": 30.0,
+        "InitialTop": 1017.47829927473,
+        "InitialHeight": 312.36146757351,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "bb524644c466439abf811e9fb0830a5c",
+        "Title": "COPY ELEMENTS TO FROM START POINT TO END POINT",
+        "Nodes": [
+          "95810d502ed54969be2cc73c6c039522",
+          "3e18f7fb23714e7b922ccf9a4999b1b6",
+          "21486f259b26415aa0b7ac63306008a1",
+          "69f202029fb345cda01716703ee2c8a2"
+        ],
+        "Left": 3658.61158497773,
+        "Top": 336.549383578328,
+        "Width": 535.0,
+        "Height": 326.213333333334,
+        "FontSize": 30.0,
+        "InitialTop": 418.549383578328,
+        "InitialHeight": 274.213333333334,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8ff28e08519f4aacb6302a4930d8909f",
+        "Title": "Create new circuit on Panel and assign elementset to new circuit",
+        "Nodes": [
+          "f6975d3aa3794120a09aff98d2b0d8ac"
+        ],
+        "Left": 5020.04053081023,
+        "Top": 231.912986815134,
+        "Width": 155.90666666666667,
+        "Height": 330.0,
+        "FontSize": 30.0,
+        "InitialTop": 493.912986815134,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 252.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "c44bde421d9b4a25b4b6c8a32292d854",
+        "Title": "Select panel.\r\nIN[0] = Electrical System\r\nIN[1] = Panel element",
+        "Nodes": [
+          "8d8d549257844bc7909df22d40792c6c"
+        ],
+        "Left": 5468.11246527281,
+        "Top": 142.25712765254502,
+        "Width": 144.0,
+        "Height": 392.0,
+        "FontSize": 30.0,
+        "InitialTop": 440.257127652545,
+        "InitialHeight": 124.0,
+        "TextblockHeight": 288.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "965be587b82147d99615f0f5687d7cc4",
+        "Title": "SET RATING AND LOAD NAME FOR CIRCUITS",
+        "Nodes": [
+          "67f0c559cbcf493cb03cf0a5e7f5f388",
+          "dafe802cdfff46ba8eb996619176f790",
+          "32c2d2aafbd645edab594d7023669735",
+          "f29ca0eb56584e36ab866d53c6553a81"
+        ],
+        "Left": 5592.5000418056834,
+        "Top": 776.99021708628663,
+        "Width": 487.0,
+        "Height": 499.957637141492,
+        "FontSize": 30.0,
+        "InitialTop": 858.99021708628663,
+        "InitialHeight": 447.957637141492,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "59f2a4a031704c4497fa33c3ea734d03",
+        "Title": "",
+        "Nodes": [
+          "a6d00832c798457ab4a15622ad8b41f2"
+        ],
+        "Left": 1565.35948267243,
+        "Top": 448.258467633345,
+        "Width": 149.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 494.258467633345,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "d80d1de56fb240b4b841ef65373bdab5",
+        "Title": "",
+        "Nodes": [
+          "e0f13af09f2448a48ac0cb4ec80b3d13"
+        ],
+        "Left": 3242.93923647597,
+        "Top": 395.227310367939,
+        "Width": 240.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 441.227310367939,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "f5594f2a083b4b3da14b6338540ae77b",
+        "Title": "",
+        "Nodes": [
+          "5810744802954aadb082859f9dde9e4a"
+        ],
+        "Left": 3278.01652329087,
+        "Top": 667.866777937922,
+        "Width": 215.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 713.866777937922,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "7300467e720e4095850a78f78827905d",
+        "Title": "",
+        "Nodes": [
+          "ad00b695e41e474e8319ed11146102d0"
+        ],
+        "Left": 4650.82889138155,
+        "Top": 793.1616895919,
+        "Width": 157.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 839.1616895919,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "eb8a3488618a4939810706a54fb49b6d",
+        "Title": "",
+        "Nodes": [
+          "6e424e9bff32439fadec1e35c1d5657d"
+        ],
+        "Left": 5133.93303812661,
+        "Top": -13.095138769493602,
+        "Width": 124.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 32.9048612305064,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "9e041212e01f4eb98ff60f426c93eff9",
+        "Title": "",
+        "Nodes": [
+          "dd01cc3a765d4995998b6d8e96d0fc13"
+        ],
+        "Left": 6157.74055284548,
+        "Top": 404.0,
+        "Width": 198.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 450.0,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "499d1c79a6f840258004d0e8725902b5",
+        "Title": "",
+        "Nodes": [
+          "c05c04477eac446eb10ab3c173348b43"
+        ],
+        "Left": 6248.90798082244,
+        "Top": 695.089627867896,
+        "Width": 116.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 741.089627867896,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "f5b31e7f0d644b3987b3c0f200516df4",
+        "Title": "GET ALL CIRCUITED ELEMENTS",
+        "Nodes": [
+          "941ffc88393e44ddb836bb1d0813e31f",
+          "4ae4480206be4ceda7d5ae6a59dd19e6",
+          "5d8f25761cbb47429cdb30c8c1717522",
+          "98539b905d304d60aa5772264c4c119f"
+        ],
+        "Left": 240.0,
+        "Top": 112.71751709271001,
+        "Width": 1093.0,
+        "Height": 424.00000000000006,
+        "FontSize": 30.0,
+        "InitialTop": 158.71751709271,
+        "InitialHeight": 408.00000000000006,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "6dfa94033bc14e7d921a7111f46e1404",
+        "Title": "GET ELEMENTS ONLY CIRCUITED TO CHOSEN PANEL",
+        "Nodes": [
+          "96893344044346abafc166662595dbf9",
+          "4baf675f9c18479f9e638ab677bfd4e9",
+          "e3d77ccd60114fc7961cfaefb3a45dce",
+          "5c66e26dcb6b4d13a88a8c55a73284e1",
+          "bce120bf5a7c4daba334a4e4bc75ddab",
+          "a1e7eeb1e1e74b2098eb616d345503f2",
+          "f48bb83e59f544e5859f9289a46634f0",
+          "046802f894164954874e2bb7f73f0415",
+          "d3b46f4b72ef49c7a5a9dfce8a2cab4d"
+        ],
+        "Left": 1744.65356191966,
+        "Top": 200.25262309069,
+        "Width": 1293.0000000000002,
+        "Height": 785.156317418281,
+        "FontSize": 30.0,
+        "InitialTop": 246.25262309069,
+        "InitialHeight": 769.156317418281,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8249ee7d4aa24ca19845bbf11a1b3f67",
+        "Title": "GET CIRCUIT PARAMETERS TO BE COPIED",
+        "Nodes": [
+          "433649dfdc3f4fb99616516f5b935f5b",
+          "e37d231147e24bae92c1416afeaaae79",
+          "5a6887a5ab4e4b7aac5412e19837910b",
+          "32101e1391b54c5aa584b76849a79516"
+        ],
+        "Left": 3169.30628952507,
+        "Top": 935.47829927473,
+        "Width": 480.0,
+        "Height": 364.36146757351,
+        "FontSize": 30.0,
+        "InitialTop": 1017.47829927473,
+        "InitialHeight": 312.36146757351,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "bb524644c466439abf811e9fb0830a5c",
+        "Title": "COPY ELEMENTS TO FROM START POINT TO END POINT",
+        "Nodes": [
+          "95810d502ed54969be2cc73c6c039522",
+          "3e18f7fb23714e7b922ccf9a4999b1b6",
+          "21486f259b26415aa0b7ac63306008a1",
+          "69f202029fb345cda01716703ee2c8a2"
+        ],
+        "Left": 3658.61158497773,
+        "Top": 336.549383578328,
+        "Width": 535.0,
+        "Height": 326.213333333334,
+        "FontSize": 30.0,
+        "InitialTop": 418.549383578328,
+        "InitialHeight": 274.213333333334,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8ff28e08519f4aacb6302a4930d8909f",
+        "Title": "Create new circuit on Panel and assign elementset to new circuit",
+        "Nodes": [
+          "f6975d3aa3794120a09aff98d2b0d8ac"
+        ],
+        "Left": 5020.04053081023,
+        "Top": 231.912986815134,
+        "Width": 155.90666666666667,
+        "Height": 330.0,
+        "FontSize": 30.0,
+        "InitialTop": 493.912986815134,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 252.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "c44bde421d9b4a25b4b6c8a32292d854",
+        "Title": "Select panel.\r\nIN[0] = Electrical System\r\nIN[1] = Panel element",
+        "Nodes": [
+          "8d8d549257844bc7909df22d40792c6c"
+        ],
+        "Left": 5468.11246527281,
+        "Top": 142.25712765254502,
+        "Width": 144.0,
+        "Height": 392.0,
+        "FontSize": 30.0,
+        "InitialTop": 440.257127652545,
+        "InitialHeight": 124.0,
+        "TextblockHeight": 288.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "965be587b82147d99615f0f5687d7cc4",
+        "Title": "SET RATING AND LOAD NAME FOR CIRCUITS",
+        "Nodes": [
+          "67f0c559cbcf493cb03cf0a5e7f5f388",
+          "dafe802cdfff46ba8eb996619176f790",
+          "32c2d2aafbd645edab594d7023669735",
+          "f29ca0eb56584e36ab866d53c6553a81"
+        ],
+        "Left": 5592.5000418056834,
+        "Top": 776.99021708628663,
+        "Width": 487.0,
+        "Height": 499.957637141492,
+        "FontSize": 30.0,
+        "InitialTop": 858.99021708628663,
+        "InitialHeight": 447.957637141492,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "59f2a4a031704c4497fa33c3ea734d03",
+        "Title": "",
+        "Nodes": [
+          "a6d00832c798457ab4a15622ad8b41f2"
+        ],
+        "Left": 1565.35948267243,
+        "Top": 448.258467633345,
+        "Width": 149.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 494.258467633345,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "d80d1de56fb240b4b841ef65373bdab5",
+        "Title": "",
+        "Nodes": [
+          "e0f13af09f2448a48ac0cb4ec80b3d13"
+        ],
+        "Left": 3242.93923647597,
+        "Top": 395.227310367939,
+        "Width": 240.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 441.227310367939,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "f5594f2a083b4b3da14b6338540ae77b",
+        "Title": "",
+        "Nodes": [
+          "5810744802954aadb082859f9dde9e4a"
+        ],
+        "Left": 3278.01652329087,
+        "Top": 667.866777937922,
+        "Width": 215.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 713.866777937922,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "7300467e720e4095850a78f78827905d",
+        "Title": "",
+        "Nodes": [
+          "ad00b695e41e474e8319ed11146102d0"
+        ],
+        "Left": 4650.82889138155,
+        "Top": 793.1616895919,
+        "Width": 157.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 839.1616895919,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "eb8a3488618a4939810706a54fb49b6d",
+        "Title": "",
+        "Nodes": [
+          "6e424e9bff32439fadec1e35c1d5657d"
+        ],
+        "Left": 5133.93303812661,
+        "Top": -13.095138769493602,
+        "Width": 124.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 32.9048612305064,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "9e041212e01f4eb98ff60f426c93eff9",
+        "Title": "",
+        "Nodes": [
+          "dd01cc3a765d4995998b6d8e96d0fc13"
+        ],
+        "Left": 6157.74055284548,
+        "Top": 404.0,
+        "Width": 198.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 450.0,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "499d1c79a6f840258004d0e8725902b5",
+        "Title": "",
+        "Nodes": [
+          "c05c04477eac446eb10ab3c173348b43"
+        ],
+        "Left": 6248.90798082244,
+        "Top": 695.089627867896,
+        "Width": 116.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 741.089627867896,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "f5b31e7f0d644b3987b3c0f200516df4",
+        "Title": "GET ALL CIRCUITED ELEMENTS",
+        "Nodes": [
+          "941ffc88393e44ddb836bb1d0813e31f",
+          "4ae4480206be4ceda7d5ae6a59dd19e6",
+          "5d8f25761cbb47429cdb30c8c1717522",
+          "98539b905d304d60aa5772264c4c119f"
+        ],
+        "Left": 240.0,
+        "Top": 112.71751709271001,
+        "Width": 1093.0,
+        "Height": 424.00000000000006,
+        "FontSize": 30.0,
+        "InitialTop": 158.71751709271,
+        "InitialHeight": 408.00000000000006,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "6dfa94033bc14e7d921a7111f46e1404",
+        "Title": "GET ELEMENTS ONLY CIRCUITED TO CHOSEN PANEL",
+        "Nodes": [
+          "96893344044346abafc166662595dbf9",
+          "4baf675f9c18479f9e638ab677bfd4e9",
+          "e3d77ccd60114fc7961cfaefb3a45dce",
+          "5c66e26dcb6b4d13a88a8c55a73284e1",
+          "bce120bf5a7c4daba334a4e4bc75ddab",
+          "a1e7eeb1e1e74b2098eb616d345503f2",
+          "f48bb83e59f544e5859f9289a46634f0",
+          "046802f894164954874e2bb7f73f0415",
+          "d3b46f4b72ef49c7a5a9dfce8a2cab4d"
+        ],
+        "Left": 1744.65356191966,
+        "Top": 200.25262309069,
+        "Width": 1293.0000000000002,
+        "Height": 785.156317418281,
+        "FontSize": 30.0,
+        "InitialTop": 246.25262309069,
+        "InitialHeight": 769.156317418281,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8249ee7d4aa24ca19845bbf11a1b3f67",
+        "Title": "GET CIRCUIT PARAMETERS TO BE COPIED",
+        "Nodes": [
+          "433649dfdc3f4fb99616516f5b935f5b",
+          "e37d231147e24bae92c1416afeaaae79",
+          "5a6887a5ab4e4b7aac5412e19837910b",
+          "32101e1391b54c5aa584b76849a79516"
+        ],
+        "Left": 3169.30628952507,
+        "Top": 935.47829927473,
+        "Width": 480.0,
+        "Height": 364.36146757351,
+        "FontSize": 30.0,
+        "InitialTop": 1017.47829927473,
+        "InitialHeight": 312.36146757351,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "bb524644c466439abf811e9fb0830a5c",
+        "Title": "COPY ELEMENTS TO FROM START POINT TO END POINT",
+        "Nodes": [
+          "95810d502ed54969be2cc73c6c039522",
+          "3e18f7fb23714e7b922ccf9a4999b1b6",
+          "21486f259b26415aa0b7ac63306008a1",
+          "69f202029fb345cda01716703ee2c8a2"
+        ],
+        "Left": 3658.61158497773,
+        "Top": 336.549383578328,
+        "Width": 535.0,
+        "Height": 326.213333333334,
+        "FontSize": 30.0,
+        "InitialTop": 418.549383578328,
+        "InitialHeight": 274.213333333334,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8ff28e08519f4aacb6302a4930d8909f",
+        "Title": "Create new circuit on Panel and assign elementset to new circuit",
+        "Nodes": [
+          "f6975d3aa3794120a09aff98d2b0d8ac"
+        ],
+        "Left": 5020.04053081023,
+        "Top": 231.912986815134,
+        "Width": 155.90666666666667,
+        "Height": 330.0,
+        "FontSize": 30.0,
+        "InitialTop": 493.912986815134,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 252.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "c44bde421d9b4a25b4b6c8a32292d854",
+        "Title": "Select panel.\r\nIN[0] = Electrical System\r\nIN[1] = Panel element",
+        "Nodes": [
+          "8d8d549257844bc7909df22d40792c6c"
+        ],
+        "Left": 5468.11246527281,
+        "Top": 142.25712765254502,
+        "Width": 144.0,
+        "Height": 392.0,
+        "FontSize": 30.0,
+        "InitialTop": 440.257127652545,
+        "InitialHeight": 124.0,
+        "TextblockHeight": 288.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "965be587b82147d99615f0f5687d7cc4",
+        "Title": "SET RATING AND LOAD NAME FOR CIRCUITS",
+        "Nodes": [
+          "67f0c559cbcf493cb03cf0a5e7f5f388",
+          "dafe802cdfff46ba8eb996619176f790",
+          "32c2d2aafbd645edab594d7023669735",
+          "f29ca0eb56584e36ab866d53c6553a81"
+        ],
+        "Left": 5592.5000418056834,
+        "Top": 776.99021708628663,
+        "Width": 487.0,
+        "Height": 499.957637141492,
+        "FontSize": 30.0,
+        "InitialTop": 858.99021708628663,
+        "InitialHeight": 447.957637141492,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "59f2a4a031704c4497fa33c3ea734d03",
+        "Title": "",
+        "Nodes": [
+          "a6d00832c798457ab4a15622ad8b41f2"
+        ],
+        "Left": 1565.35948267243,
+        "Top": 448.258467633345,
+        "Width": 149.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 494.258467633345,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "d80d1de56fb240b4b841ef65373bdab5",
+        "Title": "",
+        "Nodes": [
+          "e0f13af09f2448a48ac0cb4ec80b3d13"
+        ],
+        "Left": 3242.93923647597,
+        "Top": 395.227310367939,
+        "Width": 240.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 441.227310367939,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "f5594f2a083b4b3da14b6338540ae77b",
+        "Title": "",
+        "Nodes": [
+          "5810744802954aadb082859f9dde9e4a"
+        ],
+        "Left": 3278.01652329087,
+        "Top": 667.866777937922,
+        "Width": 215.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 713.866777937922,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "7300467e720e4095850a78f78827905d",
+        "Title": "",
+        "Nodes": [
+          "ad00b695e41e474e8319ed11146102d0"
+        ],
+        "Left": 4650.82889138155,
+        "Top": 793.1616895919,
+        "Width": 157.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 839.1616895919,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "eb8a3488618a4939810706a54fb49b6d",
+        "Title": "",
+        "Nodes": [
+          "6e424e9bff32439fadec1e35c1d5657d"
+        ],
+        "Left": 5133.93303812661,
+        "Top": -13.095138769493602,
+        "Width": 124.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 32.9048612305064,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "9e041212e01f4eb98ff60f426c93eff9",
+        "Title": "",
+        "Nodes": [
+          "dd01cc3a765d4995998b6d8e96d0fc13"
+        ],
+        "Left": 6157.74055284548,
+        "Top": 404.0,
+        "Width": 198.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 450.0,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "499d1c79a6f840258004d0e8725902b5",
+        "Title": "",
+        "Nodes": [
+          "c05c04477eac446eb10ab3c173348b43"
+        ],
+        "Left": 6248.90798082244,
+        "Top": 695.089627867896,
+        "Width": 116.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 741.089627867896,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "f5b31e7f0d644b3987b3c0f200516df4",
+        "Title": "GET ALL CIRCUITED ELEMENTS",
+        "Nodes": [
+          "941ffc88393e44ddb836bb1d0813e31f",
+          "4ae4480206be4ceda7d5ae6a59dd19e6",
+          "5d8f25761cbb47429cdb30c8c1717522",
+          "98539b905d304d60aa5772264c4c119f"
+        ],
+        "Left": 240.0,
+        "Top": 112.71751709271001,
+        "Width": 1093.0,
+        "Height": 424.00000000000006,
+        "FontSize": 30.0,
+        "InitialTop": 158.71751709271,
+        "InitialHeight": 408.00000000000006,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "6dfa94033bc14e7d921a7111f46e1404",
+        "Title": "GET ELEMENTS ONLY CIRCUITED TO CHOSEN PANEL",
+        "Nodes": [
+          "96893344044346abafc166662595dbf9",
+          "4baf675f9c18479f9e638ab677bfd4e9",
+          "e3d77ccd60114fc7961cfaefb3a45dce",
+          "5c66e26dcb6b4d13a88a8c55a73284e1",
+          "bce120bf5a7c4daba334a4e4bc75ddab",
+          "a1e7eeb1e1e74b2098eb616d345503f2",
+          "f48bb83e59f544e5859f9289a46634f0",
+          "046802f894164954874e2bb7f73f0415",
+          "d3b46f4b72ef49c7a5a9dfce8a2cab4d"
+        ],
+        "Left": 1744.65356191966,
+        "Top": 200.25262309069,
+        "Width": 1293.0000000000002,
+        "Height": 785.156317418281,
+        "FontSize": 30.0,
+        "InitialTop": 246.25262309069,
+        "InitialHeight": 769.156317418281,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8249ee7d4aa24ca19845bbf11a1b3f67",
+        "Title": "GET CIRCUIT PARAMETERS TO BE COPIED",
+        "Nodes": [
+          "433649dfdc3f4fb99616516f5b935f5b",
+          "e37d231147e24bae92c1416afeaaae79",
+          "5a6887a5ab4e4b7aac5412e19837910b",
+          "32101e1391b54c5aa584b76849a79516"
+        ],
+        "Left": 3169.30628952507,
+        "Top": 935.47829927473,
+        "Width": 480.0,
+        "Height": 364.36146757351,
+        "FontSize": 30.0,
+        "InitialTop": 1017.47829927473,
+        "InitialHeight": 312.36146757351,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "bb524644c466439abf811e9fb0830a5c",
+        "Title": "COPY ELEMENTS TO FROM START POINT TO END POINT",
+        "Nodes": [
+          "95810d502ed54969be2cc73c6c039522",
+          "3e18f7fb23714e7b922ccf9a4999b1b6",
+          "21486f259b26415aa0b7ac63306008a1",
+          "69f202029fb345cda01716703ee2c8a2"
+        ],
+        "Left": 3658.61158497773,
+        "Top": 336.549383578328,
+        "Width": 535.0,
+        "Height": 326.213333333334,
+        "FontSize": 30.0,
+        "InitialTop": 418.549383578328,
+        "InitialHeight": 274.213333333334,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8ff28e08519f4aacb6302a4930d8909f",
+        "Title": "Create new circuit on Panel and assign elementset to new circuit",
+        "Nodes": [
+          "f6975d3aa3794120a09aff98d2b0d8ac"
+        ],
+        "Left": 5020.04053081023,
+        "Top": 231.912986815134,
+        "Width": 155.90666666666667,
+        "Height": 330.0,
+        "FontSize": 30.0,
+        "InitialTop": 493.912986815134,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 252.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "c44bde421d9b4a25b4b6c8a32292d854",
+        "Title": "Select panel.\r\nIN[0] = Electrical System\r\nIN[1] = Panel element",
+        "Nodes": [
+          "8d8d549257844bc7909df22d40792c6c"
+        ],
+        "Left": 5468.11246527281,
+        "Top": 142.25712765254502,
+        "Width": 144.0,
+        "Height": 392.0,
+        "FontSize": 30.0,
+        "InitialTop": 440.257127652545,
+        "InitialHeight": 124.0,
+        "TextblockHeight": 288.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "965be587b82147d99615f0f5687d7cc4",
+        "Title": "SET RATING AND LOAD NAME FOR CIRCUITS",
+        "Nodes": [
+          "67f0c559cbcf493cb03cf0a5e7f5f388",
+          "dafe802cdfff46ba8eb996619176f790",
+          "32c2d2aafbd645edab594d7023669735",
+          "f29ca0eb56584e36ab866d53c6553a81"
+        ],
+        "Left": 5592.5000418056834,
+        "Top": 776.99021708628663,
+        "Width": 487.0,
+        "Height": 499.957637141492,
+        "FontSize": 30.0,
+        "InitialTop": 858.99021708628663,
+        "InitialHeight": 447.957637141492,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "59f2a4a031704c4497fa33c3ea734d03",
+        "Title": "",
+        "Nodes": [
+          "a6d00832c798457ab4a15622ad8b41f2"
+        ],
+        "Left": 1565.35948267243,
+        "Top": 448.258467633345,
+        "Width": 149.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 494.258467633345,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "d80d1de56fb240b4b841ef65373bdab5",
+        "Title": "",
+        "Nodes": [
+          "e0f13af09f2448a48ac0cb4ec80b3d13"
+        ],
+        "Left": 3242.93923647597,
+        "Top": 395.227310367939,
+        "Width": 240.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 441.227310367939,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "f5594f2a083b4b3da14b6338540ae77b",
+        "Title": "",
+        "Nodes": [
+          "5810744802954aadb082859f9dde9e4a"
+        ],
+        "Left": 3278.01652329087,
+        "Top": 667.866777937922,
+        "Width": 215.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 713.866777937922,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "7300467e720e4095850a78f78827905d",
+        "Title": "",
+        "Nodes": [
+          "ad00b695e41e474e8319ed11146102d0"
+        ],
+        "Left": 4650.82889138155,
+        "Top": 793.1616895919,
+        "Width": 157.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 839.1616895919,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "eb8a3488618a4939810706a54fb49b6d",
+        "Title": "",
+        "Nodes": [
+          "6e424e9bff32439fadec1e35c1d5657d"
+        ],
+        "Left": 5133.93303812661,
+        "Top": -13.095138769493602,
+        "Width": 124.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 32.9048612305064,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "9e041212e01f4eb98ff60f426c93eff9",
+        "Title": "",
+        "Nodes": [
+          "dd01cc3a765d4995998b6d8e96d0fc13"
+        ],
+        "Left": 6157.74055284548,
+        "Top": 404.0,
+        "Width": 198.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 450.0,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "499d1c79a6f840258004d0e8725902b5",
+        "Title": "",
+        "Nodes": [
+          "c05c04477eac446eb10ab3c173348b43"
+        ],
+        "Left": 6248.90798082244,
+        "Top": 695.089627867896,
+        "Width": 116.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 741.089627867896,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "f5b31e7f0d644b3987b3c0f200516df4",
+        "Title": "GET ALL CIRCUITED ELEMENTS",
+        "Nodes": [
+          "941ffc88393e44ddb836bb1d0813e31f",
+          "4ae4480206be4ceda7d5ae6a59dd19e6",
+          "5d8f25761cbb47429cdb30c8c1717522",
+          "98539b905d304d60aa5772264c4c119f"
+        ],
+        "Left": 240.0,
+        "Top": 112.71751709271001,
+        "Width": 1093.0,
+        "Height": 424.00000000000006,
+        "FontSize": 30.0,
+        "InitialTop": 158.71751709271,
+        "InitialHeight": 408.00000000000006,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "6dfa94033bc14e7d921a7111f46e1404",
+        "Title": "GET ELEMENTS ONLY CIRCUITED TO CHOSEN PANEL",
+        "Nodes": [
+          "96893344044346abafc166662595dbf9",
+          "4baf675f9c18479f9e638ab677bfd4e9",
+          "e3d77ccd60114fc7961cfaefb3a45dce",
+          "5c66e26dcb6b4d13a88a8c55a73284e1",
+          "bce120bf5a7c4daba334a4e4bc75ddab",
+          "a1e7eeb1e1e74b2098eb616d345503f2",
+          "f48bb83e59f544e5859f9289a46634f0",
+          "046802f894164954874e2bb7f73f0415",
+          "d3b46f4b72ef49c7a5a9dfce8a2cab4d"
+        ],
+        "Left": 1744.65356191966,
+        "Top": 200.25262309069,
+        "Width": 1293.0000000000002,
+        "Height": 785.156317418281,
+        "FontSize": 30.0,
+        "InitialTop": 246.25262309069,
+        "InitialHeight": 769.156317418281,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8249ee7d4aa24ca19845bbf11a1b3f67",
+        "Title": "GET CIRCUIT PARAMETERS TO BE COPIED",
+        "Nodes": [
+          "433649dfdc3f4fb99616516f5b935f5b",
+          "e37d231147e24bae92c1416afeaaae79",
+          "5a6887a5ab4e4b7aac5412e19837910b",
+          "32101e1391b54c5aa584b76849a79516"
+        ],
+        "Left": 3169.30628952507,
+        "Top": 935.47829927473,
+        "Width": 480.0,
+        "Height": 364.36146757351,
+        "FontSize": 30.0,
+        "InitialTop": 1017.47829927473,
+        "InitialHeight": 312.36146757351,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "bb524644c466439abf811e9fb0830a5c",
+        "Title": "COPY ELEMENTS TO FROM START POINT TO END POINT",
+        "Nodes": [
+          "95810d502ed54969be2cc73c6c039522",
+          "3e18f7fb23714e7b922ccf9a4999b1b6",
+          "21486f259b26415aa0b7ac63306008a1",
+          "69f202029fb345cda01716703ee2c8a2"
+        ],
+        "Left": 3658.61158497773,
+        "Top": 336.549383578328,
+        "Width": 535.0,
+        "Height": 326.213333333334,
+        "FontSize": 30.0,
+        "InitialTop": 418.549383578328,
+        "InitialHeight": 274.213333333334,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8ff28e08519f4aacb6302a4930d8909f",
+        "Title": "Create new circuit on Panel and assign elementset to new circuit",
+        "Nodes": [
+          "f6975d3aa3794120a09aff98d2b0d8ac"
+        ],
+        "Left": 5020.04053081023,
+        "Top": 231.912986815134,
+        "Width": 155.90666666666667,
+        "Height": 330.0,
+        "FontSize": 30.0,
+        "InitialTop": 493.912986815134,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 252.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "c44bde421d9b4a25b4b6c8a32292d854",
+        "Title": "Select panel.\r\nIN[0] = Electrical System\r\nIN[1] = Panel element",
+        "Nodes": [
+          "8d8d549257844bc7909df22d40792c6c"
+        ],
+        "Left": 5468.11246527281,
+        "Top": 142.25712765254502,
+        "Width": 144.0,
+        "Height": 392.0,
+        "FontSize": 30.0,
+        "InitialTop": 440.257127652545,
+        "InitialHeight": 124.0,
+        "TextblockHeight": 288.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "965be587b82147d99615f0f5687d7cc4",
+        "Title": "SET RATING AND LOAD NAME FOR CIRCUITS",
+        "Nodes": [
+          "67f0c559cbcf493cb03cf0a5e7f5f388",
+          "dafe802cdfff46ba8eb996619176f790",
+          "32c2d2aafbd645edab594d7023669735",
+          "f29ca0eb56584e36ab866d53c6553a81"
+        ],
+        "Left": 5592.5000418056834,
+        "Top": 776.99021708628663,
+        "Width": 487.0,
+        "Height": 499.957637141492,
+        "FontSize": 30.0,
+        "InitialTop": 858.99021708628663,
+        "InitialHeight": 447.957637141492,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "59f2a4a031704c4497fa33c3ea734d03",
+        "Title": "",
+        "Nodes": [
+          "a6d00832c798457ab4a15622ad8b41f2"
+        ],
+        "Left": 1565.35948267243,
+        "Top": 448.258467633345,
+        "Width": 149.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 494.258467633345,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "d80d1de56fb240b4b841ef65373bdab5",
+        "Title": "",
+        "Nodes": [
+          "e0f13af09f2448a48ac0cb4ec80b3d13"
+        ],
+        "Left": 3242.93923647597,
+        "Top": 395.227310367939,
+        "Width": 240.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 441.227310367939,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "f5594f2a083b4b3da14b6338540ae77b",
+        "Title": "",
+        "Nodes": [
+          "5810744802954aadb082859f9dde9e4a"
+        ],
+        "Left": 3278.01652329087,
+        "Top": 667.866777937922,
+        "Width": 215.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 713.866777937922,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "7300467e720e4095850a78f78827905d",
+        "Title": "",
+        "Nodes": [
+          "ad00b695e41e474e8319ed11146102d0"
+        ],
+        "Left": 4650.82889138155,
+        "Top": 793.1616895919,
+        "Width": 157.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 839.1616895919,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "eb8a3488618a4939810706a54fb49b6d",
+        "Title": "",
+        "Nodes": [
+          "6e424e9bff32439fadec1e35c1d5657d"
+        ],
+        "Left": 5133.93303812661,
+        "Top": -13.095138769493602,
+        "Width": 124.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 32.9048612305064,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "9e041212e01f4eb98ff60f426c93eff9",
+        "Title": "",
+        "Nodes": [
+          "dd01cc3a765d4995998b6d8e96d0fc13"
+        ],
+        "Left": 6157.74055284548,
+        "Top": 404.0,
+        "Width": 198.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 450.0,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "499d1c79a6f840258004d0e8725902b5",
+        "Title": "",
+        "Nodes": [
+          "c05c04477eac446eb10ab3c173348b43"
+        ],
+        "Left": 6248.90798082244,
+        "Top": 695.089627867896,
+        "Width": 116.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 741.089627867896,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "f5b31e7f0d644b3987b3c0f200516df4",
+        "Title": "GET ALL CIRCUITED ELEMENTS",
+        "Nodes": [
+          "941ffc88393e44ddb836bb1d0813e31f",
+          "4ae4480206be4ceda7d5ae6a59dd19e6",
+          "5d8f25761cbb47429cdb30c8c1717522",
+          "98539b905d304d60aa5772264c4c119f"
+        ],
+        "Left": 240.0,
+        "Top": 112.71751709271001,
+        "Width": 1093.0,
+        "Height": 424.00000000000006,
+        "FontSize": 30.0,
+        "InitialTop": 158.71751709271,
+        "InitialHeight": 408.00000000000006,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "6dfa94033bc14e7d921a7111f46e1404",
+        "Title": "GET ELEMENTS ONLY CIRCUITED TO CHOSEN PANEL",
+        "Nodes": [
+          "96893344044346abafc166662595dbf9",
+          "4baf675f9c18479f9e638ab677bfd4e9",
+          "e3d77ccd60114fc7961cfaefb3a45dce",
+          "5c66e26dcb6b4d13a88a8c55a73284e1",
+          "bce120bf5a7c4daba334a4e4bc75ddab",
+          "a1e7eeb1e1e74b2098eb616d345503f2",
+          "f48bb83e59f544e5859f9289a46634f0",
+          "046802f894164954874e2bb7f73f0415",
+          "d3b46f4b72ef49c7a5a9dfce8a2cab4d"
+        ],
+        "Left": 1744.65356191966,
+        "Top": 200.25262309069,
+        "Width": 1293.0000000000002,
+        "Height": 785.156317418281,
+        "FontSize": 30.0,
+        "InitialTop": 246.25262309069,
+        "InitialHeight": 769.156317418281,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8249ee7d4aa24ca19845bbf11a1b3f67",
+        "Title": "GET CIRCUIT PARAMETERS TO BE COPIED",
+        "Nodes": [
+          "433649dfdc3f4fb99616516f5b935f5b",
+          "e37d231147e24bae92c1416afeaaae79",
+          "5a6887a5ab4e4b7aac5412e19837910b",
+          "32101e1391b54c5aa584b76849a79516"
+        ],
+        "Left": 3169.30628952507,
+        "Top": 935.47829927473,
+        "Width": 480.0,
+        "Height": 364.36146757351,
+        "FontSize": 30.0,
+        "InitialTop": 1017.47829927473,
+        "InitialHeight": 312.36146757351,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "bb524644c466439abf811e9fb0830a5c",
+        "Title": "COPY ELEMENTS TO FROM START POINT TO END POINT",
+        "Nodes": [
+          "95810d502ed54969be2cc73c6c039522",
+          "3e18f7fb23714e7b922ccf9a4999b1b6",
+          "21486f259b26415aa0b7ac63306008a1",
+          "69f202029fb345cda01716703ee2c8a2"
+        ],
+        "Left": 3658.61158497773,
+        "Top": 336.549383578328,
+        "Width": 535.0,
+        "Height": 326.213333333334,
+        "FontSize": 30.0,
+        "InitialTop": 418.549383578328,
+        "InitialHeight": 274.213333333334,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8ff28e08519f4aacb6302a4930d8909f",
+        "Title": "Create new circuit on Panel and assign elementset to new circuit",
+        "Nodes": [
+          "f6975d3aa3794120a09aff98d2b0d8ac"
+        ],
+        "Left": 5020.04053081023,
+        "Top": 231.912986815134,
+        "Width": 155.90666666666667,
+        "Height": 330.0,
+        "FontSize": 30.0,
+        "InitialTop": 493.912986815134,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 252.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "c44bde421d9b4a25b4b6c8a32292d854",
+        "Title": "Select panel.\r\nIN[0] = Electrical System\r\nIN[1] = Panel element",
+        "Nodes": [
+          "8d8d549257844bc7909df22d40792c6c"
+        ],
+        "Left": 5468.11246527281,
+        "Top": 142.25712765254502,
+        "Width": 144.0,
+        "Height": 392.0,
+        "FontSize": 30.0,
+        "InitialTop": 440.257127652545,
+        "InitialHeight": 124.0,
+        "TextblockHeight": 288.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "965be587b82147d99615f0f5687d7cc4",
+        "Title": "SET RATING AND LOAD NAME FOR CIRCUITS",
+        "Nodes": [
+          "67f0c559cbcf493cb03cf0a5e7f5f388",
+          "dafe802cdfff46ba8eb996619176f790",
+          "32c2d2aafbd645edab594d7023669735",
+          "f29ca0eb56584e36ab866d53c6553a81"
+        ],
+        "Left": 5592.5000418056834,
+        "Top": 776.99021708628663,
+        "Width": 487.0,
+        "Height": 499.957637141492,
+        "FontSize": 30.0,
+        "InitialTop": 858.99021708628663,
+        "InitialHeight": 447.957637141492,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "59f2a4a031704c4497fa33c3ea734d03",
+        "Title": "",
+        "Nodes": [
+          "a6d00832c798457ab4a15622ad8b41f2"
+        ],
+        "Left": 1565.35948267243,
+        "Top": 448.258467633345,
+        "Width": 149.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 494.258467633345,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "d80d1de56fb240b4b841ef65373bdab5",
+        "Title": "",
+        "Nodes": [
+          "e0f13af09f2448a48ac0cb4ec80b3d13"
+        ],
+        "Left": 3242.93923647597,
+        "Top": 395.227310367939,
+        "Width": 240.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 441.227310367939,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "f5594f2a083b4b3da14b6338540ae77b",
+        "Title": "",
+        "Nodes": [
+          "5810744802954aadb082859f9dde9e4a"
+        ],
+        "Left": 3278.01652329087,
+        "Top": 667.866777937922,
+        "Width": 215.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 713.866777937922,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "7300467e720e4095850a78f78827905d",
+        "Title": "",
+        "Nodes": [
+          "ad00b695e41e474e8319ed11146102d0"
+        ],
+        "Left": 4650.82889138155,
+        "Top": 793.1616895919,
+        "Width": 157.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 839.1616895919,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "eb8a3488618a4939810706a54fb49b6d",
+        "Title": "",
+        "Nodes": [
+          "6e424e9bff32439fadec1e35c1d5657d"
+        ],
+        "Left": 5133.93303812661,
+        "Top": -13.095138769493602,
+        "Width": 124.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 32.9048612305064,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "9e041212e01f4eb98ff60f426c93eff9",
+        "Title": "",
+        "Nodes": [
+          "dd01cc3a765d4995998b6d8e96d0fc13"
+        ],
+        "Left": 6157.74055284548,
+        "Top": 404.0,
+        "Width": 198.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 450.0,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "499d1c79a6f840258004d0e8725902b5",
+        "Title": "",
+        "Nodes": [
+          "c05c04477eac446eb10ab3c173348b43"
+        ],
+        "Left": 6248.90798082244,
+        "Top": 695.089627867896,
+        "Width": 116.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 741.089627867896,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "f5b31e7f0d644b3987b3c0f200516df4",
+        "Title": "GET ALL CIRCUITED ELEMENTS",
+        "Nodes": [
+          "941ffc88393e44ddb836bb1d0813e31f",
+          "4ae4480206be4ceda7d5ae6a59dd19e6",
+          "5d8f25761cbb47429cdb30c8c1717522",
+          "98539b905d304d60aa5772264c4c119f"
+        ],
+        "Left": 240.0,
+        "Top": 112.71751709271001,
+        "Width": 1093.0,
+        "Height": 424.00000000000006,
+        "FontSize": 30.0,
+        "InitialTop": 158.71751709271,
+        "InitialHeight": 408.00000000000006,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "6dfa94033bc14e7d921a7111f46e1404",
+        "Title": "GET ELEMENTS ONLY CIRCUITED TO CHOSEN PANEL",
+        "Nodes": [
+          "96893344044346abafc166662595dbf9",
+          "4baf675f9c18479f9e638ab677bfd4e9",
+          "e3d77ccd60114fc7961cfaefb3a45dce",
+          "5c66e26dcb6b4d13a88a8c55a73284e1",
+          "bce120bf5a7c4daba334a4e4bc75ddab",
+          "a1e7eeb1e1e74b2098eb616d345503f2",
+          "f48bb83e59f544e5859f9289a46634f0",
+          "046802f894164954874e2bb7f73f0415",
+          "d3b46f4b72ef49c7a5a9dfce8a2cab4d"
+        ],
+        "Left": 1744.65356191966,
+        "Top": 200.25262309069,
+        "Width": 1293.0000000000002,
+        "Height": 785.156317418281,
+        "FontSize": 30.0,
+        "InitialTop": 246.25262309069,
+        "InitialHeight": 769.156317418281,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8249ee7d4aa24ca19845bbf11a1b3f67",
+        "Title": "GET CIRCUIT PARAMETERS TO BE COPIED",
+        "Nodes": [
+          "433649dfdc3f4fb99616516f5b935f5b",
+          "e37d231147e24bae92c1416afeaaae79",
+          "5a6887a5ab4e4b7aac5412e19837910b",
+          "32101e1391b54c5aa584b76849a79516"
+        ],
+        "Left": 3169.30628952507,
+        "Top": 935.47829927473,
+        "Width": 480.0,
+        "Height": 364.36146757351,
+        "FontSize": 30.0,
+        "InitialTop": 1017.47829927473,
+        "InitialHeight": 312.36146757351,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "bb524644c466439abf811e9fb0830a5c",
+        "Title": "COPY ELEMENTS TO FROM START POINT TO END POINT",
+        "Nodes": [
+          "95810d502ed54969be2cc73c6c039522",
+          "3e18f7fb23714e7b922ccf9a4999b1b6",
+          "21486f259b26415aa0b7ac63306008a1",
+          "69f202029fb345cda01716703ee2c8a2"
+        ],
+        "Left": 3658.61158497773,
+        "Top": 336.549383578328,
+        "Width": 535.0,
+        "Height": 326.213333333334,
+        "FontSize": 30.0,
+        "InitialTop": 418.549383578328,
+        "InitialHeight": 274.213333333334,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8ff28e08519f4aacb6302a4930d8909f",
+        "Title": "Create new circuit on Panel and assign elementset to new circuit",
+        "Nodes": [
+          "f6975d3aa3794120a09aff98d2b0d8ac"
+        ],
+        "Left": 5020.04053081023,
+        "Top": 231.912986815134,
+        "Width": 155.90666666666667,
+        "Height": 330.0,
+        "FontSize": 30.0,
+        "InitialTop": 493.912986815134,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 252.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "c44bde421d9b4a25b4b6c8a32292d854",
+        "Title": "Select panel.\r\nIN[0] = Electrical System\r\nIN[1] = Panel element",
+        "Nodes": [
+          "8d8d549257844bc7909df22d40792c6c"
+        ],
+        "Left": 5468.11246527281,
+        "Top": 142.25712765254502,
+        "Width": 144.0,
+        "Height": 392.0,
+        "FontSize": 30.0,
+        "InitialTop": 440.257127652545,
+        "InitialHeight": 124.0,
+        "TextblockHeight": 288.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "965be587b82147d99615f0f5687d7cc4",
+        "Title": "SET RATING AND LOAD NAME FOR CIRCUITS",
+        "Nodes": [
+          "67f0c559cbcf493cb03cf0a5e7f5f388",
+          "dafe802cdfff46ba8eb996619176f790",
+          "32c2d2aafbd645edab594d7023669735",
+          "f29ca0eb56584e36ab866d53c6553a81"
+        ],
+        "Left": 5592.5000418056834,
+        "Top": 776.99021708628663,
+        "Width": 487.0,
+        "Height": 499.957637141492,
+        "FontSize": 30.0,
+        "InitialTop": 858.99021708628663,
+        "InitialHeight": 447.957637141492,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "59f2a4a031704c4497fa33c3ea734d03",
+        "Title": "",
+        "Nodes": [
+          "a6d00832c798457ab4a15622ad8b41f2"
+        ],
+        "Left": 1565.35948267243,
+        "Top": 448.258467633345,
+        "Width": 149.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 494.258467633345,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "d80d1de56fb240b4b841ef65373bdab5",
+        "Title": "",
+        "Nodes": [
+          "e0f13af09f2448a48ac0cb4ec80b3d13"
+        ],
+        "Left": 3242.93923647597,
+        "Top": 395.227310367939,
+        "Width": 240.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 441.227310367939,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "f5594f2a083b4b3da14b6338540ae77b",
+        "Title": "",
+        "Nodes": [
+          "5810744802954aadb082859f9dde9e4a"
+        ],
+        "Left": 3278.01652329087,
+        "Top": 667.866777937922,
+        "Width": 215.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 713.866777937922,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "7300467e720e4095850a78f78827905d",
+        "Title": "",
+        "Nodes": [
+          "ad00b695e41e474e8319ed11146102d0"
+        ],
+        "Left": 4650.82889138155,
+        "Top": 793.1616895919,
+        "Width": 157.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 839.1616895919,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "eb8a3488618a4939810706a54fb49b6d",
+        "Title": "",
+        "Nodes": [
+          "6e424e9bff32439fadec1e35c1d5657d"
+        ],
+        "Left": 5133.93303812661,
+        "Top": -13.095138769493602,
+        "Width": 124.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 32.9048612305064,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "9e041212e01f4eb98ff60f426c93eff9",
+        "Title": "",
+        "Nodes": [
+          "dd01cc3a765d4995998b6d8e96d0fc13"
+        ],
+        "Left": 6157.74055284548,
+        "Top": 404.0,
+        "Width": 198.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 450.0,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "499d1c79a6f840258004d0e8725902b5",
+        "Title": "",
+        "Nodes": [
+          "c05c04477eac446eb10ab3c173348b43"
+        ],
+        "Left": 6248.90798082244,
+        "Top": 695.089627867896,
+        "Width": 116.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 741.089627867896,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "f5b31e7f0d644b3987b3c0f200516df4",
+        "Title": "GET ALL CIRCUITED ELEMENTS",
+        "Nodes": [
+          "941ffc88393e44ddb836bb1d0813e31f",
+          "4ae4480206be4ceda7d5ae6a59dd19e6",
+          "5d8f25761cbb47429cdb30c8c1717522",
+          "98539b905d304d60aa5772264c4c119f"
+        ],
+        "Left": 240.0,
+        "Top": 112.71751709271001,
+        "Width": 1093.0,
+        "Height": 424.00000000000006,
+        "FontSize": 30.0,
+        "InitialTop": 158.71751709271,
+        "InitialHeight": 408.00000000000006,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "6dfa94033bc14e7d921a7111f46e1404",
+        "Title": "GET ELEMENTS ONLY CIRCUITED TO CHOSEN PANEL",
+        "Nodes": [
+          "96893344044346abafc166662595dbf9",
+          "4baf675f9c18479f9e638ab677bfd4e9",
+          "e3d77ccd60114fc7961cfaefb3a45dce",
+          "5c66e26dcb6b4d13a88a8c55a73284e1",
+          "bce120bf5a7c4daba334a4e4bc75ddab",
+          "a1e7eeb1e1e74b2098eb616d345503f2",
+          "f48bb83e59f544e5859f9289a46634f0",
+          "046802f894164954874e2bb7f73f0415",
+          "d3b46f4b72ef49c7a5a9dfce8a2cab4d"
+        ],
+        "Left": 1744.65356191966,
+        "Top": 200.25262309069,
+        "Width": 1293.0000000000002,
+        "Height": 785.156317418281,
+        "FontSize": 30.0,
+        "InitialTop": 246.25262309069,
+        "InitialHeight": 769.156317418281,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8249ee7d4aa24ca19845bbf11a1b3f67",
+        "Title": "GET CIRCUIT PARAMETERS TO BE COPIED",
+        "Nodes": [
+          "433649dfdc3f4fb99616516f5b935f5b",
+          "e37d231147e24bae92c1416afeaaae79",
+          "5a6887a5ab4e4b7aac5412e19837910b",
+          "32101e1391b54c5aa584b76849a79516"
+        ],
+        "Left": 3169.30628952507,
+        "Top": 935.47829927473,
+        "Width": 480.0,
+        "Height": 364.36146757351,
+        "FontSize": 30.0,
+        "InitialTop": 1017.47829927473,
+        "InitialHeight": 312.36146757351,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "bb524644c466439abf811e9fb0830a5c",
+        "Title": "COPY ELEMENTS TO FROM START POINT TO END POINT",
+        "Nodes": [
+          "95810d502ed54969be2cc73c6c039522",
+          "3e18f7fb23714e7b922ccf9a4999b1b6",
+          "21486f259b26415aa0b7ac63306008a1",
+          "69f202029fb345cda01716703ee2c8a2"
+        ],
+        "Left": 3658.61158497773,
+        "Top": 336.549383578328,
+        "Width": 535.0,
+        "Height": 326.213333333334,
+        "FontSize": 30.0,
+        "InitialTop": 418.549383578328,
+        "InitialHeight": 274.213333333334,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8ff28e08519f4aacb6302a4930d8909f",
+        "Title": "Create new circuit on Panel and assign elementset to new circuit",
+        "Nodes": [
+          "f6975d3aa3794120a09aff98d2b0d8ac"
+        ],
+        "Left": 5020.04053081023,
+        "Top": 231.912986815134,
+        "Width": 155.90666666666667,
+        "Height": 330.0,
+        "FontSize": 30.0,
+        "InitialTop": 493.912986815134,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 252.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "c44bde421d9b4a25b4b6c8a32292d854",
+        "Title": "Select panel.\r\nIN[0] = Electrical System\r\nIN[1] = Panel element",
+        "Nodes": [
+          "8d8d549257844bc7909df22d40792c6c"
+        ],
+        "Left": 5468.11246527281,
+        "Top": 142.25712765254502,
+        "Width": 144.0,
+        "Height": 392.0,
+        "FontSize": 30.0,
+        "InitialTop": 440.257127652545,
+        "InitialHeight": 124.0,
+        "TextblockHeight": 288.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "965be587b82147d99615f0f5687d7cc4",
+        "Title": "SET RATING AND LOAD NAME FOR CIRCUITS",
+        "Nodes": [
+          "67f0c559cbcf493cb03cf0a5e7f5f388",
+          "dafe802cdfff46ba8eb996619176f790",
+          "32c2d2aafbd645edab594d7023669735",
+          "f29ca0eb56584e36ab866d53c6553a81"
+        ],
+        "Left": 5592.5000418056834,
+        "Top": 776.99021708628663,
+        "Width": 487.0,
+        "Height": 499.957637141492,
+        "FontSize": 30.0,
+        "InitialTop": 858.99021708628663,
+        "InitialHeight": 447.957637141492,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "59f2a4a031704c4497fa33c3ea734d03",
+        "Title": "",
+        "Nodes": [
+          "a6d00832c798457ab4a15622ad8b41f2"
+        ],
+        "Left": 1565.35948267243,
+        "Top": 448.258467633345,
+        "Width": 149.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 494.258467633345,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "d80d1de56fb240b4b841ef65373bdab5",
+        "Title": "",
+        "Nodes": [
+          "e0f13af09f2448a48ac0cb4ec80b3d13"
+        ],
+        "Left": 3242.93923647597,
+        "Top": 395.227310367939,
+        "Width": 240.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 441.227310367939,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "f5594f2a083b4b3da14b6338540ae77b",
+        "Title": "",
+        "Nodes": [
+          "5810744802954aadb082859f9dde9e4a"
+        ],
+        "Left": 3278.01652329087,
+        "Top": 667.866777937922,
+        "Width": 215.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 713.866777937922,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "7300467e720e4095850a78f78827905d",
+        "Title": "",
+        "Nodes": [
+          "ad00b695e41e474e8319ed11146102d0"
+        ],
+        "Left": 4650.82889138155,
+        "Top": 793.1616895919,
+        "Width": 157.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 839.1616895919,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "eb8a3488618a4939810706a54fb49b6d",
+        "Title": "",
+        "Nodes": [
+          "6e424e9bff32439fadec1e35c1d5657d"
+        ],
+        "Left": 5133.93303812661,
+        "Top": -13.095138769493602,
+        "Width": 124.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 32.9048612305064,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "9e041212e01f4eb98ff60f426c93eff9",
+        "Title": "",
+        "Nodes": [
+          "dd01cc3a765d4995998b6d8e96d0fc13"
+        ],
+        "Left": 6157.74055284548,
+        "Top": 404.0,
+        "Width": 198.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 450.0,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "499d1c79a6f840258004d0e8725902b5",
+        "Title": "",
+        "Nodes": [
+          "c05c04477eac446eb10ab3c173348b43"
+        ],
+        "Left": 6248.90798082244,
+        "Top": 695.089627867896,
+        "Width": 116.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 741.089627867896,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "f5b31e7f0d644b3987b3c0f200516df4",
+        "Title": "GET ALL CIRCUITED ELEMENTS",
+        "Nodes": [
+          "941ffc88393e44ddb836bb1d0813e31f",
+          "4ae4480206be4ceda7d5ae6a59dd19e6",
+          "5d8f25761cbb47429cdb30c8c1717522",
+          "98539b905d304d60aa5772264c4c119f"
+        ],
+        "Left": 240.0,
+        "Top": 112.71751709271001,
+        "Width": 1093.0,
+        "Height": 424.00000000000006,
+        "FontSize": 30.0,
+        "InitialTop": 158.71751709271,
+        "InitialHeight": 408.00000000000006,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "6dfa94033bc14e7d921a7111f46e1404",
+        "Title": "GET ELEMENTS ONLY CIRCUITED TO CHOSEN PANEL",
+        "Nodes": [
+          "96893344044346abafc166662595dbf9",
+          "4baf675f9c18479f9e638ab677bfd4e9",
+          "e3d77ccd60114fc7961cfaefb3a45dce",
+          "5c66e26dcb6b4d13a88a8c55a73284e1",
+          "bce120bf5a7c4daba334a4e4bc75ddab",
+          "a1e7eeb1e1e74b2098eb616d345503f2",
+          "f48bb83e59f544e5859f9289a46634f0",
+          "046802f894164954874e2bb7f73f0415",
+          "d3b46f4b72ef49c7a5a9dfce8a2cab4d"
+        ],
+        "Left": 1744.65356191966,
+        "Top": 200.25262309069,
+        "Width": 1293.0000000000002,
+        "Height": 785.156317418281,
+        "FontSize": 30.0,
+        "InitialTop": 246.25262309069,
+        "InitialHeight": 769.156317418281,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8249ee7d4aa24ca19845bbf11a1b3f67",
+        "Title": "GET CIRCUIT PARAMETERS TO BE COPIED",
+        "Nodes": [
+          "433649dfdc3f4fb99616516f5b935f5b",
+          "e37d231147e24bae92c1416afeaaae79",
+          "5a6887a5ab4e4b7aac5412e19837910b",
+          "32101e1391b54c5aa584b76849a79516"
+        ],
+        "Left": 3169.30628952507,
+        "Top": 935.47829927473,
+        "Width": 480.0,
+        "Height": 364.36146757351,
+        "FontSize": 30.0,
+        "InitialTop": 1017.47829927473,
+        "InitialHeight": 312.36146757351,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "bb524644c466439abf811e9fb0830a5c",
+        "Title": "COPY ELEMENTS TO FROM START POINT TO END POINT",
+        "Nodes": [
+          "95810d502ed54969be2cc73c6c039522",
+          "3e18f7fb23714e7b922ccf9a4999b1b6",
+          "21486f259b26415aa0b7ac63306008a1",
+          "69f202029fb345cda01716703ee2c8a2"
+        ],
+        "Left": 3658.61158497773,
+        "Top": 336.549383578328,
+        "Width": 535.0,
+        "Height": 326.213333333334,
+        "FontSize": 30.0,
+        "InitialTop": 418.549383578328,
+        "InitialHeight": 274.213333333334,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8ff28e08519f4aacb6302a4930d8909f",
+        "Title": "Create new circuit on Panel and assign elementset to new circuit",
+        "Nodes": [
+          "f6975d3aa3794120a09aff98d2b0d8ac"
+        ],
+        "Left": 5020.04053081023,
+        "Top": 231.912986815134,
+        "Width": 155.90666666666667,
+        "Height": 330.0,
+        "FontSize": 30.0,
+        "InitialTop": 493.912986815134,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 252.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "c44bde421d9b4a25b4b6c8a32292d854",
+        "Title": "Select panel.\r\nIN[0] = Electrical System\r\nIN[1] = Panel element",
+        "Nodes": [
+          "8d8d549257844bc7909df22d40792c6c"
+        ],
+        "Left": 5468.11246527281,
+        "Top": 142.25712765254502,
+        "Width": 144.0,
+        "Height": 392.0,
+        "FontSize": 30.0,
+        "InitialTop": 440.257127652545,
+        "InitialHeight": 124.0,
+        "TextblockHeight": 288.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "965be587b82147d99615f0f5687d7cc4",
+        "Title": "SET RATING AND LOAD NAME FOR CIRCUITS",
+        "Nodes": [
+          "67f0c559cbcf493cb03cf0a5e7f5f388",
+          "dafe802cdfff46ba8eb996619176f790",
+          "32c2d2aafbd645edab594d7023669735",
+          "f29ca0eb56584e36ab866d53c6553a81"
+        ],
+        "Left": 5592.5000418056834,
+        "Top": 776.99021708628663,
+        "Width": 487.0,
+        "Height": 499.957637141492,
+        "FontSize": 30.0,
+        "InitialTop": 858.99021708628663,
+        "InitialHeight": 447.957637141492,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "59f2a4a031704c4497fa33c3ea734d03",
+        "Title": "",
+        "Nodes": [
+          "a6d00832c798457ab4a15622ad8b41f2"
+        ],
+        "Left": 1565.35948267243,
+        "Top": 448.258467633345,
+        "Width": 149.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 494.258467633345,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "d80d1de56fb240b4b841ef65373bdab5",
+        "Title": "",
+        "Nodes": [
+          "e0f13af09f2448a48ac0cb4ec80b3d13"
+        ],
+        "Left": 3242.93923647597,
+        "Top": 395.227310367939,
+        "Width": 240.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 441.227310367939,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "f5594f2a083b4b3da14b6338540ae77b",
+        "Title": "",
+        "Nodes": [
+          "5810744802954aadb082859f9dde9e4a"
+        ],
+        "Left": 3278.01652329087,
+        "Top": 667.866777937922,
+        "Width": 215.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 713.866777937922,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "7300467e720e4095850a78f78827905d",
+        "Title": "",
+        "Nodes": [
+          "ad00b695e41e474e8319ed11146102d0"
+        ],
+        "Left": 4650.82889138155,
+        "Top": 793.1616895919,
+        "Width": 157.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 839.1616895919,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "eb8a3488618a4939810706a54fb49b6d",
+        "Title": "",
+        "Nodes": [
+          "6e424e9bff32439fadec1e35c1d5657d"
+        ],
+        "Left": 5133.93303812661,
+        "Top": -13.095138769493602,
+        "Width": 124.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 32.9048612305064,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "9e041212e01f4eb98ff60f426c93eff9",
+        "Title": "",
+        "Nodes": [
+          "dd01cc3a765d4995998b6d8e96d0fc13"
+        ],
+        "Left": 6157.74055284548,
+        "Top": 404.0,
+        "Width": 198.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 450.0,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "499d1c79a6f840258004d0e8725902b5",
+        "Title": "",
+        "Nodes": [
+          "c05c04477eac446eb10ab3c173348b43"
+        ],
+        "Left": 6248.90798082244,
+        "Top": 695.089627867896,
+        "Width": 116.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 741.089627867896,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "f5b31e7f0d644b3987b3c0f200516df4",
+        "Title": "GET ALL CIRCUITED ELEMENTS",
+        "Nodes": [
+          "941ffc88393e44ddb836bb1d0813e31f",
+          "4ae4480206be4ceda7d5ae6a59dd19e6",
+          "5d8f25761cbb47429cdb30c8c1717522",
+          "98539b905d304d60aa5772264c4c119f"
+        ],
+        "Left": 240.0,
+        "Top": 112.71751709271001,
+        "Width": 1093.0,
+        "Height": 424.00000000000006,
+        "FontSize": 30.0,
+        "InitialTop": 158.71751709271,
+        "InitialHeight": 408.00000000000006,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "6dfa94033bc14e7d921a7111f46e1404",
+        "Title": "GET ELEMENTS ONLY CIRCUITED TO CHOSEN PANEL",
+        "Nodes": [
+          "96893344044346abafc166662595dbf9",
+          "4baf675f9c18479f9e638ab677bfd4e9",
+          "e3d77ccd60114fc7961cfaefb3a45dce",
+          "5c66e26dcb6b4d13a88a8c55a73284e1",
+          "bce120bf5a7c4daba334a4e4bc75ddab",
+          "a1e7eeb1e1e74b2098eb616d345503f2",
+          "f48bb83e59f544e5859f9289a46634f0",
+          "046802f894164954874e2bb7f73f0415",
+          "d3b46f4b72ef49c7a5a9dfce8a2cab4d"
+        ],
+        "Left": 1744.65356191966,
+        "Top": 200.25262309069,
+        "Width": 1293.0000000000002,
+        "Height": 785.156317418281,
+        "FontSize": 30.0,
+        "InitialTop": 246.25262309069,
+        "InitialHeight": 769.156317418281,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8249ee7d4aa24ca19845bbf11a1b3f67",
+        "Title": "GET CIRCUIT PARAMETERS TO BE COPIED",
+        "Nodes": [
+          "433649dfdc3f4fb99616516f5b935f5b",
+          "e37d231147e24bae92c1416afeaaae79",
+          "5a6887a5ab4e4b7aac5412e19837910b",
+          "32101e1391b54c5aa584b76849a79516"
+        ],
+        "Left": 3169.30628952507,
+        "Top": 935.47829927473,
+        "Width": 480.0,
+        "Height": 364.36146757351,
+        "FontSize": 30.0,
+        "InitialTop": 1017.47829927473,
+        "InitialHeight": 312.36146757351,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "bb524644c466439abf811e9fb0830a5c",
+        "Title": "COPY ELEMENTS TO FROM START POINT TO END POINT",
+        "Nodes": [
+          "95810d502ed54969be2cc73c6c039522",
+          "3e18f7fb23714e7b922ccf9a4999b1b6",
+          "21486f259b26415aa0b7ac63306008a1",
+          "69f202029fb345cda01716703ee2c8a2"
+        ],
+        "Left": 3658.61158497773,
+        "Top": 336.549383578328,
+        "Width": 535.0,
+        "Height": 326.213333333334,
+        "FontSize": 30.0,
+        "InitialTop": 418.549383578328,
+        "InitialHeight": 274.213333333334,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8ff28e08519f4aacb6302a4930d8909f",
+        "Title": "Create new circuit on Panel and assign elementset to new circuit",
+        "Nodes": [
+          "f6975d3aa3794120a09aff98d2b0d8ac"
+        ],
+        "Left": 5020.04053081023,
+        "Top": 231.912986815134,
+        "Width": 155.90666666666667,
+        "Height": 330.0,
+        "FontSize": 30.0,
+        "InitialTop": 493.912986815134,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 252.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "c44bde421d9b4a25b4b6c8a32292d854",
+        "Title": "Select panel.\r\nIN[0] = Electrical System\r\nIN[1] = Panel element",
+        "Nodes": [
+          "8d8d549257844bc7909df22d40792c6c"
+        ],
+        "Left": 5468.11246527281,
+        "Top": 142.25712765254502,
+        "Width": 144.0,
+        "Height": 392.0,
+        "FontSize": 30.0,
+        "InitialTop": 440.257127652545,
+        "InitialHeight": 124.0,
+        "TextblockHeight": 288.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "965be587b82147d99615f0f5687d7cc4",
+        "Title": "SET RATING AND LOAD NAME FOR CIRCUITS",
+        "Nodes": [
+          "67f0c559cbcf493cb03cf0a5e7f5f388",
+          "dafe802cdfff46ba8eb996619176f790",
+          "32c2d2aafbd645edab594d7023669735",
+          "f29ca0eb56584e36ab866d53c6553a81"
+        ],
+        "Left": 5592.5000418056834,
+        "Top": 776.99021708628663,
+        "Width": 487.0,
+        "Height": 499.957637141492,
+        "FontSize": 30.0,
+        "InitialTop": 858.99021708628663,
+        "InitialHeight": 447.957637141492,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "59f2a4a031704c4497fa33c3ea734d03",
+        "Title": "",
+        "Nodes": [
+          "a6d00832c798457ab4a15622ad8b41f2"
+        ],
+        "Left": 1565.35948267243,
+        "Top": 448.258467633345,
+        "Width": 149.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 494.258467633345,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "d80d1de56fb240b4b841ef65373bdab5",
+        "Title": "",
+        "Nodes": [
+          "e0f13af09f2448a48ac0cb4ec80b3d13"
+        ],
+        "Left": 3242.93923647597,
+        "Top": 395.227310367939,
+        "Width": 240.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 441.227310367939,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "f5594f2a083b4b3da14b6338540ae77b",
+        "Title": "",
+        "Nodes": [
+          "5810744802954aadb082859f9dde9e4a"
+        ],
+        "Left": 3278.01652329087,
+        "Top": 667.866777937922,
+        "Width": 215.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 713.866777937922,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "7300467e720e4095850a78f78827905d",
+        "Title": "",
+        "Nodes": [
+          "ad00b695e41e474e8319ed11146102d0"
+        ],
+        "Left": 4650.82889138155,
+        "Top": 793.1616895919,
+        "Width": 157.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 839.1616895919,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "eb8a3488618a4939810706a54fb49b6d",
+        "Title": "",
+        "Nodes": [
+          "6e424e9bff32439fadec1e35c1d5657d"
+        ],
+        "Left": 5133.93303812661,
+        "Top": -13.095138769493602,
+        "Width": 124.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 32.9048612305064,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "9e041212e01f4eb98ff60f426c93eff9",
+        "Title": "",
+        "Nodes": [
+          "dd01cc3a765d4995998b6d8e96d0fc13"
+        ],
+        "Left": 6157.74055284548,
+        "Top": 404.0,
+        "Width": 198.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 450.0,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "499d1c79a6f840258004d0e8725902b5",
+        "Title": "",
+        "Nodes": [
+          "c05c04477eac446eb10ab3c173348b43"
+        ],
+        "Left": 6248.90798082244,
+        "Top": 695.089627867896,
+        "Width": 116.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 741.089627867896,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "f5b31e7f0d644b3987b3c0f200516df4",
+        "Title": "GET ALL CIRCUITED ELEMENTS",
+        "Nodes": [
+          "941ffc88393e44ddb836bb1d0813e31f",
+          "4ae4480206be4ceda7d5ae6a59dd19e6",
+          "5d8f25761cbb47429cdb30c8c1717522",
+          "98539b905d304d60aa5772264c4c119f"
+        ],
+        "Left": 240.0,
+        "Top": 112.71751709271001,
+        "Width": 1093.0,
+        "Height": 424.00000000000006,
+        "FontSize": 30.0,
+        "InitialTop": 158.71751709271,
+        "InitialHeight": 408.00000000000006,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "6dfa94033bc14e7d921a7111f46e1404",
+        "Title": "GET ELEMENTS ONLY CIRCUITED TO CHOSEN PANEL",
+        "Nodes": [
+          "96893344044346abafc166662595dbf9",
+          "4baf675f9c18479f9e638ab677bfd4e9",
+          "e3d77ccd60114fc7961cfaefb3a45dce",
+          "5c66e26dcb6b4d13a88a8c55a73284e1",
+          "bce120bf5a7c4daba334a4e4bc75ddab",
+          "a1e7eeb1e1e74b2098eb616d345503f2",
+          "f48bb83e59f544e5859f9289a46634f0",
+          "046802f894164954874e2bb7f73f0415",
+          "d3b46f4b72ef49c7a5a9dfce8a2cab4d"
+        ],
+        "Left": 1744.65356191966,
+        "Top": 200.25262309069,
+        "Width": 1293.0000000000002,
+        "Height": 785.156317418281,
+        "FontSize": 30.0,
+        "InitialTop": 246.25262309069,
+        "InitialHeight": 769.156317418281,
+        "TextblockHeight": 36.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8249ee7d4aa24ca19845bbf11a1b3f67",
+        "Title": "GET CIRCUIT PARAMETERS TO BE COPIED",
+        "Nodes": [
+          "433649dfdc3f4fb99616516f5b935f5b",
+          "e37d231147e24bae92c1416afeaaae79",
+          "5a6887a5ab4e4b7aac5412e19837910b",
+          "32101e1391b54c5aa584b76849a79516"
+        ],
+        "Left": 3169.30628952507,
+        "Top": 935.47829927473,
+        "Width": 480.0,
+        "Height": 364.36146757351,
+        "FontSize": 30.0,
+        "InitialTop": 1017.47829927473,
+        "InitialHeight": 312.36146757351,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "bb524644c466439abf811e9fb0830a5c",
+        "Title": "COPY ELEMENTS TO FROM START POINT TO END POINT",
+        "Nodes": [
+          "95810d502ed54969be2cc73c6c039522",
+          "3e18f7fb23714e7b922ccf9a4999b1b6",
+          "21486f259b26415aa0b7ac63306008a1",
+          "69f202029fb345cda01716703ee2c8a2"
+        ],
+        "Left": 3658.61158497773,
+        "Top": 336.549383578328,
+        "Width": 535.0,
+        "Height": 326.213333333334,
+        "FontSize": 30.0,
+        "InitialTop": 418.549383578328,
+        "InitialHeight": 274.213333333334,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "8ff28e08519f4aacb6302a4930d8909f",
+        "Title": "Create new circuit on Panel and assign elementset to new circuit",
+        "Nodes": [
+          "f6975d3aa3794120a09aff98d2b0d8ac"
+        ],
+        "Left": 5020.04053081023,
+        "Top": 231.912986815134,
+        "Width": 155.90666666666667,
+        "Height": 330.0,
+        "FontSize": 30.0,
+        "InitialTop": 493.912986815134,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 252.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "c44bde421d9b4a25b4b6c8a32292d854",
+        "Title": "Select panel.\r\nIN[0] = Electrical System\r\nIN[1] = Panel element",
+        "Nodes": [
+          "8d8d549257844bc7909df22d40792c6c"
+        ],
+        "Left": 5468.11246527281,
+        "Top": 142.25712765254502,
+        "Width": 144.0,
+        "Height": 392.0,
+        "FontSize": 30.0,
+        "InitialTop": 440.257127652545,
+        "InitialHeight": 124.0,
+        "TextblockHeight": 288.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "965be587b82147d99615f0f5687d7cc4",
+        "Title": "SET RATING AND LOAD NAME FOR CIRCUITS",
+        "Nodes": [
+          "67f0c559cbcf493cb03cf0a5e7f5f388",
+          "dafe802cdfff46ba8eb996619176f790",
+          "32c2d2aafbd645edab594d7023669735",
+          "f29ca0eb56584e36ab866d53c6553a81"
+        ],
+        "Left": 5592.5000418056834,
+        "Top": 776.99021708628663,
+        "Width": 487.0,
+        "Height": 499.957637141492,
+        "FontSize": 30.0,
+        "InitialTop": 858.99021708628663,
+        "InitialHeight": 447.957637141492,
+        "TextblockHeight": 72.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "59f2a4a031704c4497fa33c3ea734d03",
+        "Title": "",
+        "Nodes": [
+          "a6d00832c798457ab4a15622ad8b41f2"
+        ],
+        "Left": 1565.35948267243,
+        "Top": 448.258467633345,
+        "Width": 149.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 494.258467633345,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "d80d1de56fb240b4b841ef65373bdab5",
+        "Title": "",
+        "Nodes": [
+          "e0f13af09f2448a48ac0cb4ec80b3d13"
+        ],
+        "Left": 3242.93923647597,
+        "Top": 395.227310367939,
+        "Width": 240.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 441.227310367939,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "f5594f2a083b4b3da14b6338540ae77b",
+        "Title": "",
+        "Nodes": [
+          "5810744802954aadb082859f9dde9e4a"
+        ],
+        "Left": 3278.01652329087,
+        "Top": 667.866777937922,
+        "Width": 215.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 713.866777937922,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "7300467e720e4095850a78f78827905d",
+        "Title": "",
+        "Nodes": [
+          "ad00b695e41e474e8319ed11146102d0"
+        ],
+        "Left": 4650.82889138155,
+        "Top": 793.1616895919,
+        "Width": 157.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 839.1616895919,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "eb8a3488618a4939810706a54fb49b6d",
+        "Title": "",
+        "Nodes": [
+          "6e424e9bff32439fadec1e35c1d5657d"
+        ],
+        "Left": 5133.93303812661,
+        "Top": -13.095138769493602,
+        "Width": 124.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 32.9048612305064,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FFFF7BAC"
+      },
+      {
+        "Id": "9e041212e01f4eb98ff60f426c93eff9",
+        "Title": "",
+        "Nodes": [
+          "dd01cc3a765d4995998b6d8e96d0fc13"
+        ],
+        "Left": 6157.74055284548,
+        "Top": 404.0,
+        "Width": 198.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 450.0,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "499d1c79a6f840258004d0e8725902b5",
+        "Title": "",
+        "Nodes": [
+          "c05c04477eac446eb10ab3c173348b43"
+        ],
+        "Left": 6248.90798082244,
+        "Top": 695.089627867896,
+        "Width": 116.0,
+        "Height": 114.0,
+        "FontSize": 30.0,
+        "InitialTop": 741.089627867896,
+        "InitialHeight": 98.0,
+        "TextblockHeight": 36.0,
+        "Background": "#FF48B9FF"
+      }
+    ],
+    "X": -3381.2410072240809,
+    "Y": 85.772760659951985,
+    "Zoom": 0.59178718900560368
+  }
+}

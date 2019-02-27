@@ -1,0 +1,199 @@
+Dynamo log started 2018-09-21 14:37:12Z
+2018-09-21 14:37:12Z : Dynamo -- Build 1.3.2.2480
+2018-09-21 14:37:13Z : Duplicate migration type registered for SunPathDirection
+2018-09-21 14:37:14Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-09-21 14:37:15Z : System.InvalidOperationException:
+2018-09-21 14:37:15Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-09-21 14:37:15Z : 
+2018-09-21 14:37:18Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-09-21 14:37:18Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-09-21 14:37:18Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-09-21 14:37:18Z : RENDER : Rendering Tier: 2
+2018-09-21 14:37:18Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-21 14:37:18Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-21 14:37:18Z : RENDER : Software Effect Rendering Supported: True
+2018-09-21 14:37:18Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-21 14:37:18Z : RENDER : Rendering Tier: 2
+2018-09-21 14:37:18Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-21 14:37:18Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-21 14:37:18Z : RENDER : Software Effect Rendering Supported: True
+2018-09-21 14:37:18Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-21 14:37:18Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-09-21 14:37:18Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-09-21 14:37:18Z : Welcome to Dynamo!
+2018-09-21 14:37:18Z : 00:00:00.2621549 elapsed for loading Dynamo main window.
+2018-09-21 14:37:19Z : WPF Render Mode: SoftwareOnly
+2018-09-21 14:38:17Z : Active view is now 124 - FIRST FLOOR UNDER RAISED FLOOR FIRE ALARM HOST
+2018-09-21 14:38:35Z : notification:Error Opening File:
+ Error opening corrupted file: C:\Users\dcleary\Downloads\Weave.py: 
+ System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Dynamo.Models.DynamoModel.OpenFileFromPath(String xmlPath, Boolean forceManualExecutionMode)
+   at Dynamo.Models.DynamoModel.ExecuteCommand(RecordableCommand command)
+   at Dynamo.ViewModels.DynamoViewModel.Open(Object parameters)
+2018-09-21 14:40:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:40:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:41:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:41:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:42:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:42:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:43:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:43:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:44:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:44:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:45:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:45:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:46:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:46:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:47:20Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 14:47:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:47:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:48:00Z : Active view is now 142 COORDINATION RCP - WORK
+2018-09-21 14:48:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:48:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:49:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:49:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:50:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:50:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:51:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:51:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:52:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:52:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:53:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:53:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:54:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:54:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:55:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:55:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:56:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:56:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:57:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:57:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:58:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:58:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 14:59:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 14:59:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:00:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:00:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:01:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:01:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:02:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:02:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:03:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:03:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:04:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:04:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:05:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:05:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:06:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:06:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:07:18Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:07:18Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:08:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:08:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:09:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:09:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:10:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:10:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:11:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:11:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:12:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:12:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:13:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:13:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:14:13Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:14:20Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:14:20Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:14:32Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:14:37Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:14:40Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:14:48Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:15:14Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:15:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:15:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:15:22Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:15:27Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:15:39Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:16:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:16:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:16:48Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:16:55Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:17:03Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:17:07Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:17:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:17:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:18:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:18:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:19:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:19:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:20:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:20:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:21:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:21:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:22:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:22:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:23:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:23:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:23:59Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:25:04Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:25:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:25:13Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:25:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:25:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:25:31Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:25:33Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:25:39Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:25:45Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:26:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:26:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:26:20Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:26:25Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:26:28Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:27:05Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:27:08Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:27:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:27:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:28:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:28:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:28:28Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:29:06Z : Active view is now 136 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:29:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:29:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:30:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:30:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:30:46Z : Active view is now 130 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:30:46Z : Active view is now 136 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:30:48Z : Active view is now 124 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:30:57Z : Active view is now 136 - FIRST FLOOR LIGHTING PLAN HOST - DOC
+2018-09-21 15:31:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:31:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:32:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:32:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:33:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:33:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:34:13Z : Microsoft.Scripting.ArgumentTypeException: GetType() takes exactly 1 argument (0 given)
+   at Microsoft.Scripting.Interpreter.ThrowInstruction.Run(InterpretedFrame frame)
+   at Microsoft.Scripting.Interpreter.Interpreter.Run(InterpretedFrame frame)
+   at Microsoft.Scripting.Interpreter.LightLambda.Run3[T0,T1,T2,TRet](T0 arg0, T1 arg1, T2 arg2)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at Microsoft.Scripting.Interpreter.DynamicInstruction`3.Run(InterpretedFrame frame)
+   at Microsoft.Scripting.Interpreter.Interpreter.Run(InterpretedFrame frame)
+   at Microsoft.Scripting.Interpreter.LightLambda.Run2[T0,T1,TRet](T0 arg0, T1 arg1)
+   at IronPython.Compiler.PythonScriptCode.RunWorker(CodeContext ctx)
+   at IronPython.Compiler.PythonScriptCode.EvalWrapper(CodeContext ctx)
+   at Microsoft.Scripting.Hosting.ScriptSource.Execute(ScriptScope scope)
+   at Dynamo.Python.IronPythonCompletionProvider.TryGetType(String name)
+2018-09-21 15:34:13Z : Failed to look up type
+2018-09-21 15:34:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:34:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:35:19Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:35:19Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PATTERN (CRAC WEAVE) 2ND TRY.dyn
+2018-09-21 15:35:29Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\PATTERN\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:35:38Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\PATTERN\PATTERN (CRAC WEAVE) 2ND TRY.dyn ...
+2018-09-21 15:35:42Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-09-21 15:35:42Z : Goodbye

@@ -1,0 +1,529 @@
+Dynamo log started 2018-04-12 19:22:18Z
+2018-04-12 19:22:20Z : RequestUpdateVersionInfo
+2018-04-12 19:22:20Z : Requesting version update info...
+2018-04-12 19:22:20Z : Dynamo -- Build 1.3.2.2480
+2018-04-12 19:22:21Z : Duplicate migration type registered for SunPathDirection
+2018-04-12 19:22:22Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-04-12 19:22:23Z : System.InvalidOperationException:
+2018-04-12 19:22:23Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-04-12 19:22:23Z : 
+2018-04-12 19:22:26Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-04-12 19:22:26Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-04-12 19:22:26Z : RENDER : Rendering Tier: 2
+2018-04-12 19:22:26Z : RENDER : Pixel Shader 3 Supported: True
+2018-04-12 19:22:26Z : RENDER : Pixel Shader 4 Supported: False
+2018-04-12 19:22:26Z : RENDER : Software Effect Rendering Supported: True
+2018-04-12 19:22:26Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-04-12 19:22:27Z : RENDER : Rendering Tier: 2
+2018-04-12 19:22:27Z : RENDER : Pixel Shader 3 Supported: True
+2018-04-12 19:22:27Z : RENDER : Pixel Shader 4 Supported: False
+2018-04-12 19:22:27Z : RENDER : Software Effect Rendering Supported: True
+2018-04-12 19:22:27Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-04-12 19:22:27Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2016\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Autodesk\Revit 2016;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-04-12 19:22:27Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-04-12 19:22:27Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-04-12 19:22:28Z : Welcome to Dynamo!
+2018-04-12 19:22:28Z : 00:00:00.8800065 elapsed for loading Dynamo main window.
+2018-04-12 19:22:29Z : notification:System.IO.FileLoadException:
+ Dynamo has detected a conflict with a dependency and may be unstable. If any issues are detected, please uninstall addins or packages and contact the provider.: 
+ While loading assembly archilab, Version=2018.0.0.1, Culture=neutral, PublicKeyToken=null, Dynamo detected that the dependency RevitAPI, Version=18.0.0.0, Culture=neutral, PublicKeyToken=null was already loaded with an incompatiable version. It is likely that another Revit Addin has loaded this assembly, please try uninstalling other Addins, and starting Dynamo again. Dynamo may be unstable in this state.
+It is likely one of the following assemblies loaded the incompatible version:
+UIFrameworkInterop, UIFrameworkInterop, UIFrameworkInterop, UIFramework, UIFramework, UIFrameworkServices, AddInManagerUI, AddInManagerUI, APIInterop, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, UtilityAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, GraphicsAPI, GraphicsAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceAPI, InterfaceAPI, PointCloudAccessAPI, PointCloudAccessAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, IntfIFCAPI, IntfIFCAPI, AddInManager, AddInManager, AddInManager, KeynoteDBServer, StraightSegmentCalculationServers, FittingAndAccessoryCalculationServers, CollaborateDB, CollaborateDB, CollaborateDB, CollaborateDB, RSCloudClient, RSCloudClient, RSCloudClient, AddInJournaling, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, RevitUIAPI, RevitUIAPI, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, AutoLoader, AutoLoader, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, KeynoteUIServer, KeynoteUIServer, MemberForces, MemberForces, MemberForces, ObjectNumberingUI, ObjectNumberingUI, ObjectNumberingUI, PressureLossReport, PressureLossReport, SectionProperties, SectionProperties, SectionProperties, SectionProperties, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, C4RNET, C4RNET, C4RNET, AREXRevitStart, AREXRevitStart, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, SSONETUI, SSONETUI, SSONET, SSONET, SmartMonkey, SmartMonkey, SmartMonkey, DynamoRevitVersionSelector, DynamoRevitVersionSelector, BIMOnePanelInformation, BIMOnePanelInformation, ExportViewSelectorAddin, ExportViewSelectorAddin, nwexportrevit2016_13, nwexportrevit2016_13, PowerPack_2016, PowerPack_2016, RevitAPIUIMacrosInterop, RevitAPIUIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, AddInJournalClient, REX.ApplicationServices, AREXRevitMngr, AREXRevitMngr, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RS.Enterprise.Common.ClientServer.Helper, RSEnterpriseClientRevitService, RS.Enterprise.Common.ClientServer.Proxy, RS.Enterprise.Common.ClientServer.ServiceContract.Model, RS.Enterprise.Common.ClientServer.ServiceContract.Local, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Utility, RS.Enterprise.Utility, MacroHookup, MacroHookup, RevitAPIBrowserUtils, RevitAPIBrowserUtils, RevitAPIBrowserUtils, RevitAPIBrowserUtils, DynamoRevitDS, DynamoRevitDS, RevitServices, RevitServices, DynamoRaaSHelper, RevitNodes, RevitNodes, SimpleRaaS, SimpleRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, DSRevitNodesUI, DSRevitNodesUI, DynamoRaaS
+2018-04-12 19:22:29Z : notification:System.IO.FileLoadException:
+ Dynamo has detected a conflict with a dependency and may be unstable. If any issues are detected, please uninstall addins or packages and contact the provider.: 
+ While loading assembly archilabUI, Version=2018.0.0.1, Culture=neutral, PublicKeyToken=null, Dynamo detected that the dependency RevitAPI, Version=18.0.0.0, Culture=neutral, PublicKeyToken=null was already loaded with an incompatiable version. It is likely that another Revit Addin has loaded this assembly, please try uninstalling other Addins, and starting Dynamo again. Dynamo may be unstable in this state.
+It is likely one of the following assemblies loaded the incompatible version:
+UIFrameworkInterop, UIFrameworkInterop, UIFrameworkInterop, UIFramework, UIFramework, UIFrameworkServices, AddInManagerUI, AddInManagerUI, APIInterop, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, UtilityAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, GraphicsAPI, GraphicsAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceAPI, InterfaceAPI, PointCloudAccessAPI, PointCloudAccessAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, IntfIFCAPI, IntfIFCAPI, AddInManager, AddInManager, AddInManager, KeynoteDBServer, StraightSegmentCalculationServers, FittingAndAccessoryCalculationServers, CollaborateDB, CollaborateDB, CollaborateDB, CollaborateDB, RSCloudClient, RSCloudClient, RSCloudClient, AddInJournaling, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, RevitUIAPI, RevitUIAPI, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, AutoLoader, AutoLoader, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, KeynoteUIServer, KeynoteUIServer, MemberForces, MemberForces, MemberForces, ObjectNumberingUI, ObjectNumberingUI, ObjectNumberingUI, PressureLossReport, PressureLossReport, SectionProperties, SectionProperties, SectionProperties, SectionProperties, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, C4RNET, C4RNET, C4RNET, AREXRevitStart, AREXRevitStart, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, SSONETUI, SSONETUI, SSONET, SSONET, SmartMonkey, SmartMonkey, SmartMonkey, DynamoRevitVersionSelector, DynamoRevitVersionSelector, BIMOnePanelInformation, BIMOnePanelInformation, ExportViewSelectorAddin, ExportViewSelectorAddin, nwexportrevit2016_13, nwexportrevit2016_13, PowerPack_2016, PowerPack_2016, RevitAPIUIMacrosInterop, RevitAPIUIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, AddInJournalClient, REX.ApplicationServices, AREXRevitMngr, AREXRevitMngr, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RS.Enterprise.Common.ClientServer.Helper, RSEnterpriseClientRevitService, RS.Enterprise.Common.ClientServer.Proxy, RS.Enterprise.Common.ClientServer.ServiceContract.Model, RS.Enterprise.Common.ClientServer.ServiceContract.Local, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Utility, RS.Enterprise.Utility, MacroHookup, MacroHookup, RevitAPIBrowserUtils, RevitAPIBrowserUtils, RevitAPIBrowserUtils, RevitAPIBrowserUtils, DynamoRevitDS, DynamoRevitDS, RevitServices, RevitServices, DynamoRaaSHelper, RevitNodes, RevitNodes, SimpleRaaS, SimpleRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, DSRevitNodesUI, DSRevitNodesUI, DynamoRaaS
+2018-04-12 19:22:29Z : notification:System.IO.FileLoadException:
+ Dynamo has detected a conflict with a dependency and may be unstable. If any issues are detected, please uninstall addins or packages and contact the provider.: 
+ While loading assembly BimorphNodes2018, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, Dynamo detected that the dependency RevitAPI, Version=18.0.0.0, Culture=neutral, PublicKeyToken=null was already loaded with an incompatiable version. It is likely that another Revit Addin has loaded this assembly, please try uninstalling other Addins, and starting Dynamo again. Dynamo may be unstable in this state.
+It is likely one of the following assemblies loaded the incompatible version:
+UIFrameworkInterop, UIFrameworkInterop, UIFrameworkInterop, UIFramework, UIFramework, UIFrameworkServices, AddInManagerUI, AddInManagerUI, APIInterop, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, RevitAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, GeomUtilAPI, UtilityAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, RevitDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, FamilyDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, EssentialsDBAPI, GraphicsAPI, GraphicsAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, RoomAreaPlanDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, ArrayElemsDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, StructuralDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, HostObjDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, SculptingDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, ElementGroupDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, CurtainGridFamilyDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, SiteDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, DetailDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, BuildingSystemsDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, EnergyAnalysisDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, AnalysisAppsDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, StructuralAnalysisDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, RebarDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, AssemblyDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, APIDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, DPartDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, StairRampDBAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceUtilAPI, InterfaceAPI, InterfaceAPI, PointCloudAccessAPI, PointCloudAccessAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, NumberingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, MassingDBAPI, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, RevitAPIIFC, IntfIFCAPI, IntfIFCAPI, AddInManager, AddInManager, AddInManager, KeynoteDBServer, StraightSegmentCalculationServers, FittingAndAccessoryCalculationServers, CollaborateDB, CollaborateDB, CollaborateDB, CollaborateDB, RSCloudClient, RSCloudClient, RSCloudClient, AddInJournaling, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, RevitAPIUI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, BuildingSystemsUIAPI, RevitUIAPI, RevitUIAPI, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, RaaSApplication, AutoLoader, AutoLoader, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FabricationPartBrowser, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, FittingAndAccessoryCalculationUIServers, KeynoteUIServer, KeynoteUIServer, MemberForces, MemberForces, MemberForces, ObjectNumberingUI, ObjectNumberingUI, ObjectNumberingUI, PressureLossReport, PressureLossReport, SectionProperties, SectionProperties, SectionProperties, SectionProperties, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, Collaborate, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, CollaborateBrowser, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, SkyscraperClientHost, C4RNET, C4RNET, C4RNET, AREXRevitStart, AREXRevitStart, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, BIM360GlueRevit2016Addin, SSONETUI, SSONETUI, SSONET, SSONET, SmartMonkey, SmartMonkey, SmartMonkey, DynamoRevitVersionSelector, DynamoRevitVersionSelector, BIMOnePanelInformation, BIMOnePanelInformation, ExportViewSelectorAddin, ExportViewSelectorAddin, nwexportrevit2016_13, nwexportrevit2016_13, PowerPack_2016, PowerPack_2016, RevitAPIUIMacrosInterop, RevitAPIUIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, RevitAPIMacrosInterop, AddInJournalClient, REX.ApplicationServices, AREXRevitMngr, AREXRevitMngr, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClientInterop, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RSEnterpriseClient, RS.Enterprise.Common.ClientServer.Helper, RSEnterpriseClientRevitService, RS.Enterprise.Common.ClientServer.Proxy, RS.Enterprise.Common.ClientServer.ServiceContract.Model, RS.Enterprise.Common.ClientServer.ServiceContract.Local, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Common.ClientServer.PermissionSource, RS.Enterprise.Utility, RS.Enterprise.Utility, MacroHookup, MacroHookup, RevitAPIBrowserUtils, RevitAPIBrowserUtils, RevitAPIBrowserUtils, RevitAPIBrowserUtils, DynamoRevitDS, DynamoRevitDS, RevitServices, RevitServices, DynamoRaaSHelper, RevitNodes, RevitNodes, SimpleRaaS, SimpleRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, RevitRaaS, DSRevitNodesUI, DSRevitNodesUI, DynamoRaaS, BimorphNodes, BimorphNodes
+2018-04-12 19:22:29Z : Update available: 1.3.3.0
+2018-04-12 19:22:29Z : Update download started...
+2018-04-12 19:22:29Z : Update download progress: 0%
+2018-04-12 19:22:32Z : Update download progress: 10%
+2018-04-12 19:22:34Z : Update download progress: 20%
+2018-04-12 19:22:36Z : Update download progress: 30%
+2018-04-12 19:22:39Z : Update download progress: 40%
+2018-04-12 19:22:41Z : Update download progress: 50%
+2018-04-12 19:22:43Z : Update download progress: 60%
+2018-04-12 19:22:46Z : Update download progress: 70%
+2018-04-12 19:22:48Z : Clearing workspace...
+2018-04-12 19:22:49Z : Update download progress: 80%
+2018-04-12 19:22:53Z : Update download progress: 90%
+2018-04-12 19:22:57Z : Update download progress: 100%
+2018-04-12 19:22:57Z : Update download complete.
+2018-04-12 19:22:57Z : Successful
+2018-04-12 19:22:57Z : Update download complete.
+2018-04-12 19:23:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN ...
+2018-04-12 19:23:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\backup.DYN
+2018-04-12 19:24:31Z : Original file 'PanelViewCreator.dyn' gets backed up at 'C:\Users\dcleary\Downloads\backup\PanelViewCreator.dyn.0.backup'
+2018-04-12 19:24:31Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Isolate in View.dyf
+2018-04-12 19:24:31Z : Original file 'Isolate in View.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Isolate in View.dyf.1.backup'
+2018-04-12 19:24:31Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\View.UnhideElements.dyf
+2018-04-12 19:24:31Z : Original file 'View.UnhideElements.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\View.UnhideElements.dyf.0.backup'
+2018-04-12 19:24:31Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\Get Views from View Set.dyf
+2018-04-12 19:24:31Z : Original file 'Get Views from View Set.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\archi-lab.net\dyf\backup\Get Views from View Set.dyf.0.backup'
+2018-04-12 19:24:31Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\+1.dyf
+2018-04-12 19:24:31Z : Original file '+1.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\+1.dyf.0.backup'
+2018-04-12 19:24:31Z : Active view is now M100-SWA- MECH-A1
+2018-04-12 19:25:16Z : Active view is now M100-SWB- MECH-B1
+2018-04-12 19:25:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:25:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:26:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:26:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:27:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:27:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:28:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:28:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:29:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:29:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:29:47Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Document.ProjectParametersByCategory.dyf
+2018-04-12 19:29:47Z : Original file 'Document.ProjectParametersByCategory.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\Document.ProjectParametersByCategory.dyf.0.backup'
+2018-04-12 19:29:47Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\ReturnListOrSingleValue.dyf
+2018-04-12 19:29:47Z : Original file 'ReturnListOrSingleValue.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\ReturnListOrSingleValue.dyf.10.backup'
+2018-04-12 19:29:47Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\TurnIntoList.dyf
+2018-04-12 19:29:47Z : Original file 'TurnIntoList.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\TurnIntoList.dyf.27.backup'
+2018-04-12 19:30:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:30:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:31:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:31:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:32:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:32:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:33:14Z : Active view is now M100-SWA- MECH-A1
+2018-04-12 19:33:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:33:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:34:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:34:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:35:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:35:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:36:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:36:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:37:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:37:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:37:38Z : Active view is now Branch Panel TEST SHADE
+2018-04-12 19:38:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:38:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:38:42Z : Active view is now M100-SWA- MECH-A1
+2018-04-12 19:38:55Z : Active view is now EQUIPMENT NAME SOURCE PANEL
+2018-04-12 19:38:55Z : Active view is now M100-SWA- MECH-A1
+2018-04-12 19:39:00Z : Active view is now M100-SWD- MECH-D1
+2018-04-12 19:39:04Z : Active view is now M100-SWB- MECH-B1
+2018-04-12 19:39:17Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 19:39:24Z : Active view is now M100-SWA- MECH-A1
+2018-04-12 19:39:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:39:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:40:12Z : Active view is now M100-SWB- MECH-B1
+2018-04-12 19:40:14Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 19:40:17Z : Active view is now M100-SWB- MECH-B1
+2018-04-12 19:40:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:40:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:40:41Z : Active view is now M100-SWA- MECH-A1
+2018-04-12 19:40:44Z : Active view is now M100-SWD- MECH-D1
+2018-04-12 19:40:47Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 19:41:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:41:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:41:33Z : Active view is now M100-SWD- MECH-D1
+2018-04-12 19:41:36Z : Active view is now M100-SWA- MECH-A1
+2018-04-12 19:41:38Z : Active view is now M100-SWB- MECH-B1
+2018-04-12 19:41:52Z : Active view is now M100-SWA- MECH-A1
+2018-04-12 19:41:59Z : Active view is now M100-SWD- MECH-D1
+2018-04-12 19:42:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:42:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:42:52Z : Active view is now M100-SWB- MECH-B1
+2018-04-12 19:43:01Z : Active view is now M100-SWA- MECH-A1
+2018-04-12 19:43:03Z : Active view is now M100-SWD- MECH-D1
+2018-04-12 19:43:08Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 19:43:14Z : Active view is now M100-SWD- MECH-D1
+2018-04-12 19:43:22Z : Active view is now M100-SWA- MECH-A1
+2018-04-12 19:43:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:43:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:44:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:44:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:45:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:45:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:46:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:46:26Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:47:26Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:47:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:48:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:48:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:49:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:49:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:50:15Z : Active view is now M100-SWB- MECH-B1
+2018-04-12 19:50:20Z : Active view is now M100-SWA- MECH-A1
+2018-04-12 19:50:25Z : Active view is now M100-SWB- MECH-B1
+2018-04-12 19:50:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:50:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:50:31Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 19:50:39Z : Active view is now M100-SWD- MECH-D1
+2018-04-12 19:51:02Z : Active view is now M100-SWB- MECH-B1
+2018-04-12 19:51:04Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 19:51:07Z : Active view is now M100-SWB- MECH-B1
+2018-04-12 19:51:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:51:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:51:28Z : Active view is now M100-SWA- MECH-A1
+2018-04-12 19:52:11Z : Active view is now M100-SWD- MECH-D1
+2018-04-12 19:52:15Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 19:52:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:52:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:53:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:53:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:54:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:54:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:55:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:55:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:56:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:56:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:57:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:57:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:58:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:58:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:59:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 19:59:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 19:59:48Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-04-12 19:59:54Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA C
+2018-04-12 19:59:55Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-04-12 19:59:58Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA E
+2018-04-12 19:59:58Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:00:02Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:00:04Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:00:07Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:00:08Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:00:11Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:00:11Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:00:15Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-04-12 20:00:15Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:00:21Z : Active view is now FIRST FLOOR POWER PLAN - AREA A
+2018-04-12 20:00:24Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:00:28Z : Active view is now FIRST FLOOR PLAN DEMOLITION
+2018-04-12 20:00:29Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:00:29Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 20:00:32Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:00:32Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:00:36Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:00:39Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:00:39Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:00:42Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:00:44Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:00:47Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:00:47Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:00:50Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:00:50Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:00:54Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-04-12 20:00:55Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:01:00Z : Active view is now FIRST FLOOR POWER PLAN - AREA A
+2018-04-12 20:01:03Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:01:06Z : Active view is now FIRST FLOOR PLAN DEMOLITION
+2018-04-12 20:01:07Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:01:08Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 20:01:10Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:01:14Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:01:18Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:01:20Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:01:21Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:01:24Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:01:26Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:01:29Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:01:30Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:01:32Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:01:33Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:01:37Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-04-12 20:01:37Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:01:42Z : Active view is now FIRST FLOOR POWER PLAN - AREA A
+2018-04-12 20:01:45Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:01:48Z : Active view is now FIRST FLOOR PLAN DEMOLITION
+2018-04-12 20:01:49Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:01:50Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 20:01:53Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:01:56Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:02:00Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:02:02Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:02:03Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:02:06Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:02:07Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:02:11Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:02:12Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:02:15Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:02:15Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:02:19Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-04-12 20:02:19Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:02:25Z : Active view is now FIRST FLOOR POWER PLAN - AREA A
+2018-04-12 20:02:28Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:02:31Z : Active view is now FIRST FLOOR PLAN DEMOLITION
+2018-04-12 20:02:32Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:02:33Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 20:02:35Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:02:39Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:02:43Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:02:46Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:02:46Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:02:49Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:02:50Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:02:53Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:02:55Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:02:58Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:02:59Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:03:03Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-04-12 20:03:03Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:03:09Z : Active view is now FIRST FLOOR POWER PLAN - AREA A
+2018-04-12 20:03:12Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:03:15Z : Active view is now FIRST FLOOR PLAN DEMOLITION
+2018-04-12 20:03:17Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:03:17Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 20:03:20Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:03:24Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:03:28Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:03:31Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:03:31Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:03:34Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:03:35Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:03:38Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:03:40Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:03:43Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:03:44Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:03:48Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-04-12 20:03:49Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:03:54Z : Active view is now FIRST FLOOR POWER PLAN - AREA A
+2018-04-12 20:03:58Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:04:01Z : Active view is now FIRST FLOOR PLAN DEMOLITION
+2018-04-12 20:04:03Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:04:03Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 20:04:07Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-04-12 20:04:11Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:04:16Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-04-12 20:04:18Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:04:19Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-04-12 20:04:22Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:04:23Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-04-12 20:04:26Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:04:29Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-04-12 20:04:31Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:04:32Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-04-12 20:04:35Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:04:35Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-04-12 20:04:41Z : Active view is now FIRST FLOOR POWER PLAN - AREA A
+2018-04-12 20:04:46Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-04-12 20:04:49Z : Active view is now FIRST FLOOR PLAN DEMOLITION
+2018-04-12 20:04:51Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-04-12 20:04:51Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 20:04:59Z : Active view is now FIRST FLOOR POWER PLAN - AREA A
+2018-04-12 20:05:03Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:05:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:05:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:05:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:05:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:05:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:05:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:05:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:05:03Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:05:03Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:05:04Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:05:08Z : Active view is now FIRST FLOOR POWER PLAN - AREA A
+2018-04-12 20:05:08Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 20:05:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:05:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:06:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:06:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:07:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:07:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:08:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:08:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:09:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:09:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:10:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:10:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:11:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:11:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:12:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:12:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:13:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:13:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:14:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:14:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:15:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:15:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:15:52Z : Active view is now M100-SWD- MECH-D1
+2018-04-12 20:16:22Z : Active view is now M100-SWB- MECH-B1
+2018-04-12 20:16:26Z : Active view is now M100-SWD- MECH-D1
+2018-04-12 20:16:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:16:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:17:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:17:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:18:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:18:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:18:41Z : Active view is now M100-SWA- MECH-A1
+2018-04-12 20:18:58Z : Active view is now M100-SWD- MECH-D1
+2018-04-12 20:19:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:19:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:19:28Z : Active view is now M100-SWB- MECH-B1
+2018-04-12 20:19:37Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 20:19:57Z : Active view is now M100-SWA- MECH-A1
+2018-04-12 20:19:57Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 20:19:59Z : Active view is now M100-SWB- MECH-B1
+2018-04-12 20:19:59Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 20:20:11Z : Active view is now M100-SWA- MECH-A2
+2018-04-12 20:20:24Z : Active view is now M100-SWB- MECH-B2
+2018-04-12 20:20:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:20:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:20:39Z : Active view is now M100-SWD- MECH-D1
+2018-04-12 20:20:40Z : Active view is now M100-SWB- MECH-B2
+2018-04-12 20:20:42Z : Active view is now M100-SWC- MECH-C1
+2018-04-12 20:20:43Z : Active view is now M100-SWB- MECH-B2
+2018-04-12 20:20:44Z : Active view is now M100-SWC- MECH-C2
+2018-04-12 20:20:47Z : Active view is now M100-SWD- MECH-D2
+2018-04-12 20:21:19Z : Active view is now M100-SWC- MECH-C2
+2018-04-12 20:21:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:21:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:22:01Z : Active view is now M100-SWD- MECH-D2
+2018-04-12 20:22:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:22:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:23:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:23:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:24:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:24:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:25:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:25:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:26:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:26:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:27:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:27:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:28:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:28:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:29:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:29:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:30:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:30:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:31:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:31:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:32:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:32:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:32:55Z : Active view is now M100-SWA- MECH-A2
+2018-04-12 20:33:02Z : Active view is now M100-SWD- MECH-D2
+2018-04-12 20:33:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:33:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:34:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:34:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:35:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:35:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:36:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:36:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:37:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:37:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:38:01Z : Active view is now M100-SWA- MECH-A2
+2018-04-12 20:38:12Z : Active view is now M100-SWD- MECH-D2
+2018-04-12 20:38:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:38:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:39:15Z : Active view is now M100-SWB- MECH-B2
+2018-04-12 20:39:15Z : Active view is now M100-SWD- MECH-D2
+2018-04-12 20:39:16Z : Active view is now M100-SWA- MECH-A2
+2018-04-12 20:39:20Z : Active view is now M100-SWD- MECH-D2
+2018-04-12 20:39:23Z : Active view is now M100-SWC- MECH-C2
+2018-04-12 20:39:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:39:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:40:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:40:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:41:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:41:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:42:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:42:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:43:26Z : Active view is now FIRST FLOOR
+2018-04-12 20:43:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:43:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:44:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:44:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:44:37Z : Active view is now FIRST FLOOR
+2018-04-12 20:45:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:45:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:46:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:46:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:47:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:47:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:48:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:48:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:49:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:49:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:50:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:50:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:51:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:51:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:52:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:52:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:53:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:53:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:54:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:54:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:55:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:55:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:55:55Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:55:59Z : Active view is now FIRST FLOOR
+2018-04-12 20:56:01Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:56:01Z : Active view is now FIRST FLOOR
+2018-04-12 20:56:04Z : Active view is now FIRST FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:56:04Z : Active view is now FIRST FLOOR
+2018-04-12 20:56:07Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA A
+2018-04-12 20:56:09Z : Active view is now FIRST FLOOR
+2018-04-12 20:56:11Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA C
+2018-04-12 20:56:12Z : Active view is now FIRST FLOOR
+2018-04-12 20:56:14Z : Active view is now SECOND FLOOR LIGHTING PLAN - AREA E
+2018-04-12 20:56:14Z : Active view is now FIRST FLOOR
+2018-04-12 20:56:18Z : Active view is now LIGHTING FIXTURE SCHEDULE AND DETAILS
+2018-04-12 20:56:18Z : Active view is now FIRST FLOOR
+2018-04-12 20:56:24Z : Active view is now FIRST FLOOR POWER PLAN - AREA A
+2018-04-12 20:56:26Z : Active view is now FIRST FLOOR
+2018-04-12 20:56:29Z : Active view is now FIRST FLOOR PLAN DEMOLITION
+2018-04-12 20:56:30Z : Active view is now FIRST FLOOR
+2018-04-12 20:56:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:56:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:57:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:57:27Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:58:27Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:58:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 20:59:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 20:59:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:00:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:00:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:01:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:01:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:02:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:02:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:03:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:03:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:04:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:04:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:05:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:05:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:06:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:06:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:07:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:07:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:08:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:08:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:09:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:09:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:10:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:10:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:10:58Z : Active view is now PANEL SCHEDULES - PBB
+2018-04-12 21:11:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:11:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:12:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:12:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:13:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:13:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:14:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:14:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:15:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:15:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:16:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:16:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:17:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:17:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:18:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:18:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:19:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:19:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:20:28Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn ...
+2018-04-12 21:20:28Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\PanelViewCreator.dyn
+2018-04-12 21:20:59Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-04-12 21:20:59Z : Goodbye

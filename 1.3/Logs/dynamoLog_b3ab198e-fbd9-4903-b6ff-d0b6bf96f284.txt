@@ -1,0 +1,138 @@
+Dynamo log started 2018-09-28 17:34:25Z
+2018-09-28 17:34:25Z : Dynamo -- Build 1.3.2.2480
+2018-09-28 17:34:25Z : Duplicate migration type registered for SunPathDirection
+2018-09-28 17:34:27Z : Dynamo will use the package manager server at : https://www.dynamopackages.com
+2018-09-28 17:34:28Z : System.InvalidOperationException:
+2018-09-28 17:34:28Z : There already exists an AlsoKnownAs mapping for Fill Pattern Targets.
+2018-09-28 17:34:28Z : 
+2018-09-28 17:34:31Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is added
+2018-09-28 17:34:31Z : Backup files timer is started with an interval of 60000 milliseconds
+2018-09-28 17:34:31Z : SYSTEM:Environment Path:C:\Program Files\Autodesk\Revit 2018\en-US;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018;C:\Program Files\Autodesk\Revit 2018\AddIns\SteelConnections;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\;C:\Program Files\Dynamo\Dynamo Core\1.3\
+2018-09-28 17:34:31Z : RENDER : Rendering Tier: 2
+2018-09-28 17:34:31Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-28 17:34:31Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-28 17:34:31Z : RENDER : Software Effect Rendering Supported: True
+2018-09-28 17:34:31Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-28 17:34:31Z : RENDER : Rendering Tier: 2
+2018-09-28 17:34:31Z : RENDER : Pixel Shader 3 Supported: True
+2018-09-28 17:34:31Z : RENDER : Pixel Shader 4 Supported: False
+2018-09-28 17:34:31Z : RENDER : Software Effect Rendering Supported: True
+2018-09-28 17:34:31Z : RENDER : Maximum hardware texture size: 16384,16384
+2018-09-28 17:34:32Z : DynamoManipulationExtension (id: 58B0496A-E3F8-43D9-86D2-94823D1D0F98) view extension is added
+2018-09-28 17:34:32Z : NotificationsExtension (id: ef6cd025-514f-44cd-b6b1-69d9f5cce004) view extension is added
+2018-09-28 17:34:32Z : Welcome to Dynamo!
+2018-09-28 17:34:32Z : 00:00:00.2513675 elapsed for loading Dynamo main window.
+2018-09-28 17:34:32Z : WPF Render Mode: SoftwareOnly
+2018-09-28 17:34:34Z : notification:Error Opening File:
+ Could not find file 'N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS (ORDERED CIRCUITS).dyn'.: 
+ System.IO.FileNotFoundException: Could not find file 'N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS (ORDERED CIRCUITS).dyn'.
+File name: 'N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS (ORDERED CIRCUITS).dyn'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at Dynamo.Models.DynamoModel.OpenFileFromPath(String xmlPath, Boolean forceManualExecutionMode)
+   at Dynamo.Models.DynamoModel.ExecuteCommand(RecordableCommand command)
+   at Dynamo.ViewModels.DynamoViewModel.Open(Object parameters)
+2018-09-28 17:35:02Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\Element.CopyByVector.dyf
+2018-09-28 17:35:02Z : Original file 'Element.CopyByVector.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\Element.CopyByVector.dyf.36.backup'
+2018-09-28 17:35:02Z : Loading node definition for "Dynamo.CustomNodeInfo" from: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\TurnIntoList.dyf
+2018-09-28 17:35:02Z : Original file 'TurnIntoList.dyf' gets backed up at 'C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\1.3\packages\Clockwork for Dynamo 1.x\dyf\backup\TurnIntoList.dyf.96.backup'
+2018-09-28 17:35:02Z : Active view is now 124 - FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:35:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:35:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:36:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:36:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:37:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:37:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:38:14Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 17:38:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:38:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:39:35Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:39:35Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:39:37Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:39:48Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 17:39:53Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:39:56Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 17:40:00Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:40:06Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 17:40:07Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:40:18Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 17:40:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:40:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:41:21Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:41:25Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 17:41:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:41:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:41:44Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:41:51Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 17:41:53Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:42:05Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 17:42:07Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:42:09Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 17:42:12Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:42:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:42:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:43:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:43:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:44:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:44:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:45:31Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:45:31Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:46:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:46:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:46:36Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 17:46:39Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:46:42Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 17:47:08Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:47:12Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 17:47:28Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:47:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:47:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:47:33Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 17:47:37Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-09-28 17:47:41Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:47:46Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 17:47:51Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-09-28 17:47:58Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:48:05Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-09-28 17:48:11Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 17:48:20Z : !! Warning: Total connected load for Circuit <unnamed> is exceeding 80% of the defined rating (20 A).
+2018-09-28 17:49:10Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:49:10Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:49:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:49:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:50:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:50:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:51:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:51:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:52:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:52:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:53:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:53:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:54:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:54:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:55:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:55:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:56:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:56:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:56:43Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:56:54Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 17:57:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:57:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:58:32Z : Saving C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:58:32Z : Backup file is saved: C:\Users\dcleary\AppData\Roaming\Dynamo\Dynamo Revit\backup\1.3.2 POWER COPIED ELEMENTS.dyn
+2018-09-28 17:58:54Z : Active view is now FIRST FLOOR POWER PLAN - AREA B
+2018-09-28 17:58:58Z : Active view is now SECOND FLOOR POWER PLAN - AREA B
+2018-09-28 17:59:26Z : Saving N:\aaProject Delivery\07-CAD Manual\07.4-Libraries\Dynamo\Electrical\POWER COPIED ELEMENTS 1.3.2 ONLY\1.3.2 POWER COPIED ELEMENTS.dyn ...
+2018-09-28 17:59:26Z : DynamoPackageManager (id: FCABC211-D56B-4109-AF18-F434DFE48139) extension is removed
+2018-09-28 17:59:26Z : Goodbye

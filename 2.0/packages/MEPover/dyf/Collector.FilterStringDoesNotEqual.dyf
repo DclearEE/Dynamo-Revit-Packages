@@ -1,0 +1,133 @@
+<Workspace Version="0.9.1.4062" X="0" Y="0" zoom="1" Name="Collector.FilterStringDoesNotEqual" Description="Returns the most common elements (host objects and family instances) by supplying a parameter and the value to search for. Of course the parameter needs to be of type 'string' to work." ID="ae0e41e0-e44d-449a-a86e-a3120f798d7d" Category="MEPover.Revit.Parameters">
+  <NamespaceResolutionMap />
+  <Elements>
+    <PythonNodeModels.PythonNode guid="3f266c80-00ca-4333-a4ef-afccce00666e" type="PythonNodeModels.PythonNode" nickname="Python: FilterStringDoesNotEqual" x="405" y="261" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" inputcount="2">
+      <Script>import clr
+import System
+
+clr.AddReference("RevitServices")
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+doc = DocumentManager.Instance.CurrentDBDocument
+
+clr.AddReference("RevitAPI")
+import Autodesk
+from Autodesk.Revit.DB import *
+
+clr.AddReference("RevitNodes")
+import Revit
+clr.ImportExtensions(Revit.Elements)
+clr.ImportExtensions(Revit.GeometryConversion)
+
+from System.Collections.Generic import List
+string = IN[0]
+case = IN[2]
+search = IN[1]
+
+bips = System.Enum.GetValues(BuiltInParameter)
+
+bm = doc.ParameterBindings
+bmlist = bm.ForwardIterator()
+paramId = None
+testout = []
+while bmlist.MoveNext():
+	binddef = bmlist.Key
+	testout.append(binddef.Name)
+	if binddef.Name == search:
+		paramId = binddef.Id
+		break
+
+param = None
+if paramId == None:
+	biplist = []
+	for bip in bips:
+		try:
+			name = LabelUtils.GetLabelFor(bip)
+		except:
+			continue
+		if name == search:
+			biplist.append(bip)
+
+
+sharedparamrule = SharedParameterApplicableRule(search)
+evaluator = FilterStringEquals()
+
+parameter = None
+if paramId == None and len(biplist) == 0:
+	coll = FilteredElementCollector(doc)
+	sharedparams = coll.OfClass(ParameterElement)
+	
+	for param in sharedparams:
+		name = param.GetDefinition().Name
+		if name == search:
+			parameter = param
+	
+	if parameter != None:
+		ruleslist = List[FilterRule]()
+		provider = ParameterValueProvider(parameter.Id)
+		filterrule = FilterStringRule(provider, evaluator, string, case)
+		ruleslist.Add(filterrule)
+		ruleslist.Add(sharedparamrule)
+		paramFilter = ElementParameterFilter(ruleslist,True)
+		collector = FilteredElementCollector(doc)
+		collector.OfClass(FamilyInstance).WherePasses(paramFilter)
+		
+		collector2 = FilteredElementCollector(doc)
+		collector2.OfClass(HostObject).WherePasses(paramFilter)
+		collector2.UnionWith(collector)
+
+elif paramId == None:
+	filterList = List[ElementFilter]()
+	for param in biplist:
+		provider = ParameterValueProvider(ElementId(param))
+		filterrule = FilterStringRule(provider, evaluator, string, case)
+		paramFilter = ElementParameterFilter(filterrule,True)
+		filterList.Add(paramFilter)
+			
+	orFilter = LogicalOrFilter(filterList)
+	collector = FilteredElementCollector(doc)
+	collector.OfClass(FamilyInstance).WherePasses(orFilter)
+	
+	collector2 = FilteredElementCollector(doc)
+	collector2.OfClass(HostObject).WherePasses(orFilter)
+	collector2.UnionWith(collector)
+else:
+	ruleslist = List[FilterRule]()
+	provider = ParameterValueProvider(paramId)
+	filterrule = FilterStringRule(provider, evaluator, string, case)
+	ruleslist.Add(filterrule)
+	ruleslist.Add(sharedparamrule)
+	paramFilter = ElementParameterFilter(ruleslist,True)
+	collector = FilteredElementCollector(doc)
+	collector.OfClass(FamilyInstance).WherePasses(paramFilter)
+	
+	collector2 = FilteredElementCollector(doc)
+	collector2.OfClass(HostObject).WherePasses(paramFilter)
+	collector2.UnionWith(collector)
+
+
+if parameter == None and paramId == None and len(biplist) == 0:
+	OUT = "Does not work with non-shared family parameters"
+else:
+	elements = collector2.ToElements()
+	OUT = elements</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="d88487dd-b561-496d-9c2f-a989cfd5fe76" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="58" y="375" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false">
+      <Symbol value="Parameter : string" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+    <Dynamo.Graph.Nodes.CustomNodes.Symbol guid="4f563744-a377-43f4-9cea-46a7d489a071" type="Dynamo.Graph.Nodes.CustomNodes.Symbol" nickname="Input" x="97" y="249" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false">
+      <Symbol value="SearchValue : string" />
+    </Dynamo.Graph.Nodes.CustomNodes.Symbol>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="d88487dd-b561-496d-9c2f-a989cfd5fe76" start_index="0" end="3f266c80-00ca-4333-a4ef-afccce00666e" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="4f563744-a377-43f4-9cea-46a7d489a071" start_index="0" end="3f266c80-00ca-4333-a4ef-afccce00666e" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>
